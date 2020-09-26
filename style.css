@@ -9,7 +9,7 @@
 }
 ::-webkit-scrollbar {
     width: 11px;
-    background-color: #FBF7ED; }
+    background-color: #fff; }
   
   ::-webkit-scrollbar-thumb {
     background: #c3c3c3;
@@ -25,7 +25,7 @@
    left: 0;
    top: 0;
    z-index: 30;
-   background: #FBF7ED;
+   background: #fff;
 }
 .container{
     position: relative;
@@ -58,7 +58,7 @@
     left: 0;
     width: 100%;
     background: #007064;
-    color: #FBF7ED;
+    color: #fff;
     display: flex;
     padding-top: 9px ; padding-bottom: 9px;
 }
@@ -110,7 +110,7 @@ header{
     text-decoration: none;
 }
 .menuPluslogo ul li a:hover,header ul li a.active {
-    color: #FBF7ED;
+    color: #fff;
 }
 
 .menuPluslogo ul li a:before {
@@ -163,7 +163,7 @@ header{
     display: inline-block;
     text-transform: uppercase;
     font-weight: 500;
-    color: #FBF7ED;
+    color: #fff;
     letter-spacing: 1px;
     font-size: 15px;
     text-decoration: none;
@@ -172,7 +172,7 @@ header{
 }
 .content .Text a:hover{
     background: #01221f;
-    color: #FBF7ED;
+    color: #fff;
 }
 .icons{
     position: absolute;
@@ -385,7 +385,7 @@ header{
 }
 .content-box .title-section{
     text-align: left;
-    color: #FBF7ED;
+    color: #fff;
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 650px;
@@ -394,14 +394,14 @@ header{
 }
 .content-box .title-section i{
     font-weight: 600;
-    color: #FBF7ED;
+    color: #fff;
     font-size: 20px;
     margin-right: 10px;
 }
 
 .content-box .text-section{
     width: 80%;
-    color: #FBF7ED;
+    color: #fff;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -411,7 +411,7 @@ header{
     background-image: url(./images/about\ \(2\).jpg);
     background-size: cover;
     background-position: center;
-    border: 20px solid #FBF7ED;
+    border: 20px solid #fff;
     opacity: 0.9;
 }
 .about-icons{
@@ -428,7 +428,7 @@ header{
     display: inline-block;
     max-height: 24px;
     font-size: 28px;
-    color: #FBF7ED;
+    color: #fff;
 }
 .about-icons .about-icon{
     position: relative;
@@ -457,7 +457,7 @@ header{
     }
     .imgBx{
         width: 100%;
-        border: 10px solid #FBF7ED;
+        border: 10px solid #fff;
         opacity: 0.9;
         height: 400px;
     }
@@ -507,7 +507,7 @@ header{
     position: relative;
     width: 450px;
     margin: 40px;
-    background: #FBF7ED;
+    background: #fff;
     padding: 40px;
     box-shadow: 0 15px 30px rgba(0,0,0,.5);
 }
@@ -529,13 +529,13 @@ header{
     transition: transform 1.5s;
 }
 .card_box .card:hover h3,.card_box .card:hover p{
-color: #FBF7ED;
+color: #fff;
 }
 .card_box .card:hover h3 i{
-    color: #FBF7ED;
+    color: #fff;
 }
 .card_box .card:hover a{
-      background: #FBF7ED;
+      background: #fff;
       color: #007064;
 }
 .card_box .card img{
@@ -550,7 +550,7 @@ color: #FBF7ED;
     display: inline-block;
     text-transform: uppercase;
     font-weight: 500;
-    color: #FBF7ED;
+    color: #fff;
     letter-spacing: 1px;
     font-size: 11px;
     text-decoration: none;
@@ -621,7 +621,7 @@ section{
 }
 .contact .content-box{
     width: 80%;
-    color: #FBF7ED;
+    color: #fff;
     margin-bottom: 30px;
 }
 .contact{
@@ -665,7 +665,7 @@ section{
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: #FBF7ED;
+    color: #fff;
     flex-direction: column;
     font-weight: 300;
 }
@@ -725,7 +725,7 @@ section{
     cursor: pointer;
     padding: 10px ; 
     font-size: 18px;
-    color: #FBF7ED;
+    color: #fff;
 }
 .contactForm .inputbox input[type="submit"]:hover{
     background: #01221f;
@@ -759,7 +759,7 @@ section{
 }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer{
-    background: #FBF7ED;
+    background: #fff;
     display: flex;
     margin-bottom: 0;
     padding: 60px;
@@ -838,13 +838,13 @@ font-size: 17px;
 .Copyright{
     background: #007064;
     padding: 25px 60px;
-    color: #FBF7ED;
+    color: #fff;
     font-size: 15px;
     text-align: center;
 }
 .Copyright a{
     text-transform: uppercase;
-    color:#FBF7ED;
+    color:#fff;
     text-decoration: none;
     font-size: 15px;
     font-weight: 500;
