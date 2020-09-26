@@ -176,6 +176,7 @@ header{
 .icons{
     position: absolute;
     bottom: 60px;
+    right: 10px;
     margin-right: 25px;
     display: flex;
     justify-content: space-between;
