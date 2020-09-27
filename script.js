@@ -11,8 +11,10 @@ $(window).scroll(function(){
     if($(this).scrollTop() > height){
         $('.menuPluslogo').addClass('Fixed');
         $('#Accueil').removeClass('active');
+        $('.backToTop').addClass('top');
     } else{
         $('.menuPluslogo').removeClass('Fixed');
         $('#Accueil').addClass('active');
+        $('.backToTop').removeClass('top');
     }
 })
