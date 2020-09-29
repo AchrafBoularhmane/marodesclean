@@ -12,9 +12,27 @@ $(window).scroll(function(){
         $('.menuPluslogo').addClass('Fixed');
         $('#Accueil').removeClass('active');
         $('.backToTop').addClass('top');
+        $('.cookies').addClass('.fixcookies')
     } else{
         $('.menuPluslogo').removeClass('Fixed');
         $('#Accueil').addClass('active');
         $('.backToTop').removeClass('top');
+        $('.cookies').removeClass('.fixcookies')
+
     }
 })
+// Cookies // 
+var cookies = document.getElementById("cookie");
+function Close () {
+    cookies.classList.add("close");
+}
+document.getElementById("ok").addEventListener("click", function(event){
+    event.preventDefault()
+    cookies.classList.add("close");
+});
+document.getElementById("ensavoirplus").addEventListener("click", function(event){
+    cookies.classList.add("close");
+});
+
+
+

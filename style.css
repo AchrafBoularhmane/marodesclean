@@ -61,6 +61,39 @@ font-size: 30px;
     position: relative;
     min-height: 100vh;
 }
+/* Cookies */
+.close{
+    display: none;
+}
+.fixcookies{
+    z-index: 0;
+}
+.cookies{
+    position: Fixed;
+    background: #007064;
+    top: 0px;
+    left: 0px;
+    padding: 15px 60px;
+    color: #fff;
+    width: 100%;
+    font-size: 12px;
+}
+.cookies i{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top:0;
+    font-size: 15px;
+}
+.cookies p a {
+    font-weight: 500;
+    background: #fff;
+    padding: 6px 15px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 20px;
+    color: #007064;
+}
 
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
 #home{
@@ -106,7 +139,6 @@ font-size: 30px;
     z-index: 1;
     padding: 0px 30px; 
     width: 100%;
-
 }
 header{
     position: absolute;
@@ -866,6 +898,17 @@ font-size: 17px;
 .horaire h2{
     margin-bottom: 10px;
 }
+@media (max-width:991px){
+    .footer{
+        display: block;
+        padding: 10px;
+    }
+    .Marodesclean,.plan-site,.contactfoot,.horaire{
+        width: 100%;
+        border: none;
+    }
+
+ }
 /*---------------------------------------------------------COPYRIGHT---------------------------------------------------*/
 .Copyright{
     background: #007064;
@@ -873,16 +916,61 @@ font-size: 17px;
     color: #fff;
     font-size: 15px;
     text-align: center;
+    text-transform: uppercase;
 }
 .Copyright a{
     text-transform: uppercase;
     color:#fff;
     text-decoration: none;
     font-size: 15px;
-    font-weight: 500;
 }
 .Copyright a:hover{
-    color: #01221f;
+    text-decoration: underline;
+}
+@media (max-width:991px){
+    .Copyright{
+        padding: 10px;
+        font-size: 12px;
+    }
+    .Copyright a{
+    font-size:12px;
+    }
+
+}
+
+/*----------------------------------------------------------Mentions page 2*----------------------------------------------*/
+.mentions{
+    padding: 100px 60px;
+    background: #007064;
+    color: #fff;
+}
+.mentions_newpage h1{
+    padding: 20px 0;
+    font-size: 35px;
+    text-transform: uppercase;
+}  
+.mentions_newpage h2{
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}  
+.mentions_newpage p{
+    font-size: 17px;
+    padding: 10px 0;
+}
+.mentions_newpage p a{
+    text-decoration: none;
+    color: #fff;
+}
+.mentions_newpage p a:hover{
+    text-decoration: underline;
+}
+.trait{
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    margin-bottom: 20px;
 }
 
 
