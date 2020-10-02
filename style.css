@@ -947,7 +947,7 @@ section{
     font-weight: 600;
 }
 .Marodesclean p{
-color: #007064;
+color: #3c3c3c;
 margin: 10px 0;
 font-size: 17px;
 }
@@ -964,7 +964,7 @@ font-size: 17px;
 .plan-site ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #007064;
+    color: #3c3c3c;
     font-size: 15px;
 
 }
@@ -994,7 +994,7 @@ font-size: 17px;
 
 .contactfoot .container-footer div span,.horaire span{
     font-size: 15px;
-    color: #007064;
+    color: #3c3c3c;
 }
 .horaire span{
     margin: 15px 0;
