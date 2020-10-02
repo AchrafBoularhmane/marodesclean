@@ -700,7 +700,7 @@ color: #fff;
     margin: 15px 200px;
 }
 .procedures .box{
-    margin:120px 200px 0px 200px;
+    margin:120px 250px 0px 250px;
     display: flex;
     justify-content: space-between;
 }
@@ -710,8 +710,9 @@ color: #fff;
 .procedures .box .content-part1, .procedures .box .content-part2{
     display: block;
 }
+
 .procedures .box .content-part1 .procedure,.procedures .box .content-part2 .procedure{
-    padding: 20px 0px;
+    padding: 20px 0;
 }
 .procedures .box .procedure h3{
     text-transform: capitalize;
@@ -719,7 +720,7 @@ color: #fff;
     font-weight: 550;
 }
 .procedures .box .procedure p{
-    font-size: 17px;
+    font-size: 15px;
 }
 .procedures .box .procedure .border i{
     font-size: 30px;
