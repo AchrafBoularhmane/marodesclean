@@ -18,7 +18,6 @@ $(window).scroll(function(){
         $('#Accueil').addClass('active');
         $('.backToTop').removeClass('top');
         $('.cookies').removeClass('.fixcookies')
-
     }
 })
 // Cookies // 

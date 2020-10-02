@@ -46,7 +46,7 @@ font-size: 30px;
 }
 /*Padding for all website's parts*/
 .padding{
-    padding: 100px 60px;
+    padding: 80px 60px;
 }
 /*Class to apply on scroll*/
 .Fixed{
@@ -400,6 +400,7 @@ header{
 #Apropos{
     background:#007064;
     display: flex;
+    padding: 100px 60px;
 }
 .custom-shape-divider-bottom-1600791973 {
     position: absolute;
@@ -527,38 +528,42 @@ header{
 }
 
 /*------------------------------------------------------NOS SERVICES----------------------------------------------------*/
-.custom-shape-divider-top-1601064241 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
 
-.custom-shape-divider-top-1601064241 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 84px;
-}
-
-.custom-shape-divider-top-1601064241 .shape-fill {
-    fill: #007064;
-}
 #Services{
-    background: #fff;
+    background: #ebe9e9;
 }
 
 #Services .content-box {
     width:100%;
+    margin-bottom: 60px;
 }
+#Services .content-box .test,.procedures .test{
+    position: relative;
+}
+#Services .content-box .test span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 5px;
+    width: 100px;
+    background: #007064;
+    margin: 15px 0;
+}
+
+#Services .content-box h2{
+text-align: center;
+font-size: 50px;
+text-transform: uppercase;
+color: #007064;
+}
+
 #Services .content-box p{
+    text-align: center;
+    padding: 0 200px;
     color: #3c3c3c;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.5em;
-    padding-right: 50px;
 }
 .card_box{
    width: 100%;
@@ -642,6 +647,91 @@ color: #fff;
 #Services .content-box .title-section,#Services .content-box .title-section i{
     color: #007064;
 }
+.avantages{
+ background: #01221f;
+ padding: 40px 60px;
+ display: flex;
+ justify-content: space-between;
+ color: #fff;
+}
+.avantages .avantage .border{
+    position: relative;
+    padding: 20px 30px;
+    border-radius: 50%;
+    border: 2px solid #007064;
+    margin-right: 15px;
+}
+.avantages .avantage .border i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #007064;
+    font-size: 27px;
+}
+.avantages .avantage span{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+}
+.procedures{
+    padding: 60px;
+    background: #007064;
+    color: #ebe9e9;
+}
+.procedures .test span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 5px;
+    width: 100px;
+    background: #ebe9e9;
+    margin: 15px 0;
+}
+.procedures h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.procedures .description{
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 200px;
+}
+.procedures .box{
+    margin:120px 200px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.procedures .box .content-part1{
+    margin-right: 60px;
+}
+.procedures .box .content-part1, .procedures .box .content-part2{
+    display: block;
+}
+.procedures .box .content-part1 .procedure,.procedures .box .content-part2 .procedure{
+    padding: 20px 0px;
+}
+.procedures .box .procedure h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 550;
+}
+.procedures .box .procedure p{
+    font-size: 17px;
+}
+.procedures .box .procedure .border i{
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px solid #ebe9e9;
+    padding: 15px 20px;
+    background: #ebe9e9;
+    color: #007064;
+    margin-bottom: 15px;
+}
+
+
 @media (max-width:991px){
     #Services .content-box p{
         font-size: 15px;
@@ -660,32 +750,13 @@ color: #fff;
 }
 
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
-.custom-shape-divider-top-1601067826 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
 
-.custom-shape-divider-top-1601067826 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 84px;
-}
-
-.custom-shape-divider-top-1601067826 .shape-fill {
-    fill: #FFFFFF;
-}
 section{
-    background: #007064;
+    background: #ebe9e9;
 }
 .contact .content-box{
     width: 80%;
-    color: #fff;
+    color: #007064;
     margin-bottom: 30px;
 }
 .contact{
@@ -693,6 +764,39 @@ section{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+.contact .content-box .test{
+    position: relative;
+}
+.contact .content-box .test span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 5px;
+    width: 100px;
+    background: #007064;
+    margin: 15px 0;
+}
+.contact .content-box{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.contact .content-box p{
+    text-align: center;
+    padding: 0 200px;
+    color: #3c3c3c;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.contact .content-box h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #007064;
+}
+.contact .content-box p{
+    color: #3c3c3c;
 }
 .contact .contact-container{
     width: 100%;
@@ -715,7 +819,7 @@ section{
 .contact .contact-container .contactInfo .box .icon{
     min-width: 60px;
     height: 60px;
-    background: #fff;
+    background: #007064;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -723,13 +827,13 @@ section{
     border-radius: 50%;
 }
 .contact .contact-container .contactInfo .box .icon{
-    color: #007064;
+    color: #fff;
 }
 .contact .contact-container .contactInfo .box .text{
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: #fff;
+    color: #3c3c3c;
     flex-direction: column;
     font-weight: 300;
 }
@@ -823,23 +927,23 @@ section{
 }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer{
-    background: #fff;
+    background: #007064;
     display: flex;
     margin-bottom: 0;
     padding: 60px;
+    border-bottom: 1px solid #ebe9e9;
 }
 .Marodesclean,.plan-site,.contactfoot,.horaire{
   width: 25%;
   padding: 15px;
-  border-right: 1px solid #c3c3c3;
 }
 .Marodesclean h2,.plan-site h2,.contactfoot h2,.horaire h2{
-    color: #007064;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 600;
 }
 .Marodesclean p{
-color: #3c3c3c;
+color: #ebe9e9;
 margin: 10px 0;
 font-size: 17px;
 }
@@ -856,7 +960,7 @@ font-size: 17px;
 .plan-site ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #3c3c3c;
+    color: #ebe9e9;
     font-size: 15px;
 
 }
@@ -865,7 +969,7 @@ font-size: 17px;
 }
 
 .plan-site ul li a i{
-    color: #007064;
+    color: #ebe9e9;
     padding-right: 10px;
     font-weight: 900;
     font-size: 18px;
@@ -876,7 +980,7 @@ font-size: 17px;
 .contactfoot .container-footer div span i{
     font-size: 20px;
     font-weight: 900;
-    color: #007064;
+    color: #ebe9e9;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -886,13 +990,13 @@ font-size: 17px;
 
 .contactfoot .container-footer div span,.horaire span{
     font-size: 15px;
-    color: #3c3c3c;
+    color: #ebe9e9;
 }
 .horaire span{
     margin: 15px 0;
 }
 .horaire span i {
-    color: #007064;
+    color: #ebe9e9;
     margin-right: 10px;
 }
 .horaire h2{
@@ -913,14 +1017,14 @@ font-size: 17px;
 .Copyright{
     background: #007064;
     padding: 25px 60px;
-    color: #fff;
+    color: #ebe9e9;
     font-size: 15px;
     text-align: center;
     text-transform: uppercase;
 }
 .Copyright a{
     text-transform: uppercase;
-    color:#fff;
+    color:#ebe9e9;
     text-decoration: none;
     font-size: 15px;
 }
