@@ -648,7 +648,7 @@ color: #fff;
     color: #007064;
 }
 .avantages{
- background: #01221f;
+ background: #007064;
  padding: 40px 60px;
  display: flex;
  justify-content: space-between;
@@ -658,7 +658,7 @@ color: #fff;
     position: relative;
     padding: 20px 30px;
     border-radius: 50%;
-    border: 2px solid #007064;
+    border: 2px solid #ebe9e9;
     margin-right: 15px;
 }
 .avantages .avantage .border i{
@@ -666,7 +666,7 @@ color: #fff;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: #007064;
+    color: #ebe9e9;
     font-size: 27px;
 }
 .avantages .avantage span{
@@ -675,7 +675,7 @@ color: #fff;
     font-size: 18px;
 }
 .procedures{
-    padding: 60px;
+    padding: 100px 60px;
     background: #007064;
     color: #ebe9e9;
 }
@@ -927,7 +927,7 @@ section{
 }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer{
-    background: #007064;
+    background: #ebe9e9;
     display: flex;
     margin-bottom: 0;
     padding: 60px;
@@ -938,12 +938,12 @@ section{
   padding: 15px;
 }
 .Marodesclean h2,.plan-site h2,.contactfoot h2,.horaire h2{
-    color: #fff;
+    color: #007064;
     text-transform: uppercase;
     font-weight: 600;
 }
 .Marodesclean p{
-color: #ebe9e9;
+color: #007064;
 margin: 10px 0;
 font-size: 17px;
 }
@@ -960,7 +960,7 @@ font-size: 17px;
 .plan-site ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #ebe9e9;
+    color: #007064;
     font-size: 15px;
 
 }
@@ -969,7 +969,7 @@ font-size: 17px;
 }
 
 .plan-site ul li a i{
-    color: #ebe9e9;
+    color: #007064;
     padding-right: 10px;
     font-weight: 900;
     font-size: 18px;
@@ -980,7 +980,7 @@ font-size: 17px;
 .contactfoot .container-footer div span i{
     font-size: 20px;
     font-weight: 900;
-    color: #ebe9e9;
+    color: #007064;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -990,13 +990,13 @@ font-size: 17px;
 
 .contactfoot .container-footer div span,.horaire span{
     font-size: 15px;
-    color: #ebe9e9;
+    color: #007064;
 }
 .horaire span{
     margin: 15px 0;
 }
 .horaire span i {
-    color: #ebe9e9;
+    color: #007064;
     margin-right: 10px;
 }
 .horaire h2{
