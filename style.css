@@ -475,7 +475,7 @@ header{
     background-image: url(./images/about\ \(2\).jpg);
     background-size: cover;
     background-position: center;
-    border: 20px solid #fff;
+    border: 15px solid #fff;
     opacity: 0.9;
 }
 .about-icons{
@@ -530,7 +530,7 @@ header{
 /*------------------------------------------------------NOS SERVICES----------------------------------------------------*/
 
 #Services{
-    background: #ebe9e9;
+    background: #f7f6f6;
 }
 
 #Services .content-box {
@@ -676,8 +676,11 @@ color: #fff;
 }
 .procedures{
     padding: 100px 60px;
-    background: #007064;
-    color: #ebe9e9;
+    background:url(./images/covid-19-5010565_1920.jpg),#3c3c3c;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    color: #f7f6f6;
 }
 .procedures .test span{
     position: absolute;
@@ -686,7 +689,7 @@ color: #fff;
     transform: translate(-50%,-50%);
     height: 5px;
     width: 100px;
-    background: #ebe9e9;
+    background: #007064;
     margin: 15px 0;
 }
 .procedures h2{
@@ -728,10 +731,10 @@ color: #fff;
 .procedures .box .procedure .border i{
     font-size: 30px;
     border-radius: 50%;
-    border: 2px solid #ebe9e9;
+    border: 2px solid #007064;
     padding: 15px 20px;
-    background: #ebe9e9;
-    color: #007064;
+    background: #007064;
+    color: #f7f6f6;
     margin-bottom: 15px;
 }
 .procedures .reservation{
@@ -746,9 +749,9 @@ color: #fff;
     transform: translate(-50%,-50%);
     cursor: pointer;
     border:none;
-    background: #ebe9e9;
+    background: #007064;
     padding: 20px 30px;
-    color: #007064;
+    color: #f7f6f6;
     font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
@@ -775,7 +778,7 @@ color: #fff;
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
 
 section{
-    background: #ebe9e9;
+    background: #f7f6f6;
 }
 .contact .content-box{
     width: 80%;
@@ -950,7 +953,7 @@ section{
 }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer{
-    background: #ebe9e9;
+    background: #f7f6f6;
     display: flex;
     margin-bottom: 0;
     padding: 60px;
