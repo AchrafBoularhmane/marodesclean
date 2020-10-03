@@ -40,6 +40,7 @@ font-size: 30px;
     color: #fff;
 }
 .backToTop.top{
+    color: #fff;
     bottom: 40px;
     visibility: visible;
     opacity: 1;
@@ -456,13 +457,6 @@ header{
     letter-spacing: 0.7px;
     margin: 30px 0;
 }
-.content-box .title-section i{
-    font-weight: 600;
-    color: #fff;
-    font-size: 20px;
-    margin-right: 10px;
-}
-
 .content-box .text-section{
     width: 80%;
     color: #fff;
@@ -487,6 +481,7 @@ header{
 .about-icons .about-icon li{
     list-style: none;
     margin-right: 15px;
+    margin-top: 40px;
 }
 .about-icons .about-icon li i{
     display: inline-block;
@@ -561,7 +556,7 @@ color: #007064;
 #Services .content-box p{
     text-align: center;
     padding: 0 200px;
-    color: #3c3c3c;
+    color: #111;
     font-size: 16px;
     line-height: 1.5em;
 }
@@ -603,8 +598,10 @@ color: #fff;
     color: #fff;
 }
 .card_box .card:hover a{
-      background: #fff;
       color: #007064;
+      border: 2px solid #007064;
+      font-weight: 600;
+      background: #fff;
 }
 .card_box .card img{
     border-radius: 3px;
@@ -616,13 +613,12 @@ color: #fff;
 .card_box .card a{
     position: relative;
     display: inline-block;
-    text-transform: uppercase;
-    font-weight: 500;
+    text-transform: capitalize;
+    font-weight: 400;
     color: #fff;
-    letter-spacing: 1px;
-    font-size: 11px;
+    font-size: 15px;
     text-decoration: none;
-    padding: 8px 11px;
+    padding: 10px 25px;
     background: #007064;
     bottom: 0;
     
@@ -637,7 +633,7 @@ color: #fff;
     font-size: 15px;
     margin-bottom: 15px;
     position: relative;
-    color: #3c3c3c;
+    color: #111;
 }
 .card_box .card h3 i {
     color: #007064;
@@ -656,9 +652,9 @@ color: #fff;
 }
 .avantages .avantage .border{
     position: relative;
-    padding: 20px 30px;
+    padding: 15px 25px;
     border-radius: 50%;
-    border: 2px solid #ebe9e9;
+    border: 2.5px solid #fff;
     margin-right: 15px;
 }
 .avantages .avantage .border i{
@@ -666,21 +662,20 @@ color: #fff;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: #ebe9e9;
+    color: #fff;
     font-size: 27px;
 }
 .avantages .avantage span{
-    text-transform: capitalize;
     font-weight: 500;
     font-size: 18px;
 }
 .procedures{
     padding: 100px 60px;
-    background:url(./images/covid-19-5010565_1920.jpg),#3c3c3c;
+    background:url(./images/covid-19-5010565_1920.jpg),#000;
     background-blend-mode: screen;
     background-size: cover;
     background-position: center;
-    color: #f7f6f6;
+    color: #fff;
 }
 .procedures .test span{
     position: absolute;
@@ -693,14 +688,16 @@ color: #fff;
     margin: 15px 0;
 }
 .procedures h2{
+    color: #007064;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 45px;
 }
 .procedures .description{
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     margin: 15px 200px;
+    color: #fff;
 }
 .procedures .box{
     margin:120px 250px 0px 250px;
@@ -724,6 +721,7 @@ color: #fff;
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 550;
+    color: #fff;
 }
 .procedures .box .procedure p{
     font-size: 15px;
@@ -734,7 +732,7 @@ color: #fff;
     border: 2px solid #007064;
     padding: 15px 20px;
     background: #007064;
-    color: #f7f6f6;
+    color: #fff;
     margin-bottom: 15px;
 }
 .procedures .reservation{
@@ -751,12 +749,15 @@ color: #fff;
     border:none;
     background: #007064;
     padding: 20px 30px;
-    color: #f7f6f6;
+    color: #fff;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: capitalize;
 }
-
+.procedures #revervez:hover{
+    background: #fff;
+    color: #007064;
+}
 
 @media (max-width:991px){
     #Services .content-box p{
@@ -809,11 +810,11 @@ section{
     margin-bottom: 60px;
 }
 .contact .content-box p{
-    text-align: center;
     padding: 0 200px;
-    color: #3c3c3c;
+    color: #111;
     font-size: 16px;
     line-height: 1.5em;
+    text-align: center;
 }
 .contact .content-box h2{
     text-align: center;
@@ -822,7 +823,7 @@ section{
     color: #007064;
 }
 .contact .content-box p{
-    color: #3c3c3c;
+    color: #111;
 }
 .contact .contact-container{
     width: 100%;
@@ -859,7 +860,7 @@ section{
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: #3c3c3c;
+    color: #111;
     flex-direction: column;
     font-weight: 300;
 }
@@ -969,7 +970,7 @@ section{
     font-weight: 600;
 }
 .Marodesclean p{
-color: #3c3c3c;
+color: #111;
 margin: 10px 0;
 font-size: 17px;
 }
@@ -986,7 +987,7 @@ font-size: 17px;
 .plan-site ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #3c3c3c;
+    color: #111;
     font-size: 15px;
 
 }
@@ -1016,7 +1017,7 @@ font-size: 17px;
 
 .contactfoot .container-footer div span,.horaire span{
     font-size: 15px;
-    color: #3c3c3c;
+    color: #111;
 }
 .horaire span{
     margin: 15px 0;
