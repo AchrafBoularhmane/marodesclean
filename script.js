@@ -32,6 +32,13 @@ document.getElementById("ok").addEventListener("click", function(event){
 document.getElementById("ensavoirplus").addEventListener("click", function(event){
     cookies.classList.add("close");
 });
-
+// Back to top //
+$(document).ready(function(){
+    $('#go-top').click(function(){
+        $('html,body').animate({
+            scrollTop:0
+        },1000);
+    });
+});
 
 

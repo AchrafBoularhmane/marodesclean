@@ -126,8 +126,11 @@ font-size: 30px;
     color: #fff;
     display: flex;
     padding:15px 60px;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 23.2px;
+}
+.coordonnees div span i {
+    font-size: 16px;
 }
 .coordonnees .adresse,.coordonnees .phone,.coordonnees .email{
     padding-right: 50px;
@@ -238,7 +241,7 @@ header{
 }
 .icons{
     position: absolute;
-    bottom: 60px;
+    bottom: 80px;
     right: 10px;
     margin-right: 25px;
     display: flex;
@@ -671,6 +674,7 @@ color: #fff;
     margin: 20px 0;
 }
 .procedures .box .procedure .border i{
+    cursor: pointer;
     font-size: 30px;
     border-radius: 50%;
     border: 2px solid #007064;
@@ -678,6 +682,10 @@ color: #fff;
     background: #007064;
     color: #fff;
     margin-bottom: 12px;
+}
+.procedures .box .procedure .border i:hover{
+    border: 2px solid #01221f;
+    background: #01221f;
 }
 .procedures .reservation{
     position: relative;
