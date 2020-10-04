@@ -634,6 +634,7 @@ color: #fff;
     margin-bottom: 15px;
     position: relative;
     color: #111;
+    min-height: 180px;
 }
 .card_box .card h3 i {
     color: #007064;
