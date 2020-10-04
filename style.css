@@ -670,7 +670,8 @@ color: #fff;
     font-size: 18px;
 }
 .procedures{
-    padding: 100px 60px;
+    padding: 100px 60px 140px 60px;
+    min-height: 100vh;
     background:url(./images/covid-19-5010565_1920.jpg),#000;
     background-blend-mode: screen;
     background-size: cover;
@@ -691,31 +692,34 @@ color: #fff;
     color: #007064;
     text-align: center;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 45px;   
 }
 .procedures .description{
     text-align: center;
     font-size: 17px;
-    margin: 15px 200px;
     color: #fff;
+    padding: 0 200px;
 }
 .procedures .box{
-    margin:120px 250px 0px 250px;
     display: flex;
     justify-content: space-between;
+    padding: 100px 0;
 }
 .procedures .box .content-part1{
-    margin-right: 60px;
+    text-align: center;
 }
 .procedures .box .content-part2{
-    margin-left: 40px;
+    text-align: center;
 }
 .procedures .box .content-part1, .procedures .box .content-part2{
-    display: block;
+    padding: 0 160px;
+    width: 50%;
 }
 
 .procedures .box .content-part1 .procedure,.procedures .box .content-part2 .procedure{
+    min-height:250px ;
     padding: 20px 0;
+    margin: 20px 0;
 }
 .procedures .box .procedure h3{
     text-transform: capitalize;
@@ -733,18 +737,17 @@ color: #fff;
     padding: 15px 20px;
     background: #007064;
     color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 .procedures .reservation{
-    margin-top: 70px;
     position: relative;
 }
 .procedures #revervez{
     position: absolute;
-    border-radius: 2px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    border-radius: 2px;
     cursor: pointer;
     border:none;
     background: #007064;
