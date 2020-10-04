@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 ::-webkit-scrollbar {
     width: 11px;
@@ -166,8 +165,9 @@ header{
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 13px;
+    line-height: 20.3px;
+    font-weight: 750;
     padding: 6px;
     color: #007064;
     text-decoration: none;
@@ -200,26 +200,20 @@ header{
 }
 
 .content .Text  h2{
-    font-size: 30px;
+    font-size: 35px;
+    line-height: 47px;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: bolder;
     color: #007064;
  
 }
-.content .Text  h3{
-    font-weight: 600;
-    color: #3c3c3c;
-}
-.content .Text  h4{
-    font-weight: 500;
-    color: #007064;
-}
+
 .content .Text p{
   font-size: 16px;
   color: #3c3c3c;
-  line-height: 1.8em;
+  line-height: 23.2px;
   margin: 10px 0;
-  font-weight: 500;
+  font-weight: 550;
 }
 .content .Text a{
     position: relative;
@@ -401,28 +395,9 @@ header{
 #Apropos{
     background:#007064;
     display: flex;
-    padding: 100px 60px;
-}
-.custom-shape-divider-bottom-1600791973 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+    padding: 140px 60px;
 }
 
-.custom-shape-divider-bottom-1600791973 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 64px;
-}
-
-.custom-shape-divider-bottom-1600791973 .shape-fill {
-    fill: #fff;
-}
 /**/
 .custom-shape-divider-top-1600785032 {
     position: absolute;
@@ -445,51 +420,64 @@ header{
 .custom-shape-divider-top-1600785032 .shape-fill {
     fill: #fff;
 }
-.content-box{
+.apropos .content-box{
     width: 50%;
 }
-.content-box .title-section{
-    text-align: left;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 650px;
-    letter-spacing: 0.7px;
-    margin: 30px 0;
+.apropos .content-box .cont .both2{
+    display: flex;
+    margin-bottom: 20px;
 }
-.content-box .text-section{
+.apropos .content-box .cont .both2 .trait1{
+    height: 2px;
+    width: 80px;
+    background: #fff;
+    margin-right: 10px;
+}
+.apropos .content-box .cont .both2 .trait2{
+    height: 2px;
+    width: 10px;
+    background: #fff;
+}
+.apropos .content-box .title-section{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 900;
+}
+.apropos .content-box .text-section{
     width: 80%;
     color: #fff;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: lighter;
 }
-.imgBx{
+
+.apropos .imgBx{
     width: 50%;
-    background-image: url(./images/about\ \(2\).jpg);
+    background-image: url(./images/about.jpg);
     background-size: cover;
     background-position: center;
     border: 15px solid #fff;
-    opacity: 0.9;
+    opacity: 0.7;
 }
-.about-icons{
+.apropos .about-icons{
     right: 30px;
     display: flex;
-    padding: 20px 0;
-
 }
-.about-icons .about-icon li{
+.apropos .about-icons .about-icon li{
     list-style: none;
     margin-right: 15px;
     margin-top: 40px;
 }
-.about-icons .about-icon li i{
+.apropos .about-icons .about-icon li i{
     display: inline-block;
     max-height: 24px;
-    font-size: 28px;
+    font-size: 25px;
     color: #fff;
 }
-.about-icons .about-icon{
+.apropos .about-icons .about-icon{
     position: relative;
     display: flex;
 }
@@ -501,20 +489,20 @@ header{
        padding: 100px 20px;
        flex-direction: column;
     }
-    .content-box{
+    .apropos .content-box{
         width: 100%;
     }
-    .content-box .title-section{
+    .apropos .content-box .title-section{
         font-size: 25px;
     }
-    .content-box .title-section i{
+    .apropos .content-box .title-section i{
         font-size: 10px;
     }
-    .content-box .text-section{
+    .apropos .content-box .text-section{
         width: 100%;
         font-size: 14px;
     }
-    .imgBx{
+    .apropos .imgBx{
         width: 100%;
         border: 10px solid #fff;
         opacity: 0.9;
@@ -526,39 +514,6 @@ header{
 
 #Services{
     background: #f7f6f6;
-}
-
-#Services .content-box {
-    width:100%;
-    margin-bottom: 60px;
-}
-#Services .content-box .test,.procedures .test{
-    position: relative;
-}
-#Services .content-box .test span{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 5px;
-    width: 100px;
-    background: #007064;
-    margin: 15px 0;
-}
-
-#Services .content-box h2{
-text-align: center;
-font-size: 50px;
-text-transform: uppercase;
-color: #007064;
-}
-
-#Services .content-box p{
-    text-align: center;
-    padding: 0 200px;
-    color: #111;
-    font-size: 16px;
-    line-height: 1.5em;
 }
 .card_box{
    width: 100%;
@@ -626,15 +581,19 @@ color: #fff;
 .card_box .card h3{
     position: relative;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 27px;
     margin-bottom: 15px;
+    color: #3c3c3c;
 }
 .card_box .card p{
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 15px;
+    line-height: 23.2px;
     position: relative;
-    color: #111;
-    min-height: 180px;
+    color: #3c3c3c;
+    min-height: 170px;
 }
 .card_box .card h3 i {
     color: #007064;
@@ -650,6 +609,9 @@ color: #fff;
  display: flex;
  justify-content: space-between;
  color: #fff;
+ line-height: 24px;
+ text-transform: uppercase;
+ font-size: 18px;
 }
 .avantages .avantage .border{
     position: relative;
@@ -679,28 +641,6 @@ color: #fff;
     background-position: center;
     color: #fff;
 }
-.procedures .test span{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 5px;
-    width: 100px;
-    background: #007064;
-    margin: 15px 0;
-}
-.procedures h2{
-    color: #007064;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 45px;   
-}
-.procedures .description{
-    text-align: center;
-    font-size: 17px;
-    color: #fff;
-    padding: 0 200px;
-}
 .procedures .box{
     display: flex;
     justify-content: space-between;
@@ -721,15 +661,6 @@ color: #fff;
     min-height:250px ;
     padding: 20px 0;
     margin: 20px 0;
-}
-.procedures .box .procedure h3{
-    text-transform: capitalize;
-    font-size: 20px;
-    font-weight: 550;
-    color: #fff;
-}
-.procedures .box .procedure p{
-    font-size: 15px;
 }
 .procedures .box .procedure .border i{
     font-size: 30px;
@@ -758,9 +689,12 @@ color: #fff;
     font-weight: 400;
     text-transform: capitalize;
 }
+.procedures #revervez{
+    padding: 17px 35px;
+}
 .procedures #revervez:hover{
-    background: #fff;
-    color: #007064;
+    background: #01221f;
+    color: #fff;
 }
 
 @media (max-width:991px){
@@ -796,38 +730,52 @@ section{
     display: flex;
     flex-direction: column;
 }
-.contact .content-box .test{
+.contact .content-box,.NosServices .content-box{
     position: relative;
+    width: 100%;
+    margin-bottom: 60px;
 }
-.contact .content-box .test span{
+.contact .content-box .cont,.procedures .cont,.NosServices .content-box .cont,.content-box .cont{
+    position: relative;
+    padding: 15px 0;
+}
+.contact .content-box .both2,.procedures .cont .both2,.NosServices .content-box .cont .both2 {
+    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 5px;
-    width: 100px;
+}
+.contact .content-box .both2 .trait1,.procedures .cont .both2 .trait1,.NosServices .content-box .cont .both2 .trait1{
+    margin-right: 10px;
+}
+.contact .content-box .both2 .trait1,.contact .content-box .both2 .trait2,.procedures .cont .both2 .trait1,.procedures .cont .both2 .trait2,.NosServices .content-box .cont .both2 .trait2,.NosServices .content-box .cont .both2 .trait1 {
+    height: 2.5px;
+    width: 80px;
     background: #007064;
-    margin: 15px 0;
 }
-.contact .content-box{
-    width: 100%;
-    margin-bottom: 60px;
+.contact .content-box .both2 .trait2,.procedures .cont .both2 .trait2,.NosServices .content-box .cont .both2 .trait2{
+    width: 10px;
 }
-.contact .content-box p{
-    padding: 0 200px;
-    color: #111;
-    font-size: 16px;
-    line-height: 1.5em;
-    text-align: center;
-}
-.contact .content-box h2{
+
+.contact .content-box h2,.procedures h2,.NosServices .content-box h2{
     text-align: center;
     text-transform: uppercase;
     font-size: 50px;
+    line-height: 48px;
     color: #007064;
+    font-weight: 900;
 }
-.contact .content-box p{
-    color: #111;
+
+.contact .content-box p,.procedures .description,.NosServices .content-box p{
+    padding: 0 200px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: lighter;
+}
+.contact .content-box p,.NosServices .content-box p{
+    color: #3c3c3c;
 }
 .contact .contact-container{
     width: 100%;
@@ -860,29 +808,38 @@ section{
 .contact .contact-container .contactInfo .box .icon{
     color: #fff;
 }
+.contact .contact-container .contactInfo .box .text h3{
+    color: #3c3c3c;
+}
+.contact .contact-container .contactInfo .box .text h3,.procedures .box .procedure h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
 .contact .contact-container .contactInfo .box .text{
+    color: #3c3c3c;
+}
+.contact .contact-container .contactInfo .box .text,.procedures .box .procedure p{
     display: flex;
     margin-left: 20px;
-    font-size: 16px;
-    color: #111;
+    font-size: 15px;
+    line-height: 23.4px;
     flex-direction: column;
-    font-weight: 300;
+    font-weight: lighter;
 }
-.contact .contact-container .contactInfo .box .text h3{
-    font-weight: 500;
-}
-
 .contactForm{
     width: 50%;
-    padding:40px;
+    padding:60px;
     background: #fff;
     border-radius: 3px;
     box-shadow: 0 15px 30px rgba(0,0,0,.5);
 }
 .contactForm h2{
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
     color: #007064;
+    line-height: 27px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -905,32 +862,34 @@ section{
     position: absolute;
     left: 0;
     padding: 5px 0;
-    font-size: 16px;
+    font-size: 14.5px;
     margin: 10px 0;
     pointer-events: none;
     transition: 0.5s;
-    color: #01221f;
+    color: #007064;
 }
 .contactForm .inputbox input:focus ~ span,.contactForm .inputbox input:valid ~ span,
 .contactForm .inputbox textarea:focus ~ span,.contactForm .inputbox textarea:valid ~ span{
-    color: #01221f;
+    color: #007064;
     font-size: 12px;
     transform: translateY(-20px);
 }
-.contactForm .inputbox input[type="submit"]{
-    width: 100px;
+.contactForm .inputbox input[type="submit"],.procedures #revervez{
+    min-width: 200px;
     background: #007064;
     border: none;
     cursor: pointer;
-    padding: 10px ; 
     font-size: 18px;
+    line-height: 27px;
+    font-weight: lighter;
     color: #fff;
+}
+.contactForm .inputbox input[type="submit"]{
+    padding: 10px;
+    width: 100px;
 }
 .contactForm .inputbox input[type="submit"]:hover{
     background: #01221f;
-}
-.mini input{
-    width: 100px;
 }
 
 @media (max-width:991px){
@@ -961,7 +920,7 @@ section{
     background: #f7f6f6;
     display: flex;
     margin-bottom: 0;
-    padding: 60px;
+    padding: 100px 60px;
     border-bottom: 1px solid #ebe9e9;
 }
 .Marodesclean,.plan-site,.contactfoot,.horaire{
@@ -970,69 +929,87 @@ section{
 }
 .Marodesclean h2,.plan-site h2,.contactfoot h2,.horaire h2{
     color: #007064;
+    font-size: 20px;
+    line-height: 24px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: bold;
+}
+.both{
+    display: flex;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.both .trait2{
+    width: 10px;
+    height: 2px;
+    background: #007064;
+}
+.both .trait1{
+    margin-right: 5px;
+    width: 50px;
+    height: 2px;
+    background: #007064;
 }
 .Marodesclean p{
-color: #111;
-margin: 10px 0;
-font-size: 17px;
+color: #3c3c3c;
+font-size: 15px;
+line-height: 23.2px;
 }
 .horaire{
     border: none;
 }
 .plan-site ul{
     list-style: none;
-    margin: 10px 0;
 }
-.plan-site ul li{
-    margin: 12px 0 ;
-}
+
 .plan-site ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #111;
-    font-size: 15px;
-
+    color: #3c3c3c;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 8px;
 }
 .plan-site ul li a:hover{
-    color: #01221f;
+    color: #007064;
 }
-
 .plan-site ul li a i{
     color: #007064;
-    padding-right: 10px;
-    font-weight: 900;
-    font-size: 18px;
-}
-.plan-site ul li a i,.contactfoot .container-footer div{
-    margin: 10px 0;
+    padding-right: 5px;
+    font-weight: bolder;
+    font-size: 14px;
 }
 .contactfoot .container-footer div span i{
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 19px;
     color: #007064;
-    margin-right: 10px;
     cursor: pointer;
+    margin-right: 15px;
 }
 .contactfoot .container-footer div span i:hover{
-    color: #01221f;
+    color: #007064;
+}
+.contactfoot .container-footer div{
+    padding-bottom: 15px;
+}
+.contactfoot .container-footer div span{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 21.8px;
+    color: #3c3c3c;
+}
+.horaire .horaire-douveture{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 23.2px;
+    color: #3c3c3c;
+    padding-bottom: 15px;
 }
 
-.contactfoot .container-footer div span,.horaire span{
-    font-size: 15px;
-    color: #111;
-}
-.horaire span{
-    margin: 15px 0;
-}
-.horaire span i {
+.horaire .horaire-douveture i {
     color: #007064;
     margin-right: 10px;
 }
-.horaire h2{
-    margin-bottom: 10px;
-}
+
 @media (max-width:991px){
     .footer{
         display: block;
@@ -1047,7 +1024,7 @@ font-size: 17px;
 /*---------------------------------------------------------COPYRIGHT---------------------------------------------------*/
 .Copyright{
     background: #007064;
-    padding: 25px 60px;
+    padding: 30px 60px;
     color: #ebe9e9;
     font-size: 15px;
     text-align: center;
