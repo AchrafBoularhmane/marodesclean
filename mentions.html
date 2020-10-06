@@ -3,57 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./mentions.css">
     <link rel="shortcut icon" type="image/png" href="images/Favicon-48px.png">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Marodesclean | Siteweb Officiel </title>
 </head>
 <body>
 <!---------------------------------------------------------HOME PAGE------------------------------------------------------>
-<section class="home" id="home">
-<div class="coordonnees padding" id="coord"  >
-            <div class="adresse"><span><i class="fa fa-map-marker"></i></span><span>Marodesclean adresse, Marodesclean adresse.</span></div>
-            <div class="phone"><span><i class="fa fa-phone"></i></span><span>+212606060606</span></div>
-            <div class="email"><span><i class="fa fa-envelope"></i></span><span>contact@Marodesclean.com</span></div>
-</div>
-<a href="#coord" class="backToTop"><i class="fa fa-long-arrow-up"></i></a>
-<div class="container padding" id="home">
-<header>
-        <div class="menuPluslogo">
-            <span  class="logo-header"><img src="./images/Logo-350x75px.png"></span>
-            <div class="toggle" id="Menu" onclick="toggle()">
-                <span class="one"></span>
-                <span class="two"></span>
-                <span class="three"></span>
-                <span class="four"></span>
-            </div>
-         <ul id="menu-overlay">
-         <li><a href="./index.html#coord" class="active" id="Accueil">Accueil</a></li>
-            <li><a href="./index.html#Apropos">à propos</a></li>
-            <li><a href="./index.html#Services">Nos Services</a></li>
-            <li><a href="./index.html#Contact">Contact et devis</a></li>
-        </ul>
-        </div>  
-</header>
-<div class="content">
-    <div class="Text">
-        <h2 >Désinfection, Dératisation et Désinsectisation</h2>
-        <p >Vous recherchez une entreprise proposant une désinfection en profondeur qui assainit et décontamine 
-            vos espaces ? Une entreprise de désinfection au service des professionnels et des particuliers ?
-            <B>MARODESCLEAN</B> vous accompagne pour tous vos besoins de désinfection.</p>
-        <a href="./index.html#Services" >Découvrez nos services</a>
+<section class="home" id="coord">
+        <a  class="backToTop" id="backTop"><i class="fa fa-long-arrow-up"></i></a>
+        <img src="./images/légales.jpg" class="img-mentions">
+        <div class="background">
+        </div>
+    <div class="container padding" id="home">
+    <header>
+            <div class="menuPluslogo">
+                <span  class="logo-header"><img src="./images/Logo-350x75px.png"></span>
+                <div class="toggle" id="Menu" onclick="toggle()">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                    <span class="three"></span>
+                    <span class="four"></span>
+                </div>
+             <ul id="menu-overlay">
+                <li><a href="./index.html#coord" class="active" id="Accueil">Accueil</a></li>
+                <li><a href="./index.html#Apropos">Qui sommes-nous?</a></li>
+                <li><a href="./index.html#Services">Nos Services</a></li>
+                <li><a href="./index.html#Contact">Contact et devis</a></li>
+            </ul>
+            </div>  
+    </header>
     </div>
-</div>
-<div class="icons">
-    <ul class="icon">
-        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-    </ul>
-</div>
-</div>
+    <div class="mentions-legales">
+        <h2>Mentions légales</h2>
+        <div class="cont">
+            <div class="both2">
+                <div class="trait1"></div>
+                <div class="trait2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="cookies" id="cookie">
+        <i class="fa fa-times" aria-hidden="true" id="close-cookies" onclick="Close()"></i>
+        <p>En poursuivant votre navigation sur ce site, vous acceptez nos conditions générales et l’utilisation de cookies pour vous garantir
+          la meilleure expérience sur notre site<a href="" id="ok"> ok </a><a href="./mentions.html" id="ensavoirplus"> en savoir plus</a></p>
+    </div>
 </section>
 <!---------------------------------------------------------MENTIONS LEGALES ----------------------------------------------------->
 <section class="mentions">
@@ -123,9 +117,6 @@
             Email : <a href="">contact@marodesclean.com</a><br><br>
             Site web : <a href="www.marodesclean.com">www.marodesclean.com</a><br><br>
         </p>
-
-
-
     </div>
 </section>
 <!------------------------------------------------------------FOOTER--------------------------------------------------------->
@@ -140,10 +131,10 @@
         <h2>Plan du site</h2>
         <div class="both"><div class ="trait1"></div><div class ="trait2"></div></div>
         <ul>
-            <li><a href="#coord"><i class="fa fa-angle-right"></i>Accueil</a></li>
-            <li><a href="#Apropos"><i class="fa fa-angle-right"></i>Qui somme-nous ?</a></li>
-            <li><a href="#Services"><i class="fa fa-angle-right"></i>Nos Services</a></li>
-            <li><a href="#Contact"><i class="fa fa-angle-right"></i>Contact et devis</a></li>
+            <li><a href="./index.html#coord" class="active" id="Accueil"><i class="fa fa-angle-right"></i>Accueil</a></li>
+            <li><a href="./index.html#Apropos"><i class="fa fa-angle-right"></i>Qui sommes-nous?</a></li>
+            <li><a href="./index.html#Services"><i class="fa fa-angle-right"></i>Nos Services</a></li>
+            <li><a href="./index.html#Contact"><i class="fa fa-angle-right"></i>Contact et devis</a></li>
         </ul>
     </div>
     <div class="contactfoot">
@@ -170,6 +161,6 @@
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="script.js"></script> 
-
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="./script.js"></script> 
 </html>

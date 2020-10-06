@@ -12,12 +12,10 @@ $(window).scroll(function(){
         $('.menuPluslogo').addClass('Fixed');
         $('#Accueil').removeClass('active');
         $('.backToTop').addClass('top');
-        $('.cookies').addClass('.fixcookies')
     } else{
         $('.menuPluslogo').removeClass('Fixed');
         $('#Accueil').addClass('active');
         $('.backToTop').removeClass('top');
-        $('.cookies').removeClass('.fixcookies')
     }
 })
 // Cookies // 
@@ -33,8 +31,9 @@ document.getElementById("ensavoirplus").addEventListener("click", function(event
     cookies.classList.add("close");
 });
 // Back to top //
+
 $(document).ready(function(){
-    $('#go-top').click(function(){
+    $('#backTop').click(function(){
         $('html,body').animate({
             scrollTop:0
         },1000);
