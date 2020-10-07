@@ -187,6 +187,7 @@ header{
 }
 .menuPluslogo ul li a:hover,header ul li a.active {
     color: #fff;
+    font-weight: 500;
 }
 
 .menuPluslogo ul li a:before {
