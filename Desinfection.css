@@ -1,7 +1,7 @@
-/*-------------------------------------------------ACCUEIL---------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
 
 *{
     margin: 0;
@@ -25,7 +25,7 @@
     background: #007064;
     border-radius: 50%;
     cursor: pointer;
-    z-index: 100000000000;
+    z-index: 100000;
     box-shadow: 0 15px 30px rgba(0,0,0,.9);
     visibility: hidden;
     opacity: 0;
@@ -60,7 +60,6 @@ font-size: 30px;
    top: 0;
    z-index: 30;
    background: #fff;
-   color: #007064;
 }
 .container{
     position: relative;
@@ -70,9 +69,10 @@ font-size: 30px;
 .close{
     display: none;
 }
-
+.fixcookies{
+    z-index: 0;
+}
 .cookies{
-    display: none;
     position: Fixed;
     background: #007064;
     top: 0px;
@@ -98,59 +98,11 @@ font-size: 30px;
     margin-left: 20px;
     color: #007064;
 }
-/*-----------------------------------------------------------HOME-------------------------------------------------------*/
-.background{
-    background:  #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 400px;
-    width: 100%;
-    opacity: 0.75;
-}
-.mentions-legales{
-    position: absolute;
-    top: 150px;
-    left: 60px;
-}
-.mentions-legales .cont .both2{
-    display: flex;
-}
-.mentions-legales .cont .both2 .trait1{
-    background: #007064;
-    height: 5px;
-    width: 100px;
-    margin-right: 10px;
-}
-.mentions-legales .cont .both2 .trait2{
-    background: #007064;
-    height: 5px;
-    width: 20px;
-}
-.mentions-legales h2{
-    font-family: 'Poppins',sans-serif;
-    font-size: 50px;
-    color: #007064;
-    text-transform: uppercase;
-}
 
-.img-mentions{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-position: center;
-   background-repeat: no-repeat;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   opacity: 0.6;
-   height: 400px;
-   width: 100%;
-}
-.home{
-   height: 400px;
-   background: #111;
+/*------------------------------------------------------Acceuil---------------------------------------------------------*/
+#home{
+    background: #fff;
+    padding-top: 0;
 }
 
 .coordonnees{
@@ -183,16 +135,10 @@ font-size: 30px;
     padding: 0px 30px; 
     width: 100%;
 }
-
-.title-page{
-    margin-top: 40px;
-    font-size: 50px;
-}
 header{
     position: absolute;
-    top: 0; 
-    left: 0;
     width: 100%;
+    left: 0;
 }
 .menuPluslogo .logo-header{
     margin-top: 6px;
@@ -216,7 +162,7 @@ header{
     text-transform: uppercase;
     font-size: 14px;
     line-height: 20.3px;
-    font-weight: 600;
+    font-weight: bolder;
     padding: 6px;
     color: #007064;
     text-decoration: none;
@@ -225,6 +171,7 @@ header{
     color: #fff;
     font-weight: 500;
 }
+
 .menuPluslogo ul li a:before {
     content: '';
     position: absolute;
@@ -239,69 +186,7 @@ header{
 .menuPluslogo ul li a:hover:before,header ul li a.active:before{
     width: 100%;
 }
-.content{
-    position: absolute;
-    top: 25%;
-}
-.content .Text{
-    max-width: 100%;
-    margin-right: 50px;
-}
 
-.content .Text  h2{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 55px;
-    line-height: 47px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #007064;
-}
-.content .Text a{
-    position: relative;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 15px;
-    text-decoration: none;
-    padding: 14px 11px;
-    background: #007064;
-}
-.content .Text a:hover{
-    background: #01221f;
-    color: #fff;
-}
-.icons{
-    position: absolute;
-    bottom: 80px;
-    right: 10px;
-    margin-right: 25px;
-    display: flex;
-    justify-content: space-between;
-    text-align: right;
-}
-.icons .icon li{
-    list-style: none;
-    margin-right: 15px;
-}
-.icons .icon li i{
-    display: inline-block;
-    max-height: 24px;
-    font-size: 23px;
-    color: #007064;
-}
-.icons .icon li i:hover{
-    color: #01221f;
-}
-.icons .icon li:hover i{
-    transform: translateY(-10px);
-}
-.icons .icon{
-    position: relative;
-    display: flex;
-}
 @media (max-width:991px){
 
     .container{
@@ -401,79 +286,8 @@ header{
         display: block;
         text-align: center;
     }
-
-    .content{
-        padding: 0 5px;
-        margin-top: 0;
-        display: flex;
-        height: 100%;
     }
-    .content .Text{
-        min-width: 330px;
-    }
-    .content .Text h2{
-        font-size: 25px;
-    }
-    .content .Text p{
-      font-size: 15px;
-      width: 100%;
-    }
-    .content .Text a{
-        font-size: 15px;
-        padding: 10px;
-    }
-    .icons{
-       position: absolute;
-       left: 15px;
-    }
-    .icons .icon li a i{
-    font-size: 20px;
-    padding: 0;
-    color: #007064;
-    }
-   
-    }
-/*---------------------------------------------------------MENTIONS----------------------------------------------------*/
-
-.mentions{
-    padding: 80px 60px;
-    background: #007064;
-    color: #fff;
-    line-height: 23.7px;
-
-}
-.mentions_newpage h1{
-    padding: 20px 0;
-    font-size: 35px;
-    text-transform: uppercase;
-    line-height: 23.7px;
-}  
-.mentions_newpage h2{
-    color: #fff;
-    padding: 10px 0;
-    font-size: 20px;
-    text-transform: uppercase;
-}  
-.mentions_newpage p{
-    color: #fff;
-    font-size: 17px;
-    padding: 10px 0;
-}
-.mentions_newpage p a{
-    text-decoration: none;
-    color: #fff;
-}
-.mentions_newpage p a:hover{
-    text-decoration: underline;
-}
-.trait{
-    width: 100px;
-    height: 5px;
-    background: #fff;
-    margin-bottom: 20px;
-}
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
-
 .footer{
     position: relative;
 }
@@ -484,10 +298,10 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.25;
+   height: 100px;
+   width: 100%;
+   height: 100%;
+   opacity: 0.2;
 }
 .all-footer-parts{
     display: flex;
@@ -498,7 +312,6 @@ header{
   width: 25%;
   padding: 15px;
   z-index: 1000000;
-
 }
 .Marodesclean h2,.plan-site h2,.contactfoot h2,.horaire h2{
     color: #007064;
@@ -596,7 +409,6 @@ line-height: 23.2px;
  }
 /*---------------------------------------------------------COPYRIGHT---------------------------------------------------*/
 .Copyright{
-    
     background: #007064;
     padding: 30px 60px;
     color: #ebe9e9;
@@ -623,20 +435,3 @@ line-height: 23.2px;
     }
 
 }
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
