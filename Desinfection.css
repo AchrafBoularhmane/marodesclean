@@ -104,15 +104,66 @@ font-size: 30px;
 
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
 #home{
-    position: relative;
     background: #fff;
     padding-top: 0;
+}
+.background{
+    background: #01c9b5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 380px;
+    height: 100vh;
+}
+.desc{
+    position: relative;
+    background: #007064;
+    height: 100vh;
+}
+.desc .contain{
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 60px;
+    z-index: 10000000000000;
+    display: inline-block;
+}
+.desc .contain h2{
+    padding: 10px 0;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bolder;
+    width: 100%;
+}
+.desc .contain .input{
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 18px;
+    background: #fff;
+    color: #007064;
+    border: 2px solid #007064;
+}
+.desc .contain .input:hover{
+    background: #003b36;
+    color: #fff;
+}
+.desc .contain p{
+    color: #fff;
 }
 .cont-slid{
     display: flex;
     align-items: center;
     justify-content: center;
     max-height: 100vh;
+    background: #111;
 }
 .slider{
     width: 100%;
@@ -134,7 +185,7 @@ font-size: 30px;
 .slide img{
     width: 100%;
     max-height: 100vh;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 .navigation-manual{
     position: absolute;
@@ -152,7 +203,7 @@ font-size: 30px;
     transition: 1s;
 }
 .manual-btn:hover{
-    background: #007064;
+    background: #fff;
 }
 .manual-btn:not(:last-child){
     margin-right: 40px;
@@ -187,24 +238,17 @@ font-size: 30px;
     margin-right: 40px;
 }
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #007064;
+    background: #fff;
 }
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #007064;
+    background: #fff;
 }
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #007064;
+    background: #fff;
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #007064;
+    background: #fff;
 }
-
-
-
-
-
-
-
 .menuPluslogo{
     justify-content: space-between;
     display: flex;
@@ -217,6 +261,7 @@ header{
     position: absolute;
     width: 100%;
     left: 0;
+    z-index: 100000000000000;
 }
 .menuPluslogo .logo-header{
     margin-top: 6px;
