@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 
 *{
@@ -25,7 +26,7 @@
     background: #007064;
     border-radius: 50%;
     cursor: pointer;
-    z-index: 100000;
+    z-index: 100000000000;
     box-shadow: 0 15px 30px rgba(0,0,0,.9);
     visibility: hidden;
     opacity: 0;
@@ -73,6 +74,7 @@ font-size: 30px;
     z-index: 0;
 }
 .cookies{
+    display: none;
     position: Fixed;
     background: #007064;
     top: 0px;
@@ -99,34 +101,110 @@ font-size: 30px;
     color: #007064;
 }
 
+
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
 #home{
+    position: relative;
     background: #fff;
     padding-top: 0;
 }
-
-.coordonnees{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #007064;
-    color: #fff;
+.cont-slid{
     display: flex;
-    padding:15px 60px;
-    font-size: 13px;
-    line-height: 23.2px;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
 }
-.coordonnees div span i {
-    font-size: 16px;
+.slider{
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
 }
-.coordonnees .adresse,.coordonnees .phone,.coordonnees .email{
-    padding-right: 50px;
-    letter-spacing: 0.8px;
+.slides{
+    display: flex;
+    width: 500%;
+    max-height: 100vh;
 }
-.coordonnees .adresse span,.phone span,.email span{
-    padding-right: 7px;
+.slides input{
+    display: none;
 }
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 100%;
+    max-height: 100vh;
+    opacity: 0.5;
+}
+.navigation-manual{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border:2px solid #007064;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:hover{
+    background: #007064;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+.navigation-auto{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%,-5%);
+    display: flex;
+    justify-content: center;
+}
+.navigation-auto div{
+    border: 2px solid #007064;
+    border-radius: 10px;
+    transition: 1s;
+    padding: 5px;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #007064;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #007064;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #007064;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #007064;
+}
+
+
+
+
+
+
+
 .menuPluslogo{
     justify-content: space-between;
     display: flex;
@@ -435,3 +513,46 @@ line-height: 23.2px;
     }
 
 }
+
+
+/*---------------------------------------------------------DESINFECTION-------------------------------------------------*/
+.desinfection{
+    font-family: 'Open Sans', sans-serif;
+    background: #007064;
+    color: #fff;
+    font-size: 22px;
+    padding: 100px 60px;
+}
+.desinfection .container .trait{
+    background: #fff;
+    width: 100px;
+    height: 4.5px;
+    margin-bottom: 20px;
+}
+.desinfection .container h2{
+    margin-bottom: 25px;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.desinfection .container p{
+    padding: 20px 0;
+}
+.desinfection .container p,.desinfection .container ul li a{
+    text-align: 30px;
+    font-size: 17px;
+}
+.desinfection .container ul li{
+   list-style: none;
+}
+.desinfection .container ul li a i{
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+.desinfection .container ul li a{
+    cursor: text;
+    text-decoration: none;
+    color: #fff;
+}
+
