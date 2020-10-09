@@ -108,7 +108,7 @@ font-size: 30px;
     padding-top: 0;
 }
 .background{
-    background: #01c9b5;
+    background: #007064;
     position: absolute;
     top: 0;
     left: 0;
@@ -117,7 +117,6 @@ font-size: 30px;
 }
 .desc{
     position: relative;
-    background: #007064;
     height: 100vh;
 }
 .desc .contain{
@@ -149,14 +148,16 @@ font-size: 30px;
     padding: 18px;
     background: #fff;
     color: #007064;
-    border: 2px solid #007064;
 }
 .desc .contain .input:hover{
-    background: #003b36;
-    color: #fff;
+    background: #111;
+    color: #007064;
 }
 .desc .contain p{
     color: #fff;
+    font-size: 17px;
+    line-height: 23.2px;
+    font-weight: 500;
 }
 .cont-slid{
     display: flex;
