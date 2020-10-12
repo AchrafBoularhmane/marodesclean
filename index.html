@@ -11,17 +11,17 @@
 </head>
 <body>
 <!---------------------------------------------------------HOME PAGE------------------------------------------------------>
-<section class="home" >
-    <div class="coordonnees padding" id="coord" >
-                <div class="adresse"><span><i class="fa fa-home"></i></span><span>Marodesclean adresse, Marodesclean adresse.</span></div>
-                <div class="phone"><span><i class="fa fa-phone"></i></span><span>06 06 06 06 06</span></div>
-                <div class="email"><span><i class="fa fa-envelope"></i></span><span>Contact@Marodesclean.com</span></div>
-    </div>
+<section class="home" id="coord" >
     <a class="backToTop" id="backTop"><i class="fa fa-long-arrow-up"></i></a>
-    <div class="container padding" id="home">
+    <div class="cookies" id="cookie">
+        <i class="fa fa-times" aria-hidden="true" id="close-cookies" onclick="Close()"></i>
+        <p>En poursuivant votre navigation sur ce site, vous acceptez nos conditions générales et l’utilisation de cookies pour vous garantir
+          la meilleure expérience sur notre site<a href="" id="ok"> ok </a><a href="./mentions.html" id="ensavoirplus"> en savoir plus</a></p>
+    </div>
+    <div class="container " id="home">
     <header>
             <div class="menuPluslogo">
-                <span  class="logo-header"><img src="./images/Logo-350x75px.png"></span>
+                <span  class="logo-header"><img src="./images/logo.png"></span>
                 <div class="toggle" id="Menu" onclick="toggle()">
                     <span class="one"></span>
                     <span class="two"></span>
@@ -29,21 +29,60 @@
                     <span class="four"></span>
                 </div>
              <ul id="menu-overlay">
-                <li><a href="#coord" class="active" id="Accueil">Accueil</a></li>
-                <li><a href="#Apropos">Qui sommes-nous?</a></li>
-                <li><a href="#Services">Nos Services</a></li>
-                <li><a href="#Contact">Contact et devis</a></li>
+                <li><a href="./index.html#coord" class="active" id="Accueil">Accueil</a></li>
+                <li><a href="./index.html#Apropos">Qui sommes-nous?</a></li>
+                <li><a href="./index.html#Services">Nos Services</a></li>
+                <li><a href="./index.html#Contact">Contact et devis</a></li>
             </ul>
             </div>  
     </header>
-    <div class="content">
-        <div class="Text">
-            <h2 >Désinfection, Dératisation et Désinsectisation</h2>
-            <p >Vous recherchez une entreprise proposant une désinfection en profondeur qui assainit et décontamine 
+    <!--Image Slider -->
+    <div class="green-background"></div>
+    <div class="description-home">
+        <div class="desc">
+            <div class="contain">
+            <h2>DÉSINFECTION, DÉRATISATION ET DÉSINSECTISATION</h2>
+            <p>Vous recherchez une entreprise proposant une désinfection en profondeur qui assainit et décontamine 
                 vos espaces ? Une entreprise de désinfection au service des professionnels et des particuliers ?
-                <B>MARODESCLEAN</B> vous accompagne pour tous vos besoins de désinfection.</p>
-            <a href="#Services" >Découvrez nos services</a>
+                 MARODESCLEAN vous accompagne pour tous vos besoins de désinfection.
+            </p>
+             <a href="./index.html#Services"><input type="submit" value="Découverez-nos services" class="input"></a>
+            </div>
         </div>
+    </div>
+   <div class="cont-slid">
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" id="radio1" name="radio-btn">
+            <input type="radio" id="radio2" name="radio-btn">
+            <input type="radio" id="radio3" name="radio-btn">
+            <input type="radio" id="radio4" name="radio-btn">
+        <div class="slide first">
+            <img src="./images/desinfection savoir plus.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="./images/desinfection services 2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="./images/desinfection savoir plus 3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="./images/desinsectisation savoir plus 1.jpg" alt="">
+        </div>
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
     </div>
     <div class="icons">
         <ul class="icon">
@@ -53,22 +92,11 @@
             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
         </ul>
     </div>
-    <div class="cookies" id="cookie">
-        <i class="fa fa-times" aria-hidden="true" id="close-cookies" onclick="Close()"></i>
-        <p>En poursuivant votre navigation sur ce site, vous acceptez nos conditions générales et l’utilisation de cookies pour vous garantir
-          la meilleure expérience sur notre site<a href="" id="ok"> ok </a><a href="./mentions.html" id="ensavoirplus"> en savoir plus</a></p>
-    </div>
     </div>
 </section>
 <!---------------------------------------------------------A PROPOS ----------------------------------------------------->
 <section class="apropos">
-<div class="container padding" id="Apropos">
-    <div class="custom-shape-divider-top-1600785032">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-        </svg>
-    </div>       
-    
+<div class="container padding" id="Apropos">      
     <div class="content-box">
         <h2 class="title-section">Qui sommes-nous?</h2>
         <div class="cont">
@@ -124,7 +152,7 @@
              Une attention toute particulière est attachée aux besoins et attebtes du client.
               Des offres sur mesure sont élaborées en collaboration avec le client pour proposer 
               le meilleur service possible en fonction de la situation spécifique du client... </p>
-             <a href="#/desinsectisation.html">savoir plus</a>
+             <a href="./desinsectisation.html">savoir plus</a>
     </div>
     <div class="card">
         <img src="./images/deratisation services.jpg" >
@@ -132,20 +160,21 @@
         <p>Pour tous vos problèmes de rongeurs, <B>MARODESCLEAN</B> dispose d'une équipe de dératiseurs prêts à répondre
              rapidement à votre demande d'élimination des nuisibles. Offrez vous un cadre propre pour vos activités,
               et débarrassez-vous une fois pour toute de ces nuisibles...</p>
-             <a href="#Deratisation">savoir plus</a>
+             <a href="./dératisation.html">savoir plus</a>
     </div>
     <div class="card">
         <img src="./images/jardinnage services.jpg" alt="">
         <h3><i class="fa fa-circle"></i>Jardinage<i class="fa fa-circle"></i></h3>
         <p>Spécialisés dans les jardins urbains et les jardins de petite taille, nous sommes vos jardiniers de confiance pour l'aménagement et la conception de vos extérieurs : jardins, terrasse,...
              Nous prenons également soin de la rénovation et l'entretien de vos espaces verts tout au long de l'année...</p>
-             <a href="#Jardinage">savoir plus</a>
+             <a href="./jardinage.html">savoir plus</a>
     </div>
     </div>
 </div>
 </section>
 <div class="procedures">
-    <h2>Implication totale</h2>
+    <div class="backgr"></div>
+    <h2 class="title">Implication totale</h2>
     <div class="cont">
         <div class="both2">
             <div class="trait1"></div>
@@ -190,7 +219,7 @@
         </div>
     </div>
     <div class="reservation">
-    <input type="submit" value="Réservez maintenant" id="revervez">
+    <input type="submit" value="Réservez maintenant" id="reservez">
     </div>
 </div>
 
