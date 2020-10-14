@@ -455,7 +455,7 @@ header{
 #Apropos{
     background:#007064;
     display: flex;
-    padding: 140px 60px;
+    padding: 100px 60px;
 }
 .apropos .content-box{
     width: 50%;
