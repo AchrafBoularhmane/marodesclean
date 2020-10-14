@@ -465,13 +465,13 @@ header{
     margin-bottom: 20px;
 }
 .apropos .content-box .cont .both2 .trait1{
-    height: 2px;
+    height: 5px;
     width: 80px;
     background: #fff;
     margin-right: 10px;
 }
 .apropos .content-box .cont .both2 .trait2{
-    height: 2px;
+    height: 5px;
     width: 10px;
     background: #fff;
 }
@@ -821,7 +821,7 @@ section{
     margin-right: 10px;
 }
 .contact .content-box .both2 .trait1,.contact .content-box .both2 .trait2,.procedures .cont .both2 .trait1,.procedures .cont .both2 .trait2,.NosServices .content-box .cont .both2 .trait2,.NosServices .content-box .cont .both2 .trait1 {
-    height: 2.5px;
+    height: 5px;
     width: 80px;
     background: #007064;
 }
