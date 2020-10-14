@@ -1191,6 +1191,45 @@ line-height: 23.2px;
     font-size: 20px;
 }
 
+/*---------------------------------------------------------MENTIONS----------------------------------------------------*/
+
+.mentions{
+    padding: 80px 60px;
+    background: #007064;
+    color: #fff;
+    line-height: 23.7px;
+
+}
+.mentions_newpage h1{
+    padding: 20px 0;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 23.7px;
+}  
+.mentions_newpage h2{
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}  
+.mentions_newpage p{
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 0;
+}
+.mentions_newpage p a{
+    text-decoration: none;
+    color: #fff;
+}
+.mentions_newpage p a:hover{
+    text-decoration: underline;
+}
+.trait{
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    margin-bottom: 20px;
+}
 
 
 
