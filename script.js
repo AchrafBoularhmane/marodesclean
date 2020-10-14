@@ -6,7 +6,7 @@ function toggle(){
     menuoverlay.classList.toggle('active')
 }
 // Fixing nav bar on scroll //
-var height = $('#coord').height();
+var height = $('#navbar').height();
 $(window).scroll(function(){
     if($(this).scrollTop() > height){
         $('#Accueil').removeClass('active');

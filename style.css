@@ -49,6 +49,25 @@ font-size: 30px;
     visibility: visible;
     opacity: 1;
 }
+/*Description section*/
+.description-section{
+   padding: 0 200px;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   font-weight: lighter;
+}
+/* title section*/
+.title-section{
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 48px;
+    color: #007064;
+}
+.center-text{
+    text-align: center;
+}
 /*Padding for all website's parts*/
 .padding{
     padding: 80px 60px;
@@ -260,7 +279,7 @@ font-size: 30px;
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #fff;
 }
-.menuPluslogo{
+.MenuPlusLogo{
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -278,29 +297,29 @@ header{
     top: 63px;
     z-index: 13;
 }
-.menuPluslogo .logo-header{
+.MenuPlusLogo .logo-header{
     margin-top: 6px;
     margin-left: 25px;
 }
-.menuPluslogo .logo-header img{
+.MenuPlusLogo .logo-header img{
     width: 270px;
     height: 70px;
 
     z-index: 12;
 
 }
-.menuPluslogo ul{
+.MenuPlusLogo ul{
     z-index: 1;
     text-align: right;
     position: relative;
     display: flex;
 }
-.menuPluslogo ul li {
+.MenuPlusLogo ul li {
     list-style: none;
     margin-left:60px;
     padding: 6px;
 }
-.menuPluslogo ul li a {
+.MenuPlusLogo ul li a {
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
@@ -311,12 +330,12 @@ header{
     color: #007064;
     text-decoration: none;
 }
-.menuPluslogo ul li a:hover,header ul li a.active {
+.MenuPlusLogo ul li a:hover,header ul li a.active {
     color: #fff;
     font-weight: 500;
 }
 
-.menuPluslogo ul li a:before {
+.MenuPlusLogo ul li a:before {
     content: '';
     position: absolute;
     top: 0;
@@ -327,7 +346,7 @@ header{
     z-index: -1;
     transition: 0.5s ease-in-out;
 }
-.menuPluslogo ul li a:hover:before,header ul li a.active:before{
+.MenuPlusLogo ul li a:hover:before,header ul li a.active:before{
     width: 100%;
 }
 .icons{
@@ -369,7 +388,7 @@ header{
     .Fixed{
         position: absolute;
     }
-    .menuPluslogo .logo-header img{
+    .MenuPlusLogo .logo-header img{
      width: 350px;
      height: 75px;
      margin-left: -45px;
@@ -377,7 +396,7 @@ header{
     .menuPluslogo{
         background: #fff;
     }
-    .menuPluslogo .toggle{
+    .MenuPlusLogo .toggle{
         position: absolute;
         width: 60px;
         height: 20px;
@@ -386,34 +405,34 @@ header{
         cursor: pointer;
         z-index: 1000;
       }
-      .menuPluslogo .toggle span{
+      .MenuPlusLogo .toggle span{
           position: absolute;
           background: #007064;
           width: 50px;
           height: 2.5px;
           transition: 0.6s;
         }
-        .menuPluslogo .toggle .one{
+        .MenuPlusLogo .toggle .one{
           top: 0;
       }
-      .menuPluslogo .toggle .two, .menuPluslogo .toggle .three{
+      .MenuPlusLogo .toggle .two, .MenuPlusLogo .toggle .three{
           top: 16px;
       }
        header .toggle .four{
           top: 30px;
       }
-      .menuPluslogo .active .one, .menuPluslogo .active .four{
+      .MenuPlusLogo .active .one, .MenuPlusLogo .active .four{
           display: none;
       }
-      .menuPluslogo .active .two{
+      .MenuPlusLogo .active .two{
           transform:rotate(45deg);
           background: #007064;
       }
-      .menuPluslogo .active .three{
+      .MenuPlusLogo .active .three{
           transform:rotate(-45deg);
           background: #007064;
       }
-      .menuPluslogo ul{
+      .MenuPlusLogo ul{
         padding: 100px 10px ;
         display: none;
         position: absolute;
@@ -425,21 +444,21 @@ header{
         color: #007064;
         background: #fff;
     }
-    .menuPluslogo  .active{
+    .MenuPlusLogo  .active{
         display: block;
     }
-    .menuPluslogo ul li a:hover,header ul li a.active {
+    .MenuPlusLogo ul li a:hover,header ul li a.active {
         color: #007064;
         background: #fff;
     }
-    .menuPluslogo ul li a:before {
+    .MenuPlusLogo ul li a:before {
         background: #fff;
         color: #007064;
     }
-    .menuPluslogo ul li {
+    .MenuPlusLogo ul li {
         margin:0;
     }
-    .menuPluslogo ul li a{
+    .MenuPlusLogo ul li a{
         position: relative;
         text-decoration: none;
         padding: 25px 0;
@@ -457,43 +476,39 @@ header{
     display: flex;
     padding: 100px 60px;
 }
-.apropos .content-box{
+.Apropos-section .content-box{
     width: 50%;
 }
-.apropos .content-box .cont .both2{
+.Apropos-section .content-box .Underline-container .Underline{
     display: flex;
-    margin-bottom: 20px;
+    padding: 15px 0;
 }
-.apropos .content-box .cont .both2 .trait1{
+.Apropos-section .content-box .Underline-container .Underline .first-underline{
     height: 5px;
     width: 80px;
     background: #fff;
     margin-right: 10px;
 }
-.apropos .content-box .cont .both2 .trait2{
+.Apropos-section .content-box .Underline-container .Underline .second-underline{
     height: 5px;
     width: 10px;
     background: #fff;
 }
-.apropos .content-box .title-section{
-    font-family: 'Poppins',sans-serif;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 48px;
+.Apropos-section .content-box .title-section{
     color: #fff;
 }
-.apropos .content-box .text-section{
+.Apropos-section .content-box .text-section{
+    margin-top: 10px;
     width: 80%;
     color: #fff;
     font-size: 16px;
     line-height: 24px;
     font-weight: lighter;
 }
-.apropos .imgBx:hover{
+.Apropos-section .Apropos-image:hover{
     opacity: 1;
 }
-.apropos .imgBx{
+.Apropos-section .Apropos-image{
     cursor: pointer;
     width: 50%;
     background-image: url(./images/desinfection\ savoir\ plus.jpg);
@@ -502,22 +517,25 @@ header{
     border: 15px solid #fff;
     opacity: 0.7;
 }
-.apropos .about-icons{
+.Apropos-section .Apropos-icons{
     right: 30px;
     display: flex;
 }
-.apropos .about-icons .about-icon li{
+.Apropos-section .Apropos-icons .icon li{
     list-style: none;
-    margin-right: 15px;
+    margin-right: 23px;
     margin-top: 40px;
 }
-.apropos .about-icons .about-icon li i{
+.Apropos-section .Apropos-icons .icon li i{
     display: inline-block;
     max-height: 24px;
     font-size: 25px;
     color: #fff;
 }
-.apropos .about-icons .about-icon{
+.Apropos-section .Apropos-icons .icon li i:hover{
+    color: #01221f;
+}
+.Apropos-section .Apropos-icons .icon{
     position: relative;
     display: flex;
 }
@@ -529,20 +547,20 @@ header{
        padding: 100px 20px;
        flex-direction: column;
     }
-    .apropos .content-box{
+    .Apropos-section .content-box{
         width: 100%;
     }
-    .apropos .content-box .title-section{
+    .Apropos-section .content-box .title-section{
         font-size: 25px;
     }
-    .apropos .content-box .title-section i{
+    .Apropos-section .content-box .title-section i{
         font-size: 10px;
     }
-    .apropos .content-box .text-section{
+    .Apropos-section .content-box .text-section{
         width: 100%;
         font-size: 14px;
     }
-    .apropos .imgBx{
+    .Apropos-section .Apropos-image{
         width: 100%;
         border: 10px solid #fff;
         opacity: 0.9;
@@ -554,6 +572,9 @@ header{
 
 #Services{
     background: #f7f6f6;
+}
+#Services .content-box .description-section{
+    color: #3c3c3c;
 }
 .card_box{
    width: 100%;
@@ -589,9 +610,6 @@ header{
 .card_box .card:hover h3,.card_box .card:hover p{
 color: #fff;
 }
-.card_box .card:hover h3 i{
-    color: #fff;
-}
 .card_box .card:hover a{
       color: #007064;
       border: 2px solid #007064;
@@ -619,13 +637,17 @@ color: #fff;
     
 }
 .card_box .card h3{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
     position: relative;
     text-transform: uppercase;
     font-size: 22px;
-    font-weight: 800;
     line-height: 27px;
     margin-bottom: 15px;
     color: #3c3c3c;
+}
+.card_box .card:hover h3 i{
+    color: #fff;
 }
 .card_box .card p{
     font-size: 14px;
@@ -640,9 +662,27 @@ color: #fff;
     margin: 0 10px;
     font-size: 9px;
 }
-#Services .content-box .title-section,#Services .content-box .title-section i{
+#Services .content-box .title-section{
     color: #007064;
 }
+@media (max-width:991px){
+    #Services .content-box p{
+        font-size: 15px;
+        width: 100%;
+        padding:10px;
+        margin: 0;
+    }
+    .card_box .card{
+        width: 100%;
+        margin: 20px;
+        padding: 40px;
+    }
+    .card_box .card h3{
+        font-size: 18px;
+    }
+}
+
+/*------------------------------------------------------IMPLICATION TOTALE----------------------------------------------------*/
 .avantages{
  background: #007064;
  padding: 40px 60px;
@@ -683,15 +723,15 @@ color: #fff;
     background-position: center;
     color: #fff;
 }
-.procedures .title{
+.procedures .title-section{
     position: relative;
     z-index: 1;
 }
-.procedures .description{
+.procedures .description-section{
+    color:#fff;
     position: absolute;
     z-index: 1;
 }
-
 .procedures .backgr{
     z-index: 0;
     position: absolute;
@@ -768,23 +808,6 @@ color: #fff;
     font-weight: 500;
 }
 
-@media (max-width:991px){
-    #Services .content-box p{
-        font-size: 15px;
-        width: 100%;
-        padding:10px;
-        margin: 0;
-    }
-    .card_box .card{
-        width: 100%;
-        margin: 20px;
-        padding: 40px;
-    }
-    .card_box .card h3{
-        font-size: 18px;
-    }
-}
-
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
 
 section{
@@ -801,51 +824,37 @@ section{
     display: flex;
     flex-direction: column;
 }
-.contact .content-box,.NosServices .content-box{
+.contact .content-box,.Services-section .content-box{
     position: relative;
     width: 100%;
     margin-bottom: 60px;
 }
-.contact .content-box .cont,.procedures .cont,.NosServices .content-box .cont,.content-box .cont{
+.contact .content-box .description-section{
+    color: #3c3c3c;
+}
+.contact .content-box .cont,.procedures .Underline-container,.Services-section .content-box .cont,.content-box .Underline-container{
     position: relative;
     padding: 15px 0;
 }
-.contact .content-box .both2,.procedures .cont .both2,.NosServices .content-box .cont .both2 {
+.contact .content-box .Underline,.procedures .Underline-container .Underline,.Services-section .content-box .Underline-container .Underline {
     display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.contact .content-box .both2 .trait1,.procedures .cont .both2 .trait1,.NosServices .content-box .cont .both2 .trait1{
+.contact .content-box .Underline .first-underline,.procedures .Underline-container .Underline .first-underline,.Services-section .content-box .Underline-container .Underline .first-underline{
     margin-right: 10px;
 }
-.contact .content-box .both2 .trait1,.contact .content-box .both2 .trait2,.procedures .cont .both2 .trait1,.procedures .cont .both2 .trait2,.NosServices .content-box .cont .both2 .trait2,.NosServices .content-box .cont .both2 .trait1 {
+.contact .content-box .Underline .first-underline,.contact .content-box .Underline .second-underline,.procedures .Underline-container .Underline .first-underline,.procedures .Underline-container .Underline .second-underline,.Services-section .content-box .Underline-container .Underline .second-underline,.Services-section .content-box .Underline-container .Underline .first-underline {
     height: 5px;
     width: 80px;
     background: #007064;
 }
-.contact .content-box .both2 .trait2,.procedures .cont .both2 .trait2,.NosServices .content-box .cont .both2 .trait2{
+.contact .content-box .Underline .second-underline,.procedures .Underline-container .Underline .second-underline,.Services-section .content-box .Underline-container .Underline .second-underline{
     width: 10px;
 }
-
-.contact .content-box h2,.procedures h2,.NosServices .content-box h2{
-    font-family: 'Poppins',sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 48px;
-    color: #007064;
-}
-
-.contact .content-box p,.procedures .description,.NosServices .content-box p{
-    padding: 0 200px;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    font-weight: lighter;
-}
-.contact .content-box p,.NosServices .content-box p{
+.contact .content-box p,.Services-section .content-box p{
     color: #3c3c3c;
 }
 .contact .contact-container{
@@ -1024,12 +1033,12 @@ section{
     padding: 10px 0;
     margin-bottom: 20px;
 }
-.both .trait2{
+.both .second-underline{
     width: 10px;
     height: 2px;
     background: #007064;
 }
-.both .trait1{
+.both .first-underline{
     margin-right: 5px;
     width: 50px;
     height: 2px;
