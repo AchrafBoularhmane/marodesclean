@@ -11,9 +11,12 @@ $(window).scroll(function(){
     if($(this).scrollTop() > height){
         $('#Accueil').removeClass('active');
         $('.backToTop').addClass('top');
+        $('header').addClass('fix-navbar')
     } else{
         $('#Accueil').addClass('active');
         $('.backToTop').removeClass('top');
+        $('header').removeClass('fix-navbar')
+
     }
 })
 // Cookies // 

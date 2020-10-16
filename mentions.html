@@ -6,20 +6,24 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" type="image/png" href="images/Favicon-48px.png">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>Marodesclean | site web </title>
+    <title>MARODESCLEAN | DÉSINFECTION, DÉRATISATION & DÉSINSECTISATION</title>
 </head>
 <body>
 <!---------------------------------------------------------HOME PAGE------------------------------------------------------>
-<section class="home" id="coord" >
+<section class="home" id="home" >
+    <!-- Click to be back to top -->
     <a class="backToTop" id="backTop"><i class="fa fa-long-arrow-up"></i></a>
+    <!--Cookies mentions légales-->
     <div class="cookies" id="cookie">
         <i class="fa fa-times" aria-hidden="true" id="close-cookies" onclick="Close()"></i>
         <p>En poursuivant votre navigation sur ce site, vous acceptez nos conditions générales et l’utilisation de cookies pour vous garantir
           la meilleure expérience sur notre site<a href="" id="ok"> ok </a><a href="./mentions.html" id="ensavoirplus"> en savoir plus</a></p>
     </div>
-    <div class="container " id="home">
+    <!--Navbar-->
+    <div class="container " id="navbar">
     <header>
-            <div class="menuPluslogo">
+        <!--Menu + Logo -->
+            <div class="MenuPlusLogo">
                 <span  class="logo-header"><img src="./images/logo.png"></span>
                 <div class="toggle" id="Menu" onclick="toggle()">
                     <span class="one"></span>
@@ -28,15 +32,17 @@
                     <span class="four"></span>
                 </div>
              <ul id="menu-overlay">
-                <li><a href="./index.html#coord" class="active" id="Accueil">Accueil</a></li>
+                <li><a href="./index.html#home" id="Accueil">Accueil</a></li>
                 <li><a href="./index.html#Apropos">Qui sommes-nous?</a></li>
                 <li><a href="./index.html#Services">Nos Services</a></li>
                 <li><a href="./index.html#Contact">Contact et devis</a></li>
             </ul>
             </div>  
     </header>
-    <!--Image Slider -->
+    <!--Image Slider-->
+        <!--Green-background-->
     <div class="green-background"></div>
+        <!--Description-->
     <div class="description-home">
         <div class="desc">
             <div class="contain">
@@ -49,11 +55,14 @@
             </div>
         </div>
     </div>
+         <!--Slider-->
    <div class="cont-slid">
     <div class="slider">
         <div class="slides">
+            <input type="radio" id="radio1" name="radio-btn">
         <div class="slide first">
             <img src="./images/légales.jpg" alt="">
+        </div>
         </div>
     </div>
     </div>

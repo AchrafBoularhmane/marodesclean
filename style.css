@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
 
 
 *{
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 ::-webkit-scrollbar {
-    width: 11px;
+    width: 12px;
     background-color: #fff; }
   
   ::-webkit-scrollbar-thumb {
-    background: #c3c3c3;
+      height: 100px;
+    background: #929191;
 }
+/* back to top button*/
 .backToTop{
     position: fixed;
     bottom: 10px;
@@ -59,9 +60,9 @@ font-size: 30px;
 }
 /* title section*/
 .title-section{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 48px;
     color: #007064;
 }
@@ -69,9 +70,10 @@ font-size: 30px;
     text-align: center;
 }
 /*Padding for all website's parts*/
-.padding{
-    padding: 80px 60px;
+.section-padding{
+    padding: 100px 60px;
 }
+
 .container{
     position: relative;
     min-height: 100vh;
@@ -114,6 +116,30 @@ font-size: 30px;
     color: #fff;
     z-index: 100;
 }
+/* Underline title*/
+.under-pos{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.under-cont-pos{
+    position: relative;
+    padding: 15px 0;
+}
+.first-under{
+    margin-right: 10px;
+}
+.first-second-under{
+    height: 2px;
+    width: 70px;
+    background: #007064;
+}
+.second-under{
+    width: 10px;
+    background: #007064;
+}
 
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
 #home{
@@ -133,10 +159,10 @@ font-size: 30px;
 .green-background{
     position: absolute;
     top:0;
-    left: 0;
+    left:0;
     content: "";
     background: #007064;
-    width: 380px;
+    width: 360px;
     height: 100vh;
     z-index: 11;
 }
@@ -154,8 +180,8 @@ font-size: 30px;
     display: inline-block;
 }
 .desc .contain h2{
+    font-family: 'Noto Sans JP', sans-serif;
     padding: 10px 0;
-    font-family: 'Poppins',sans-serif;
     color: #fff;
     text-transform: uppercase;
     font-size: 40px;
@@ -163,14 +189,14 @@ font-size: 30px;
     width: 100%;
 }
 .desc .contain .input{
+    font-family: 'Open Sans', sans-serif;
     cursor: pointer;
     border: none;
     margin-top: 30px;
     text-transform: uppercase;
     font-size: 16px;
-    font-family: 'Poppins',sans-serif;
-    font-weight: 600;
     text-decoration: none;
+    font-weight: bold;
     padding: 18px;
     background: #fff;
     color: #007064;
@@ -297,16 +323,28 @@ header{
     top: 63px;
     z-index: 13;
 }
+.fix-navbar{
+    position: fixed;
+    top: 0;
+    background: #007064;
+}
+.fix-navbar .MenuPlusLogo{
+    background: #007064;
+    box-shadow: 0 15px 30px rgba(0,0,0,.7);
+}
+.fix-navbar .MenuPlusLogo ul li a {
+    color: #fff;
+}
+
 .MenuPlusLogo .logo-header{
     margin-top: 6px;
+    margin-bottom: 6px;
     margin-left: 25px;
 }
 .MenuPlusLogo .logo-header img{
     width: 270px;
-    height: 70px;
-
+    height: 75px;
     z-index: 12;
-
 }
 .MenuPlusLogo ul{
     z-index: 1;
@@ -323,18 +361,17 @@ header{
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
-    line-height: 20.3px;
-    font-weight: bolder;
+    font-size: 13.5px;
+    line-height: 30.3px;
+    font-weight: 500;
     padding: 6px;
-    color: #007064;
+    color: #fff;
     text-decoration: none;
 }
 .MenuPlusLogo ul li a:hover,header ul li a.active {
     color: #fff;
     font-weight: 500;
 }
-
 .MenuPlusLogo ul li a:before {
     content: '';
     position: absolute;
@@ -474,7 +511,6 @@ header{
 #Apropos{
     background:#007064;
     display: flex;
-    padding: 100px 60px;
 }
 .Apropos-section .content-box{
     width: 50%;
@@ -484,13 +520,13 @@ header{
     padding: 15px 0;
 }
 .Apropos-section .content-box .Underline-container .Underline .first-underline{
-    height: 5px;
-    width: 80px;
+    height: 2px;
+    width: 70px;
     background: #fff;
     margin-right: 10px;
 }
 .Apropos-section .content-box .Underline-container .Underline .second-underline{
-    height: 5px;
+    height: 2px;
     width: 10px;
     background: #fff;
 }
@@ -498,7 +534,7 @@ header{
     color: #fff;
 }
 .Apropos-section .content-box .text-section{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 80%;
     color: #fff;
     font-size: 16px;
@@ -602,6 +638,27 @@ header{
     transform-origin: top;
     transition: transform 2.5s;
 }
+.card_box .card img{
+    border-radius: 3px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.card_box .card h3{
+    font-weight: bolder;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 15px;
+    color: #3c3c3c;
+}
+.card_box .card h3 i {
+    color: #007064;
+    margin: 0 10px;
+    font-size: 9px;
+}
 .card_box .card:hover:before{
     transform: scaleY(1);
     transform-origin: bottom;
@@ -616,12 +673,16 @@ color: #fff;
       font-weight: 600;
       background: #fff;
 }
-.card_box .card img{
-    border-radius: 3px;
+.card_box .card:hover h3 i{
+    color: #fff;
+}
+.card_box .card p{
+    font-size: 14px;
     margin-bottom: 15px;
-    width: 100%;
-    height: 300px;
+    line-height: 23.2px;
     position: relative;
+    color: #3c3c3c;
+    min-height: 170px;
 }
 .card_box .card a{
     position: relative;
@@ -635,32 +696,6 @@ color: #fff;
     background: #007064;
     bottom: 0;
     
-}
-.card_box .card h3{
-    font-family: 'Poppins',sans-serif;
-    font-weight: bolder;
-    position: relative;
-    text-transform: uppercase;
-    font-size: 22px;
-    line-height: 27px;
-    margin-bottom: 15px;
-    color: #3c3c3c;
-}
-.card_box .card:hover h3 i{
-    color: #fff;
-}
-.card_box .card p{
-    font-size: 14px;
-    margin-bottom: 15px;
-    line-height: 23.2px;
-    position: relative;
-    color: #3c3c3c;
-    min-height: 170px;
-}
-.card_box .card h3 i {
-    color: #007064;
-    margin: 0 10px;
-    font-size: 9px;
 }
 #Services .content-box .title-section{
     color: #007064;
@@ -683,39 +718,7 @@ color: #fff;
 }
 
 /*------------------------------------------------------IMPLICATION TOTALE----------------------------------------------------*/
-.avantages{
- background: #007064;
- padding: 40px 60px;
- display: flex;
- justify-content: space-between;
- color: #fff;
- line-height: 24px;
- text-transform: uppercase;
- font-size: 18px;
-}
-.avantages .avantage .border{
-    position: relative;
-    padding: 15px 25px;
-    border-radius: 50%;
-    border: 2.5px solid #fff;
-    margin-right: 15px;
-}
-.avantages .avantage .border i{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    font-size: 27px;
-}
-.avantages .avantage span{
-    font-weight: 500;
-    font-size: 18px;
-}
 .procedures{
-    z-index: 1000;
-    position: relative;
-    padding: 100px 60px 140px 60px;
     min-height: 100vh;
     background:url(./images/desinsectisation\ savoir\ plus\ 1.jpg);
     background-blend-mode: screen;
@@ -723,51 +726,38 @@ color: #fff;
     background-position: center;
     color: #fff;
 }
-.procedures .title-section{
+
+.procedures .content-box .title-section{
     position: relative;
-    z-index: 1;
 }
-.procedures .description-section{
-    color:#fff;
-    position: absolute;
-    z-index: 1;
-}
-.procedures .backgr{
+
+.procedures .procedure-backgroundcolor{
     z-index: 0;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0;  
     background: #000;
     opacity: 0.8;
     width: 100%;
     height: 100%;
-
 }
-.procedures .box{
-    z-index: 1;
+.procedures .procedure-box{
+    position: relative;
     display: flex;
     justify-content: space-between;
     padding: 100px 0;
 }
-.procedures .box .content-part1{
-    z-index: 1;
+.procedures .procedure-box .content-part1,.procedures .procedure-box .content-part2{
     text-align: center;
-}
-.procedures .box .content-part2{
-    z-index: 1;
-    text-align: center;
-}
-.procedures .box .content-part1, .procedures .box .content-part2{
     padding: 0 160px;
     width: 50%;
 }
-
-.procedures .box .content-part1 .procedure,.procedures .box .content-part2 .procedure{
+.procedures .procedure-box .content-part1 .procedure,.procedures .procedure-box .content-part2 .procedure{
     min-height:250px ;
     padding: 20px 0;
     margin: 20px 0;
 }
-.procedures .box .procedure .border i{
+.procedures .procedure-box .procedure .border i{
     cursor: pointer;
     font-size: 30px;
     border-radius: 50%;
@@ -777,87 +767,66 @@ color: #fff;
     color: #fff;
     margin-bottom: 12px;
 }
-.procedures .box .procedure .border i:hover{
+.procedures .procedure-box .procedure .border i:hover{
     border: 2px solid #01221f;
     background: #01221f;
 }
 .procedures .reservation{
     position: relative;
+    margin-bottom: 60px;
 }
-.procedures #reservez{
+.procedures .reservation #reservez{
     position: absolute;
-    left: 50%;
     top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
+    text-decoration: none;
     border-radius: 2px;
     cursor: pointer;
     border:none;
     background: #007064;
-    padding: 20px 30px;
+    padding: 17px 35px;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
 }
-.procedures #reservez{
-    padding: 17px 35px;
-}
-.procedures #reservez:hover{
+
+.procedures .reservation #reservez:hover{
     background: #01221f;
     color: #fff;
     font-weight: 500;
 }
 
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
-
-section{
+#Contact{
     background: #f7f6f6;
 }
-.contact .content-box{
+.Contact-section .content-box{
     width: 80%;
     color: #007064;
     margin-bottom: 30px;
 }
-.contact{
+.Contact-section{
     position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-.contact .content-box,.Services-section .content-box{
+.Contact-section .content-box,
+.Services-section .content-box,
+.procedures .content-box{
     position: relative;
     width: 100%;
     margin-bottom: 60px;
 }
-.contact .content-box .description-section{
+.Contact-section .content-box .description-section{
     color: #3c3c3c;
 }
-.contact .content-box .cont,.procedures .Underline-container,.Services-section .content-box .cont,.content-box .Underline-container{
-    position: relative;
-    padding: 15px 0;
-}
-.contact .content-box .Underline,.procedures .Underline-container .Underline,.Services-section .content-box .Underline-container .Underline {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.contact .content-box .Underline .first-underline,.procedures .Underline-container .Underline .first-underline,.Services-section .content-box .Underline-container .Underline .first-underline{
-    margin-right: 10px;
-}
-.contact .content-box .Underline .first-underline,.contact .content-box .Underline .second-underline,.procedures .Underline-container .Underline .first-underline,.procedures .Underline-container .Underline .second-underline,.Services-section .content-box .Underline-container .Underline .second-underline,.Services-section .content-box .Underline-container .Underline .first-underline {
-    height: 5px;
-    width: 80px;
-    background: #007064;
-}
-.contact .content-box .Underline .second-underline,.procedures .Underline-container .Underline .second-underline,.Services-section .content-box .Underline-container .Underline .second-underline{
-    width: 10px;
-}
-.contact .content-box p,.Services-section .content-box p{
+.Contact-section .content-box p,.Services-section .content-box p{
     color: #3c3c3c;
 }
-.contact .contact-container{
+.Contact-section .container .contact-container{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -865,17 +834,17 @@ section{
     margin-top: 30px;
     padding: 0;
 }
-.contact .contact-container .contactInfo{
+.Contact-section .container .contact-container .contactInfo{
     width: 50%;
     display: flex;
     flex-direction: column;    
 }
-.contact .contact-container .contactInfo .box{
+.Contact-section .container .contact-container .contactInfo .box{
     position: relative;
     padding:20px 0;
     display: flex;
 }
-.contact .contact-container .contactInfo .box .icon{
+.Contact-section .container .contact-container .contactInfo .box .icon{
     min-width: 60px;
     height: 60px;
     background: #007064;
@@ -885,22 +854,23 @@ section{
     font-size: 22px;
     border-radius: 50%;
 }
-.contact .contact-container .contactInfo .box .icon{
+.Contact-section .contact-container .contactInfo .box .icon{
     color: #fff;
 }
-.contact .contact-container .contactInfo .box .text h3{
+.Contact-section .contact-container .contactInfo .box .text h3{
     color: #3c3c3c;
 }
-.contact .contact-container .contactInfo .box .text h3,.procedures .box .procedure h3{
+.Contact-section .contact-container .contactInfo .box .text h3,
+.procedures .procedure-box .procedure h3{
     font-weight: 600;
     font-size: 16px;
     line-height: 27px;
     text-transform: capitalize;
 }
-.contact .contact-container .contactInfo .box .text{
+.Contact-section .contact-container .contactInfo .box .text{
     color: #3c3c3c;
 }
-.contact .contact-container .contactInfo .box .text,.procedures .box .procedure p{
+.Contact-section .contact-container .contactInfo .box .text,.procedures .procedure-box .procedure p{
     display: flex;
     margin-left: 20px;
     font-size: 15px;
@@ -973,20 +943,20 @@ section{
 }
 
 @media (max-width:991px){
-    .contact{
+    .Contact-section{
         padding: 50px 20px;
     }
-    .contact .contact-container{
+    .Contact-section .contact-container{
         flex-direction: column;
     }
-    .contact .contact-container .contactInfo{
+    .Contact-section .contact-container .contactInfo{
         margin-bottom: 40px;
     }
-    .contact .contact-container .contactInfo,.contact .contact-container .contactForm{
+    .Contact-section .contact-container .contactInfo,.Contact-section .contact-container .contactForm{
         width: 100%;
 
     }
-    .contact .contact-container .contactForm{
+    .Contact-section .contact-container .contactForm{
         width: 100%;
         padding: 20px 20px;
         margin-bottom: 30px;
@@ -995,6 +965,37 @@ section{
         font-size: 25px; 
     }
 }
+/*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
+.avantages{
+    background: #007064;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-size: 18px;
+   }
+   .avantages .avantage .border{
+       cursor: pointer;
+       position: relative;
+       padding: 15px 25px;
+       border-radius: 50%;
+       border: 2.5px solid #fff;
+       margin-right: 15px;
+   }
+   .avantages .avantage .border i{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       color: #fff;
+       font-size: 27px;
+   }
+   .avantages .avantage span{
+       font-weight: 500;
+       font-size: 18px;
+   }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer{
     position: relative;
@@ -1026,19 +1027,19 @@ section{
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .both{
     display: flex;
     padding: 10px 0;
     margin-bottom: 20px;
 }
-.both .second-underline{
+.both .trait2{
     width: 10px;
     height: 2px;
     background: #007064;
 }
-.both .first-underline{
+.both .trait1{
     margin-right: 5px;
     width: 50px;
     height: 2px;
@@ -1160,7 +1161,6 @@ line-height: 23.2px;
     margin-bottom: 20px;
 }
 .desinfection .container h2{
-    font-family: 'Poppins',sans-serif;
     margin-bottom: 25px;
     font-size: 45px;
     text-transform: uppercase;
