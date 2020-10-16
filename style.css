@@ -330,7 +330,7 @@ header{
 }
 .fix-navbar .MenuPlusLogo{
     background: #007064;
-    box-shadow: 0 15px 30px rgba(0,0,0,.7);
+    box-shadow: 0 15px 30px rgba(0,0,0,.4);
 }
 .fix-navbar .MenuPlusLogo ul li a {
     color: #fff;
