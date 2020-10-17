@@ -72,8 +72,12 @@ font-size: 30px;
 /*Padding for all website's parts*/
 .section-padding{
     padding: 100px 60px;
+    background: pink;
 }
-
+/* padding for all section's container*/
+.container-padding{
+    padding-top: 100px;
+}
 .container{
     position: relative;
     min-height: 100vh;
@@ -330,7 +334,7 @@ header{
 }
 .fix-navbar .MenuPlusLogo{
     background: #007064;
-    box-shadow: 0 15px 30px rgba(0,0,0,.4);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.295);
 }
 .fix-navbar .MenuPlusLogo ul li a {
     color: #fff;
@@ -609,6 +613,7 @@ header{
 #Services{
     background: #f7f6f6;
 }
+
 #Services .content-box .description-section{
     color: #3c3c3c;
 }
@@ -621,10 +626,15 @@ header{
 .card_box .card{
     position: relative;
     width: 450px;
-    margin: 40px;
     background: #fff;
-    padding: 40px;
     box-shadow: 0 15px 30px rgba(0,0,0,.5);
+    padding: 40px;
+    margin-left:40px;
+    margin-right:40px;
+}
+/*margin bottom for first and second card*/
+.margin-bottom{
+    margin-bottom: 80px;
 }
 .card_box .card:before{
     content: '';
@@ -646,6 +656,7 @@ header{
     position: relative;
 }
 .card_box .card h3{
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: bolder;
     position: relative;
     text-transform: uppercase;
@@ -745,7 +756,6 @@ color: #fff;
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 100px 0;
 }
 .procedures .procedure-box .content-part1,.procedures .procedure-box .content-part2{
     text-align: center;
@@ -754,8 +764,6 @@ color: #fff;
 }
 .procedures .procedure-box .content-part1 .procedure,.procedures .procedure-box .content-part2 .procedure{
     min-height:250px ;
-    padding: 20px 0;
-    margin: 20px 0;
 }
 .procedures .procedure-box .procedure .border i{
     cursor: pointer;
@@ -773,13 +781,14 @@ color: #fff;
 }
 .procedures .reservation{
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 110px;
+    margin-top: 70px;
 }
 .procedures .reservation #reservez{
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    left: 51%;
+    transform: translate(-50%,-51%);
     text-decoration: none;
     border-radius: 2px;
     cursor: pointer;
@@ -805,7 +814,6 @@ color: #fff;
 .Contact-section .content-box{
     width: 80%;
     color: #007064;
-    margin-bottom: 30px;
 }
 .Contact-section{
     position: relative;
@@ -818,7 +826,6 @@ color: #fff;
 .procedures .content-box{
     position: relative;
     width: 100%;
-    margin-bottom: 60px;
 }
 .Contact-section .content-box .description-section{
     color: #3c3c3c;
@@ -831,17 +838,15 @@ color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    padding: 0;
+
 }
 .Contact-section .container .contact-container .contactInfo{
     width: 50%;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
 }
 .Contact-section .container .contact-container .contactInfo .box{
     position: relative;
-    padding:20px 0;
     display: flex;
 }
 .Contact-section .container .contact-container .contactInfo .box .icon{
@@ -853,6 +858,9 @@ color: #fff;
     align-items: center;
     font-size: 22px;
     border-radius: 50%;
+}
+.Contact-section .contact-container .contactInfo .box{
+    padding: 20px 0;
 }
 .Contact-section .contact-container .contactInfo .box .icon{
     color: #fff;
