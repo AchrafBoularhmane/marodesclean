@@ -420,11 +420,14 @@ header{
 }
 
 @media (max-width:991px){
+    .fix-navbar{
+        display: none;
+    }
+
 
     .container{
-        padding: 10px;
         min-height: 100vh;
-        background: #fff;
+        background: yellow;
     }
     .Fixed{
         position: absolute;
@@ -448,7 +451,7 @@ header{
       }
       .MenuPlusLogo .toggle span{
           position: absolute;
-          background: #007064;
+          background: #fff;
           width: 50px;
           height: 2.5px;
           transition: 0.6s;
@@ -458,6 +461,9 @@ header{
       }
       .MenuPlusLogo .toggle .two, .MenuPlusLogo .toggle .three{
           top: 16px;
+          background: #007064;
+          width: 30px;
+
       }
        header .toggle .four{
           top: 30px;
@@ -510,6 +516,62 @@ header{
         display: block;
         text-align: center;
     }
+    .green-background{
+        width: 45%;
+    }
+    .slide{
+        height: 100%;
+    }
+    .slide img{
+        height: 100vh;
+        width: 100%;
+    }
+    .MenuPlusLogo .logo-header img{
+       width: 230px;
+       height: 60px;
+    } 
+    .MenuPlusLogo .logo-header{
+        padding:10px 0;
+    }
+    .desc{
+     width: 100%;
+    }
+    .desc .contain{
+        position: absolute;
+        top: 15%;
+        left: 0;
+        padding: 12px;
+        width: 100%;
+    }
+    .desc .contain h2{
+        font-size: 35px;
+    }
+    .desc .contain p{
+        font-size: 15px;
+    }
+    .desc .contain .input{
+        padding: 14px;
+    }
+    .icons{
+        position: absolute;
+        left: 15px;
+        bottom: 80px;
+        text-align: center;
+    }
+    .icons .icon{
+        display: flex;
+    }
+    .icons .icon li{
+        margin-right: 25px;
+    }
+    .icons .icon li i{
+        font-size: 25px;
+        color: #fff;
+    }
+    .navigation-auto,.navigation-manual{
+      bottom: 19px;
+    }
+
     }
 /*------------------------------------------------------A PROPOS----------------------------------------------------*/
 #Apropos{
@@ -580,32 +642,29 @@ header{
     display: flex;
 }
 @media (max-width:991px){
-    .container{
-        min-height: 100vh;
+    .Apropos-section .container .title-section{
+        font-size: 32px;
+    }
+    .section-padding{
+        padding: 60px 15px ;
     }
     #Apropos{
-       padding: 100px 20px;
-       flex-direction: column;
+        display: block;
+        justify-content: space-between;
     }
     .Apropos-section .content-box{
         width: 100%;
-    }
-    .Apropos-section .content-box .title-section{
-        font-size: 25px;
-    }
-    .Apropos-section .content-box .title-section i{
-        font-size: 10px;
+        margin-bottom: 30px;
     }
     .Apropos-section .content-box .text-section{
         width: 100%;
-        font-size: 14px;
     }
-    .Apropos-section .Apropos-image{
+    #Apropos .Apropos-image{
+        height: 500px;
         width: 100%;
-        border: 10px solid #fff;
-        opacity: 0.9;
-        height: 400px;
     }
+
+    
 }
 
 /*------------------------------------------------------NOS SERVICES----------------------------------------------------*/
@@ -622,6 +681,7 @@ header{
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
+   margin-bottom: 35px ;
 }
 .card_box .card{
     position: relative;
@@ -713,18 +773,18 @@ color: #fff;
 }
 @media (max-width:991px){
     #Services .content-box p{
-        font-size: 15px;
+        font-size: 18px;
         width: 100%;
         padding:10px;
         margin: 0;
     }
     .card_box .card{
         width: 100%;
-        margin: 20px;
-        padding: 40px;
+        margin: 20px 5px;
+        padding: 25px;
     }
     .card_box .card h3{
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 
@@ -805,6 +865,24 @@ color: #fff;
     background: #01221f;
     color: #fff;
     font-weight: 500;
+}
+@media (max-width:991px){
+    .procedures .procedure-box .content-part1,.procedures .procedure-box .content-part2{
+        padding: 0;
+        width: 100%;
+    }
+    .description-section{
+        text-align: center;
+        padding: 0;
+    }
+    .procedures .procedure-box{
+        display: block;
+    }
+    .procedures .reservation #reservez{
+        padding: 20px 35px;
+        font-size: 22px;
+
+    }   
 }
 
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
@@ -952,13 +1030,14 @@ color: #fff;
 
 @media (max-width:991px){
     .Contact-section{
-        padding: 50px 20px;
+        padding: 50px 0;
     }
     .Contact-section .contact-container{
         flex-direction: column;
     }
-    .Contact-section .contact-container .contactInfo{
+    .Contact-section .container .contact-container .contactInfo{
         margin-bottom: 40px;
+        width: 100%;
     }
     .Contact-section .contact-container .contactInfo,.Contact-section .contact-container .contactForm{
         width: 100%;
@@ -967,10 +1046,10 @@ color: #fff;
     .Contact-section .contact-container .contactForm{
         width: 100%;
         padding: 20px 20px;
-        margin-bottom: 30px;
+        margin: 5px;
     }
     .contactForm h2{
-        font-size: 25px; 
+        font-size: 22px; 
     }
 }
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
@@ -1003,6 +1082,15 @@ color: #fff;
    .avantages .avantage span{
        font-weight: 500;
        font-size: 18px;
+   }
+   @media (max-width:991px){
+    .avantages{
+      display: block;
+      padding: 0px ;
+    }
+    .avantages .avantage{
+        padding: 50px  10px ;
+    }
    }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer{
@@ -1114,9 +1202,9 @@ line-height: 23.2px;
 }
 
 @media (max-width:991px){
-    .footer{
+    .all-footer-parts{
         display: block;
-        padding: 10px;
+        padding: 40px 5px;
     }
     .Marodesclean,.plan-site,.contactfoot,.horaire{
         width: 100%;
