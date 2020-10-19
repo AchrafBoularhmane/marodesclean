@@ -94,13 +94,20 @@ font-size: 30px;
     top: 0px;
     left: 0px;
     transform: translate(-0,-0);
-    padding: 22.4px 60px;
     background: #fff;
+    padding: 0 60px;
     opacity: 0.9;
     color: #007064;
     width: 100%;
     font-size: 13px;
     z-index: 13;
+}
+.cookies .cookies-container{
+    display: flex;
+    padding: 16px 0;
+}
+.cookies .cookies-container p{
+    padding: 5px 0px;
 }
 .cookies i{
     cursor: pointer;
@@ -110,7 +117,7 @@ font-size: 30px;
     font-size: 15px;
     z-index: 100;
 }
-.cookies p a {
+.cookies a {
     font-weight: 500;
     background: #007064;
     padding: 6px 15px;
@@ -423,8 +430,20 @@ header{
     .fix-navbar{
         display: none;
     }
-
-
+    .cookies{
+        padding: 10px;
+    }
+    .cookies .cookies-container{
+     display: block;
+     padding: 5px 0;
+    }
+    .cookies .cookies-container p{
+        margin-bottom: 10px;
+    }
+    .cookies .cookies-container a{
+        margin: 10px 10px 10px 0px;
+    
+    }
     .container{
         min-height: 100vh;
         background: yellow;
@@ -670,7 +689,7 @@ header{
 /*------------------------------------------------------NOS SERVICES----------------------------------------------------*/
 
 #Services{
-    background: #f7f6f6;
+    background: #fff;
 }
 
 #Services .content-box .description-section{
@@ -887,7 +906,7 @@ color: #fff;
 
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
 #Contact{
-    background: #f7f6f6;
+    background: #fff;
 }
 .Contact-section .content-box{
     width: 80%;
