@@ -72,13 +72,13 @@ font-size: 30px;
 /*Padding for all website's parts*/
 .section-padding{
     padding: 100px 60px;
-    background: pink;
 }
 /* padding for all section's container*/
 .container-padding{
     padding-top: 100px;
 }
 .container{
+    background: yellow;
     position: relative;
     min-height: 100vh;
 }
@@ -177,11 +177,13 @@ font-size: 30px;
     height: 100vh;
     z-index: 11;
 }
+
 .desc{
     position: relative;
     height: 100vh;
     width: 500px;
 }
+
 .desc .contain{
     width: 700px;
     position: absolute;
@@ -197,7 +199,6 @@ font-size: 30px;
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bolder;
-    width: 100%;
 }
 .desc .contain .input{
     font-family: 'Open Sans', sans-serif;
@@ -320,10 +321,9 @@ font-size: 30px;
     justify-content: space-between;
     display: flex;
     align-items: center;
-    z-index: 1;
+    z-index: 1000000000000000000000000000000000000000000;
     padding: 0px 30px; 
     width: 100%;
-    z-index: 13;
     position: absolute;
     top: 0;
 }
@@ -427,6 +427,23 @@ header{
 }
 
 @media (max-width:991px){
+    .description-home{
+       width: 100%;
+    }
+    .description-home .desc{
+        width: 100%;
+    }
+    .description-home .desc .contain{
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 0px;
+    padding: 0 10px;
+    }
+    .description-home .desc .contain h2{
+        font-size: 33px;
+        width: 100%;
+    }
     .fix-navbar{
         display: none;
     }
@@ -446,31 +463,31 @@ header{
     }
     .container{
         min-height: 100vh;
-        background: yellow;
     }
     .Fixed{
         position: absolute;
     }
     .MenuPlusLogo .logo-header img{
-     width: 350px;
-     height: 75px;
-     margin-left: -45px;
-    }
-    .menuPluslogo{
-        background: #fff;
-    }
+        width: 230px;
+        height: 60px;
+        margin-left: -45px;
+     } 
+     .MenuPlusLogo .logo-header{
+         padding:10px 0;
+     }
     .MenuPlusLogo .toggle{
         position: absolute;
         width: 60px;
-        height: 20px;
+        height: 35px;
         top: 30px;
         right: 10px;
         cursor: pointer;
-        z-index: 1000;
+        z-index: 20;
       }
       .MenuPlusLogo .toggle span{
           position: absolute;
           background: #fff;
+          right: 0;
           width: 50px;
           height: 2.5px;
           transition: 0.6s;
@@ -480,9 +497,8 @@ header{
       }
       .MenuPlusLogo .toggle .two, .MenuPlusLogo .toggle .three{
           top: 16px;
-          background: #007064;
+          background:#007064;
           width: 30px;
-
       }
        header .toggle .four{
           top: 30px;
@@ -492,11 +508,13 @@ header{
       }
       .MenuPlusLogo .active .two{
           transform:rotate(45deg);
-          background: #007064;
+          width: 45px;
+          background: #fff;
       }
       .MenuPlusLogo .active .three{
           transform:rotate(-45deg);
-          background: #007064;
+          width: 45px;
+          background: #fff;
       }
       .MenuPlusLogo ul{
         padding: 100px 10px ;
@@ -506,20 +524,11 @@ header{
         left: 0;
         width: 100%;
         height:100vh;
-        z-index: 2;
-        color: #007064;
-        background: #fff;
+        color: #fff;
+        background: #007064;
     }
     .MenuPlusLogo  .active{
         display: block;
-    }
-    .MenuPlusLogo ul li a:hover,header ul li a.active {
-        color: #007064;
-        background: #fff;
-    }
-    .MenuPlusLogo ul li a:before {
-        background: #fff;
-        color: #007064;
     }
     .MenuPlusLogo ul li {
         margin:0;
@@ -527,14 +536,18 @@ header{
     .MenuPlusLogo ul li a{
         position: relative;
         text-decoration: none;
-        padding: 25px 0;
-        font-size: 1em;
-        color: #007064;
+        padding: 30px 0;
+        font-size: 1.5em;
+        color: #fff;
         font-weight: 700;
         text-transform: uppercase;
         display: block;
         text-align: center;
     }
+    .MenuPlusLogo ul li a:hover,header ul li a.active {
+       font-weight: 700;
+    }
+
     .green-background{
         width: 45%;
     }
@@ -544,32 +557,6 @@ header{
     .slide img{
         height: 100vh;
         width: 100%;
-    }
-    .MenuPlusLogo .logo-header img{
-       width: 230px;
-       height: 60px;
-    } 
-    .MenuPlusLogo .logo-header{
-        padding:10px 0;
-    }
-    .desc{
-     width: 100%;
-    }
-    .desc .contain{
-        position: absolute;
-        top: 15%;
-        left: 0;
-        padding: 12px;
-        width: 100%;
-    }
-    .desc .contain h2{
-        font-size: 35px;
-    }
-    .desc .contain p{
-        font-size: 15px;
-    }
-    .desc .contain .input{
-        padding: 14px;
     }
     .icons{
         position: absolute;
