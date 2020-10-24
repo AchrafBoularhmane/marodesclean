@@ -1,13 +1,17 @@
 // Mobile nav bar// hide coordonee part // 
 var menu = document.getElementById("Menu"),
-menuoverlay = document.getElementById("menu-overlay");
+menuoverlay = document.getElementById("menu-overlay"),
+body = document.getElementsByTagName("BODY")[0];
 function toggle(){
     menu.classList.toggle('active')
     menuoverlay.classList.toggle('active')
+    body.classList.toggle('stop-scrolling')
 }
 function toggleoff(){
     menu.classList.remove('active')
     menuoverlay.classList.remove('active')
+    body.classList.remove('stop-scrolling')
+
 }
 // Fixing nav bar on scroll //
 var height = $('#navbar').height();
