@@ -592,9 +592,6 @@ header{
 }
 /*version mobile*/
 @media (max-width:991px){
-    .home-section{
-        height: 100vh;
-    }
     .icons{
         margin-right: 0;
     }
@@ -656,8 +653,7 @@ header{
     
     }
     .container{
-        height: 100vh;
-        background: yellow;
+        min-height: 100vh;
     }
     .Fixed{
         position: absolute;
@@ -749,11 +745,8 @@ header{
     .green-background{
         width: 45%;
     }
-    .cont-slid{
-      height: 100vh;
-    }
     .slide{
-        height: 100vh;
+        height: 100%;
     }
     .slide img{
         height: 100vh;
@@ -1324,7 +1317,7 @@ color: #fff;
    height: 100px;
    width: 100%;
    height: 100%;
-   opacity: 0.15;
+   opacity: 0.2;
 }
 .all-footer-parts{
     display: flex;
