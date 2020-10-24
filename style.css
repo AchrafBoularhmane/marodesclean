@@ -978,7 +978,7 @@ color: #fff;
 }
 @media (max-width:1024px){
     #Services .content-box p{
-        font-size: 18px;
+        font-size: 15px;
         width: 100%;
         padding:10px;
         margin: 0;
@@ -1085,6 +1085,7 @@ color: #fff;
     .description-section{
         text-align: center;
         padding: 0;
+        font-size: 15px;
     }
     .procedures .procedure-box{
         display: block;
