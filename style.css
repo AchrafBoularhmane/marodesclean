@@ -16,6 +16,10 @@
       height: 100px;
     background: #929191;
 }
+/*stop scrolling*/
+.stop-scrolling{
+    overflow-y: hidden;
+}
 /* back to top button*/
 .backToTop{
     position: fixed;
@@ -554,9 +558,6 @@ header{
     }
     .MenuPlusLogo  .active{
         display: block;
-    }
-    .stop-scrolling{
-        overflow-y: hidden;
     }
     .MenuPlusLogo ul li {
         margin:0;
@@ -1239,6 +1240,60 @@ color: #fff;
 .contactForm .inputbox input[type="submit"]:hover{
     background: #01221f;
 }
+.modal-container{
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;  
+    visibility: hidden; 
+}
+.modal-container.show{
+    visibility: visible;
+}
+.modal{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px 50px;
+    border-radius: 2px;
+    background: #fff;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+}
+.modal h1{
+    font-size: 26px;
+    color: #262626;
+}
+.modal h1 i{
+    color: #007064;
+    font-size: 32px;
+    margin-left: 4px;
+}
+.modal p{
+    font-size: 14px;
+    opacity: 0.7;
+    padding: 15px 0px;
+    line-height: 22.5px;
+}
+.modal button{
+    background: #007064;
+    border: 0px solid #fff;
+    border-radius: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    padding: 7px 35px;
+    color: #fff;
+    cursor: pointer;
+}
+.modal button:hover{
+    background: #01221f;
+}
+
 
 @media (max-width:1024px){
     .Contact-section{

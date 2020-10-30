@@ -59,4 +59,23 @@ setInterval(function(){
     }
 },4000);
 
+// contact modal // 
+var close = document.getElementById('close'),
+    open = document.getElementById('open'),
+    modal_container = document.getElementById('modal-container');
+
+    open.addEventListener('click',() => {
+        modal_container.classList.add('show')
+        body.classList.add('stop-scrolling')
+
+
+    })
+
+    close.addEventListener('click',() => {
+        modal_container.classList.remove('show')
+        body.classList.remove('stop-scrolling')
+
+
+    })
+
 

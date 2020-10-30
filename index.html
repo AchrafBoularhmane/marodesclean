@@ -293,40 +293,50 @@
         </div>
         <!--contact form-->
         <div class="contactForm">
-            <form action="">
+            <form method="post" action="./contactfrom.php" enctype="multipart/form-data">
                 <h2>Demande de devis</h2>
                 <div class="inputbox ">
-                    <input type="text" name="" required>
+                    <input type="text" name="Nom" required>
                     <span>Nom *</span>
                 </div>
                 <div class="inputbox ">
-                    <input type="text" name="" required>
+                    <input type="text" name="Prenom" required>
                     <span>Prénom *</span>
                 </div>
                 <div class="inputbox ">
-                    <input type="text" name="" required>
+                    <input type="text" name="Mobile" required>
                     <span>Téléphone *</span>
                 </div>
                 <div class="inputbox  ">
-                    <input type="email" name="" required>
+                    <input type="email" name="Email" required>
                     <span>E-mail *</span>
                 </div>
                 <div class="inputbox  ">
-                    <input type="text" name="" required>
+                    <input type="text" name="Objet" required>
                     <span>Objet *</span>
                 </div>
                 <div class="inputbox">
-                    <textarea required></textarea>
+                    <textarea required name="Message"></textarea>
                     <span>Ecrivez votre message ici ...</span>
                 </div>
                 <div class="inputbox">
-                    <input type="submit" value="Envoyer" name="">
+                    <input type="submit" value="Envoyer" name="" id="open">
                 </div>
             </form>
         </div>
     </div>
 </div> 
 </section>
+<div class="modal-container" id="modal-container">
+    <div class="modal">
+    <h1>MERCI DE NOUS AVOIR CONTACTÉ <i class="fa fa-check-circle" aria-hidden="true"></i></h1>
+
+    <p>Nous avons bien reçu votre demande de contact <br>Nous mettons tout en œuvre pour vous répondre dans les meilleurs délais<br>
+        A très bientôt<br>        
+        L’équipe MARODESCLEAN</p>
+    <button id="close">OK</button>
+    </div>  
+</div>
 <!----------------------------------------------------------------AVANTAGES------------------------------------------------>
 <!--Avantage bar-->
 <div class="avantages">
