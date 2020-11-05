@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 
 *{
     font-family: 'Open Sans', sans-serif;
@@ -697,7 +697,6 @@ header{
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   margin-bottom: 35px ;
 }
 .card_box .card{
     position: relative;
@@ -708,9 +707,8 @@ header{
     margin-left:40px;
     margin-right:40px;
 }
-/*margin bottom for first and second card*/
-.margin-bottom{
-    margin-bottom: 80px;
+.card-margin-bottom{
+    margin-bottom: 40px;
 }
 .card_box .card:before{
     content: '';
@@ -805,7 +803,7 @@ color: #fff;
 }
 /*------------------------------------------------------IMPLICATION TOTALE----------------------------------------------------*/
 .procedures{
-    min-height: 100vh;
+    height: 100%;
     background:url(./images/desinsectisation\ savoir\ plus\ 1.jpg);
     background-blend-mode: screen;
     background-size: cover;
@@ -856,14 +854,10 @@ color: #fff;
 }
 .procedures .reservation{
     position: relative;
-    margin-bottom: 110px;
-    margin-top: 70px;
+    text-align: center;
+    margin-top: 100px;
 }
 .procedures .reservation #reservez{
-    position: absolute;
-    top: 50%;
-    left: 51%;
-    transform: translate(-50%,-51%);
     text-decoration: none;
     border-radius: 2px;
     cursor: pointer;
@@ -1340,65 +1334,100 @@ line-height: 23.2px;
 }
 
 
-/*----------------------------------------------------DESINFECTION SAVOIR PLUS PAGE------------------------------------*/
-.desinfection{
+/*---------------------------------------------------------SERVICE DETAILS----------------------------------------------*/
+.service-details{
     font-family: 'Open Sans', sans-serif;
     background: #007064;
-    color: #fff;
+    color: #01221f;
     font-size: 22px;
     padding: 100px 60px;
 }
-.desinfection .container .trait{
-    background: #fff;
+.service-details .service-container{
+    background: #ebebeb;
+    padding: 100px 60px ;
+    box-shadow: 0 15px 30px rgba(0,0,0,.9);
+    position: relative;
+}
+.service-details .service-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.service-details .service-container .titre-societe{
+    opacity: 0.5;
+    color: #007064;
+    font-size: 80px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Arizonia', cursive;
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
+.service-details .service-container .service-exemple{
+    padding: 10px 0;
+}
+.service-details .service-container .service-exemple h3{
+    text-transform: uppercase;
+}
+.service-details .service-container p,.service-details .service-container ul li a{
+    line-height: 30px;
+    font-size: 17px;
+}
+.service-details .service-container .trait{
+    background: #01221f;
     width: 100px;
     height: 4.5px;
-    margin-bottom: 20px;
 }
-.desinfection .container h2{
-    margin-bottom: 25px;
+.service-details .service-container h2{
     font-size: 45px;
     text-transform: uppercase;
     line-height: 30px;
+    padding-bottom: 25px;
 }
-.desinfection .container h3 {
+.service-details .service-container h3 {
     font-size: 22px;
 }
-.desinfection .container h3 i{
+.service-details .service-container h3 i{
     font-size: 8px;
     margin-right: 10px;
 }
 
-.desinfection .container p{
-    padding: 20px 0;
-}
-.desinfection .container ul{
-    padding: 10px 0;
-}
-.desinfection .container p,.desinfection .container ul li a{
-    text-align: 30px;
-    font-size: 17px;
-}
-.desinfection .container ul li{
+.service-details .service-container ul li{
    list-style: none;
 }
-.desinfection .container ul li a i{
+.service-details .service-container ul li a i{
     font-size: 17px;
     margin-right: 15px;
 }
-.desinfection .container ul li a{
+.service-details .service-container ul li a{
     cursor: text;
     text-decoration: none;
-    color: #fff;
+    color: #01221f;
 }
-.desinfection .container h3 .fa-check{
+.service-details .service-container h3 .fa-check{
     font-size: 20px;
 }
 @media (max-width:991px){
-    .desinfection{
+    .service-details{
         padding: 80px 10px;
+    }
+    .service-details .service-container{
+        padding: 50px 20px;
     } 
-    .desinfection .container h2{
-     font-size: 40px;
+    .service-details .service-container .titre-societe{
+        font-size: 45px;
+    }
+    .service-details .service-container h2{
+     font-size: 30px;
+     padding: 10px 0;
     }
  
 }
@@ -1446,4 +1475,9 @@ line-height: 23.2px;
     .mentions{
         padding: 80px 10px;
     } 
+    .mentions_newpage h1{
+    font-size: 25px;
+    line-height: 30px;
+    }
+
 }
