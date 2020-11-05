@@ -59,23 +59,52 @@ setInterval(function(){
     }
 },4000);
 
-// contact modal // 
-var close = document.getElementById('close'),
-    open = document.getElementById('open'),
-    modal_container = document.getElementById('modal-container');
+/* user input contactform double-check*/
+document.querySelector('#FormContact').addEventListener('submit',function(e){
+    e.preventDefault();
+    SubmitContactForm();
+})
 
-    open.addEventListener('click',() => {
-        modal_container.classList.add('show')
-        body.classList.add('stop-scrolling')
-
-
-    })
-
-    close.addEventListener('click',() => {
-        modal_container.classList.remove('show')
-        body.classList.remove('stop-scrolling')
-
-
-    })
-
+function SubmitContactForm(){
+    /* User input */ 
+    let contact_form = {
+        Nom: $('#Nom').val(),
+        Prenom: $('#Prenom').val(),
+        Mobile: $('#Mobile').val(),
+        Email: $('#Email').val(),
+        Objet: $('#Objet').val()
+    }
+    /*Double_check user input*/ 
+    var regphone = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/,
+        atpos = contact_form.Email.indexOf("@"),
+        dotpos = contact_form.Email.lastIndexOf("."), 
+        close = document.getElementById('close'),
+        modal_container = document.getElementById('modal-container');
+    $(".nom ,.prenom ,.mobile ,.email , .objet").removeClass('show');
+    if(contact_form.Nom == ""){
+        $('.nom').addClass('show');
+        return false;
+    } else if (contact_form.Prenom == "") {
+        $('.prenom').addClass('show');
+        return false;
+    } else  if ( regphone.test(contact_form.Mobile) == false) {
+        $('.mobile').addClass('show');
+        return false;}
+        else  if ( atpos < 1 || ( dotpos - atpos < 2 )) {
+            $('.email').addClass('show');
+            return false;  
+        } else if(contact_form.Objet == ""){
+            $('.objet').addClass('show');
+            return false;
+        } else {
+                modal_container.classList.add('show')
+                body.classList.add('stop-scrolling')
+                close.addEventListener('click',() => {
+                window.location = "./contactform.php";
+                modal_container.classList.remove('show')
+                body.classList.remove('stop-scrolling')
+                document.querySelector('#FormContact').reset(); 
+                })
+        }
+}
 

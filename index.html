@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,6 +61,14 @@
             </div>
         </div>
     </div>
+    <div class="icons">
+        <ul class="icon">
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
          <!--Slider-->
    <div class="cont-slid">
     <div class="slider">
@@ -96,14 +106,7 @@
     </div>
     <!--Icons-->
     </div>
-    <div class="icons">
-        <ul class="icon">
-            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        </ul>
-    </div>
+
 </section>
 <!---------------------------------------------------------A PROPOS SECTION----------------------------------------------------->
 <section class="Apropos-section">
@@ -273,14 +276,14 @@
                 <div class="icon"><i class="fa fa-home"></i></div>
                 <div class="text">
                     <h3>Adresse</h3>
-                    <p>Lorem ipsum dolor <br>sit amet consectetur adipisicing<br> 021563.</p>
+                    <p>46,Bd zerktouni<br>ETG 5 Numéro 17, Casablanca</p>
                 </div>
             </div>
             <div class="box">
                 <div class="icon"><i class="fa fa-phone"></i></div>
                 <div class="text">
                     <h3>Téléphone</h3>
-                    <p>06 06 06 06 06</p>
+                    <p>(+212) 7 72 89 57 86</p>
                 </div>
             </div>
             <div class="box">
@@ -293,30 +296,35 @@
         </div>
         <!--contact form-->
         <div class="contactForm">
-            <form method="post" action="./contactfrom.php" enctype="multipart/form-data">
+            <form id="FormContact">
                 <h2>Demande de devis</h2>
                 <div class="inputbox ">
-                    <input type="text" name="Nom" required>
+                    <input type="text" name="Nom" id="Nom" required>
                     <span>Nom *</span>
                 </div>
+                <span class="nom erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner ce champ.</span>
                 <div class="inputbox ">
-                    <input type="text" name="Prenom" required>
+                    <input type="text" name="Prenom" id="Prenom" required>
                     <span>Prénom *</span>
                 </div>
+                <span class="prenom erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner ce champ.</span>
                 <div class="inputbox ">
-                    <input type="text" name="Mobile" required>
+                    <input type="text" name="Mobile" id="Mobile" required>
                     <span>Téléphone *</span>
                 </div>
+                <span class="mobile erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez entrer un numéro de téléphone valide.</span>
                 <div class="inputbox  ">
-                    <input type="email" name="Email" required>
+                    <input  name="Email" id="Email">
                     <span>E-mail *</span>
                 </div>
+                <span class="email erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez entrer une adresse e-mail valide.</span>
                 <div class="inputbox  ">
-                    <input type="text" name="Objet" required>
+                    <input type="text" name="Objet" id="Objet" required>
                     <span>Objet *</span>
                 </div>
+                <span class="objet erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner ce champ.</span>
                 <div class="inputbox">
-                    <textarea required name="Message"></textarea>
+                    <textarea name="Message" id="Message" required></textarea>
                     <span>Ecrivez votre message ici ...</span>
                 </div>
                 <div class="inputbox">
@@ -330,10 +338,9 @@
 <div class="modal-container" id="modal-container">
     <div class="modal">
     <h1>MERCI DE NOUS AVOIR CONTACTÉ <i class="fa fa-check-circle" aria-hidden="true"></i></h1>
-
     <p>Nous avons bien reçu votre demande de contact <br>Nous mettons tout en œuvre pour vous répondre dans les meilleurs délais<br>
         A très bientôt<br>        
-        L’équipe MARODESCLEAN</p>
+        L’équipe <B>MARODESCLEAN</B></p>
     <button id="close">OK</button>
     </div>  
 </div>
@@ -382,16 +389,25 @@
         <h2>contact</h2>
         <div class="both"><div class ="trait1"></div><div class ="trait2"></div></div>
         <div class="container-footer">
-            <div><span><i class="fa fa-home"></i></span><span>Marodesclean Adresse</span><br></div>
-            <div><span><i class="fa fa-phone"></i></span><span>06 06 06 06 06</span></div>
-            <div><span><i class="fa fa-envelope"></i></span><span>contact@Marodesclean.com</span></div>
+            <div>
+                <span><i class="fa fa-home"></i></span>
+                <span>46,Bd zerktouni ETG 5 Numéro 17, Casablanca.</span>
+            </div>
+            <div>
+                <span><i class="fa fa-phone"></i></span>
+                <span>(+212) 7 72 89 57 86</span>
+            </div>
+            <div>
+                <span><i class="fa fa-envelope"></i></span>
+                <span>contact@Marodesclean.com</span>
+            </div>
         </div>
     </div>
     <div class="horaire">
         <h2>Horaire d'ouverture</h2>
         <div class="both"><div class ="trait1"></div><div class ="trait2"></div></div>
-        <div class="horaire-douveture"><i class="fa fa-clock-o"></i>Du Lundi au Vendredi  9h00 - 21h00</div>
-        <div class="horaire-douveture"><i class="fa fa-clock-o"></i>Samedi  9h00 - 13h00</div>
+        <div class="horaire-douveture"><i class="fa fa-calendar-o"></i>Du Lundi au Vendredi  9h00 - 21h00</div>
+        <div class="horaire-douveture"><i class="fa fa-calendar-o"></i>Samedi  9h00 - 13h00</div>
     </div>
 </div>
 </section>

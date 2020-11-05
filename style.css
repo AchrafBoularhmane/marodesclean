@@ -162,13 +162,7 @@ font-size: 30px;
 }
 .home-section{
     position: relative;
-}
-.description-home{
-    position: absolute;
-    left: 0;
-    width: 380px;
-    height: 100vh;   
-    z-index: 13;
+    display: block;
 }
 .green-background{
     position: absolute;
@@ -180,13 +174,47 @@ font-size: 30px;
     height: 100vh;
     z-index: 11;
 }
-
-.desc{
+.description-home{
+    position: absolute;
+    left: 0;
+    width: 380px;
+    height: 100vh;   
+    z-index: 13;
+}
+.icons{
+    z-index: 13;
+    position: absolute;
+    top: 90%;
+    right: 10px;
+    transform: translate(-10px,-90%);
+}
+.icons .icon li{
+    list-style: none;
+    margin-right: 22px;
+}
+.icons .icon li i{
+    max-height: 24px;
+    font-size: 28px;
+    color: #007064;
+}
+.icons .icon li i:hover{
+    color: #fff;
+}
+.icons .icon li:hover i{
+    transform: translateY(-10px);
+}
+.icons .icon{
     position: relative;
+    display: flex;
+}
+.desc{
+    display: block;
+    position: absolute;
     height: 100vh;
     width: 500px;
+    top: 50%;
+    transform: translate(0,-50%);
 }
-
 .desc .contain{
     width: 700px;
     position: absolute;
@@ -400,217 +428,23 @@ header{
 .MenuPlusLogo ul li a:hover:before,header ul li a.active:before{
     width: 100%;
 }
-.icons{
-    position: absolute;
-    bottom: 27px;
-    right: 10px;
-    margin-right: 25px;
-    justify-content: space-between;
-    text-align: right;
-    z-index: 13;
-}
-.icons .icon li{
-    list-style: none;
-    margin-right: 22px;
-}
-.icons .icon li i{
-    max-height: 24px;
-    font-size: 28px;
-    color: #007064;
-}
-.icons .icon li i:hover{
-    color: #fff;
-}
-.icons .icon li:hover i{
-    transform: translateY(-10px);
-}
-.icons .icon{
-    position: relative;
-    display: flex;
-}
-/*Ipad and Ipad pro*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .icons{
-        margin-right: 0;
-    }
-    .icons .icon{
-        display: block;
-        text-align: right;
-        margin-bottom: 15px;
-    }
-    .icons .icon li{
-        margin-right: 0;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .icons .icon li:last-child{
-        margin-bottom: 0;
-    }
-    .icons .icon li a{
-        margin-bottom: 10px;
-    }
-    .description-home{
-       width: 100%;
-    }
-    .description-home .desc{
-        width: 100%;
-    }
-    .description-home .desc .contain{
-    width: 100%;
-    position: absolute;
-    top: 30%;
-    left: 0px;
-    padding: 0 10px;
-    }
-    .description-home .desc .contain p{
-        font-size: 20px;
-    }
-    .description-home .desc .contain .input{
-        padding: 30px;
-        font-size: 20px;
-    }
-    .description-home .desc .contain h2{
-        font-size: 60px;
-        width: 100%;
-    }
-    .fix-navbar{
-        display: none;
-    }
-    .cookies{
-        padding: 10px;
-    }
-    .cookies .cookies-container{
-     display: block;
-     padding: 5px 0;
-    }
-    .cookies .cookies-container p{
-        margin-bottom: 10px;
-    }
-    .cookies .cookies-container a{
-        margin: 10px 10px 10px 0px;
-    
-    }
-    .container{
-        min-height: 100vh;
-    }
-    .Fixed{
-        position: absolute;
-    }
-    .MenuPlusLogo .logo-header img{
-        width: 230px;
-        height: 60px;
-        margin-left: -45px;
-     } 
-     .MenuPlusLogo .logo-header{
-         padding:10px 0;
-     }
-    .MenuPlusLogo .toggle{
-        position: absolute;
-        width: 60px;
-        height: 35px;
-        top: 30px;
-        right: 10px;
-        cursor: pointer;
-        z-index: 20;
-      }
-      .MenuPlusLogo .toggle span{
-          position: absolute;
-          background: #fff;
-          right: 0;
-          width: 50px;
-          height: 2.5px;
-          transition: 0.6s;
-        }
-        .MenuPlusLogo .toggle .one{
-          top: 0;
-      }
-      .MenuPlusLogo .toggle .two, .MenuPlusLogo .toggle .three{
-          top: 16px;
-          background:#007064;
-          width: 30px;
-      }
-       header .toggle .four{
-          top: 30px;
-      }
-      .MenuPlusLogo .active .one, .MenuPlusLogo .active .four{
-          display: none;
-      }
-      .MenuPlusLogo .active .two{
-          transform:rotate(45deg);
-          width: 45px;
-          background: #fff;
-      }
-      .MenuPlusLogo .active .three{
-          transform:rotate(-45deg);
-          width: 45px;
-          background: #fff;
-      }
-      .MenuPlusLogo ul{
-        padding: 100px 10px ;
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height:100vh;
-        color: #fff;
-        background: #007064;
-    }
-    .MenuPlusLogo  .active{
-        display: block;
-    }
-    .MenuPlusLogo ul li {
-        margin:0;
-    }
-    .MenuPlusLogo ul li a{
-        position: relative;
-        text-decoration: none;
-        padding: 30px 0;
-        font-size: 1.5em;
-        color: #fff;
-        font-weight: 700;
-        text-transform: uppercase;
-        display: block;
-        text-align: center;
-    }
-    .MenuPlusLogo ul li a:hover,header ul li a.active {
-       font-weight: 700;
-    }
 
-    .green-background{
-        width: 45%;
-    }
-    .slide{
-        height: 100%;
-    }
-    .slide img{
-        height: 100vh;
-        width: 100%;
-    }
-    .navigation-auto,.navigation-manual{
-      bottom: 19px;
-    } 
-}
 /*version mobile*/
 @media (max-width:991px){
     .icons{
+        padding: 20px 0;
         margin-right: 0;
-    }
-    .icons .icon{
-        display: block;
-        text-align: right;
-        margin-bottom: 15px;
     }
     .icons .icon li{
-        margin-right: 0;
-        text-align: center;
-        margin-bottom: 10px;
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 0px;
     }
-    .icons .icon li:last-child{
-        margin-bottom: 0;
+    .icons .icon li:first-child{
+        margin-left: 0;
     }
     .icons .icon li a{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     .description-home{
        width: 100%;
@@ -621,8 +455,9 @@ header{
     .description-home .desc .contain{
     width: 100%;
     position: absolute;
-    top: 15%;
-    left: 0px;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
     padding: 0 10px;
     }
     .description-home .desc .contain p{
@@ -848,31 +683,6 @@ header{
         width: 100%;
     } 
 }
-/*Ipad and Ipad pro*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .Apropos-section .container .title-section{
-        font-size: 32px;
-    }
-    .section-padding{
-        padding: 60px 15px ;
-    }
-    #Apropos{
-        display: block;
-        justify-content: space-between;
-    }
-    .Apropos-section .content-box{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .Apropos-section .content-box .text-section{
-        width: 100%;
-    }
-    #Apropos .Apropos-image{
-        height: 700px;
-        width: 100%;
-    } 
-}
-
 /*------------------------------------------------------NOS SERVICES----------------------------------------------------*/
 
 #Services{
@@ -993,13 +803,6 @@ color: #fff;
         font-size: 22px;
     }
 }
-/*Ipad and Ipad pro*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .card_box .card img{
-        height: 400px;
-    }
-}
-
 /*------------------------------------------------------IMPLICATION TOTALE----------------------------------------------------*/
 .procedures{
     min-height: 100vh;
@@ -1078,7 +881,7 @@ color: #fff;
     color: #fff;
     font-weight: 500;
 }
-@media (max-width:1024px){
+@media (max-width:991px){
     .procedures .procedure-box .content-part1,.procedures .procedure-box .content-part2{
         padding: 0;
         width: 100%;
@@ -1092,8 +895,8 @@ color: #fff;
         display: block;
     }
     .procedures .reservation #reservez{
-        padding: 20px 35px;
-        font-size: 22px;
+        padding: 20px;
+        font-size: 18px;
 
     }   
 }
@@ -1164,7 +967,6 @@ color: #fff;
     font-weight: 600;
     font-size: 16px;
     line-height: 27px;
-    text-transform: capitalize;
 }
 .Contact-section .contact-container .contactInfo .box .text{
     color: #3c3c3c;
@@ -1255,9 +1057,11 @@ color: #fff;
 }
 .modal-container.show{
     visibility: visible;
+    background: #EDEDED;
+    z-index: 1000000000000000000000000000;
 }
 .modal{
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 30px 50px;
     border-radius: 2px;
     background: #fff;
@@ -1266,8 +1070,11 @@ color: #fff;
     text-align: center;
 }
 .modal h1{
+    text-align: left;
     font-size: 26px;
     color: #262626;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
 }
 .modal h1 i{
     color: #007064;
@@ -1275,12 +1082,14 @@ color: #fff;
     margin-left: 4px;
 }
 .modal p{
+    text-align: left;
     font-size: 14px;
     opacity: 0.7;
-    padding: 15px 0px;
+    padding: 20px 0px;
     line-height: 22.5px;
 }
 .modal button{
+  
     background: #007064;
     border: 0px solid #fff;
     border-radius: 1px;
@@ -1293,9 +1102,23 @@ color: #fff;
 .modal button:hover{
     background: #01221f;
 }
+.erreur{
+    background: #ffe0e0;
+    padding: 10px 10px;
+    color: #262626;
+    font-size: 13px;
+    display: none;
+}
+.erreur i{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #262626;
+}
 
-
-@media (max-width:1024px){
+.nom.show,.prenom.show,.mobile.show,.email.show, .objet.show{
+    display: block;
+}
+@media (max-width:991px){
     .Contact-section{
         padding: 50px 0;
     }
@@ -1350,7 +1173,7 @@ color: #fff;
        font-weight: 500;
        font-size: 18px;
    }
-   @media (max-width:1024px){
+   @media (max-width:991px){
     .avantages{
       display: block;
       padding: 0px ;
@@ -1419,14 +1242,15 @@ line-height: 23.2px;
 .plan-site ul{
     list-style: none;
 }
-
+.plan-site ul li{
+    padding: 5px 0px;
+}
 .plan-site ul li a{
     text-decoration: none;
     text-transform: uppercase;
     color: #3c3c3c;
     font-size: 14px;
     line-height: 25px;
-    padding-bottom: 8px;
 }
 .plan-site ul li a:hover{
     color: #007064;
@@ -1437,23 +1261,29 @@ line-height: 23.2px;
     font-weight: bolder;
     font-size: 14px;
 }
-.contactfoot .container-footer div span i{
-    font-size: 19px;
-    color: #007064;
-    cursor: pointer;
-    margin-right: 15px;
-}
+
 .contactfoot .container-footer div span i:hover{
     color: #007064;
 }
 .contactfoot .container-footer div{
     padding-bottom: 15px;
+    display: flex;
 }
 .contactfoot .container-footer div span{
     font-size: 14px;
     font-weight: lighter;
-    line-height: 21.8px;
+    line-height: 22.8px;
     color: #3c3c3c;
+    text-align: left;
+}
+.contactfoot .container-footer div span i{
+    font-size: 20px;
+    color: #007064;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.contactfoot .container-footer div span .fa-envelope{
+    font-size: 17px;
 }
 .horaire .horaire-douveture{
     font-size: 14px;
@@ -1466,9 +1296,10 @@ line-height: 23.2px;
 .horaire .horaire-douveture i {
     color: #007064;
     margin-right: 10px;
+    font-size: 16px;
 }
 
-@media (max-width:1024px){
+@media (max-width:991px){
     .all-footer-parts{
         display: block;
         padding: 40px 5px;
@@ -1497,7 +1328,7 @@ line-height: 23.2px;
 .Copyright a:hover{
     text-decoration: underline;
 }
-@media (max-width:1024px){
+@media (max-width:991px){
     .Copyright{
         padding: 10px;
         font-size: 12px;
@@ -1562,7 +1393,7 @@ line-height: 23.2px;
 .desinfection .container h3 .fa-check{
     font-size: 20px;
 }
-@media (max-width:1024px){
+@media (max-width:991px){
     .desinfection{
         padding: 80px 10px;
     } 
@@ -1611,7 +1442,7 @@ line-height: 23.2px;
     background: #fff;
     margin-bottom: 20px;
 }
-@media (max-width:1024px){
+@media (max-width:991px){
     .mentions{
         padding: 80px 10px;
     } 
