@@ -803,6 +803,9 @@ color: #fff;
     color: #007064;
 }
 @media only screen and (max-width: 768px) {
+    #Services .content-box .title-section{
+        font-size: 32px;
+    }
     #Services .content-box p{
         font-size: 15px;
         width: 100%;
@@ -903,6 +906,9 @@ color: #fff;
     font-weight: 500;
 }
 @media only screen and (max-width: 768px) {
+    .application-totale .content-box .title-section{
+        font-size: 30px;
+    }
     .procedures .procedure-box .content-part1,.procedures .procedure-box .content-part2{
         padding: 0;
         width: 100%;
@@ -1148,8 +1154,12 @@ color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
-.Contact-section .contact-container{
-        flex-direction: column;
+    .Contact-section .section-padding .contact-container{
+     display: block;
+    }
+
+    .Contact-section .section-padding .content-box .title-section{
+        font-size: 32px;
     }
     .Contact-section .section-padding .contact-container .contactInfo{
         margin-bottom: 40px;
@@ -1157,7 +1167,6 @@ color: #fff;
     }
     .Contact-section .contact-container .contactInfo,.Contact-section .contact-container .contactForm{
         width: 100%;
-
     }
     .Contact-section .contact-container .contactForm{
         width: 100%;
