@@ -860,13 +860,7 @@ color: #fff;
         margin: 20px 5px;
     }
 }
-/*IPad Pro
-@media only screen and (min-width: 769px) and (max-height: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .card_box .card{
-        margin: 20px 5px;
-    }
-      
-}*/
+
 /*------------------------------------------------------IMPLICATION TOTALE----------------------------------------------------*/
 .procedures{
     height: 100%;
@@ -973,7 +967,11 @@ color: #fff;
     .procedures .procedure-box .content-part1 .procedure,.procedures .procedure-box .content-part2 .procedure{
         padding: 20px 50px;
     }
+    .application-totale .content-box .description-section{
+        font-size: 15px;
+    }
 }
+
 
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
 #Contact{
@@ -1216,6 +1214,12 @@ color: #fff;
         font-size: 22px; 
     }
 }
+/* IPAD AND WEB VERSION - MOBILE*/
+@media screen and (max-width: 1600px) and (min-width: 770px) {
+    .Contact-section .section-padding .content-box .description-section{
+        font-size: 15px;
+    }
+}
 
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
 .avantages{
@@ -1259,16 +1263,26 @@ color: #fff;
     }
    }
 
-    /* IPAD AND WEB VERSION - MOBILE*/
+/* IPAD AND WEB VERSION - MOBILE*/
 @media screen and (max-width: 1600px) and (min-width: 770px) {
+    .avantages{
+        display: flex;
+        justify-content: space-between;
+    }
     .avantages .avantage{
         display: flex;
         padding-right: 20px;
     }
+    .avantages .avantage span{
+        font-size: 14px;
+    }
+    .avantages .avantage .border{
+        padding: 20px 25px;
+    }
+    .avantages .avantage .border i{
+        font-size: 20px;
+    }
 }
-
-    
-
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer{
     position: relative;
@@ -1395,8 +1409,25 @@ line-height: 23.2px;
         width: 100%;
         border: none;
     }
-
- }
+}
+/* IPAD AND WEB VERSION - MOBILE*/
+@media screen and (max-width: 1600px) and (min-width: 770px) {
+    .Marodesclean h2,.plan-site h2,.contactfoot h2,.horaire h2{
+       font-size: 16px;
+    }
+    .plan-site ul li a{
+        font-size: 13px;
+    }
+    .horaire .horaire-douveture{
+        font-size: 13px;
+    }
+    .Marodesclean p{
+        font-size: 13px;
+    }
+    .contactfoot .container-footer div span{
+        font-size: 13px;
+    }
+}
 /*---------------------------------------------------------COPYRIGHT---------------------------------------------------*/
 .Copyright{
     background: #007064;
@@ -1424,6 +1455,15 @@ line-height: 23.2px;
     font-size:12px;
     }
 
+}
+/* IPAD AND WEB VERSION - MOBILE*/
+@media screen and (max-width: 1600px) and (min-width: 770px) {
+    .Copyright{
+        font-size: 12px;
+    }
+    .Copyright a{
+        font-size:12px;
+        }
 }
 
 
