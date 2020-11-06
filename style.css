@@ -591,7 +591,7 @@ header{
     }
 }
 /*IPad Pro*/
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 769px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .slide{
         height: 100%;
     }
@@ -822,7 +822,7 @@ color: #fff;
     }
 }
 /*IPad Pro*/
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 769px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .card_box .card{
         margin: 20px 5px;
     }
@@ -1178,7 +1178,7 @@ color: #fff;
     }
 }
 /*IPad Pro*/
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 769px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
 }
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
 .avantages{
@@ -1221,7 +1221,7 @@ color: #fff;
         padding: 50px  10px ;
     }
    }
-   @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+   @media only screen and (min-width: 769px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .avantages .avantage{
         display: flex;
         padding-right: 20px;
