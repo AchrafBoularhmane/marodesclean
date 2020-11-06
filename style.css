@@ -591,7 +591,7 @@ header{
     }
 }
 /* IPAD AND WEB VERSION - MOBILE*/
-@media screen and (max-width: 1600px) and (min-width: 770px) {
+@media screen and (max-width: 1300px) and (min-width: 770px) {
     .slide{
         height: 100%;
     }
@@ -852,7 +852,7 @@ color: #fff;
     }
 }
 /* IPAD AND WEB VERSION - MOBILE*/
-@media screen and (max-width: 1600px) and (min-width: 770px) {
+@media screen and (max-width: 1300px) and (min-width: 770px) {
     #Services .content-box .description-section{
         font-size: 15px;
     }
@@ -963,7 +963,7 @@ color: #fff;
     }
 }
 /* IPAD AND WEB VERSION - MOBILE*/
-@media screen and (max-width: 1600px) and (min-width: 770px) {
+@media screen and (max-width: 1300px) and (min-width: 770px) {
     .procedures .procedure-box .content-part1 .procedure,.procedures .procedure-box .content-part2 .procedure{
         padding: 20px 50px;
     }
@@ -971,8 +971,6 @@ color: #fff;
         font-size: 15px;
     }
 }
-
-
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
 #Contact{
     background: #ffffff;
@@ -1215,7 +1213,7 @@ color: #fff;
     }
 }
 /* IPAD AND WEB VERSION - MOBILE*/
-@media screen and (max-width: 1600px) and (min-width: 770px) {
+@media screen and (max-width: 1300px) and (min-width: 770px) {
     .Contact-section .section-padding .content-box .description-section{
         font-size: 15px;
     }
@@ -1264,7 +1262,7 @@ color: #fff;
    }
 
 /* IPAD AND WEB VERSION - MOBILE*/
-@media screen and (max-width: 1600px) and (min-width: 770px) {
+@media screen and (max-width: 1300px) and (min-width: 770px) {
     .avantages{
         display: flex;
         justify-content: space-between;
@@ -1457,7 +1455,7 @@ line-height: 23.2px;
 
 }
 /* IPAD AND WEB VERSION - MOBILE*/
-@media screen and (max-width: 1600px) and (min-width: 770px) {
+@media screen and (max-width: 1300px) and (min-width: 770px) {
     .Copyright{
         font-size: 12px;
     }
