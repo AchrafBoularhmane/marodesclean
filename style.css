@@ -590,6 +590,7 @@ header{
       bottom: 19px;
     }
 }
+/* IPAD AND WEB VERSION - MOBILE*/
 @media screen and (max-width: 1600px) and (min-width: 770px) {
     .slide{
         height: 100%;
@@ -602,6 +603,20 @@ header{
         list-style: none;
         margin-left:30px;
         padding: 6px;
+    }
+    .cookies{
+        padding: 5px 10px;
+    }
+    .cookies .cookies-container{
+     display: block;
+     padding: 5px 0;
+    }
+    .cookies .cookies-container p{
+        padding: 7px 0;
+    }
+    .cookies .cookies-container a{
+        padding: 6px 10px;
+        margin-left: 0;
     }
 
 }
@@ -836,13 +851,22 @@ color: #fff;
         font-size: 22px;
     }
 }
-/*IPad Pro*/
+/* IPAD AND WEB VERSION - MOBILE*/
+@media screen and (max-width: 1600px) and (min-width: 770px) {
+    #Services .content-box .description-section{
+        font-size: 15px;
+    }
+    .card_box .card{
+        margin: 20px 5px;
+    }
+}
+/*IPad Pro
 @media only screen and (min-width: 769px) and (max-height: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .card_box .card{
         margin: 20px 5px;
     }
       
-}
+}*/
 /*------------------------------------------------------IMPLICATION TOTALE----------------------------------------------------*/
 .procedures{
     height: 100%;
@@ -944,8 +968,8 @@ color: #fff;
         padding:20px;
     }
 }
-/*IPad Pro*/
-@media only screen and (min-width: 1024px) and (max-height: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) {
+/* IPAD AND WEB VERSION - MOBILE*/
+@media screen and (max-width: 1600px) and (min-width: 770px) {
     .procedures .procedure-box .content-part1 .procedure,.procedures .procedure-box .content-part2 .procedure{
         padding: 20px 50px;
     }
@@ -1192,9 +1216,7 @@ color: #fff;
         font-size: 22px; 
     }
 }
-/*IPad Pro*/
-@media only screen and (min-width: 769px) and (max-height: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) {
-}
+
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
 .avantages{
     background: #007064;
@@ -1236,12 +1258,16 @@ color: #fff;
         padding: 50px  10px ;
     }
    }
-   @media only screen and (min-width: 769px) and (max-height: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    /* IPAD AND WEB VERSION - MOBILE*/
+@media screen and (max-width: 1600px) and (min-width: 770px) {
     .avantages .avantage{
         display: flex;
         padding-right: 20px;
     }
-    }
+}
+
+    
 
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer{
