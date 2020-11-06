@@ -43,7 +43,6 @@ document.getElementById("ensavoirplus").addEventListener("click", function(event
 // Back to top //
 $(document).ready(function(){
     $('#backTop').click(function(){
-        alert('oke')
         $('html,body').animate({
             scrollTop:0
         },1000);
