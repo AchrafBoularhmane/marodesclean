@@ -1409,7 +1409,7 @@ line-height: 23.2px;
     }
 }
 /* IPAD AND WEB VERSION - MOBILE*/
-@media screen and (max-width: 1600px) and (min-width: 770px) {
+@media screen and (max-width: 1300px) and (min-width: 770px) {
     .Marodesclean h2,.plan-site h2,.contactfoot h2,.horaire h2{
        font-size: 16px;
     }
