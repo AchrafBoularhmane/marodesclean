@@ -430,7 +430,7 @@ header{
 }
 
 /*version mobile*/
-@media only screen and (max-width: 768px) {
+@media (max-width: 991px) {
     .icons{
         padding: 20px 0;
         margin-right: 0;
