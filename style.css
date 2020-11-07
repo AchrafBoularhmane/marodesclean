@@ -1360,6 +1360,9 @@ line-height: 23.2px;
     cursor: pointer;
     font-size: 13px;
 }
+.inscription-newsletter .newsletter .button:hover{
+    background: #01221f;
+}
 .Marodesclean .footer-icons{
     padding: 15px 0;
 }
