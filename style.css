@@ -1346,18 +1346,19 @@ line-height: 23.2px;
     border: none;
     padding: 10px 15px;
     width: 100%;
-    font-size: 12px;
+    font-size: 11px;
     margin-right: 3px;
     outline: none;
 }
 .inscription-newsletter .newsletter .button{
     background:  #019b8b;
     color: #fff;
-    font-weight: 500;
+    font-weight: bolder;
     padding: 10px 15px;
     border: none;
     text-transform: uppercase;
     cursor: pointer;
+    font-size: 13px;
 }
 .Marodesclean .footer-icons{
     padding: 15px 0;
