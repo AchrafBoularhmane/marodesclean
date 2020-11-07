@@ -14,7 +14,7 @@
   
   ::-webkit-scrollbar-thumb {
       height: 100px;
-    background: #929191;
+    background: #019b8b;
 }
 /*stop scrolling*/
 .stop-scrolling{
@@ -27,7 +27,7 @@
     right: 5px;
     width: 50px;
     height: 50px;
-    background: #007064;
+    background: #00af9e;
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 15px 30px rgba(0,0,0,.9);
@@ -36,7 +36,7 @@
     z-index: 1000000000000000000;
 }
 .backToTop:hover{
-    background: #01221f;
+    background: #007064;
 }
 .backToTop{
 color: #fff;
@@ -68,7 +68,7 @@ font-size: 30px;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 48px;
-    color: #007064;
+    color: #019b8b;
 }
 .center-text{
     text-align: center;
@@ -100,7 +100,7 @@ font-size: 30px;
     background: #fff;
     padding: 0 60px;
     opacity: 0.9;
-    color: #007064;
+    color: #019b8b;
     width: 100%;
     font-size: 13px;
     z-index: 13;
@@ -122,7 +122,7 @@ font-size: 30px;
 }
 .cookies a {
     font-weight: 500;
-    background: #007064;
+    background: #019b8b;
     padding: 6px 15px;
     text-decoration: none;
     margin-right: 10px;
@@ -148,11 +148,11 @@ font-size: 30px;
 .first-second-under{
     height: 2px;
     width: 70px;
-    background: #007064;
+    background: #019b8b;
 }
 .second-under{
     width: 10px;
-    background: #007064;
+    background: #019b8b;
 }
 
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
@@ -195,7 +195,7 @@ font-size: 30px;
 .icons .icon li i{
     max-height: 24px;
     font-size: 28px;
-    color: #007064;
+    color: #019b8b;
 }
 .icons .icon li i:hover{
     color: #fff;
@@ -241,11 +241,11 @@ font-size: 30px;
     text-decoration: none;
     font-weight: bold;
     padding: 18px;
-    background: #fff;
+    background: #EDEDED;
     color: #007064;
 }
 .desc .contain .input:hover{
-    background: #01221f;
+    background:  #019b8b;
     color: #fff;
     font-weight: 400;
 }
@@ -328,7 +328,7 @@ font-size: 30px;
     justify-content: center;
 }
 .navigation-auto div{
-    border: 2px solid #007064;
+    border: 2px solid #019b8b;
     border-radius: 10px;
     transition: 1s;
     padding: 5px;
@@ -368,10 +368,10 @@ header{
 .fix-navbar{
     position: fixed;
     top: 0;
-    background: #007064;
+    background: #019b8b;
 }
 .fix-navbar .MenuPlusLogo{
-    background: #007064;
+    background: #019b8b;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.295);
 }
 .fix-navbar .MenuPlusLogo ul li a {
@@ -421,7 +421,7 @@ header{
     left: 0;
     width: 0;
     height: 100%;
-    background:#007064;
+    background:#019b8b;
     z-index: -1;
     transition: 0.5s ease-in-out;
 }
@@ -522,7 +522,7 @@ header{
       }
       .MenuPlusLogo .toggle .two, .MenuPlusLogo .toggle .three{
           top: 16px;
-          background:#007064;
+          background:#019b8b;
           width: 30px;
       }
        header .toggle .four{
@@ -550,7 +550,7 @@ header{
         width: 100%;
         height:100vh;
         color: #fff;
-        background: #007064;
+        background: #019b8b;
     }
     .MenuPlusLogo  .active{
         display: block;
@@ -693,11 +693,14 @@ header{
     list-style: none;
     margin-right: 23px;
     margin-top: 40px;
+    background:  #019b8b;
+    padding: 5px 10px;
+    margin-right: 10px;
 }
 .Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li i{
     display: inline-block;
     max-height: 24px;
-    font-size: 25px;
+    font-size: 19px;
     color: #fff;
 }
 .Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li i:hover{
@@ -787,7 +790,7 @@ header{
     color: #3c3c3c;
 }
 .card_box .card h3 i {
-    color: #007064;
+    color: #019b8b;
     margin: 0 10px;
     font-size: 9px;
 }
@@ -819,19 +822,15 @@ color: #fff;
 .card_box .card a{
     position: relative;
     display: inline-block;
-    text-transform: capitalize;
     font-weight: 400;
     color: #fff;
     font-size: 15px;
     text-decoration: none;
     padding: 10px 25px;
-    background: #007064;
-    bottom: 0;
-    
+    background: #019b8b;
+    bottom: 0;    
 }
-#Services .content-box .title-section{
-    color: #007064;
-}
+
 @media only screen and (max-width: 768px) {
     #Services .content-box .title-section{
         font-size: 32px;
@@ -905,15 +904,15 @@ color: #fff;
     cursor: pointer;
     font-size: 30px;
     border-radius: 50%;
-    border: 2px solid #007064;
+    border: 2px solid #019b8b;
     padding: 15px 20px;
-    background: #007064;
+    background: #019b8b;
     color: #fff;
     margin-bottom: 12px;
 }
 .procedures .procedure-box .procedure .border i:hover{
-    border: 2px solid #01221f;
-    background: #01221f;
+    border: 2px solid #007064;
+    background: #007064;
 }
 .procedures .reservation{
     position: relative;
@@ -925,7 +924,7 @@ color: #fff;
     border-radius: 2px;
     cursor: pointer;
     border:none;
-    background: #007064;
+    background:  #019b8b;
     padding: 17px 35px;
     color: #fff;
     font-size: 16px;
@@ -934,7 +933,7 @@ color: #fff;
 }
 
 .procedures .reservation #reservez:hover{
-    background: #01221f;
+    background: #007064;
     color: #fff;
     font-weight: 500;
 }
@@ -977,7 +976,7 @@ color: #fff;
 }
 .Contact-section .content-box{
     width: 80%;
-    color: #007064;
+    color: #019b8b;
 }
 .Contact-section{
     position: relative;
@@ -1015,7 +1014,7 @@ color: #fff;
 .Contact-section .section-padding .contact-container .contactInfo .box .icon{
     min-width: 60px;
     height: 60px;
-    background: #007064;
+    background:  #019b8b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1058,7 +1057,7 @@ color: #fff;
 .contactForm h2{
     font-size: 28px;
     text-align: center;
-    color: #007064;
+    color: #019b8b;
     line-height: 27px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1074,7 +1073,7 @@ color: #fff;
     font-size: 16px;
     margin: 10px 0 ;
     border: none;
-    border-bottom: 1px solid #007064;
+    border-bottom: 1px solid #019b8b;
     outline: none;
     resize: none;
 }
@@ -1086,17 +1085,17 @@ color: #fff;
     margin: 10px 0;
     pointer-events: none;
     transition: 0.5s;
-    color: #007064;
+    color: #019b8b;
 }
 .contactForm .inputbox input:focus ~ span,.contactForm .inputbox input:valid ~ span,
 .contactForm .inputbox textarea:focus ~ span,.contactForm .inputbox textarea:valid ~ span{
-    color: #007064;
+    color: #019b8b;
     font-size: 14px;
     transform: translateY(-20px);
 }
 .contactForm .inputbox input[type="submit"],.procedures #revervez{
     min-width: 200px;
-    background: #007064;
+    background:  #019b8b;
     border: none;
     cursor: pointer;
     font-size: 18px;
@@ -1109,7 +1108,7 @@ color: #fff;
     width: 100px;
 }
 .contactForm .inputbox input[type="submit"]:hover{
-    background: #01221f;
+    background: #007064;
 }
 .modal-container{
     z-index: 30;
@@ -1146,7 +1145,7 @@ color: #fff;
     border-bottom: 1px solid #ebebeb;
 }
 .modal h1 i{
-    color: #007064;
+    color: #019b8b;
     font-size: 32px;
     margin-left: 4px;
 }
@@ -1159,7 +1158,7 @@ color: #fff;
 }
 .modal button{
   
-    background: #007064;
+    background: #019b8b;
     border: 0px solid #fff;
     border-radius: 1px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -1169,7 +1168,7 @@ color: #fff;
     cursor: pointer;
 }
 .modal button:hover{
-    background: #01221f;
+    background: #007064;
 }
 .erreur{
     background: #ffe0e0;
@@ -1221,7 +1220,7 @@ color: #fff;
 
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
 .avantages{
-    background: #007064;
+    background:  #019b8b;
     padding: 40px 60px;
     display: flex;
     justify-content: space-between;
@@ -1285,32 +1284,34 @@ color: #fff;
 .footer{
     position: relative;
 }
-.img-footer{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   height: 100px;
-   width: 100%;
-   height: 100%;
-   opacity: 0.15;
-}
 .all-footer-parts{
     display: flex;
     margin-bottom: 0;
     padding: 100px 60px;
-    background: #fff;
+    background: #007064;
 }
-.Marodesclean,.plan-site,.contactfoot,.horaire{
-  width: 25%;
-  padding: 15px;
-  z-index: 1000000;
+.all-footer-parts .footer-part .footer-part1,.all-footer-parts .footer-part .footer-part2{
+    display: flex;
 }
-.Marodesclean h2,.plan-site h2,.contactfoot h2,.horaire h2{
-    color: #007064;
-    font-size: 20px;
+.footer-part{
+    width: 70%;
+    margin-left: 50px;
+}
+.footer-part .footer-part1 .plan-site,.footer-part .footer-part1 .contactfoot,.footer-part .footer-part2 .horaire, .footer-part .footer-part2 .inscription-newsletter{
+    width: 50%;
+}
+.footer-part .footer-part1{
+    padding-bottom: 20px;
+}
+.footer-part .footer-part2{
+    padding-top : 40px;
+}
+.Marodesclean{
+    width: 30%;
+}
+.Marodesclean h2,.plan-site h2,.contactfoot h2,.horaire h2,.inscription-newsletter h2{
+    color: #fff;
+    font-size: 22px;
     line-height: 24px;
     text-transform: uppercase;
     font-weight: bolder;
@@ -1323,18 +1324,59 @@ color: #fff;
 .both .trait2{
     width: 10px;
     height: 2px;
-    background: #007064;
+    background: #fff;
 }
 .both .trait1{
     margin-right: 5px;
     width: 50px;
     height: 2px;
-    background: #007064;
+    background: #fff;
 }
-.Marodesclean p{
-color: #3c3c3c;
-font-size: 15px;
+.Marodesclean p,.inscription-newsletter p{
+color: #fff;
+font-size: 14px;
 line-height: 23.2px;
+}
+.inscription-newsletter .newsletter{
+    display: flex;
+    padding: 15px 0px;
+}
+.inscription-newsletter .newsletter .input{
+    background: #EDEDED;
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 12px;
+    margin-right: 3px;
+    outline: none;
+}
+.inscription-newsletter .newsletter .button{
+    background:  #019b8b;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.Marodesclean .footer-icons{
+    padding: 15px 0;
+}
+.Marodesclean .footer-icons ul{
+    display: flex;
+    list-style: none;
+}
+.Marodesclean .footer-icons ul li{
+    background:  #019b8b;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+.Marodesclean .footer-icons ul li a{
+    text-decoration: none;
+}
+.Marodesclean .footer-icons ul li a i{
+    color: #EDEDED;
+    font-size: 18px;
 }
 .horaire{
     border: none;
@@ -1348,22 +1390,22 @@ line-height: 23.2px;
 .plan-site ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #3c3c3c;
+    color: #EDEDED;
     font-size: 14px;
     line-height: 25px;
 }
 .plan-site ul li a:hover{
-    color: #007064;
+    color:  #019b8b;
 }
 .plan-site ul li a i{
-    color: #007064;
+    color:  #019b8b;
     padding-right: 5px;
     font-weight: bolder;
     font-size: 14px;
 }
 
 .contactfoot .container-footer div span i:hover{
-    color: #007064;
+    color: #01221f;
 }
 .contactfoot .container-footer div{
     padding-bottom: 15px;
@@ -1373,12 +1415,12 @@ line-height: 23.2px;
     font-size: 14px;
     font-weight: lighter;
     line-height: 22.8px;
-    color: #3c3c3c;
+    color: #EDEDED;
     text-align: left;
 }
 .contactfoot .container-footer div span i{
     font-size: 20px;
-    color: #007064;
+    color:  #019b8b;
     cursor: pointer;
     margin-right: 10px;
 }
@@ -1389,12 +1431,12 @@ line-height: 23.2px;
     font-size: 14px;
     font-weight: lighter;
     line-height: 23.2px;
-    color: #3c3c3c;
+    color: #EDEDED;
     padding-bottom: 15px;
 }
 
 .horaire .horaire-douveture i {
-    color: #007064;
+    color: #019b8b;
     margin-right: 10px;
     font-size: 16px;
 }
@@ -1402,8 +1444,30 @@ line-height: 23.2px;
 @media only screen and (max-width: 768px) {
 .all-footer-parts{
         display: block;
-        padding: 40px 5px;
-        background: #fff;
+        padding: 40px 10px;
+    }
+    .all-footer-parts .footer-part .footer-part1,.all-footer-parts .footer-part .footer-part2{
+        display: block;
+    }
+    .footer-part .footer-part1 .plan-site,.footer-part .footer-part1 .contactfoot,.footer-part .footer-part2 .horaire, .footer-part .footer-part2 .inscription-newsletter{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .footer-part2 .inscription-newsletter{
+        padding-bottom: 0;
+    }
+    .footer-part{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .footer-part .footer-part1{
+        padding-bottom: 0px;
+    }
+    .footer-part .footer-part2{
+        padding-top : 0px;
+    }
+    .Marodesclean{
+        width: 100%;
     }
     .Marodesclean,.plan-site,.contactfoot,.horaire{
         width: 100%;
@@ -1443,18 +1507,23 @@ line-height: 23.2px;
 }
 /*---------------------------------------------------------COPYRIGHT---------------------------------------------------*/
 .Copyright{
-    background: #007064;
-    padding: 30px 60px;
-    color: #ebe9e9;
-    font-size: 15px;
+    background: #fff;
+    padding: 20px 60px;
+    color: #019b8b;
+    font-size: 13px;
     text-align: center;
     text-transform: uppercase;
+    box-shadow: 0 15px 30px rgba(0,0,0,.9);
+}
+.Copyright span{
+    font-weight: 550;
 }
 .Copyright a{
     text-transform: uppercase;
-    color:#ebe9e9;
+    color:#019b8b;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 550;
 }
 .Copyright a:hover{
     text-decoration: underline;
@@ -1483,13 +1552,13 @@ line-height: 23.2px;
 /*---------------------------------------------------------SERVICE DETAILS----------------------------------------------*/
 .service-details{
     font-family: 'Open Sans', sans-serif;
-    background: #007064;
-    color: #01221f;
+    background: #fff;
+    color: #fff;
     font-size: 22px;
     padding: 100px 60px;
 }
 .service-details .service-container{
-    background: #ebebeb;
+    background: #019b8b;
     padding: 100px 60px ;
     box-shadow: 0 15px 30px rgba(0,0,0,.9);
     position: relative;
@@ -1504,11 +1573,11 @@ line-height: 23.2px;
     height: 100px;
     width: 100%;
     height: 100%;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 .service-details .service-container .titre-societe{
     opacity: 0.5;
-    color: #007064;
+    color: #fff;
     font-size: 80px;
     font-weight: 300;
     text-align: center;
@@ -1528,7 +1597,7 @@ line-height: 23.2px;
     font-size: 17px;
 }
 .service-details .service-container .trait{
-    background: #01221f;
+    background: #fff;
     width: 100px;
     height: 4.5px;
 }
@@ -1556,7 +1625,7 @@ line-height: 23.2px;
 .service-details .service-container ul li a{
     cursor: text;
     text-decoration: none;
-    color: #01221f;
+    color: #fff;
 }
 .service-details .service-container h3 .fa-check{
     font-size: 20px;
@@ -1577,14 +1646,12 @@ line-height: 23.2px;
     }
  
 }
-
-
 /*---------------------------------------------------------MENTIONS----------------------------------------------------*/
 
 .mentions{
     padding: 80px 60px;
-    background: #007064;
-    color: #fff;
+    background: #fff;
+    color: #019b8b;
     line-height: 23.7px;
 }
 .mentions_newpage h1{
@@ -1594,19 +1661,19 @@ line-height: 23.2px;
     line-height: 40.7px;
 }  
 .mentions_newpage h2{
-    color: #fff;
+    color: #019b8b;
     padding: 10px 0;
     font-size: 20px;
     text-transform: uppercase;
 }  
 .mentions_newpage p{
-    color: #fff;
+    color: #019b8b;
     font-size: 17px;
     padding: 10px 0;
 }
 .mentions_newpage p a{
     text-decoration: none;
-    color: #fff;
+    color: #019b8b;
 }
 .mentions_newpage p a:hover{
     text-decoration: underline;
@@ -1614,7 +1681,7 @@ line-height: 23.2px;
 .trait{
     width: 100px;
     height: 5px;
-    background: #fff;
+    background: #019b8b;
     margin-bottom: 20px;
 }
 @media only screen and (max-width: 768px) {
