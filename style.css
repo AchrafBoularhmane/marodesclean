@@ -900,6 +900,12 @@ color: #fff;
     min-height:250px ;
     padding: 0 120px;
 }
+.procedures .procedure-box  .procedure h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.7px;
+    padding-bottom: 5px;
+}
 .procedures .procedure-box .procedure .border i{
     cursor: pointer;
     font-size: 30px;
@@ -925,18 +931,16 @@ color: #fff;
     background:  #007064;
     padding: 20px 40px;
     color: #EDEDED;
-    font-size: 19px;
-    font-weight: 600;
+    font-size: 18px;
     text-transform: uppercase;
     border: none;
     line-height: 27.7px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .procedures .reservation #reservez:hover{
     background: #019b8b;
     color: #fff;
-    font-weight: 600;
 }
 @media only screen and (max-width: 768px) {
     .application-totale .content-box .title-section{
@@ -1035,8 +1039,7 @@ color: #fff;
 .Contact-section .contact-container .contactInfo .box .text h3{
     color: #3c3c3c;
 }
-.Contact-section .contact-container .contactInfo .box .text h3,
-.procedures .procedure-box .procedure h3{
+.Contact-section .contact-container .contactInfo .box .text h3{
     font-weight: 600;
     font-size: 16px;
     line-height: 27px;
@@ -1226,7 +1229,7 @@ color: #fff;
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
 .avantages{
     background:  #007064;
-    padding: 40px 60px;
+    padding: 35px 60px;
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -1242,17 +1245,20 @@ color: #fff;
        border: 2.5px solid #fff;
        margin-right: 15px;
    }
+   .avantages .avantage .border:hover{
+       background: #019b8b;
+   }
    .avantages .avantage .border i{
        position: absolute;
        top: 50%;
        left: 50%;
        transform: translate(-50%,-50%);
        color: #fff;
-       font-size: 27px;
+       font-size: 23px;
    }
    .avantages .avantage span{
        font-weight: 500;
-       font-size: 18px;
+       font-size: 16px;
    }
 
    @media only screen and (max-width: 768px) {
