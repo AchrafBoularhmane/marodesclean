@@ -1573,7 +1573,7 @@ line-height: 23.2px;
 /*---------------------------------------------------------SERVICE DETAILS----------------------------------------------*/
 .service-details{
     font-family: 'Open Sans', sans-serif;
-    color: #019b8b;
+    color: #007064;
     font-size: 22px;
 }
 .service-details .service-container{
@@ -1595,8 +1595,8 @@ line-height: 23.2px;
 }
 .service-details .service-container .titre-societe{
     opacity: 0.5;
-    color: #019b8b;
-    font-size: 100px;
+    color: #007064;
+    font-size: 90px;
     font-weight: 300;
     text-align: center;
     text-transform: capitalize;
@@ -1615,7 +1615,7 @@ line-height: 23.2px;
     font-size: 17px;
 }
 .service-details .service-container .trait{
-    background: #019b8b;
+    background: #007064;
     width: 100px;
     height: 4.5px;
 }
@@ -1643,7 +1643,7 @@ line-height: 23.2px;
 .service-details .service-container ul li a{
     cursor: text;
     text-decoration: none;
-    color: #019b8b;
+    color: #007064;
 }
 .service-details .service-container h3 .fa-check{
     font-size: 20px;
