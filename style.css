@@ -911,8 +911,8 @@ color: #fff;
     margin-bottom: 12px;
 }
 .procedures .procedure-box .procedure .border i:hover{
-    border: 2px solid #007064;
-    background: #007064;
+    border: 2px solid #019b8b;
+    background: #019b8b;
 }
 .procedures .reservation{
     position: relative;
@@ -921,15 +921,16 @@ color: #fff;
 }
 .procedures .reservation #reservez{
     text-decoration: none;
-    border-radius: 2px;
     cursor: pointer;
-    border:none;
     background:  #007064;
-    padding: 25px 35px;
-    color: #fff;
-    font-size: 22px;
-    font-weight: 500;
-    text-transform: capitalize;
+    padding: 20px 40px;
+    color: #EDEDED;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    line-height: 27.7px;
+    letter-spacing: 1px;
 }
 
 .procedures .reservation #reservez:hover{
@@ -1020,6 +1021,10 @@ color: #fff;
     align-items: center;
     font-size: 22px;
     border-radius: 50%;
+    cursor: pointer;
+}
+.Contact-section .section-padding .contact-container .contactInfo .box .icon:hover{
+    background: #019b8b;
 }
 .Contact-section .contact-container .contactInfo .box{
     padding: 20px 0;
@@ -1104,7 +1109,7 @@ color: #fff;
     color: #fff;
 }
 .contactForm .inputbox input[type="submit"]{
-    padding: 10px;
+    padding: 10px 20px;
     width: 100px;
 }
 .contactForm .inputbox input[type="submit"]:hover{
@@ -1354,7 +1359,7 @@ line-height: 23.2px;
     background:  #019b8b;
     color: #fff;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: none;
     text-transform: uppercase;
     cursor: pointer;
@@ -1383,7 +1388,7 @@ line-height: 23.2px;
     font-size: 18px;
 }
 .Marodesclean .footer-icons ul li a i:hover{
-    color: #01221f;
+    color: #007064;
 }
 .horaire{
     border: none;
