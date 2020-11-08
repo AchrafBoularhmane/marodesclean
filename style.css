@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
 *{
     font-family: 'Open Sans', sans-serif;
@@ -1573,15 +1573,12 @@ line-height: 23.2px;
 /*---------------------------------------------------------SERVICE DETAILS----------------------------------------------*/
 .service-details{
     font-family: 'Open Sans', sans-serif;
-    background: #fff;
-    color: #fff;
+    color: #019b8b;
     font-size: 22px;
-    padding: 100px 60px;
 }
 .service-details .service-container{
-    background: #007064;
+    background: #fff;
     padding: 100px 60px ;
-    box-shadow: 0 15px 30px rgba(0,0,0,.9);
     position: relative;
 }
 .service-details .service-container img{
@@ -1598,12 +1595,12 @@ line-height: 23.2px;
 }
 .service-details .service-container .titre-societe{
     opacity: 0.5;
-    color: #fff;
-    font-size: 80px;
+    color: #019b8b;
+    font-size: 100px;
     font-weight: 300;
     text-align: center;
     text-transform: capitalize;
-    font-family: 'Arizonia', cursive;
+    font-family: 'Alex Brush', cursive;
     margin-top: 50px;
     letter-spacing: 5px;
 }
@@ -1618,7 +1615,7 @@ line-height: 23.2px;
     font-size: 17px;
 }
 .service-details .service-container .trait{
-    background: #fff;
+    background: #019b8b;
     width: 100px;
     height: 4.5px;
 }
@@ -1646,7 +1643,7 @@ line-height: 23.2px;
 .service-details .service-container ul li a{
     cursor: text;
     text-decoration: none;
-    color: #fff;
+    color: #019b8b;
 }
 .service-details .service-container h3 .fa-check{
     font-size: 20px;
