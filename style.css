@@ -1323,8 +1323,8 @@ color: #fff;
 }
 .both{
     display: flex;
-    padding: 10px 0;
-    margin-bottom: 20px;
+    padding: 13px 0;
+    margin-bottom: 15px;
 }
 .both .trait2{
     width: 10px;
@@ -1398,6 +1398,9 @@ line-height: 23.2px;
 }
 .plan-site ul li{
     padding: 5px 0px;
+}
+.plan-site ul li:first-child{
+    padding-top: 0px;
 }
 .plan-site ul li a{
     text-decoration: none;
