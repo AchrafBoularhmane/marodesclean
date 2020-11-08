@@ -697,6 +697,9 @@ header{
     padding: 5px 10px;
     margin-right: 10px;
 }
+.Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li:last-child{
+    padding: 5px 12px;
+}
 .Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li i{
     display: inline-block;
     max-height: 24px;
@@ -1385,6 +1388,9 @@ line-height: 23.2px;
     background:  #fff;
     padding: 5px 10px;
     margin-right: 10px;
+}
+.Marodesclean .footer-icons ul li:last-child{
+    padding: 5px 12px;
 }
 .Marodesclean .footer-icons ul li a{
     text-decoration: none;
