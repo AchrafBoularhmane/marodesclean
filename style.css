@@ -1579,7 +1579,7 @@ line-height: 23.2px;
 /*---------------------------------------------------------SERVICE DETAILS----------------------------------------------*/
 .service-details{
     font-family: 'Open Sans', sans-serif;
-    color: #007064;
+    color: #344c4e ;
     font-size: 22px;
 }
 .service-details .service-container{
@@ -1601,7 +1601,7 @@ line-height: 23.2px;
 }
 .service-details .service-container .titre-societe{
     opacity: 0.5;
-    color: #007064;
+    color: #344c4e ;
     font-size: 90px;
     font-weight: 300;
     text-align: center;
@@ -1621,7 +1621,7 @@ line-height: 23.2px;
     font-size: 17px;
 }
 .service-details .service-container .trait{
-    background: #007064;
+    background: #344c4e ;
     width: 100px;
     height: 4.5px;
 }
@@ -1649,7 +1649,7 @@ line-height: 23.2px;
 .service-details .service-container ul li a{
     cursor: text;
     text-decoration: none;
-    color: #007064;
+    color: #344c4e ;
 }
 .service-details .service-container h3 .fa-check{
     font-size: 20px;
@@ -1672,7 +1672,7 @@ line-height: 23.2px;
 .mentions{
     padding: 80px 60px;
     background: #eef2f1 ;
-    color: #007064;
+    color: #344c4e ;
     line-height: 23.7px;
 }
 .mentions_newpage h1{
@@ -1682,19 +1682,19 @@ line-height: 23.2px;
     line-height: 40.7px;
 }  
 .mentions_newpage h2{
-    color: #007064;
+    color: #344c4e ;
     padding: 10px 0;
     font-size: 20px;
     text-transform: uppercase;
 }  
 .mentions_newpage p{
-    color: #007064;
+    color: #344c4e ;
     font-size: 17px;
     padding: 10px 0;
 }
 .mentions_newpage p a{
     text-decoration: none;
-    color: #007064;
+    color: #344c4e ;
 }
 .mentions_newpage p a:hover{
     text-decoration: underline;
@@ -1702,7 +1702,7 @@ line-height: 23.2px;
 .trait{
     width: 100px;
     height: 5px;
-    background: #007064;
+    background: #344c4e ;
     margin-bottom: 20px;
 }
 @media only screen and (max-width: 768px) {
