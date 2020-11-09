@@ -743,7 +743,7 @@ header{
 }
 
 #Services .content-box .description-section{
-    color: #3c3c3c;
+    color: #344c4e ;
 }
 .card_box{
    width: 100%;
@@ -790,7 +790,7 @@ header{
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 15px;
-    color: #3c3c3c;
+    color: #344c4e ;
 }
 .card_box .card h3 i {
     color: #007064;
@@ -819,7 +819,7 @@ color: #fff;
     margin-bottom: 15px;
     line-height: 23.2px;
     position: relative;
-    color: #3c3c3c;
+    color: #344c4e ;
     min-height: 170px;
 }
 .card_box .card a{
@@ -998,7 +998,7 @@ color: #fff;
     width: 100%;
 }
 .Contact-section .content-box .description-section{
-    color: #3c3c3c;
+    color: #344c4e ;
 }
 .Contact-section .content-box p,.Services-section .content-box p{
     color: #3c3c3c;
@@ -1040,7 +1040,7 @@ color: #fff;
     color: #fff;
 }
 .Contact-section .contact-container .contactInfo .box .text h3{
-    color: #3c3c3c;
+    color: #344c4e ;
 }
 .Contact-section .contact-container .contactInfo .box .text h3{
     font-weight: 600;
@@ -1048,7 +1048,7 @@ color: #fff;
     line-height: 27px;
 }
 .Contact-section .contact-container .contactInfo .box .text{
-    color: #3c3c3c;
+    color: #344c4e ;
 }
 .Contact-section .contact-container .contactInfo .box .text,.procedures .procedure-box .procedure p{
     display: flex;
@@ -1375,7 +1375,7 @@ line-height: 23.2px;
     font-size: 12px;
 }
 .inscription-newsletter .newsletter .button:hover{
-    background: #01221f;
+    background: #7c9491;
 }
 .Marodesclean .footer-icons{
     padding: 15px 0;
@@ -1385,7 +1385,7 @@ line-height: 23.2px;
     list-style: none;
 }
 .Marodesclean .footer-icons ul li{
-    background:  #fff;
+    background:   #019b8b ;
     padding: 5px 10px;
     margin-right: 10px;
 }
@@ -1396,11 +1396,11 @@ line-height: 23.2px;
     text-decoration: none;
 }
 .Marodesclean .footer-icons ul li a i{
-    color: #019b8b;
+    color: #eef2f1;
     font-size: 18px;
 }
 .Marodesclean .footer-icons ul li a i:hover{
-    color: #007064;
+    color:  #344c4e;
 }
 .horaire{
     border: none;
@@ -1536,7 +1536,7 @@ line-height: 23.2px;
 .Copyright{
     background: #eef2f1 ;
     padding: 20px 60px;
-    color: #007064;
+    color: #344c4e ;
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
@@ -1547,7 +1547,7 @@ line-height: 23.2px;
 }
 .Copyright a{
     text-transform: uppercase;
-    color:#007064;
+    color:#344c4e ;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
