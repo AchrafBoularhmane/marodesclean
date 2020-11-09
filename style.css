@@ -739,7 +739,7 @@ header{
 /*------------------------------------------------------NOS SERVICES----------------------------------------------------*/
 
 #Services{
-    background: #ffffff;
+    background: #eef2f1 ;
 }
 
 #Services .content-box .description-section{
@@ -980,7 +980,7 @@ color: #fff;
 }
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
 #Contact{
-    background: #ffffff;
+    background: #eef2f1 ;
 }
 .Contact-section .content-box{
     width: 80%;
@@ -1356,7 +1356,7 @@ line-height: 23.2px;
     padding: 15px 0px;
 }
 .inscription-newsletter .newsletter .input{
-    background: #fff;
+    background: #eef2f1 ;
     border: none;
     padding: 10px 15px;
     width: 100%;
@@ -1534,7 +1534,7 @@ line-height: 23.2px;
 }
 /*---------------------------------------------------------COPYRIGHT---------------------------------------------------*/
 .Copyright{
-    background: #fff;
+    background: #eef2f1 ;
     padding: 20px 60px;
     color: #007064;
     font-size: 14px;
@@ -1583,7 +1583,7 @@ line-height: 23.2px;
     font-size: 22px;
 }
 .service-details .service-container{
-    background: #fff;
+    background: #eef2f1 ;
     padding: 100px 60px ;
     position: relative;
 }
@@ -1671,7 +1671,7 @@ line-height: 23.2px;
 
 .mentions{
     padding: 80px 60px;
-    background: #fff;
+    background: #eef2f1 ;
     color: #007064;
     line-height: 23.7px;
 }
