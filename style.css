@@ -112,7 +112,7 @@ font-size: 30px;
 }
 .cookies .cookies-container p{
     padding: 5px 0px;
-    color:  #344c4e;
+    color:  #007064;
 }
 .cookies i{
     cursor: pointer;
@@ -1537,7 +1537,7 @@ line-height: 23.2px;
 .Copyright{
     background: #eef2f1 ;
     padding: 20px 60px;
-    color: #344c4e ;
+    color: #007064 ;
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
@@ -1548,7 +1548,7 @@ line-height: 23.2px;
 }
 .Copyright a{
     text-transform: uppercase;
-    color:#344c4e ;
+    color:#007064 ;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
