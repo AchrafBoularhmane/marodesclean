@@ -40,7 +40,7 @@
     background: #007064;
 }
 .backToTop{
-color: #fff;
+color: #eef2f1;
 justify-content: center;
 align-items: center;
 text-align: center;
@@ -48,7 +48,7 @@ font-size: 30px;
 }
 .backToTop a{
     text-decoration: none;
-    color: #fff;
+    color: #eef2f1;
 }
 .top{
     bottom: 40px;
