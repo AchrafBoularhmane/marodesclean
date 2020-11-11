@@ -868,16 +868,13 @@ color: #eef2f1;
 /*------------------------------------------------------IMPLICATION TOTALE----------------------------------------------------*/
 .procedures{
     height: 100%;
-    background:url(./images/desinsectisation\ savoir\ plus\ 1.jpg);
-    background-blend-mode: screen;
-    background-size: cover;
-    background-position: center;
     color: #eef2f1;
     position: relative;
 }
 
 .procedures .content-box .title-section{
     position: relative;
+    color: #eef2f1;
 }
 
 .procedures .procedure-backgroundcolor{
@@ -885,8 +882,7 @@ color: #eef2f1;
     position: absolute;
     top: 0;
     left: 0;  
-    background: #000;
-    opacity: 0.90;
+    background: #007064;
     width: 100%;
     height: 100%;
 }
@@ -915,10 +911,10 @@ color: #eef2f1;
     cursor: pointer;
     font-size: 30px;
     border-radius: 50%;
-    border: 2px solid #007064;
+    border: 2px solid #eef2f1;
     padding: 15px 20px;
-    background: #007064;
-    color: #eef2f1;
+    background: #eef2f1;
+    color: #007064;
     margin-bottom: 12px;
 }
 .procedures .procedure-box .procedure .border i:hover{
@@ -933,19 +929,23 @@ color: #eef2f1;
 .procedures .reservation #reservez{
     text-decoration: none;
     cursor: pointer;
-    background:  #007064;
+    background:  #eef2f1;
     padding: 20px 40px;
-    color: #eef2f1;
+    color: #007064;
     font-size: 18px;
     text-transform: uppercase;
     border: none;
     line-height: 27.7px;
     letter-spacing: 0.5px;
+    font-weight: 600;
 }
 
 .procedures .reservation #reservez:hover{
     background: #019b8b;
     color: #eef2f1;
+}
+.procedures .content-box .Underline-container .Underline .first-underline,.procedures .content-box .Underline-container .Underline .second-underline{
+    background: #eef2f1;
 }
 @media only screen and (max-width: 768px) {
     .application-totale .content-box .title-section{
@@ -1232,7 +1232,7 @@ color: #eef2f1;
 
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
 .avantages{
-    background:  #007064;
+    background:  #019b8b;
     padding: 35px 60px;
     display: flex;
     justify-content: space-between;
