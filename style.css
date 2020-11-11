@@ -827,13 +827,12 @@ color: #eef2f1;
 .card_box .card a{
     position: relative;
     display: inline-block;
-    font-weight: 400;
     color: #eef2f1;
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: none;
     padding: 10px 25px;
     background: #007064;
-    bottom: 0;    
+    bottom: 0;  
 }
 
 @media only screen and (max-width: 768px) {
@@ -1111,10 +1110,12 @@ color: #eef2f1;
     background:  #007064;
     border: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 27px;
     font-weight: lighter;
     color: #eef2f1;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .contactForm .inputbox input[type="submit"]{
     padding: 10px 20px;
@@ -1368,12 +1369,12 @@ line-height: 23.2px;
 .inscription-newsletter .newsletter .button{
     background:  #019b8b;
     color: #eef2f1;
-    font-weight: bold;
     padding: 10px 20px;
     border: none;
     text-transform: uppercase;
     cursor: pointer;
-    font-size: 12px;
+    font-weight: 550;
+    font-size: 14px;
 }
 .inscription-newsletter .newsletter .button:hover{
     background: #7c9491;
