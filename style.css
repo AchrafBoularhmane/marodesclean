@@ -439,6 +439,8 @@ header ul li a.active {
 header ul li a.active:before {
   width: 100%;
 }
+@media (max-width: 320px) {
+}
 
 /*version mobile*/
 @media (max-width: 769px) {
@@ -448,7 +450,7 @@ header ul li a.active:before {
   }
   .icons .icon li {
     text-align: left;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 0px;
   }
   .icons .icon li:first-child {
@@ -456,6 +458,9 @@ header ul li a.active:before {
   }
   .icons .icon li a {
     margin-bottom: 0px;
+  }
+  .icons .icon li a i {
+    font-size: 18px;
   }
   .description-home {
     width: 100%;
@@ -472,14 +477,14 @@ header ul li a.active:before {
     padding: 0 20px;
   }
   .description-home .desc .contain p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .description-home .desc .contain .input {
-    padding: 13px;
-    font-size: 14px;
+    padding: 10px;
+    font-size: 11px;
   }
   .description-home .desc .contain h2 {
-    font-size: 28px;
+    font-size: 25px;
     width: 100%;
   }
   .fix-navbar {
@@ -504,25 +509,29 @@ header ul li a.active:before {
   .Fixed {
     position: absolute;
   }
+  .MenuPlusLogo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .MenuPlusLogo .logo-header {
+    margin-left: 0;
+  }
   .MenuPlusLogo .logo-header img {
-    width: 230px;
-    height: 60px;
-    margin-left: -35px;
-    margin-top: 10px;
+    width: 170px;
+    height: 70px;
   }
   .MenuPlusLogo .toggle {
-    position: absolute;
+    position: relative;
     width: 60px;
     height: 35px;
-    top: 30px;
-    right: 20px;
     cursor: pointer;
     z-index: 20;
   }
   .MenuPlusLogo .toggle span {
     position: absolute;
-    background: #eef2f1;
     right: 0;
+    background: #eef2f1;
     width: 50px;
     height: 2.5px;
     transition: 0.6s;
