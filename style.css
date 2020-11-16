@@ -844,6 +844,7 @@ header ul li a.active:before {
   min-height: 170px;
 }
 .card_box .card a {
+  font-family: "Open Sans", sans-serif;
   position: relative;
   display: inline-block;
   color: #eef2f1;
@@ -859,7 +860,7 @@ header ul li a.active:before {
     font-size: 32px;
   }
   #Services .content-box p {
-    font-size: 12px;
+    font-size: 14px;
     width: 100%;
     padding: 10px;
     margin: 0;
@@ -874,6 +875,11 @@ header ul li a.active:before {
   }
   .card_box .card h3 {
     font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .card_box .card p {
+    font-size: 12px;
+    margin: 0;
   }
   .card_box .card a {
     padding: 10px 15px;
@@ -954,6 +960,7 @@ header ul li a.active:before {
 }
 .procedures .reservation #reservez {
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
   cursor: pointer;
   background: #eef2f1;
   padding: 20px 40px;
@@ -986,7 +993,7 @@ header ul li a.active:before {
   .description-section {
     text-align: center;
     padding: 0;
-    font-size: 15px;
+    font-size: 14px;
   }
   .procedures .procedure-box {
     display: block;
@@ -1246,6 +1253,10 @@ header ul li a.active:before {
   .Contact-section .section-padding .content-box .title-section {
     font-size: 32px;
   }
+  .Contact-section .section-padding .content-box .description-section {
+    font-size: 14px;
+  }
+
   .Contact-section .section-padding .contact-container .contactInfo {
     margin-bottom: 40px;
     width: 100%;
@@ -1526,7 +1537,7 @@ header ul li a.active:before {
 @media only screen and (max-width: 768px) {
   .all-footer-parts {
     display: block;
-    padding: 40px 10px;
+    padding: 40px 15px;
   }
   .all-footer-parts .footer-part .footer-part1,
   .all-footer-parts .footer-part .footer-part2 {
@@ -1622,10 +1633,10 @@ header ul li a.active:before {
 @media only screen and (max-width: 768px) {
   .Copyright {
     padding: 10px;
-    font-size: 12px;
+    font-size: 10px;
   }
   .Copyright a {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 /* IPAD AND WEB VERSION - MOBILE*/
