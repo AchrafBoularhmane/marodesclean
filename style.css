@@ -859,18 +859,24 @@ header ul li a.active:before {
     font-size: 32px;
   }
   #Services .content-box p {
-    font-size: 15px;
+    font-size: 12px;
     width: 100%;
     padding: 10px;
     margin: 0;
   }
+  .card_box .card img {
+    height: 230px;
+  }
   .card_box .card {
     width: 100%;
     margin: 20px 5px;
-    padding: 25px;
+    padding: 20px;
   }
   .card_box .card h3 {
-    font-size: 22px;
+    font-size: 18px;
+  }
+  .card_box .card a {
+    padding: 10px 15px;
   }
 }
 /* IPAD AND WEB VERSION - MOBILE*/
@@ -986,8 +992,8 @@ header ul li a.active:before {
     display: block;
   }
   .procedures .reservation #reservez {
-    padding: 20px;
-    font-size: 18px;
+    padding: 10px 15px;
+    font-size: 14px;
   }
   .procedures .procedure-box .content-part1 .procedure,
   .procedures .procedure-box .content-part2 .procedure {
@@ -1134,8 +1140,7 @@ header ul li a.active:before {
   font-size: 14px;
   transform: translateY(-20px);
 }
-.contactForm .inputbox input[type="submit"],
-.procedures #revervez {
+.contactForm .inputbox input[type="submit"] {
   min-width: 200px;
   background: #007064;
   border: none;
@@ -1252,10 +1257,15 @@ header ul li a.active:before {
   .Contact-section .contact-container .contactForm {
     width: 100%;
     padding: 20px 20px;
-    margin: 5px;
   }
   .contactForm h2 {
     font-size: 22px;
+    margin-bottom: 50px;
+  }
+  .contactForm .inputbox input[type="submit"] {
+    font-size: 14px;
+    padding: 10px 15px;
+    min-width: 120px;
   }
 }
 /* IPAD AND WEB VERSION - MOBILE*/
