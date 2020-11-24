@@ -421,7 +421,8 @@ header ul li a.active:before {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background: #eef2f1;
 }
-
+/*1dadbf*/
+/*145882*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .header-container header .MenuPlusLogo {
@@ -430,7 +431,8 @@ header ul li a.active:before {
     padding: 10px;
   }
   .header-container header .MenuPlusLogo .logo-header img {
-    width: 180px;
+    width: 200px;
+    height: 60px;
   }
   .MenuPlusLogo .toggle {
     position: relative;
