@@ -12,101 +12,101 @@
   <body>
     <!---------------------------------------------------------HOME PAGE------------------------------------------------------>
     <section class="home-section" id="home">
+      <!-- Green Background-->
+      <div class="green-back"></div>
       <!-- Click to be back to top -->
       <a class="backToTop" id="backTop"><i class="fa fa-chevron-up"></i></a>
-      <!--Cookies mentions légales-->
-      <div class="cookies" id="cookie" style="display: none">
-        <i class="fa fa-times" aria-hidden="true" id="close-cookies" onclick="Close()"></i>
-        <div class="cookies-container">
-          <p>En poursuivant votre navigation sur ce site, vous acceptez nos conditions générales et l’utilisation de cookies pour vous garantir la meilleure expérience sur notre site</p>
-          <a href="" id="ok"> ok </a><a href="../mentions legales/mentions.html" id="ensavoirplus"> en savoir plus</a>
+      <!--Header [navbar+logo+cookies]-->
+      <div class="header-container" id="navbar">
+        <!--Cookies mentions légales-->
+        <div class="cookies" id="cookie" style="display: none">
+          <i class="fa fa-times" aria-hidden="true" id="close-cookies" onclick="Close()"></i>
+          <div class="cookies-container">
+            <p>En poursuivant votre navigation sur ce site, vous acceptez nos conditions générales et l’utilisation de cookies pour vous garantir la meilleure expérience sur notre site</p>
+            <a href="" id="ok"> ok </a><a href="../mentions legales/mentions.html" id="ensavoirplus"> en savoir plus</a>
+          </div>
         </div>
-      </div>
-      <!--Navbar-->
-      <div class="container" id="navbar">
         <header>
-          <!--Menu + Logo -->
+          <!--Menu + Logo-->
           <div class="MenuPlusLogo">
-            <span class="logo-header"><img src="../images/logo.png" /></span>
+            <span class="logo-header"><img src="../images//logo1.png" /></span>
             <div class="toggle" id="Menu" onclick="toggle()">
               <span class="one"></span>
               <span class="two"></span>
               <span class="three"></span>
               <span class="four"></span>
             </div>
-            <ul id="menu-overlay" onclick="toggleoff()">
-              <li><a href="../index.html#home" id="Accueil">Accueil</a></li>
-              <li><a href="../index.html#Apropos">Qui sommes-nous?</a></li>
-              <li><a href="../index.html#Services">Nos Services</a></li>
-              <li><a href="../index.html#Contact">Contact et devis</a></li>
-            </ul>
+            <div class="mobile-navbar" id="menu-overlay" onclick="toggleoff()">
+              <ul>
+                <li><a href="../index.html#home" id="Accueil">Accueil</a></li>
+                <li><a href="../index.html#Apropos">Qui sommes-nous?</a></li>
+                <li><a href="../index.html#Services">Nos Services</a></li>
+                <li><a href="../index.html#Contact">Contact et devis</a></li>
+              </ul>
+            </div>
           </div>
         </header>
-        <!--Image Slider-->
-        <!--Green-background-->
-        <div class="green-background"></div>
-        <!--Description-->
-        <div class="description-home">
-          <div class="desc">
-            <div class="contain">
-              <h2 class="ipad">DÉSINFECTION, DÉRATISATION ET DÉSINSECTISATION</h2>
-              <p>Vous recherchez une entreprise proposant une désinfection en profondeur qui assainit et décontamine vos espaces ? Une entreprise de désinfection au service des professionnels et des particuliers ? MARODESCLEAN vous accompagne pour tous vos besoins de désinfection.</p>
-              <a href="../index.html#Services"><input type="submit" value="Découverez-nos services" class="input" /></a>
+      </div>
+      <!--Home Description + social media links-->
+      <div class="home-description-container">
+        <div class="home-description">
+          <h1>DÉSINFECTION DÉRATISATION ET DÉSINSECTISATION</h1>
+          <p>Vous recherchez une entreprise proposant une désinfection en profondeur qui assainit et décontamine vos espaces ? Une entreprise de désinfection au service des professionnels et des particuliers ? MARODESCLEAN vous accompagne pour tous vos besoins de désinfection.</p>
+          <button class="Decouverir-services-boutton" onclick="location.href='../index.html#Services'" type="button">Découverez-nos services</button>
+        </div>
+      </div>
+      <!--Image Slider-->
+      <div class="cont-slid">
+        <div class="slider">
+          <div class="slides">
+            <input type="radio" id="radio1" name="radio-btn" />
+            <input type="radio" id="radio2" name="radio-btn" />
+            <input type="radio" id="radio3" name="radio-btn" />
+            <input type="radio" id="radio4" name="radio-btn" />
+            <div class="slide first">
+              <img src="../images/desinfection savoir plus.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="../images/desinfection services 2.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="../images/desinfection savoir plus 3.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="../images/desinsectisation savoir plus 1.jpg" alt="" />
+            </div>
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
             </div>
           </div>
-        </div>
-        <div class="icons">
-          <ul class="icon">
-            <li>
-              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-        </div>
-        <!--Slider-->
-        <div class="cont-slid">
-          <div class="slider">
-            <div class="slides">
-              <input type="radio" id="radio1" name="radio-btn" />
-              <input type="radio" id="radio2" name="radio-btn" />
-              <input type="radio" id="radio3" name="radio-btn" />
-              <input type="radio" id="radio4" name="radio-btn" />
-              <div class="slide first">
-                <img src="../images/desinfection savoir plus.jpg" alt="" />
-              </div>
-              <div class="slide">
-                <img src="../images/desinfection services 2.jpg" alt="" />
-              </div>
-              <div class="slide">
-                <img src="../images/desinfection savoir plus 3.jpg" alt="" />
-              </div>
-              <div class="slide">
-                <img src="../images/desinsectisation savoir plus 1.jpg" alt="" />
-              </div>
-              <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-              </div>
-            </div>
-            <div class="navigation-manual">
-              <label for="radio1" class="manual-btn"></label>
-              <label for="radio2" class="manual-btn"></label>
-              <label for="radio3" class="manual-btn"></label>
-              <label for="radio4" class="manual-btn"></label>
-            </div>
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
           </div>
         </div>
-        <!--Icons-->
+      </div>
+      <!--social media links-->
+      <div class="icons">
+        <ul class="icon">
+          <li>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+
+          <li>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+        </ul>
       </div>
     </section>
     <!-------------------------------------------------NETTOYAGE---------------------------------------------------------->
