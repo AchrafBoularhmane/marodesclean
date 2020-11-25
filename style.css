@@ -806,21 +806,22 @@ header ul li a.active:before {
 }
 .card_box {
   width: 100%;
-  display: flex;
+  display: block;
+}
+.box1,
+.box2,
+.box3 {
   justify-content: center;
-  flex-wrap: wrap;
+  margin-bottom: 40px;
+  display: flex;
 }
 .card_box .card {
   position: relative;
-  width: 450px;
   background: #fff;
+  max-width: 430px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-  padding: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-.card-margin-bottom {
-  margin-bottom: 40px;
+  padding: 30px;
+  margin: 0 20px;
 }
 .card_box .card:before {
   content: "";
@@ -907,6 +908,11 @@ header ul li a.active:before {
     padding: 10px;
     margin: 0;
   }
+  .box1,
+  .box2,
+  .box3 {
+    display: block;
+  }
   .card_box .card img {
     height: 230px;
   }
@@ -927,6 +933,7 @@ header ul li a.active:before {
     padding: 10px 15px;
   }
 }
+
 /* IPAD AND WEB VERSION - MOBILE*/
 @media screen and (max-width: 1300px) and (min-width: 770px) {
   #Services .content-box .description-section {
@@ -1396,45 +1403,42 @@ header ul li a.active:before {
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
 .avantages {
   background: var(--second-color);
-  padding: 35px 60px;
+  padding: 0 60px;
   display: flex;
-  justify-content: space-between;
   color: #eef2f1;
   line-height: 24px;
   text-transform: uppercase;
   font-size: 18px;
+  justify-content: space-between;
 }
-.avantages .avantage .border {
+.avantages .avantage {
+  padding: 30px 0;
+  display: flex;
+}
+.avantages .avantage i {
   cursor: pointer;
-  position: relative;
-  padding: 15px 25px;
+  padding: 15px 20px;
   border-radius: 50%;
   border: 2.5px solid #eef2f1;
   margin-right: 15px;
 }
-.avantages .avantage .border:hover {
+.avantages .avantage .i :hover {
   background: var(--Primary-color);
 }
-.avantages .avantage .border i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.avantages .avantage i {
   color: #eef2f1;
-  font-size: 23px;
+  font-size: 28px;
 }
-.avantages .avantage span {
-  font-weight: 500;
-  font-size: 16px;
+.avantages .avantage .avan {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 768px) {
   .avantages {
     display: block;
-    padding: 0px;
-  }
-  .avantages .avantage {
-    padding: 50px 10px;
+    padding: 0px 10px;
   }
 }
 
@@ -1451,10 +1455,10 @@ header ul li a.active:before {
   .avantages .avantage span {
     font-size: 14px;
   }
-  .avantages .avantage .border {
+  .avantages .avantage i {
     padding: 20px 25px;
   }
-  .avantages .avantage .border i {
+  .avantages .avantage i {
     font-size: 20px;
   }
 }
