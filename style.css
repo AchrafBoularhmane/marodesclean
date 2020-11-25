@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
 
+:root {
+  --Primary-color: #145882;
+  --second-color: #1dadbf;
+}
 * {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -15,7 +19,7 @@
 
 ::-webkit-scrollbar-thumb {
   height: 100px;
-  background: #019b8b;
+  background: var(--Primary-color);
 }
 
 /*stop scrolling*/
@@ -29,7 +33,7 @@
   right: 5px;
   width: 50px;
   height: 50px;
-  background: #019b8b;
+  background: var(--Primary-color);
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
@@ -38,7 +42,7 @@
   z-index: 1000000000000000000;
 }
 .backToTop:hover {
-  background: #02c0ad;
+  background: var(--second-color);
 }
 .backToTop {
   color: #eef2f1;
@@ -70,7 +74,7 @@
   text-transform: uppercase;
   font-size: 40px;
   line-height: 48px;
-  color: #007064;
+  color: var(--Primary-color);
 }
 .center-text {
   text-align: center;
@@ -98,7 +102,7 @@
   background: #eef2f1;
   padding: 0 60px;
   opacity: 0.9;
-  color: #007064;
+  color: var(--Primary-color);
   width: 100%;
   font-size: 13px;
   z-index: 13;
@@ -109,7 +113,7 @@
 }
 .cookies .cookies-container p {
   padding: 5px 0px;
-  color: #007064;
+  color: var(--Primary-color);
 }
 .cookies i {
   cursor: pointer;
@@ -121,7 +125,7 @@
 }
 .cookies a {
   font-weight: 500;
-  background: #007064;
+  background: var(--Primary-color);
   padding: 6px 15px;
   text-decoration: none;
   margin-right: 10px;
@@ -150,11 +154,11 @@
 .first-second-under {
   height: 2px;
   width: 70px;
-  background: #007064;
+  background: var(--Primary-color);
 }
 .second-under {
   width: 10px;
-  background: #007064;
+  background: var(--Primary-color);
 }
 
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
@@ -169,7 +173,7 @@
   left: 0;
   height: 100%;
   width: 28%;
-  background: #019b8b;
+  background: var(--Primary-color);
   z-index: 15;
   opacity: 0.55;
 }
@@ -229,7 +233,7 @@ header .mobile-navbar ul li a.active {
   left: 0;
   width: 0;
   height: 100%;
-  background: #007064;
+  background: var(--Primary-color);
   z-index: -1;
   transition: 0.5s ease-in-out;
 }
@@ -243,7 +247,7 @@ header ul li a.active:before {
   width: 100%;
 }
 .fix-navbar .MenuPlusLogo {
-  background: #007064;
+  background: var(--Primary-color);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.295);
 }
 .fix-navbar .MenuPlusLogo header .mobile-navbar ul li a {
@@ -281,14 +285,14 @@ header ul li a.active:before {
   font-weight: 600;
   padding: 17px 35px;
   background: #eef2f1;
-  color: #019b8b;
+  color: var(--Primary-color);
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   border-radius: 0;
   outline: none;
 }
 .home-description-container .home-description .Decouverir-services-boutton:hover {
-  background: #02c0ad;
+  background: var(--second-color);
   color: #fff;
   font-weight: 400;
 }
@@ -314,7 +318,7 @@ header ul li a.active:before {
 .icons .icon li a i {
   max-height: 24px;
   font-size: 28px;
-  color: #019b8b;
+  color: var(--Primary-color);
   cursor: pointer;
 }
 .icons .icon li a i:hover {
@@ -368,7 +372,7 @@ header ul li a.active:before {
   justify-content: center;
 }
 .manual-btn {
-  border: 2px solid #007064;
+  border: 2px solid var(--Primary-color);
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -401,7 +405,7 @@ header ul li a.active:before {
   justify-content: center;
 }
 .navigation-auto div {
-  border: 2px solid #007064;
+  border: 2px solid var(--Primary-color);
   border-radius: 10px;
   transition: 1s;
   padding: 5px;
@@ -421,8 +425,7 @@ header ul li a.active:before {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background: #eef2f1;
 }
-/*1dadbf*/
-/*145882*/
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .header-container header .MenuPlusLogo {
@@ -455,7 +458,7 @@ header ul li a.active:before {
   .MenuPlusLogo .toggle .two,
   .MenuPlusLogo .toggle .three {
     top: 16px;
-    background: #007064;
+    background: var(--Primary-color);
     width: 30px;
   }
   header .toggle .four {
@@ -491,7 +494,7 @@ header ul li a.active:before {
     width: 100%;
     height: 100vh;
     color: #eef2f1;
-    background: #007064;
+    background: var(--Primary-color);
   }
   .header-container header .MenuPlusLogo .mobile-navbar ul {
     display: block;
@@ -695,7 +698,7 @@ header ul li a.active:before {
 
 /*------------------------------------------------------A PROPOS----------------------------------------------------*/
 #Apropos {
-  background: #007064;
+  background: var(--Primary-color);
   min-height: 100vh;
 }
 .Apropos-section .content-box .Underline-container .Underline {
@@ -762,10 +765,10 @@ header ul li a.active:before {
   display: inline-block;
   max-height: 24px;
   font-size: 19px;
-  color: #019b8b;
+  color: var(--Primary-color);
 }
 .Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li i:hover {
-  color: #02c0ad;
+  color: var(--second-color);
 }
 @media only screen and (max-width: 768px) {
   .Apropos-section .section-padding .content-box .title-section {
@@ -826,7 +829,7 @@ header ul li a.active:before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #007064;
+  background: var(--Primary-color);
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 2.5s;
@@ -849,7 +852,7 @@ header ul li a.active:before {
   color: #344c4e;
 }
 .card_box .card h3 i {
-  color: #007064;
+  color: var(--Primary-color);
   margin: 0 10px;
   font-size: 9px;
 }
@@ -863,8 +866,8 @@ header ul li a.active:before {
   color: #eef2f1;
 }
 .card_box .card:hover a {
-  color: #007064;
-  border: 2px solid #007064;
+  color: var(--Primary-color);
+  border: 2px solidvar(--Primary-color);
   font-weight: 600;
   background: #eef2f1;
 }
@@ -887,7 +890,7 @@ header ul li a.active:before {
   font-size: 13px;
   text-decoration: none;
   padding: 10px 25px;
-  background: #007064;
+  background: var(--Primary-color);
   bottom: 0;
   -webkit-appearance: none;
   -webkit-border-radius: 0;
@@ -951,7 +954,7 @@ header ul li a.active:before {
   position: absolute;
   top: 0;
   left: 0;
-  background: #007064;
+  background: var(--Primary-color);
   width: 100%;
   height: 100%;
 }
@@ -985,12 +988,12 @@ header ul li a.active:before {
   border: 2px solid #eef2f1;
   padding: 15px 20px;
   background: #eef2f1;
-  color: #007064;
+  color: var(--Primary-color);
   margin-bottom: 12px;
 }
 .procedures .procedure-box .procedure .border i:hover {
-  border: 2px solid #02c0ad;
-  background: #02c0ad;
+  border: 2px solid var(--second-color);
+  background: var(--second-color);
   color: #eef2f1;
 }
 .procedures .reservation {
@@ -1004,7 +1007,7 @@ header ul li a.active:before {
   cursor: pointer;
   background: #eef2f1;
   padding: 20px 40px;
-  color: #007064;
+  color: var(--Primary-color);
   font-size: 18px;
   text-transform: uppercase;
   border: none;
@@ -1017,7 +1020,7 @@ header ul li a.active:before {
 }
 
 .procedures .reservation #reservez:hover {
-  background: #02c0ad;
+  background: var(--second-color);
   color: #eef2f1;
 }
 .procedures .content-box .Underline-container .Underline .first-underline,
@@ -1066,7 +1069,7 @@ header ul li a.active:before {
 }
 .Contact-section .content-box {
   width: 80%;
-  color: #007064;
+  color: var(--Primary-color);
 }
 .Contact-section {
   position: relative;
@@ -1104,7 +1107,7 @@ header ul li a.active:before {
 .Contact-section .section-padding .contact-container .contactInfo .box .icon {
   min-width: 60px;
   height: 60px;
-  background: #007064;
+  background: var(--Primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1113,7 +1116,7 @@ header ul li a.active:before {
   cursor: pointer;
 }
 .Contact-section .section-padding .contact-container .contactInfo .box .icon:hover {
-  background: #02c0ad;
+  background: var(--second-color);
 }
 .Contact-section .contact-container .contactInfo .box {
   padding: 20px 0;
@@ -1151,7 +1154,7 @@ header ul li a.active:before {
 .contactForm h2 {
   font-size: 28px;
   text-align: center;
-  color: #007064;
+  color: var(--Primary-color);
   line-height: 27px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1171,7 +1174,7 @@ header ul li a.active:before {
   color: #344c4e;
   margin: 10px 0;
   border: none;
-  border-bottom: 1px solid #007064;
+  border-bottom: 1px solid var(--Primary-color);
   outline: none;
   resize: none;
 }
@@ -1183,19 +1186,19 @@ header ul li a.active:before {
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
-  color: #007064;
+  color: var(--Primary-color);
 }
 .contactForm .inputbox input:focus ~ span,
 .contactForm .inputbox input:valid ~ span,
 .contactForm .inputbox textarea:focus ~ span,
 .contactForm .inputbox textarea:valid ~ span {
-  color: #007064;
+  color: var(--Primary-color);
   font-size: 14px;
   transform: translateY(-20px);
 }
 .contactForm .inputbox input[type="submit"] {
   min-width: 200px;
-  background: #007064;
+  background: var(--Primary-color);
   border: none;
   cursor: pointer;
   font-size: 17px;
@@ -1216,7 +1219,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .contactForm .inputbox input[type="submit"]:hover {
-  background: #02c0ad;
+  background: var(--second-color);
 }
 .modal-container {
   z-index: 30;
@@ -1254,7 +1257,7 @@ header ul li a.active:before {
   border-bottom: 1px solid #d3d1d1;
 }
 .modal h1 i {
-  color: #007064;
+  color: var(--Primary-color);
   font-size: 32px;
   margin-left: 4px;
 }
@@ -1266,7 +1269,7 @@ header ul li a.active:before {
   line-height: 22.5px;
 }
 .modal button {
-  background: #007064;
+  background: var(--Primary-color);
   border: none;
   border-radius: 1px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -1279,7 +1282,7 @@ header ul li a.active:before {
   outline: none;
 }
 .modal button:hover {
-  background: #019b8b;
+  background: var(--Primary-color);
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -1392,7 +1395,7 @@ header ul li a.active:before {
 
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
 .avantages {
-  background: #019b8b;
+  background: var(--second-color);
   padding: 35px 60px;
   display: flex;
   justify-content: space-between;
@@ -1410,7 +1413,7 @@ header ul li a.active:before {
   margin-right: 15px;
 }
 .avantages .avantage .border:hover {
-  background: #019b8b;
+  background: var(--Primary-color);
 }
 .avantages .avantage .border i {
   position: absolute;
@@ -1463,7 +1466,7 @@ header ul li a.active:before {
   display: flex;
   margin-bottom: 0;
   padding: 100px 60px;
-  background: #007064;
+  background: var(--Primary-color);
 }
 .all-footer-parts .footer-part .footer-part1,
 .all-footer-parts .footer-part .footer-part2 {
@@ -1538,7 +1541,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .inscription-newsletter .newsletter .button {
-  background: #019b8b;
+  background: var(--second-color);
   color: #eef2f1;
   padding: 10px 20px;
   border: none;
@@ -1551,7 +1554,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .inscription-newsletter .newsletter .button:hover {
-  background: #02c0ad;
+  background: var(--second-color);
 }
 .Marodesclean .footer-icons {
   padding: 15px 0;
@@ -1561,7 +1564,7 @@ header ul li a.active:before {
   list-style: none;
 }
 .Marodesclean .footer-icons ul li {
-  background: #019b8b;
+  background: var(--second-color);
   padding: 5px 10px;
   margin-right: 10px;
 }
@@ -1576,7 +1579,7 @@ header ul li a.active:before {
   font-size: 18px;
 }
 .Marodesclean .footer-icons ul li a i:hover {
-  color: #02c0ad;
+  color: var(--second-color);
 }
 .horaire {
   border: none;
@@ -1598,7 +1601,7 @@ header ul li a.active:before {
   line-height: 25px;
 }
 .plan-site ul li a:hover {
-  color: #02c0ad;
+  color: var(--second-color);
 }
 .plan-site ul li a i {
   color: #eef2f1;
@@ -1608,7 +1611,7 @@ header ul li a.active:before {
 }
 
 .contactfoot .container-footer div span i:hover {
-  color: #02c0ad;
+  color: var(--second-color);
 }
 .contactfoot .container-footer div {
   padding-bottom: 15px;
@@ -1721,7 +1724,7 @@ header ul li a.active:before {
 .Copyright {
   background: #eef2f1;
   padding: 20px 60px;
-  color: #02c0ad;
+  color: var(--second-color);
   font-size: 14px;
   text-align: center;
   text-transform: uppercase;
@@ -1732,7 +1735,7 @@ header ul li a.active:before {
 }
 .Copyright a {
   text-transform: uppercase;
-  color: #02c0ad;
+  color: var(--second-color);
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
