@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
 :root {
-  --Primary-color: #5cdb95;
-  --second-color: #05386b;
-  --third-color: #379683;
-  --text-white-color: #edf5e1;
-  --text-grey-color: #434343;
+  --second-color: #24695c;
+  --Primary-color: #6d9773;
+  --third-color: #ffba00;
+  --text-white-color: #fff;
+  --text-grey-color: #111;
 }
 * {
   font-family: "Open Sans", sans-serif;
@@ -17,13 +17,12 @@
 }
 ::-webkit-scrollbar {
   width: 12px;
-
   background-color: var(--text-white-color);
 }
 
 ::-webkit-scrollbar-thumb {
   height: 100px;
-  background: var(--Primary-color);
+  background: var(--third-color);
 }
 
 /*stop scrolling*/
@@ -37,7 +36,7 @@
   right: 5px;
   width: 50px;
   height: 50px;
-  background: var(--Primary-color);
+  background: var(--third-color);
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
@@ -53,7 +52,7 @@
   color: var(--text-white-color);
 }
 .backToTop:hover {
-  background-color: var(--second-color);
+  background-color: var(--Primary-color);
 }
 
 .top {
@@ -103,7 +102,7 @@
   background: var(--text-white-color);
   padding: 0 60px;
   opacity: 0.9;
-  color: var(--second-color);
+  color: var(--text-grey-color);
   width: 100%;
   font-size: 13px;
   z-index: 13;
@@ -114,7 +113,7 @@
 }
 .cookies .cookies-container p {
   padding: 5px 0px;
-  color: var(--second-color);
+  color: var(--text-grey-color);
 }
 .cookies i {
   cursor: pointer;
@@ -126,7 +125,7 @@
 }
 .cookies a {
   font-weight: 500;
-  background: var(--Primary-color);
+  background: var(--third-color);
   padding: 6px 15px;
   text-decoration: none;
   margin-right: 10px;
@@ -138,7 +137,7 @@
   border-radius: 0;
 }
 .cookies a:hover {
-  background-color: var(--third-color);
+  background-color: var(--Primary-color);
 }
 /* Underline title*/
 .underline {
@@ -229,7 +228,7 @@ header .mobile-navbar ul li a.active {
   left: 0;
   width: 0;
   height: 100%;
-  background: var(--Primary-color);
+  background: var(--third-color);
   z-index: -1;
   transition: 0.5s ease-in-out;
 }
@@ -243,7 +242,7 @@ header ul li a.active:before {
   width: 100%;
 }
 .fix-navbar .MenuPlusLogo {
-  background: var(--second-color);
+  background: var(--third-color);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.295);
 }
 
@@ -253,7 +252,7 @@ header ul li a.active:before {
   line-height: 27.3px;
 }
 .header-container .fix-navbar .MenuPlusLogo .mobile-navbar ul li a:hover {
-  color: var(--text-white-color);
+  color: var(--second-color);
 }
 
 .home-description-container {
@@ -281,11 +280,11 @@ header ul li a.active:before {
   cursor: pointer;
   border: none;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   padding: 17px 35px;
-  background: var(--Primary-color);
+  background: var(--third-color);
 
   color: var(--text-white-color);
   -webkit-appearance: none;
@@ -294,7 +293,7 @@ header ul li a.active:before {
   outline: none;
 }
 .home-description-container .home-description .Decouverir-services-boutton:hover {
-  background: var(--third-color);
+  background: var(--Primary-color);
   color: var(--text-white-color);
   font-weight: 500;
 }
@@ -320,11 +319,11 @@ header ul li a.active:before {
 .icons .icon li a i {
   max-height: 24px;
   font-size: 28px;
-  color: var(--Primary-color);
+  color: var(--third-color);
   cursor: pointer;
 }
 .icons .icon li a i:hover {
-  color: var(--text-white-color);
+  color: var(--second-color);
 }
 .icons .icon li:hover a i {
   transform: translateY(-10px);
@@ -374,7 +373,7 @@ header ul li a.active:before {
   justify-content: center;
 }
 .manual-btn {
-  border: 2px solid var(--Primary-color);
+  border: 2px solid var(--second-color);
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -407,7 +406,7 @@ header ul li a.active:before {
   justify-content: center;
 }
 .navigation-auto div {
-  border: 2px solid var(--Primary-color);
+  border: 2px solid var(--second-color);
   border-radius: 10px;
   transition: 1s;
   padding: 5px;
@@ -416,16 +415,16 @@ header ul li a.active:before {
   margin-right: 40px;
 }
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-  background: var(--second-color);
+  background: var(--third-color);
 }
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-  background: var(--text-white-color);
+  background: var(--third-color);
 }
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-  background: var(--second-color);
+  background: var(--third-color);
 }
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-  background: var(--text-white-color);
+  background: var(--third-color);
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -720,7 +719,7 @@ header ul li a.active:before {
   background-color: var(--text-white-color);
 }
 .Apropos-section .content-box .underline .under-two {
-  background-color: var(--Primary-color);
+  background-color: var(--third-color);
 }
 .Apropos-section .Apropos_container {
   display: flex;
@@ -763,10 +762,10 @@ header ul li a.active:before {
   display: inline-block;
   max-height: 24px;
   font-size: 19px;
-  color: var(--text-white-color);
+  color: var(--third-color);
 }
 .Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li i:hover {
-  color: var(--text-white-color);
+  color: var(--Primary-color);
 }
 
 /* Small devices (portrait tablets and large phones, 767px max) */
@@ -841,10 +840,10 @@ header ul li a.active:before {
 }
 
 #Services .content-box .underline .under-one {
-  background-color: var(--second-color);
+  background-color: var(--Primary-color);
 }
 #Services .content-box .underline .under-two {
-  background-color: var(--Primary-color);
+  background-color: var(--third-color);
 }
 .card_box .box1 .card {
   display: flex;
@@ -873,7 +872,7 @@ header ul li a.active:before {
 }
 .card_box .box1 .card .card-container .underline .under-one {
   width: 80px;
-  background-color: var(--Primary-color);
+  background-color: var(--third-color);
 }
 .card_box .box1 .card .card-container h3 {
   color: var(--second-color);
@@ -893,14 +892,14 @@ header ul li a.active:before {
   text-decoration: none;
   padding: 10px 20px;
   font-size: 14px;
-  background-color: var(--Primary-color);
+  background-color: var(--third-color);
   color: var(--text-white-color);
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 30px;
 }
 .card_box .box1 .card .card-container a:hover {
-  background-color: var(--third-color);
+  background-color: var(--Primary-color);
 }
 /* Small devices (portrait tablets and large phones, 767px max) */
 @media only screen and (max-width: 767px) {
@@ -990,10 +989,10 @@ header ul li a.active:before {
   justify-content: center;
 }
 .procedures .content-box .underline .under-one {
-  background-color: var(--text-white-color);
+  background-color: var(--Primary-color);
 }
 .procedures .content-box .underline .under-two {
-  background-color: var(--Primary-color);
+  background-color: var(--third-color);
 }
 
 .procedures .procedure-backgroundcolor {
@@ -1034,12 +1033,12 @@ header ul li a.active:before {
   border-radius: 50%;
   padding: 15px 20px;
   background: var(--Primary-color);
-  color: var(--text-white-color);
+  color: var(--third-color);
   margin-bottom: 12px;
 }
 .procedures .procedure-box .procedure .border i:hover {
   background: var(--third-color);
-  color: var(--text-white-color);
+  color: var(--Primary-color);
 }
 .procedures .reservation {
   position: relative;
@@ -1050,7 +1049,7 @@ header ul li a.active:before {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
-  background: var(--Primary-color);
+  background: var(--third-color);
   padding: 20px 40px;
   color: var(--text-white-color);
   font-size: 16px;
@@ -1065,7 +1064,7 @@ header ul li a.active:before {
 }
 
 .procedures .reservation #reservez:hover {
-  background-color: var(--third-color);
+  background-color: var(--Primary-color);
   color: var(--text-white-color);
 }
 
@@ -1133,10 +1132,10 @@ header ul li a.active:before {
   justify-content: center;
 }
 .Contact-section .content-box .underline .under-one {
-  background-color: var(--second-color);
+  background-color: var(--Primary-color);
 }
 .Contact-section .content-box .underline .under-two {
-  background-color: var(--Primary-color);
+  background-color: var(--third-color);
 }
 .Contact-section {
   position: relative;
@@ -1178,7 +1177,7 @@ header ul li a.active:before {
 .Contact-section .section-padding .contact-container .contactInfo .box .icon {
   min-width: 60px;
   height: 60px;
-  background: var(--text-white-color);
+  background: var(--Primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1192,7 +1191,7 @@ header ul li a.active:before {
   padding: 20px 0;
 }
 .Contact-section .contact-container .contactInfo .box .icon {
-  color: var(--Primary-color);
+  color: var(--third-color);
 }
 .Contact-section .contact-container .contactInfo .box .text h3 {
   color: var(--text-white-color);
@@ -1228,7 +1227,7 @@ header ul li a.active:before {
 }
 .contact-info-social ul li a i {
   font-size: 25px;
-  color: var(--Primary-color);
+  color: var(--third-color);
 }
 .contact-info-social ul li a i:hover {
   color: var(--text-white-color);
@@ -1274,7 +1273,7 @@ header ul li a.active:before {
   color: var(--text-grey-color);
   margin: 10px 0;
   border: none;
-  border-bottom: 1px solid var(--Primary-color);
+  border-bottom: 1px solid var(--third-color);
   outline: none;
   resize: none;
 }
@@ -1298,7 +1297,7 @@ header ul li a.active:before {
 }
 .contactForm .inputbox input[type="submit"] {
   min-width: 200px;
-  background: var(--Primary-color);
+  background: var(--third-color);
   border: none;
   cursor: pointer;
   font-size: 16px;
@@ -1319,7 +1318,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .contactForm .inputbox input[type="submit"]:hover {
-  background: var(--third-color);
+  background: var(--Primary-color);
   color: var(--text-white-color);
 }
 .modal-container {
@@ -1530,13 +1529,13 @@ header ul li a.active:before {
   padding: 15px 20px;
   border-radius: 50%;
   margin-right: 15px;
-  color: var(--Primary-color);
+  color: var(--third-color);
   font-size: 28px;
-  background: var(--text-white-color);
+  background: var(--second-color);
 }
 .avantages .avantage i:hover {
   background: var(--third-color);
-  color: var(--text-white-color);
+  color: var(--second-color);
 }
 
 .avantages .avantage .avan {
@@ -1650,7 +1649,7 @@ header ul li a.active:before {
 .contactfoot .underline .under-two,
 .horaire .underline .under-two,
 .inscription-newsletter .underline .under-two {
-  background-color: var(--Primary-color);
+  background-color: var(--third-color);
 }
 
 .Marodesclean p,
@@ -1676,7 +1675,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .inscription-newsletter .newsletter .button {
-  background: var(--Primary-color);
+  background: var(--third-color);
   border: none;
   color: var(--text-white-color);
 
@@ -1712,11 +1711,11 @@ header ul li a.active:before {
   text-decoration: none;
 }
 .Marodesclean .footer-icons ul li a i {
-  color: var(--text-white-color);
+  color: var(--third-color);
   font-size: 18px;
 }
 .Marodesclean .footer-icons ul li a i:hover {
-  color: var(--second-color);
+  color: var(--text-white-color);
 }
 .horaire {
   border: none;
@@ -1742,7 +1741,7 @@ header ul li a.active:before {
   color: var(--third-color);
 }
 .plan-site ul li a i {
-  color: var(--Primary-color);
+  color: var(--third-color);
   padding-right: 5px;
   font-weight: bolder;
   font-size: 14px;
@@ -1764,13 +1763,13 @@ header ul li a.active:before {
 }
 .contactfoot .container-footer div span i {
   font-size: 20px;
-  color: var(--Primary-color);
+  color: var(--third-color);
   cursor: pointer;
   margin-right: 10px;
 }
 
 .contactfoot .container-footer div span i:hover {
-  color: var(--text-white-color);
+  color: var(--Primary-color);
 }
 .contactfoot .container-footer div span .fa-envelope {
   font-size: 17px;
@@ -1784,7 +1783,7 @@ header ul li a.active:before {
 }
 
 .horaire .horaire-douveture i {
-  color: var(--Primary-color);
+  color: var(--third-color);
   margin-right: 10px;
   font-size: 16px;
 }
