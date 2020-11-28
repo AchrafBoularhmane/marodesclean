@@ -1358,10 +1358,10 @@ header ul li a.active:before {
   font-size: 26px;
   color: var(--second-color);
   padding-bottom: 20px;
-  border-bottom: 1px solid var(--Primary-color);
+  border-bottom: 1px solid var(--third-color);
 }
 .modal h1 i {
-  color: var(--Primary-color);
+  color: var(--third-color);
   font-size: 32px;
   margin-left: 4px;
 }
@@ -1373,7 +1373,7 @@ header ul li a.active:before {
   line-height: 22.5px;
 }
 .modal button {
-  background: var(--Primary-color);
+  background: var(--third-color);
   border: none;
   border-radius: 1px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -1386,7 +1386,7 @@ header ul li a.active:before {
   outline: none;
 }
 .modal button:hover {
-  background: var(--third-color);
+  background: var(--fourth-color);
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   border-radius: 0;
