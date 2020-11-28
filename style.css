@@ -3,9 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
 :root {
-  --second-color: #24695c;
-  --Primary-color: #6d9773;
-  --third-color: #ffba00;
+  --fourth-color: #158467;
+  --second-color: #065446;
+  --third-color: #a3d137;
+  --Primary-color: #197163;
   --text-white-color: #fff;
   --text-grey-color: #111;
 }
@@ -21,7 +22,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  height: 100px;
+  height: 250px;
   background: var(--Primary-color);
 }
 
@@ -36,7 +37,7 @@
   right: 5px;
   width: 50px;
   height: 50px;
-  background: var(--Primary-color);
+  background: var(--third-color);
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
@@ -102,7 +103,7 @@
   background: var(--text-white-color);
   padding: 0 60px;
   opacity: 0.9;
-  color: var(--text-grey-color);
+  color: var(--third-color);
   width: 100%;
   font-size: 13px;
   z-index: 13;
@@ -137,7 +138,7 @@
   border-radius: 0;
 }
 .cookies a:hover {
-  background-color: var(--Primary-color);
+  background-color: var(--third-color);
 }
 /* Underline title*/
 .underline {
@@ -1534,7 +1535,7 @@ header ul li a.active:before {
   margin-right: 15px;
   color: var(--third-color);
   font-size: 28px;
-  background: var(--second-color);
+  background: var(--fourth-color);
 }
 .avantages .avantage i:hover {
   background: var(--third-color);
@@ -1692,7 +1693,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .inscription-newsletter .newsletter .button:hover {
-  background: var(--third-color);
+  background: var(--fourth-color);
   color: var(--text-white-color);
 }
 .Marodesclean .footer-icons {
