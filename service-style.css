@@ -23,7 +23,7 @@
 
 ::-webkit-scrollbar-thumb {
   height: 100px;
-  background: var(--Primary-color);
+  background: var(--third-color);
 }
 
 /*stop scrolling*/
@@ -37,7 +37,7 @@
   right: 5px;
   width: 50px;
   height: 50px;
-  background: var(--Primary-color);
+  background: var(--third-color);
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
@@ -53,7 +53,7 @@
   color: var(--text-white-color);
 }
 .backToTop:hover {
-  background-color: var(--second-color);
+  background-color: var(--Primary-color);
 }
 
 .top {
@@ -244,7 +244,7 @@ header ul li a.active:before {
   width: 100%;
 }
 .fix-navbar .MenuPlusLogo {
-  background: var(--Primary-color);
+  background: var(--third-color);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.295);
 }
 
@@ -253,16 +253,17 @@ header ul li a.active:before {
   font-weight: 700;
   line-height: 27.3px;
 }
-.header-container .fix-navbar .MenuPlusLogo .mobile-navbar ul li a:hover {
-  color: var(--second-color);
+.header-container .fix-navbar .MenuPlusLogo .mobile-navbar ul li a:before {
+  background-color: var(--third-color);
 }
-
+.header-container .fix-navbar .MenuPlusLogo .mobile-navbar ul li a:hover {
+  color: var(--Primary-color);
+}
 .home-description-container {
   padding: 0 60px;
   z-index: 19;
   width: 60%;
 }
-
 .home-description-container .home-description h1 {
   padding: 10px 0;
   color: var(--text-white-color);
