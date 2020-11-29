@@ -824,7 +824,7 @@ header ul li a.active:before {
 .contactfoot .underline .under-two,
 .horaire .underline .under-two,
 .inscription-newsletter .underline .under-two {
-  background-color: var(--Primary-color);
+  background-color: var(--third-color);
 }
 
 .Marodesclean p,
@@ -850,7 +850,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .inscription-newsletter .newsletter .button {
-  background: var(--Primary-color);
+  background: var(--third-color);
   border: none;
   color: var(--text-white-color);
 
@@ -864,7 +864,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .inscription-newsletter .newsletter .button:hover {
-  background: var(--third-color);
+  background: var(--fourth-color);
   color: var(--text-white-color);
 }
 .Marodesclean .footer-icons {
@@ -875,7 +875,7 @@ header ul li a.active:before {
   list-style: none;
 }
 .Marodesclean .footer-icons ul li {
-  background: var(--third-color);
+  background: var(--Primary-color);
   padding: 5px 10px;
   margin-right: 10px;
 }
@@ -886,11 +886,11 @@ header ul li a.active:before {
   text-decoration: none;
 }
 .Marodesclean .footer-icons ul li a i {
-  color: var(--Primary-color);
+  color: var(--third-color);
   font-size: 18px;
 }
 .Marodesclean .footer-icons ul li a i:hover {
-  color: var(--second-color);
+  color: var(--text-white-color);
 }
 .horaire {
   border: none;
@@ -916,7 +916,7 @@ header ul li a.active:before {
   color: var(--third-color);
 }
 .plan-site ul li a i {
-  color: var(--Primary-color);
+  color: var(--third-color);
   padding-right: 5px;
   font-weight: bolder;
   font-size: 14px;
@@ -938,13 +938,13 @@ header ul li a.active:before {
 }
 .contactfoot .container-footer div span i {
   font-size: 20px;
-  color: var(--Primary-color);
+  color: var(--third-color);
   cursor: pointer;
   margin-right: 10px;
 }
 
 .contactfoot .container-footer div span i:hover {
-  color: var(--text-white-color);
+  color: var(--Primary-color);
 }
 .contactfoot .container-footer div span .fa-envelope {
   font-size: 17px;
@@ -958,7 +958,7 @@ header ul li a.active:before {
 }
 
 .horaire .horaire-douveture i {
-  color: var(--Primary-color);
+  color: var(--third-color);
   margin-right: 10px;
   font-size: 16px;
 }
@@ -996,6 +996,16 @@ header ul li a.active:before {
   .Marodesclean {
     width: 100%;
   }
+  .Marodesclean p {
+    font-size: 13px;
+  }
+  .Marodesclean h2,
+  .plan-site h2,
+  .contactfoot h2,
+  .horaire h2,
+  .inscription-newsletter h2 {
+    font-size: 22px;
+  }
   .Marodesclean,
   .plan-site,
   .contactfoot,
@@ -1003,17 +1013,20 @@ header ul li a.active:before {
     width: 100%;
     border: none;
   }
-  .img-footer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
+  .plan-site ul li a {
+    font-size: 13px;
+  }
+  .contactfoot .container-footer span {
+    font-size: 13px;
+  }
+  .horaire .horaire-douveture {
+    font-size: 13px;
+  }
+  .inscription-newsletter p {
+    font-size: 13px;
+  }
+  .inscription-newsletter .newsletter .button {
+    font-size: 11px;
   }
 }
 

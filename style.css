@@ -798,7 +798,7 @@ header ul li a.active:before {
   list-style: none;
   margin-right: 23px;
   margin-top: 40px;
-  background: var(--Primary-color);
+  background: var(--third-color);
   padding: 5px 10px;
   margin-right: 10px;
 }
@@ -812,7 +812,7 @@ header ul li a.active:before {
   display: inline-block;
   max-height: 24px;
   font-size: 19px;
-  color: var(--third-color);
+  color: var(--fourth-color);
 }
 .Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li i:hover {
   color: var(--Primary-color);
@@ -1792,7 +1792,7 @@ header ul li a.active:before {
   list-style: none;
 }
 .Marodesclean .footer-icons ul li {
-  background: var(--Primary-color);
+  background: var(--third-color);
   padding: 5px 10px;
   margin-right: 10px;
 }
@@ -1803,11 +1803,11 @@ header ul li a.active:before {
   text-decoration: none;
 }
 .Marodesclean .footer-icons ul li a i {
-  color: var(--third-color);
+  color: var(--Primary-color);
   font-size: 18px;
 }
 .Marodesclean .footer-icons ul li a i:hover {
-  color: var(--text-white-color);
+  color: var(--fourth-color);
 }
 .horaire {
   border: none;
@@ -2019,97 +2019,5 @@ header ul li a.active:before {
   }
   .Copyright a {
     font-size: 12px;
-  }
-}
-
-/*---------------------------------------------------------SERVICE DETAILS----------------------------------------------*/
-.service-details {
-  font-family: "Open Sans", sans-serif;
-  color: #344c4e;
-  font-size: 22px;
-}
-.service-details .service-container {
-  background: var(--text-white-color);
-  padding: 100px 60px;
-  position: relative;
-}
-.service-details .service-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100px;
-  width: 100%;
-  height: 100%;
-  opacity: 0.1;
-}
-.service-details .service-container .titre-societe {
-  opacity: 0.5;
-  color: #344c4e;
-  font-size: 90px;
-  font-weight: 300;
-  text-align: center;
-  text-transform: capitalize;
-  font-family: "Alex Brush", cursive;
-  margin-top: 50px;
-  letter-spacing: 5px;
-}
-.service-details .service-container .service-exemple {
-  padding: 10px 0;
-}
-.service-details .service-container .service-exemple h3 {
-  text-transform: uppercase;
-}
-.service-details .service-container p,
-.service-details .service-container ul li a {
-  line-height: 30px;
-  font-size: 17px;
-}
-.service-details .service-container .trait {
-  background: #344c4e;
-  width: 100px;
-  height: 4.5px;
-}
-.service-details .service-container h2 {
-  font-size: 45px;
-  text-transform: uppercase;
-  line-height: 30px;
-  padding-bottom: 25px;
-}
-.service-details .service-container h3 {
-  font-size: 22px;
-}
-.service-details .service-container h3 i {
-  font-size: 8px;
-  margin-right: 10px;
-}
-
-.service-details .service-container ul li {
-  list-style: none;
-}
-.service-details .service-container ul li a i {
-  font-size: 17px;
-  margin-right: 15px;
-}
-.service-details .service-container ul li a {
-  cursor: text;
-  text-decoration: none;
-  color: #344c4e;
-}
-.service-details .service-container h3 .fa-check {
-  font-size: 20px;
-}
-@media only screen and (max-width: 768px) {
-  .service-details .service-container {
-    padding: 50px 20px;
-  }
-  .service-details .service-container .titre-societe {
-    font-size: 45px;
-  }
-  .service-details .service-container h2 {
-    font-size: 30px;
-    padding: 10px 0;
   }
 }

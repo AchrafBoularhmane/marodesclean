@@ -356,7 +356,7 @@ header ul li a.active:before {
   .MenuPlusLogo .toggle .two,
   .MenuPlusLogo .toggle .three {
     top: 16px;
-    background: var(--third-color);
+    background: var(--Primary-color);
     width: 30px;
   }
   header .toggle .four {
@@ -392,7 +392,7 @@ header ul li a.active:before {
     width: 100%;
     height: 100vh;
     color: var(--text-white-color);
-    background: var(--third-color);
+    background: var(--second-color);
   }
   .header-container header .MenuPlusLogo .mobile-navbar ul {
     display: block;
@@ -406,7 +406,7 @@ header ul li a.active:before {
   .header-container header .MenuPlusLogo .mobile-navbar ul li {
     padding: 10px 0;
   }
-  .header-container header .MenuPlusLogo ul li a {
+  .header-container header .MenuPlusLogo .mobile-navbar ul li a {
     z-index: 6;
     text-decoration: none;
     color: var(--text-white-color);
@@ -464,20 +464,26 @@ header ul li a.active:before {
   .header-container header .MenuPlusLogo .logo-header img {
     width: 120px;
   }
+  .header-container header .MenuPlusLogo .mobile-navbar ul {
+    width: 100%;
+  }
+  .header-container header .MenuPlusLogo .mobile-navbar ul li {
+    padding: 20px 0;
+  }
   .header-container header .MenuPlusLogo .mobile-navbar ul li a {
-    font-size: 8px;
+    font-size: 20px;
   }
   .icons .icon li a i {
-    font-size: 12px;
+    font-size: 20px;
   }
   .home-description-container {
     padding: 0 10px;
-    width: 75%;
+    width: 100%;
   }
 
   .home-description-container .home-description h1 {
     padding: 8px 0;
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
@@ -551,24 +557,26 @@ header ul li a.active:before {
 }
 .mentions_newpage h1 {
   padding: 20px 0;
-  font-size: 35px;
+  font-size: 30px;
   text-transform: uppercase;
   line-height: 40.7px;
   color: var(--second-color);
 }
 .mentions_newpage h2 {
-  color: var(--third-color);
+  color: var(--Primary-color);
   padding: 10px 0;
-  font-size: 20px;
+  font-size: 22px;
   text-transform: uppercase;
 }
 .mentions_newpage p {
   color: var(--text-grey-color);
-  font-size: 17px;
+  font-size: 16px;
   padding: 10px 0;
+  font-weight: lighter;
 }
 .mentions_newpage p a {
   text-decoration: none;
+  font-size: 16px;
   color: var(--text-grey-color);
 }
 .mentions_newpage p a:hover {
@@ -582,11 +590,20 @@ header ul li a.active:before {
 }
 @media only screen and (max-width: 768px) {
   .mentions {
-    padding: 80px 20px;
+    padding: 80px 10px;
   }
   .mentions_newpage h1 {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 30px;
+  }
+  .mentions_newpage h2 {
+    font-size: 18px;
+  }
+  .mentions_newpage p {
+    font-size: 14px;
+  }
+  .mentions_newpage p a {
+    font-size: 14px;
   }
 }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
@@ -681,7 +698,6 @@ header ul li a.active:before {
   background: var(--Primary-color);
   border: none;
   color: var(--text-white-color);
-
   padding: 10px 20px;
   text-transform: uppercase;
   cursor: pointer;
@@ -703,7 +719,7 @@ header ul li a.active:before {
   list-style: none;
 }
 .Marodesclean .footer-icons ul li {
-  background: var(--third-color);
+  background: var(--Primary-color);
   padding: 5px 10px;
   margin-right: 10px;
 }
@@ -714,11 +730,11 @@ header ul li a.active:before {
   text-decoration: none;
 }
 .Marodesclean .footer-icons ul li a i {
-  color: var(--Primary-color);
+  color: var(--third-color);
   font-size: 18px;
 }
 .Marodesclean .footer-icons ul li a i:hover {
-  color: var(--second-color);
+  color: var(--text-white-color);
 }
 .horaire {
   border: none;
@@ -741,7 +757,7 @@ header ul li a.active:before {
   line-height: 25px;
 }
 .plan-site ul li a:hover {
-  color: var(--third-color);
+  color: var(--Primary-color);
 }
 .plan-site ul li a i {
   color: var(--Primary-color);
@@ -772,7 +788,7 @@ header ul li a.active:before {
 }
 
 .contactfoot .container-footer div span i:hover {
-  color: var(--text-white-color);
+  color: var(--third-color);
 }
 .contactfoot .container-footer div span .fa-envelope {
   font-size: 17px;
@@ -824,6 +840,16 @@ header ul li a.active:before {
   .Marodesclean {
     width: 100%;
   }
+  .Marodesclean p {
+    font-size: 13px;
+  }
+  .Marodesclean h2,
+  .plan-site h2,
+  .contactfoot h2,
+  .horaire h2,
+  .inscription-newsletter h2 {
+    font-size: 22px;
+  }
   .Marodesclean,
   .plan-site,
   .contactfoot,
@@ -831,17 +857,20 @@ header ul li a.active:before {
     width: 100%;
     border: none;
   }
-  .img-footer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
+  .plan-site ul li a {
+    font-size: 13px;
+  }
+  .contactfoot .container-footer span {
+    font-size: 13px;
+  }
+  .horaire .horaire-douveture {
+    font-size: 13px;
+  }
+  .inscription-newsletter p {
+    font-size: 13px;
+  }
+  .inscription-newsletter .newsletter .button {
+    font-size: 11px;
   }
 }
 
