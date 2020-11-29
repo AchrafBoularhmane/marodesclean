@@ -1942,6 +1942,9 @@ header ul li a.active:before {
   .inscription-newsletter p {
     font-size: 13px;
   }
+  .inscription-newsletter .newsletter .button {
+    font-size: 11px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
