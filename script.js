@@ -6,6 +6,7 @@ function toggle() {
   menu.classList.toggle("active");
   menuoverlay.classList.toggle("active");
   body.classList.toggle("stop-scrolling");
+  cookies.classList.add("close");
 }
 function toggleoff() {
   menu.classList.remove("active");
@@ -34,11 +35,9 @@ document.getElementById("ok").addEventListener("click", function (event) {
   event.preventDefault();
   cookies.classList.add("close");
 });
-document
-  .getElementById("ensavoirplus")
-  .addEventListener("click", function (event) {
-    cookies.classList.add("close");
-  });
+document.getElementById("ensavoirplus").addEventListener("click", function (event) {
+  cookies.classList.add("close");
+});
 
 // Back to top //
 $(document).ready(function () {

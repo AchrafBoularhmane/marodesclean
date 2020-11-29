@@ -629,6 +629,45 @@ header ul li a.active:before {
   .manual-btn {
     padding: 3px;
   }
+  .cookies {
+    padding: 10px;
+  }
+  .cookies .cookies-container {
+    display: block;
+    padding: 5px 0;
+  }
+  .cookies .cookies-container p {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .cookies .cookies-container a {
+    font-size: 12px;
+    margin: 10px 10px 10px 0px;
+  }
+  .backToTop {
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background: var(--third-color);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+    visibility: hidden;
+    opacity: 1;
+    z-index: 1000000000000000000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .top {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -782,7 +821,7 @@ header ul li a.active:before {
 /* Small devices (portrait tablets and large phones, 767px max) */
 @media only screen and (max-width: 767px) {
   .Apropos-section .section-padding .content-box .title-section {
-    font-size: 32px;
+    font-size: 25px;
   }
   .section-padding {
     padding: 100px 20px;
@@ -796,10 +835,12 @@ header ul li a.active:before {
   }
   .Apropos-section .content-box .text-section {
     width: 100%;
+    font-size: 14px;
   }
   #Apropos .Apropos-image {
     height: 500px;
     width: 100%;
+    border: 10px solid var(--Primary-color);
   }
 }
 
@@ -916,10 +957,10 @@ header ul li a.active:before {
 /* Small devices (portrait tablets and large phones, 767px max) */
 @media only screen and (max-width: 767px) {
   #Services .content-box .title-section {
-    font-size: 32px;
+    font-size: 25px;
   }
   #Services .content-box p {
-    font-size: 14px;
+    font-size: 13px;
     width: 100%;
     padding: 10px;
     margin: 0;
@@ -928,6 +969,15 @@ header ul li a.active:before {
   .card_box .box1 .card {
     display: block;
     margin-bottom: 40px;
+  }
+  .card_box .box1 .card .card-container h3 {
+    font-size: 20px;
+  }
+  .card_box .box1 .card .card-container p {
+    font-size: 14px;
+  }
+  .card_box .box1 .card .card-container a {
+    font-size: 12px;
   }
   .card_box .box1 .card .card-img {
     margin-top: 20px;
@@ -1083,7 +1133,7 @@ header ul li a.active:before {
 /* Small devices (portrait tablets and large phones, 767px max) */
 @media only screen and (max-width: 767px) {
   .application-totale .content-box .title-section {
-    font-size: 30px;
+    font-size: 25px;
   }
   .procedures .procedure-box .content-part1,
   .procedures .procedure-box .content-part2 {
@@ -1093,18 +1143,26 @@ header ul li a.active:before {
   .description-section {
     text-align: center;
     padding: 0;
-    font-size: 14px;
+    font-size: 13px;
   }
   .procedures .procedure-box {
     display: block;
   }
   .procedures .reservation #reservez {
-    padding: 10px 15px;
-    font-size: 14px;
+    padding: 10px 20px;
+    font-size: 12px;
   }
   .procedures .procedure-box .content-part1 .procedure,
   .procedures .procedure-box .content-part2 .procedure {
     padding: 20px;
+  }
+  .procedures .procedure-box .content-part1 .procedure h3,
+  .procedures .procedure-box .content-part2 .procedure h3 {
+    font-size: 15px;
+  }
+  .procedures .procedure-box .content-part1 .procedure p,
+  .procedures .procedure-box .content-part2 .procedure p {
+    font-size: 14px;
   }
 }
 
@@ -1427,15 +1485,34 @@ header ul li a.active:before {
   }
 
   .Contact-section .section-padding .content-box .title-section {
-    font-size: 32px;
+    font-size: 25px;
   }
   .Contact-section .section-padding .content-box .description-section {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .Contact-section .section-padding .contact-container .contactInfo {
+    padding: 30px 10px;
     margin-bottom: 40px;
     width: 100%;
+  }
+  .Contact-section .contact-container .contactInfo .box .text h3 {
+    font-size: 14px;
+  }
+
+  .Contact-section .contact-container .contactInfo .box .text {
+    font-size: 13px;
+  }
+
+  .contact-info-social ul {
+    display: flex;
+    margin-left: 10px;
+  }
+  .contact-info-social ul li {
+    margin-right: 20px;
+  }
+  .contact-info-social ul li a i {
+    font-size: 20px;
   }
   .Contact-section .contact-container .contactInfo,
   .Contact-section .contact-container .contactForm {
@@ -1445,12 +1522,15 @@ header ul li a.active:before {
     width: 100%;
     padding: 20px 20px;
   }
+  .Contact-section .contact-container .contactForm .inputbox span {
+    font-size: 11px;
+  }
   .contactForm h2 {
     font-size: 22px;
     margin-bottom: 50px;
   }
   .contactForm .inputbox input[type="submit"] {
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px 15px;
     min-width: 120px;
   }
@@ -1833,6 +1913,16 @@ header ul li a.active:before {
   .Marodesclean {
     width: 100%;
   }
+  .Marodesclean p {
+    font-size: 13px;
+  }
+  .Marodesclean h2,
+  .plan-site h2,
+  .contactfoot h2,
+  .horaire h2,
+  .inscription-newsletter h2 {
+    font-size: 22px;
+  }
   .Marodesclean,
   .plan-site,
   .contactfoot,
@@ -1840,17 +1930,17 @@ header ul li a.active:before {
     width: 100%;
     border: none;
   }
-  .img-footer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
+  .plan-site ul li a {
+    font-size: 13px;
+  }
+  .contactfoot .container-footer span {
+    font-size: 13px;
+  }
+  .horaire .horaire-douveture {
+    font-size: 13px;
+  }
+  .inscription-newsletter p {
+    font-size: 13px;
   }
 }
 
