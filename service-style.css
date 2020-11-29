@@ -22,7 +22,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  height: 100px;
+  height: 250px;
   background: var(--third-color);
 }
 
