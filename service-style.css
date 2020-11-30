@@ -353,7 +353,7 @@ header ul li a.active:before {
   .MenuPlusLogo .toggle .two,
   .MenuPlusLogo .toggle .three {
     top: 16px;
-    background: var(--third-color);
+    background: var(--Primary-color);
     width: 30px;
   }
   header .toggle .four {
@@ -461,20 +461,26 @@ header ul li a.active:before {
   .header-container header .MenuPlusLogo .logo-header img {
     width: 120px;
   }
+  .header-container header .MenuPlusLogo .mobile-navbar ul {
+    width: 100%;
+  }
+  .header-container header .MenuPlusLogo .mobile-navbar ul li {
+    padding: 25px 0;
+  }
   .header-container header .MenuPlusLogo .mobile-navbar ul li a {
-    font-size: 8px;
+    font-size: 20px;
   }
   .icons .icon li a i {
-    font-size: 12px;
+    font-size: 20px;
   }
   .home-description-container {
     padding: 0 10px;
-    width: 75%;
+    width: 100%;
   }
 
   .home-description-container .home-description h1 {
     padding: 8px 0;
-    font-size: 20px;
+    font-size: 32px;
   }
 }
 
@@ -546,7 +552,7 @@ header ul li a.active:before {
   background-color: #fff;
 }
 .service-details .service-container h2 {
-  font-size: 36px;
+  font-size: 33px;
   line-height: 43.2px;
   color: var(--second-color);
   text-transform: uppercase;
@@ -569,7 +575,7 @@ header ul li a.active:before {
 .service-details .service-container .content3 p,
 .service-details .service-container .content3 p {
   width: 50%;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 27.6px;
   color: var(--text-grey-color);
 }
@@ -582,7 +588,8 @@ header ul li a.active:before {
 .service-details .service-container .content3 ul li a {
   text-decoration: none;
   color: var(--text-grey-color);
-  line-height: 40px;
+  line-height: 35px;
+  font-size: 15px;
 }
 .service-details .service-container .content1 ul li a i,
 .service-details .service-container .content3 ul li a i {
@@ -601,7 +608,7 @@ header ul li a.active:before {
 }
 .service-details .service-container .content1 ul h2,
 .service-details .service-container .content3 ul h2 {
-  font-size: 22px;
+  font-size: 19px;
 }
 .service-details .service-container .content2 .service-img {
   background-color: var(--second-color);
@@ -618,7 +625,7 @@ header ul li a.active:before {
 .service-details .service-container .content4 p {
   width: 50%;
   padding: 0 40px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 27.6px;
   color: var(--text-grey-color);
 }
@@ -640,7 +647,7 @@ header ul li a.active:before {
 .service-details .service-container .content4 .content4-part2 .container4 p {
   width: 100%;
   padding: 0;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 27.6px;
   color: var(--text-grey-color);
 }
@@ -648,7 +655,7 @@ header ul li a.active:before {
 .service-details .service-container .content4 .content4-part2 .container4 h2,
 .service-details .service-container .content4 .content4-part2 .container4 h2 {
   width: 100%;
-  font-size: 22px;
+  font-size: 20px;
 }
 .service-details .service-container .content4 .content4-part2 .container4 h2 i,
 .service-details .service-container .content4 .content4-part2 .container4 h2 i,
@@ -670,11 +677,26 @@ header ul li a.active:before {
     justify-content: space-between;
     padding: 30px 0;
   }
+  .service-details .service-container h2 {
+    font-size: 25px;
+    line-height: 29.3px;
+  }
   .service-details .service-container .content1 p,
   .service-details .service-container .content3 p,
-  .service-details .service-container .content4 p {
+  .service-details .service-container .content4 p,
+  .service-details .service-container .content4 .content4-part2 .container4 p {
     width: 100%;
     padding: 0px 0px;
+    font-size: 14px;
+  }
+  .service-details .service-container .content1 ul h2,
+  .service-details .service-container .content3 ul h2,
+  .service-details .service-container .content4 .content4-part2 .container4 h2 {
+    font-size: 16px;
+  }
+  .service-details .service-container .content1 ul li a,
+  .service-details .service-container .content3 ul li a {
+    font-size: 14px;
   }
   .service-details .service-container .content1 ul,
   .service-details .service-container .content3 ul,
@@ -693,6 +715,30 @@ header ul li a.active:before {
   .service-details .service-container .content2 .service-img img {
     width: 100%;
     height: 100%;
+  }
+  .backToTop {
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background: var(--Primary-color);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+    visibility: hidden;
+    opacity: 1;
+    z-index: 1000000000000000000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .top {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
   }
 }
 
@@ -824,7 +870,7 @@ header ul li a.active:before {
 .contactfoot .underline .under-two,
 .horaire .underline .under-two,
 .inscription-newsletter .underline .under-two {
-  background-color: var(--third-color);
+  background-color: var(--Primary-color);
 }
 
 .Marodesclean p,
@@ -850,7 +896,8 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .inscription-newsletter .newsletter .button {
-  background: var(--third-color);
+  outline: none;
+  background: var(--Primary-color);
   border: none;
   color: var(--text-white-color);
 
@@ -864,7 +911,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .inscription-newsletter .newsletter .button:hover {
-  background: var(--fourth-color);
+  background: var(--third-color);
   color: var(--text-white-color);
 }
 .Marodesclean .footer-icons {
@@ -890,7 +937,7 @@ header ul li a.active:before {
   font-size: 18px;
 }
 .Marodesclean .footer-icons ul li a i:hover {
-  color: var(--text-white-color);
+  color: var(--second-color);
 }
 .horaire {
   border: none;
@@ -913,10 +960,10 @@ header ul li a.active:before {
   line-height: 25px;
 }
 .plan-site ul li a:hover {
-  color: var(--third-color);
+  color: var(--Primary-color);
 }
 .plan-site ul li a i {
-  color: var(--third-color);
+  color: var(--Primary-color);
   padding-right: 5px;
   font-weight: bolder;
   font-size: 14px;
@@ -938,13 +985,13 @@ header ul li a.active:before {
 }
 .contactfoot .container-footer div span i {
   font-size: 20px;
-  color: var(--third-color);
+  color: var(--Primary-color);
   cursor: pointer;
   margin-right: 10px;
 }
 
 .contactfoot .container-footer div span i:hover {
-  color: var(--Primary-color);
+  color: var(--third-color);
 }
 .contactfoot .container-footer div span .fa-envelope {
   font-size: 17px;
@@ -958,9 +1005,13 @@ header ul li a.active:before {
 }
 
 .horaire .horaire-douveture i {
-  color: var(--third-color);
+  color: var(--Primary-color);
+  cursor: pointer;
   margin-right: 10px;
   font-size: 16px;
+}
+.horaire .horaire-douveture i:hover {
+  color: var(--third-color);
 }
 
 /* Small devices (portrait tablets and large phones, 767px max) */
