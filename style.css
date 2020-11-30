@@ -1004,10 +1004,9 @@ header ul li a.active:before {
   .Apropos-section .content-box .text-section {
     width: 100%;
     font-size: 14px;
-    line-height: 29px;
   }
   #Apropos .Apropos-image {
-    height: 500px;
+    height: 100%;
     width: 100%;
     border: 10px solid var(--Primary-color);
   }
@@ -1035,10 +1034,9 @@ header ul li a.active:before {
   .Apropos-section .content-box .text-section {
     width: 100%;
     font-size: 14px;
-    line-height: 29px;
   }
   #Apropos .Apropos-image {
-    height: 500px;
+    height: 100%;
     width: 100%;
     border: 10px solid var(--Primary-color);
   }
