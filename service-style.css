@@ -575,9 +575,10 @@ header ul li a.active:before {
 .service-details .service-container .content3 p,
 .service-details .service-container .content3 p {
   width: 50%;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 27.6px;
   color: var(--text-grey-color);
+  font-weight: lighter;
 }
 
 .service-details .service-container .content1 ul li,
@@ -590,6 +591,7 @@ header ul li a.active:before {
   color: var(--text-grey-color);
   line-height: 35px;
   font-size: 15px;
+  font-weight: lighter;
 }
 .service-details .service-container .content1 ul li a i,
 .service-details .service-container .content3 ul li a i {
@@ -625,7 +627,8 @@ header ul li a.active:before {
 .service-details .service-container .content4 p {
   width: 50%;
   padding: 0 40px;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: lighter;
   line-height: 27.6px;
   color: var(--text-grey-color);
 }
@@ -647,9 +650,10 @@ header ul li a.active:before {
 .service-details .service-container .content4 .content4-part2 .container4 p {
   width: 100%;
   padding: 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 27.6px;
   color: var(--text-grey-color);
+  font-weight: lighter;
 }
 .service-details .service-container .content4 .content4-part2 .container4 h2,
 .service-details .service-container .content4 .content4-part2 .container4 h2,
