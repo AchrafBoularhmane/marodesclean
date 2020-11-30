@@ -731,7 +731,7 @@ header ul li a.active:before {
 }
 
 .card_box .box1 .card .card-container {
-  padding: 20px 50px;
+  padding: 20px 30px;
   width: 50%;
 }
 .card_box .box1 .card .card-container .underline {
@@ -768,10 +768,13 @@ header ul li a.active:before {
 .card_box .box1 .card .card-container a:hover {
   background-color: var(--Primary-color);
 }
-/* Small devices (portrait tablets and large phones, 767px max) */
-@media only screen and (max-width: 767px) {
+
+@media (max-width: 991px) {
+  #Services {
+    padding: 100px 15px;
+  }
   #Services .content-box .title-section {
-    font-size: 25px;
+    font-size: 30px;
   }
   #Services .content-box p {
     font-size: 13px;
@@ -782,16 +785,19 @@ header ul li a.active:before {
 
   .card_box .box1 .card {
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+  }
+  .card_box .box1 .card .card-container .underline {
+    padding-top: 5px;
   }
   .card_box .box1 .card .card-container h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .card_box .box1 .card .card-container p {
     font-size: 14px;
   }
   .card_box .box1 .card .card-container a {
-    font-size: 12px;
+    font-size: 11px;
   }
   .card_box .box1 .card .card-img {
     margin-top: 20px;
@@ -807,46 +813,6 @@ header ul li a.active:before {
   .card_box .box1 .card .card-container {
     padding: 20px 5px;
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  #Services .content-box .title-section {
-    font-size: 32px;
-  }
-  #Services .content-box p {
-    font-size: 14px;
-    width: 100%;
-    padding: 10px;
-    margin: 0;
-  }
-
-  .card_box .box1 .card {
-    display: block;
-    margin-bottom: 40px;
-  }
-  .card_box .box1 .card .card-img {
-    margin-top: 20px;
-    height: 400px;
-  }
-  .card_box .box1 .card .card-img img {
-    height: 400px;
-  }
-  .card_box .box1 .card .card-img,
-  .card_box .box1 .card .card-container {
-    width: 100%;
-  }
-  .card_box .box1 .card .card-container {
-    padding: 20px 5px;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 }
 
 /*------------------------------------------------------IMPLICATION TOTALE----------------------------------------------------*/
