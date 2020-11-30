@@ -910,8 +910,7 @@ header ul li a.active:before {
   color: var(--text-white-color);
 }
 
-/* Small devices (portrait tablets and large phones, 767px max) */
-@media only screen and (max-width: 767px) {
+@media (max-width: 991px) {
   .application-totale .content-box .title-section {
     font-size: 25px;
   }
@@ -944,25 +943,6 @@ header ul li a.active:before {
   .procedures .procedure-box .content-part2 .procedure p {
     font-size: 14px;
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .procedures .procedure-box .content-part1 .procedure,
-  .procedures .procedure-box .content-part2 .procedure {
-    padding: 20px 50px;
-  }
-  .application-totale .content-box .description-section {
-    font-size: 15px;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 }
 
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
@@ -1258,8 +1238,7 @@ header ul li a.active:before {
   display: block;
 }
 
-/* Small devices (portrait tablets and large phones, 767px max) */
-@media only screen and (max-width: 767px) {
+@media (max-width: 991px) {
   .Contact-section .section-padding .contact-container {
     display: block;
   }
@@ -1360,27 +1339,6 @@ header ul li a.active:before {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .Contact-section .section-padding .contact-container {
-    display: block;
-  }
-  .Contact-section .section-padding .contact-container .contactInfo {
-    width: 100%;
-  }
-  .Contact-section .section-padding .contact-container .contactForm {
-    width: 100%;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
-
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
 .avantages {
   background: var(--Primary-color);
@@ -1416,8 +1374,7 @@ header ul li a.active:before {
   font-weight: 600;
 }
 
-/* Small devices (portrait tablets and large phones, 767px max) */
-@media only screen and (max-width: 767px) {
+@media (max-width: 991px) {
   .avantages {
     display: block;
     justify-content: space-between;
@@ -1436,27 +1393,6 @@ header ul li a.active:before {
   .avantages .avantage i {
     font-size: 20px;
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .avantages {
-    display: block;
-    justify-content: space-between;
-    padding: 0 15px;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .avantages {
-    display: block;
-    justify-content: space-between;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer {
@@ -1529,6 +1465,7 @@ header ul li a.active:before {
   color: var(--text-white-color);
   font-size: 14px;
   line-height: 23.2px;
+  font-weight: lighter;
 }
 .inscription-newsletter .newsletter {
   display: flex;
@@ -1608,6 +1545,7 @@ header ul li a.active:before {
   color: var(--text-white-color);
   font-size: 14px;
   line-height: 25px;
+  font-weight: lighter;
 }
 .plan-site ul li a:hover {
   color: var(--third-color);
