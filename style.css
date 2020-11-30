@@ -801,10 +801,10 @@ header ul li a.active:before {
   }
   .card_box .box1 .card .card-img {
     margin-top: 20px;
-    height: 400px;
+    height: 100%;
   }
   .card_box .box1 .card .card-img img {
-    height: 400px;
+    height: 100%;
   }
   .card_box .box1 .card .card-img,
   .card_box .box1 .card .card-container {
