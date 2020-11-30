@@ -589,20 +589,14 @@ header ul li a.active:before {
 /*------------------------------------------------------A PROPOS----------------------------------------------------*/
 #Apropos {
   background: var(--second-color);
-  min-height: 100vh;
 }
-
-.Apropos-section .content-box .title-section {
+.Apropos-section .content-box {
+  display: flex;
+  justify-content: space-between;
+}
+.Apropos-section .content-box .Apropos_container .title-section {
   color: var(--text-white-color);
   font-weight: 800;
-}
-.Apropos-section .content-box .text-section {
-  font-size: 16px;
-  font-weight: lighter;
-  margin-right: 20px;
-  color: var(--text-white-color);
-  font-size: 16px;
-  line-height: 24px;
 }
 .Apropos-section .content-box .underline .under-one,
 .Apropos-section .content-box .underline .under-two {
@@ -611,23 +605,30 @@ header ul li a.active:before {
 .Apropos-section .content-box .underline .under-two {
   background-color: var(--third-color);
 }
-.Apropos-section .Apropos_container {
-  display: flex;
-}
-.Apropos-section .Apropos_container .text-icons {
+.Apropos-section .content-box .Apropos_container {
   width: 50%;
+}
+.Apropos-section .content-box .Apropos_container .text-section {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-right: 20px;
+  color: var(--text-white-color);
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.Apropos-section .Apropos_container .Apropos-image {
+.Apropos-section .Apropos-image {
   width: 50%;
-  border: 20px solid var(--Primary-color);
-}
-.Apropos-section .Apropos_container .Apropos-image img {
-  width: 100%;
   height: 100%;
 }
+.Apropos-section .Apropos-image img {
+  border: 20px solid var(--Primary-color);
+  width: 100%;
+  height: 100%;
+  min-height: 450px;
+}
 
-.Apropos-section .Apropos_container .text-icons .Apropos-icons {
+.Apropos-section .Apropos_container .Apropos-icons {
   right: 30px;
   display: flex;
 }
@@ -635,7 +636,7 @@ header ul li a.active:before {
   position: relative;
   display: flex;
 }
-.Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li {
+.Apropos-section .Apropos_container .Apropos-icons .icon li {
   list-style: none;
   margin-right: 23px;
   margin-top: 40px;
@@ -643,19 +644,19 @@ header ul li a.active:before {
   padding: 5px 10px;
   margin-right: 10px;
 }
-.Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li:hover {
+.Apropos-section .Apropos_container .Apropos-icons .icon li:hover {
   background-color: var(--third-color);
 }
-.Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li:last-child {
+.Apropos-section .Apropos_container .Apropos-icons .icon li:last-child {
   padding: 5px 12px;
 }
-.Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li i {
+.Apropos-section .Apropos_container .Apropos-icons .icon li i {
   display: inline-block;
   max-height: 24px;
   font-size: 19px;
   color: var(--fourth-color);
 }
-.Apropos-section .Apropos_container .text-icons .Apropos-icons .icon li i:hover {
+.Apropos-section .Apropos_container .Apropos-icons .icon li i:hover {
   color: var(--Primary-color);
 }
 
@@ -667,12 +668,12 @@ header ul li a.active:before {
     font-size: 25px;
   }
   .section-padding {
-    padding: 100px 10px;
+    padding: 100px 15px;
   }
-  .Apropos-section .Apropos_container {
+  .Apropos-section .content-box {
     display: block;
   }
-  .Apropos-section .Apropos_container .text-icons {
+  .Apropos-section .content-box .Apropos_container {
     width: 100%;
     margin-bottom: 30px;
   }
@@ -680,8 +681,10 @@ header ul li a.active:before {
     width: 100%;
     font-size: 14px;
   }
-  #Apropos .Apropos-image {
+  .Apropos-section .content-box .Apropos-image {
     width: 100%;
+  }
+  .Apropos-section .content-box .Apropos-image img {
     border: 10px solid var(--Primary-color);
   }
 }
