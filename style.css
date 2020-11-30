@@ -1653,7 +1653,7 @@ header ul li a.active:before {
   .contactfoot .container-footer span {
     font-size: 13px;
   }
-  .horaire .horaire-douveture {
+  .horaire .horaire-douveture p {
     font-size: 13px;
   }
   .inscription-newsletter p {
