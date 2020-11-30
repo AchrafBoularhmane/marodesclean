@@ -8,7 +8,7 @@
   --third-color: #a3d137;
   --Primary-color: #197163;
   --text-white-color: #fff;
-  --text-grey-color: #111;
+  --text-grey-color: #262626;
 }
 * {
   font-family: "Open Sans", sans-serif;
@@ -1650,9 +1650,10 @@ header ul li a.active:before {
   .plan-site ul li a {
     font-size: 13px;
   }
-  .contactfoot .container-footer span {
+  .contactfoot .container-footer div span {
     font-size: 13px;
   }
+
   .horaire .horaire-douveture p {
     font-size: 13px;
   }
