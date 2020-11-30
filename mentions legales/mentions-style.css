@@ -512,7 +512,7 @@ header ul li a.active:before {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .header-container header .MenuPlusLogo .logo-header img {
     width: 130px;
   }
@@ -533,45 +533,6 @@ header ul li a.active:before {
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .header-container header .MenuPlusLogo .logo-header img {
-    width: 140px;
-  }
-  .header-container header .MenuPlusLogo ul li a {
-    font-size: 12px;
-  }
-  .icons .icon li a i {
-    font-size: 24px;
-  }
-  .home-description-container {
-    padding: 0 60px;
-    width: 70%;
-  }
-
-  .home-description-container .home-description h1 {
-    padding: 10px 0;
-    font-size: 30px;
-  }
-  .home-description-container .home-description p {
-    font-size: 14px;
-    padding-bottom: 10px;
-  }
-  .home-description-container .home-description .Decouverir-services-boutton {
-    font-size: 14px;
-    padding: 12px 30px;
-  }
-  .navigation-auto div {
-    padding: 4px;
-  }
-  .manual-btn {
-    padding: 4px;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
 /*---------------------------------------------------------MENTIONS----------------------------------------------------*/
 
 .mentions {
@@ -612,7 +573,7 @@ header ul li a.active:before {
   background: var(--Primary-color);
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 991px) {
   .mentions {
     padding: 80px 10px;
   }
@@ -831,8 +792,7 @@ header ul li a.active:before {
   font-size: 16px;
 }
 
-/* Small devices (portrait tablets and large phones, 767px max) */
-@media only screen and (max-width: 767px) {
+@media (max-width: 991px) {
   .all-footer-parts {
     display: block;
     padding: 40px 15px;
@@ -898,38 +858,6 @@ header ul li a.active:before {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .all-footer-parts {
-    display: block;
-    padding: 40px 15px;
-  }
-  .all-footer-parts .footer-part .footer-part1 {
-    margin: 25px 0px 0px 0px;
-  }
-  .footer-part {
-    width: 100%;
-    margin: 0;
-  }
-  .footer-part .footer-part1 .plan-site,
-  .footer-part .footer-part1 .contactfoot,
-  .footer-part .footer-part2 .horaire,
-  .footer-part .footer-part2 .inscription-newsletter {
-    width: 100%;
-  }
-  .Marodesclean {
-    width: 100%;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
-
 /*---------------------------------------------------------COPYRIGHT---------------------------------------------------*/
 .Copyright {
   background: var(--text-white-color);
@@ -954,21 +882,12 @@ header ul li a.active:before {
 .Copyright a:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 991px) {
   .Copyright {
     padding: 10px;
     font-size: 10px;
   }
   .Copyright a {
     font-size: 10px;
-  }
-}
-/* IPAD AND WEB VERSION - MOBILE*/
-@media screen and (max-width: 1300px) and (min-width: 770px) {
-  .Copyright {
-    font-size: 12px;
-  }
-  .Copyright a {
-    font-size: 12px;
   }
 }

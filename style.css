@@ -8,7 +8,7 @@
   --third-color: #a3d137;
   --Primary-color: #197163;
   --text-white-color: #fff;
-  --text-grey-color: #262626;
+  --text-grey-color: #111;
 }
 * {
   font-family: "Open Sans", sans-serif;
@@ -805,7 +805,7 @@ header ul li a.active:before {
   }
   .card_box .box1 .card .card-img img {
     height: 100%;
-    margin-bottom: -5px;
+    margin-bottom: 20px;
   }
   .card_box .box1 .card .card-img,
   .card_box .box1 .card .card-container {
@@ -1464,8 +1464,8 @@ header ul li a.active:before {
 .Marodesclean p,
 .inscription-newsletter p {
   color: var(--text-white-color);
-  font-size: 14px;
-  line-height: 23.2px;
+  font-size: 15px;
+  line-height: 21.8px;
   font-weight: lighter;
 }
 .inscription-newsletter .newsletter {
@@ -1543,8 +1543,8 @@ header ul li a.active:before {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--text-white-color);
-  font-size: 14px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 21.8px;
   font-weight: lighter;
 }
 .plan-site ul li a:hover {
@@ -1553,7 +1553,6 @@ header ul li a.active:before {
 .plan-site ul li a i {
   color: var(--third-color);
   padding-right: 5px;
-  font-weight: bolder;
   font-size: 14px;
 }
 .plan-site ul li a i:hover {
@@ -1565,9 +1564,9 @@ header ul li a.active:before {
   display: flex;
 }
 .contactfoot .container-footer div span {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: lighter;
-  line-height: 22.8px;
+  line-height: 21.8px;
   color: var(--text-white-color);
   text-align: left;
 }
@@ -1585,9 +1584,9 @@ header ul li a.active:before {
   font-size: 17px;
 }
 .horaire .horaire-douveture {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: lighter;
-  line-height: 23.2px;
+  line-height: 21.8px;
   color: var(--text-white-color);
   padding-bottom: 15px;
 }
@@ -1650,11 +1649,10 @@ header ul li a.active:before {
   .plan-site ul li a {
     font-size: 13px;
   }
-  .contactfoot .container-footer div span {
+  .contactfoot .container-footer span {
     font-size: 13px;
   }
-
-  .horaire .horaire-douveture p {
+  .horaire .horaire-douveture {
     font-size: 13px;
   }
   .inscription-newsletter p {
