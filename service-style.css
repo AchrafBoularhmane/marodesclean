@@ -321,8 +321,7 @@ header ul li a.active:before {
   height: 100%;
   opacity: 0.3;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (max-width: 991px) {
   .header-container header .MenuPlusLogo {
     display: flex;
     justify-content: space-between;
@@ -456,95 +455,6 @@ header ul li a.active:before {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 767px max) */
-@media only screen and (max-width: 767px) {
-  .header-container header .MenuPlusLogo .logo-header img {
-    width: 120px;
-  }
-  .header-container header .MenuPlusLogo .mobile-navbar ul {
-    width: 100%;
-  }
-  .header-container header .MenuPlusLogo .mobile-navbar ul li {
-    padding: 25px 0;
-  }
-  .header-container header .MenuPlusLogo .mobile-navbar ul li a {
-    font-size: 20px;
-  }
-  .icons .icon li a i {
-    font-size: 20px;
-  }
-  .home-description-container {
-    padding: 0 10px;
-    width: 100%;
-  }
-
-  .home-description-container .home-description h1 {
-    padding: 8px 0;
-    font-size: 32px;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-container header .MenuPlusLogo .logo-header img {
-    width: 130px;
-  }
-  .header-container header .MenuPlusLogo .mobile-navbar ul li a {
-    font-size: 10px;
-  }
-  .icons .icon li a i {
-    font-size: 18px;
-  }
-  .home-description-container {
-    padding: 0 60px;
-    width: 70%;
-  }
-
-  .home-description-container .home-description h1 {
-    padding: 10px 0;
-    font-size: 25px;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .header-container header .MenuPlusLogo .logo-header img {
-    width: 140px;
-  }
-  .header-container header .MenuPlusLogo ul li a {
-    font-size: 12px;
-  }
-  .icons .icon li a i {
-    font-size: 24px;
-  }
-  .home-description-container {
-    padding: 0 60px;
-    width: 70%;
-  }
-
-  .home-description-container .home-description h1 {
-    padding: 10px 0;
-    font-size: 30px;
-  }
-  .home-description-container .home-description p {
-    font-size: 14px;
-    padding-bottom: 10px;
-  }
-  .home-description-container .home-description .Decouverir-services-boutton {
-    font-size: 14px;
-    padding: 12px 30px;
-  }
-  .navigation-auto div {
-    padding: 4px;
-  }
-  .manual-btn {
-    padding: 4px;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
 /*---------------------------------------------------------SERVICE DETAILS----------------------------------------------*/
 .service-details {
   min-height: 100vh;
@@ -667,8 +577,7 @@ header ul li a.active:before {
   color: var(--Primary-color);
   margin-right: 10px;
 }
-/* Small devices (portrait tablets and large phones, 767px max) */
-@media only screen and (max-width: 767px) {
+@media (max-width: 991px) {
   .service-details {
     min-height: 100vh;
     padding: 100px 10px;
@@ -745,72 +654,6 @@ header ul li a.active:before {
     opacity: 1;
   }
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-details {
-    min-height: 100vh;
-    padding: 100px 10px;
-  }
-  .service-details .service-container .content1,
-  .service-details .service-container .content3,
-  .service-details .service-container .content2,
-  .service-details .service-container .content4 {
-    display: block;
-    justify-content: space-between;
-    padding: 30px 0;
-  }
-  .service-details .service-container .content1 p,
-  .service-details .service-container .content3 p,
-  .service-details .service-container .content4 p {
-    width: 100%;
-    padding: 0px 0px;
-  }
-  .service-details .service-container .content1 ul,
-  .service-details .service-container .content3 ul,
-  .service-details .service-container .content4 .content4-part2 {
-    width: 100%;
-    padding: 30px 0px;
-  }
-  .service-details .service-container .content2 .service-img {
-    height: 250px;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-  .service-details .service-container .content2 .service-img:last-child {
-    margin-bottom: 0px;
-  }
-  .service-details .service-container .content2 .service-img img {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .service-details .service-container .content2 {
-    display: block;
-    justify-content: space-between;
-    padding: 30px 0;
-  }
-  .service-details .service-container .content2 .service-img {
-    height: 400px;
-    width: 100%;
-    margin-bottom: 40px;
-    padding: 0;
-  }
-  .service-details .service-container .content2 .service-img img {
-    width: 100%;
-  }
-  .service-details .service-container .content2 .service-img:last-child {
-    margin-bottom: 0px;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
-
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer {
   position: relative;
@@ -1018,8 +861,7 @@ header ul li a.active:before {
   color: var(--third-color);
 }
 
-/* Small devices (portrait tablets and large phones, 767px max) */
-@media only screen and (max-width: 767px) {
+@media (max-width: 991px) {
   .all-footer-parts {
     display: block;
     padding: 40px 15px;
@@ -1085,38 +927,6 @@ header ul li a.active:before {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .all-footer-parts {
-    display: block;
-    padding: 40px 15px;
-  }
-  .all-footer-parts .footer-part .footer-part1 {
-    margin: 25px 0px 0px 0px;
-  }
-  .footer-part {
-    width: 100%;
-    margin: 0;
-  }
-  .footer-part .footer-part1 .plan-site,
-  .footer-part .footer-part1 .contactfoot,
-  .footer-part .footer-part2 .horaire,
-  .footer-part .footer-part2 .inscription-newsletter {
-    width: 100%;
-  }
-  .Marodesclean {
-    width: 100%;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
-
 /*---------------------------------------------------------COPYRIGHT---------------------------------------------------*/
 .Copyright {
   background: var(--text-white-color);
@@ -1141,21 +951,12 @@ header ul li a.active:before {
 .Copyright a:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 991px) {
   .Copyright {
     padding: 10px;
     font-size: 10px;
   }
   .Copyright a {
     font-size: 10px;
-  }
-}
-/* IPAD AND WEB VERSION - MOBILE*/
-@media screen and (max-width: 1300px) and (min-width: 770px) {
-  .Copyright {
-    font-size: 12px;
-  }
-  .Copyright a {
-    font-size: 12px;
   }
 }

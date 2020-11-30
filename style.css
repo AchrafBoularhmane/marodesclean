@@ -1378,7 +1378,7 @@ header ul li a.active:before {
   .avantages {
     display: block;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0 15px;
   }
   .avantages .avantage {
     display: flex;
@@ -1475,7 +1475,7 @@ header ul li a.active:before {
   background: var(--text-white-color);
   border: none;
   padding: 10px 15px;
-  width: 100%;
+  width: 400px;
   font-size: 11px;
   margin-right: 3px;
   outline: none;
@@ -1487,7 +1487,6 @@ header ul li a.active:before {
   background: var(--third-color);
   border: none;
   color: var(--text-white-color);
-
   padding: 10px 20px;
   text-transform: uppercase;
   cursor: pointer;
@@ -1674,7 +1673,7 @@ header ul li a.active:before {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
 }
 .Copyright span {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .Copyright a {
@@ -1682,19 +1681,17 @@ header ul li a.active:before {
   color: var(--second-color);
   text-decoration: none;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .Copyright a:hover {
   text-decoration: underline;
 }
 @media (max-width: 991px) {
   .Copyright {
-    padding: 10px;
-    font-size: 10px;
-    font-weight: lighter;
+    padding: 10px 15px;
+    font-size: 13px;
   }
   .Copyright a {
-    font-size: 10px;
-    font-weight: lighter;
+    font-size: 13px;
   }
 }
