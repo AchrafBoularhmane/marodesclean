@@ -805,6 +805,7 @@ header ul li a.active:before {
   }
   .card_box .box1 .card .card-img img {
     height: 100%;
+    margin-bottom: -5px;
   }
   .card_box .box1 .card .card-img,
   .card_box .box1 .card .card-container {
