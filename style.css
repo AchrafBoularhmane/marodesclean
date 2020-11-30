@@ -856,7 +856,7 @@ header ul li a.active:before {
 /*------------------------------------------------------A PROPOS----------------------------------------------------*/
 #Apropos {
   background: var(--second-color);
-  min-height: 100vh;
+  height: 100%;
 }
 
 .Apropos-section .content-box .title-section {
