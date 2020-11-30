@@ -994,7 +994,7 @@ header ul li a.active:before {
     padding: 100px 10px;
   }
   .Apropos-section .Apropos_container {
-    display: flex;
+    display: block;
   }
   .Apropos-section .Apropos_container .text-icons {
     width: 100%;
@@ -1004,6 +1004,7 @@ header ul li a.active:before {
   .Apropos-section .content-box .text-section {
     width: 100%;
     font-size: 14px;
+    line-height: 29px;
   }
   #Apropos .Apropos-image {
     height: 500px;
@@ -1024,7 +1025,7 @@ header ul li a.active:before {
     padding: 100px 20px;
   }
   .Apropos-section .Apropos_container {
-    display: flex;
+    display: block;
   }
   .Apropos-section .Apropos_container .text-icons {
     width: 100%;
@@ -1034,6 +1035,7 @@ header ul li a.active:before {
   .Apropos-section .content-box .text-section {
     width: 100%;
     font-size: 14px;
+    line-height: 29px;
   }
   #Apropos .Apropos-image {
     height: 500px;
