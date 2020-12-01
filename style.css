@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
 :root {
   --fourth-color: #158467;
@@ -8,7 +7,7 @@
   --third-color: #a3d137;
   --Primary-color: #197163;
   --text-white-color: #fff;
-  --text-grey-color: #111;
+  --text-grey-color: #262626;
 }
 * {
   font-family: "Open Sans", sans-serif;
@@ -277,7 +276,7 @@ header ul li a.active:before {
   font-size: 14px;
   line-height: 23.2px;
   padding-bottom: 10px;
-  font-weight: 400;
+  font-weight: lighter;
 }
 .home-description-container .home-description .Decouverir-services-boutton {
   font-family: "Open Sans", sans-serif;
@@ -430,7 +429,7 @@ header ul li a.active:before {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background: var(--third-color);
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .header-container header .MenuPlusLogo {
     display: flex;
     justify-content: space-between;
@@ -660,7 +659,7 @@ header ul li a.active:before {
   color: var(--Primary-color);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   #Apropos {
     height: 100%;
   }
@@ -701,9 +700,8 @@ header ul li a.active:before {
 #Services .content-box p {
   color: var(--text-grey-color);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
   font-weight: lighter;
+  line-height: 24px;
 }
 
 #Services .content-box .underline .under-one {
@@ -769,7 +767,7 @@ header ul li a.active:before {
   background-color: var(--Primary-color);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   #Services {
     padding: 100px 15px;
   }
@@ -911,7 +909,7 @@ header ul li a.active:before {
   color: var(--text-white-color);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .application-totale .content-box .title-section {
     font-size: 25px;
   }
@@ -1239,7 +1237,7 @@ header ul li a.active:before {
   display: block;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .Contact-section .section-padding .contact-container {
     display: block;
   }
@@ -1375,7 +1373,7 @@ header ul li a.active:before {
   font-weight: 600;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .avantages {
     display: block;
     justify-content: space-between;
@@ -1464,7 +1462,7 @@ header ul li a.active:before {
 .Marodesclean p,
 .inscription-newsletter p {
   color: var(--text-white-color);
-  font-size: 15px;
+  font-size: 14px;
   line-height: 21.8px;
   font-weight: lighter;
 }
@@ -1543,7 +1541,7 @@ header ul li a.active:before {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--text-white-color);
-  font-size: 15px;
+  font-size: 14px;
   line-height: 21.8px;
   font-weight: lighter;
 }
@@ -1564,7 +1562,7 @@ header ul li a.active:before {
   display: flex;
 }
 .contactfoot .container-footer div span {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: lighter;
   line-height: 21.8px;
   color: var(--text-white-color);
@@ -1584,7 +1582,7 @@ header ul li a.active:before {
   font-size: 17px;
 }
 .horaire .horaire-douveture {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: lighter;
   line-height: 21.8px;
   color: var(--text-white-color);
@@ -1597,7 +1595,7 @@ header ul li a.active:before {
   font-size: 16px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .all-footer-parts {
     display: block;
     padding: 40px 15px;
@@ -1686,7 +1684,7 @@ header ul li a.active:before {
 .Copyright a:hover {
   text-decoration: underline;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .Copyright {
     padding: 10px 15px;
     font-size: 13px;
