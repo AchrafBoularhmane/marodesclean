@@ -881,7 +881,7 @@ header ul li a.active:before {
   width: 100%;
   z-index: 0;
   opacity: 0.7;
-  height: 400px;
+  height: 100%;
 }
 
 .card_box .box1 .card .card-container {
@@ -955,7 +955,6 @@ header ul li a.active:before {
   }
   .card_box .box1 .card .card-img {
     margin-top: 20px;
-    height: 100%;
   }
   .card_box .box1 .card .card-img img {
     height: 100%;
@@ -1499,23 +1498,25 @@ header ul li a.active:before {
   background: var(--Primary-color);
   padding: 0 60px;
   display: flex;
+  justify-content: space-between;
   color: var(--text-white-color);
   line-height: 24px;
   text-transform: uppercase;
   font-size: 16px;
-  justify-content: space-between;
+  font-weight: normal;
 }
 .avantages .avantage {
-  padding: 30px 0;
+  padding: 20px;
   display: flex;
+  justify-content: space-between;
 }
 .avantages .avantage i {
   cursor: pointer;
-  padding: 15px 20px;
+  padding: 15px;
   border-radius: 50%;
   margin-right: 15px;
   color: var(--third-color);
-  font-size: 28px;
+  font-size: 24px;
   background: var(--fourth-color);
 }
 .avantages .avantage i:hover {
@@ -1526,24 +1527,24 @@ header ul li a.active:before {
 .avantages .avantage .avan {
   display: flex;
   align-items: center;
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .avantages {
     display: block;
-    justify-content: space-between;
     padding: 0 15px;
   }
   .avantages .avantage {
     display: flex;
-    padding-right: 20px;
   }
   .avantages .avantage span {
+    width: 100%;
     font-size: 14px;
   }
   .avantages .avantage i {
-    padding: 20px 25px;
+    padding: 20px;
   }
   .avantages .avantage i {
     font-size: 20px;
@@ -1629,8 +1630,8 @@ header ul li a.active:before {
 .inscription-newsletter .newsletter .input {
   background: var(--text-white-color);
   border: none;
+  width: 100%;
   padding: 10px 15px;
-  width: 400px;
   font-size: 11px;
   margin-right: 3px;
   outline: none;
@@ -1639,6 +1640,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .inscription-newsletter .newsletter .button {
+  display: block;
   background: var(--third-color);
   border: none;
   color: var(--text-white-color);
@@ -1750,7 +1752,6 @@ header ul li a.active:before {
   margin-right: 10px;
   font-size: 16px;
 }
-
 @media (max-width: 767px) {
   .all-footer-parts {
     display: block;
