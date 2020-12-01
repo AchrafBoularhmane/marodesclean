@@ -1016,7 +1016,7 @@ header ul li a.active:before {
 .procedures .procedure-box .content-part1 .procedure,
 .procedures .procedure-box .content-part2 .procedure {
   min-height: 250px;
-  padding: 0 120px;
+  padding: 20px 120px;
 }
 .procedures .procedure-box .procedure h3 {
   font-size: 16px;
