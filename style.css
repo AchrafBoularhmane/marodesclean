@@ -506,15 +506,18 @@ header ul li a.active:before {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
   }
   .header-container header .MenuPlusLogo .mobile-navbar ul li {
-    padding: 10px 0;
+    width: 100%;
+    padding: 20px 0;
   }
-  .header-container header .MenuPlusLogo ul li a {
+  .header-container header .MenuPlusLogo .mobile-navbar ul li a {
     z-index: 6;
     text-decoration: none;
     color: var(--text-white-color);
     font-weight: 700;
+    font-size: 30px;
     text-transform: uppercase;
   }
   .header-container header .MenuPlusLogo ul li a:hover,
@@ -662,11 +665,13 @@ header ul li a.active:before {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
   }
   .header-container header .MenuPlusLogo .mobile-navbar ul li {
-    padding: 10px 0;
+    padding: 20px 0;
   }
-  .header-container header .MenuPlusLogo ul li a {
+  .header-container header .MenuPlusLogo .mobile-navbar ul li a {
+    font-size: 30px;
     z-index: 6;
     text-decoration: none;
     color: var(--text-white-color);
