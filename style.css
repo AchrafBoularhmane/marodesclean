@@ -585,6 +585,7 @@ header ul li a.active:before {
   }
   .cookies {
     padding: 10px;
+    width: 100%;
   }
   .cookies .cookies-container {
     display: block;
@@ -694,6 +695,9 @@ header ul li a.active:before {
   font-weight: 800;
   text-align: left;
 }
+.Apropos-section .section-container .underline {
+  margin-top: 8px;
+}
 .Apropos-section .section-container .underline .under-one,
 .Apropos-section .section-container .underline .under-two {
   background-color: var(--text-white-color);
@@ -781,7 +785,7 @@ header ul li a.active:before {
   #Apropos {
     height: 100%;
   }
-  .Apropos-section .section-padding .section-container .title-section {
+  .Apropos-section .section-container .title-section {
     font-size: 25px;
   }
   .section-padding {
@@ -836,6 +840,7 @@ header ul li a.active:before {
 
 #Services .content-box .underline {
   justify-content: center;
+  margin-top: 8px;
 }
 #Services .content-box .underline .under-one {
   background-color: var(--Primary-color);
@@ -949,7 +954,7 @@ header ul li a.active:before {
     margin-bottom: 40px;
   }
   .card_box .box1 .card .card-container .underline {
-    padding-top: 5px;
+    padding-top: 10px;
   }
   .card_box .box1 .card .card-img {
     margin-top: 40px;
@@ -1012,6 +1017,7 @@ header ul li a.active:before {
 }
 .procedures .content-box .underline {
   justify-content: center;
+  margin-top: 8px;
 }
 .procedures .content-box .underline .under-one {
   background-color: var(--text-white-color);
@@ -1191,6 +1197,7 @@ header ul li a.active:before {
 
 .Contact-section .content-box .underline {
   justify-content: center;
+  margin-top: 8px;
 }
 .Contact-section .content-box .underline .under-one {
   background-color: var(--Primary-color);
@@ -1829,7 +1836,7 @@ header ul li a.active:before {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
 }
 .Copyright span {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .Copyright a {
@@ -1837,7 +1844,7 @@ header ul li a.active:before {
   color: rgba(25, 25, 25, 1);
   text-decoration: none;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .Copyright a:hover {
   text-decoration: underline;
