@@ -6,15 +6,16 @@ function toggle() {
   menu.classList.toggle("active");
   menuoverlay.classList.toggle("active");
   body.classList.toggle("stop-scrolling");
-  cookies.classList.add("close");
+  cookies.classList.add("close-cookies");
 }
 function toggleoff() {
   menu.classList.remove("active");
   menuoverlay.classList.remove("active");
   body.classList.remove("stop-scrolling");
+  cookies.classList.remove("close-cookies");
 }
 // Fixing nav bar on scroll //
-var height = $("#navbar").height();
+var height = $("#Apropos").height();
 $(window).scroll(function () {
   if ($(this).scrollTop() > height) {
     $("#Accueil").removeClass("active");
@@ -29,14 +30,14 @@ $(window).scroll(function () {
 // Cookies //
 var cookies = document.getElementById("cookie");
 function Close() {
-  cookies.classList.add("close");
+  cookies.classList.add("close-cookies");
 }
 document.getElementById("ok").addEventListener("click", function (event) {
   event.preventDefault();
-  cookies.classList.add("close");
+  cookies.classList.add("close-cookies");
 });
 document.getElementById("ensavoirplus").addEventListener("click", function (event) {
-  cookies.classList.add("close");
+  cookies.classList.add("close-cookies");
 });
 
 // Back to top //

@@ -20,9 +20,10 @@
         <!--Header [navbar+logo+cookies]-->
         <div class="header-container" id="navbar">
           <!--Cookies mentions légales-->
-          <div class="cookies" id="cookie">
+          <div class="cookies reveal-3" id="cookie">
             <i class="fa fa-times" aria-hidden="true" id="close-cookies" onclick="Close()"></i>
             <div class="cookies-container">
+              <h2>Utilisation des COOKIES</h2>
               <p>En poursuivant votre navigation sur ce site, vous acceptez nos conditions générales et l’utilisation de cookies pour vous garantir la meilleure expérience sur notre site</p>
               <a href="" id="ok"> ok </a><a href="./mentions legales/mentions.html" id="ensavoirplus"> en savoir plus</a>
             </div>
@@ -30,7 +31,9 @@
           <header>
             <!--Menu + Logo-->
             <div class="MenuPlusLogo">
-              <span class="logo-header"><a href="./index.html#home"><img src="./images/logo1.png" /></a></span>
+              <span class="logo-header"
+                ><a href="./index.html#home"><img src="./images/logo1.png" /></a
+              ></span>
 
               <div class="toggle" id="Menu" onclick="toggle()">
                 <span class="one"></span>
@@ -53,7 +56,7 @@
         <div class="home-description-container">
           <div class="home-description">
             <h1>DÉSINFECTION DÉRATISATION ET DÉSINSECTISATION</h1>
-            <p>Vous recherchez une entreprise proposant une désinfection en profondeur qui assainit et décontamine vos espaces ? Une entreprise de désinfection au service des professionnels et des particuliers ? MARODESCLEAN vous accompagne pour tous vos besoins de désinfection.</p>
+            <p>Vous recherchez une entreprise proposant une désinfection en profondeur qui assainit et décontamine vos espaces ? Une entreprise de désinfection au service des professionnels et des particuliers ? MARODESCLEAN vous accompagne pour tous vos besoins de désinfection</p>
             <button class="Decouverir-services-boutton" onclick="location.href='./index.html#Services'" type="button">Découverez-nos services</button>
           </div>
         </div>
@@ -77,6 +80,7 @@
               <div class="slide">
                 <img src="./images/desinsectisation savoir plus 1.jpg" alt="" />
               </div>
+
               <div class="navigation-auto">
                 <div class="auto-btn1"></div>
                 <div class="auto-btn2"></div>
@@ -90,70 +94,71 @@
               <label for="radio3" class="manual-btn"></label>
               <label for="radio4" class="manual-btn"></label>
             </div>
+            <!--social media links-->
+            <div class="icons">
+              <ul class="icon">
+                <li>
+                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <!--social media links-->
-        <div class="icons">
-          <ul class="icon">
-            <li>
-              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            </li>
-
-            <li>
-              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </li>
-          </ul>
         </div>
       </section>
       <!---------------------------------------------------------A PROPOS SECTION----------------------------------------------------->
-      <section class="Apropos-section">
-        <div class="section-padding" id="Apropos">
+      <section class="Apropos-section section-padding">
+        <div class="section-container" id="Apropos">
           <div class="content-box">
-            <div class="Apropos_container">
-                <h2 class="title-section">Qui sommes-nous?</h2>
-                <!-- Underline title -->
-                <div class="underline">
-                  <span class="under-one"></span>
-                  <span class="under-two"></span>
-                </div>    
-                <p class="text-section">
-                  <b>MARODESClEAN</b> met à votre disposition tout son savoir-faire techniques & métiers en termes de prestations de services d’entretien/Produits, de traitements sanitaires. Pour tous vos besoins de désinsectisation, dératisation, désinfection, traitement bactéricide, virucide, traitement des espaces verts...<br /><br />
-                  Nous sommes à votre disposition pour une intervention sur rendez-vous ou en urgence. nous vous proposons des services de qualité avec des insecticides polyvalents très efficaces contre les cafards, punaises de lit, puces, insectes rampant ou volant, des termites,salamandre, serpent, etc<br /><br />
-                  Tout en tenant compte sur les conditions des règles d'hygiènes, nous intervenons également pour lutter contre les rats, les souris... <br /><br />Nous avons une solution pour chaque cas.
-                </p>
-                <!--Icons-->
-                <div class="Apropos-icons">
-                  <ul class="icon">
-                    <li>
-                      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                  </ul>
-              </div>
+            <h2 class="title-section">Qui sommes-nous?</h2>
+            <!-- Underline title -->
+            <div class="underline">
+              <span class="under-one"></span>
+              <span class="under-two"></span>
             </div>
-                  <!--image-->
-                  <div class="Apropos-image"> <img src="./images/desinfection savoir plus.jpg" alt=""></div>
+            <p class="text-section">
+              <b>MARODESClEAN</b> met à votre disposition tout son savoir-faire techniques & métiers en termes de prestations de services d’entretien/Produits, de traitements sanitaires. Pour tous vos besoins de désinsectisation, dératisation, désinfection, traitement bactéricide, virucide, traitement des espaces verts...<br /><br />
+              Nous sommes à votre disposition pour une intervention sur rendez-vous ou en urgence. nous vous proposons des services de qualité avec des insecticides polyvalents très efficaces contre les cafards, punaises de lit, puces, insectes rampant ou volant, des termites,salamandre, serpent, etc<br /><br />
+              Tout en tenant compte sur les conditions des règles d'hygiènes, nous intervenons également pour lutter contre les rats, les souris... <br /><br />Nous avons une solution pour chaque cas.
+            </p>
+            <!--Icons-->
+            <div class="Apropos-icons">
+              <ul class="icon">
+                <li>
+                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--image-->
+          <div class="img-box">
+            <div class="border"></div>
+            <div class="bg"></div>
 
+            <img src="./images/desinfection savoir plus.jpg" alt="" />
           </div>
         </div>
       </section>
       <!---------------------------------------------------------NOS SERVICES SECTION ------------------------------------------------->
-      <section class="Services-section">
-        <div class="container section-padding" id="Services">
+      <section class="Services-section section-padding">
+        <div class="section-container" id="Services">
           <div class="content-box">
             <h2 class="title-section">Nos services</h2>
             <!-- Underline title -->
@@ -161,18 +166,19 @@
               <span class="under-one"></span>
               <span class="under-two"></span>
             </div>
-            <p>
+            <p class="description-section">
               <b>MARODESCLEAN </b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente temporibus quaerat recusandae adipisci officiis harum facilis aut a iste? Illum voluptate ab perspiciatis ex rerum officiis accusantium, reiciendis similique odio aperiam quia ullam fugiat ad? Sint totam accusamus, labore unde ratione cum, pariatur saepe nisi
               cupiditate voluptas deleniti quidem aliquam!
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus molestias nam?</p>
           </div>
           <!-- card service -->
-         <div class="card_box container-padding">
+          <div class="card_box container-padding">
             <div class="box1">
               <div class="card">
                 <div class="card-img">
-                  <img src="./images/Desinfection services.jpg" />             
+                  <div class="bgimg"></div>
+                  <div class="bgcolor"></div>
+                  <img src="./images/Desinfection services.jpg" />
                 </div>
                 <div class="card-container">
                   <h3>Désinfection</h3>
@@ -180,84 +186,93 @@
                     <span class="under-one"></span>
                   </div>
                   <p><b>MARODESCLEAN</b> vous proposera le meilleur service pour la désinfection. Curatif, préventif, respect de l'environnement. Nous intervenons chez les particuliers, maison, villa, appartement, chez les professionnels, Hotels, restaurants, usines, écoles, bureaux...</p>
-                  <a href="./services/Desinfection.html">En savoir plus</a> 
+                  <a href="./services/Desinfection.html">En savoir plus</a>
                 </div>
               </div>
-             <div class="card">
-              <div class="card-container">
-                <h3>Désinsectisation</h3>
-                <div class="underline">
-                  <span class="under-one"></span>
-                </div>
-                <p>
-                  <b>MARODESCLEAN</b> met tout en œuvre pour lutter efficacement contre les insectes nuisibles. Une attention toute particulière est attachée aux besoins et attebtes du client. Des offres sur mesure sont élaborées en collaboration avec le client pour proposer le meilleur service possible en fonction de la situation spécifique du client...
-                </p>
-                <a href="./services/desinsectisation.html">En savoir plus</a>
-                </div>
-                <div class="card-img">
-              <img src="./images/desinsectisation savoir plus 1.jpg " />
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-img">
-              <img src="./images/deratisation services.jpg" />
-              </div>
-              <div class="card-container">
-              <h3>Dératisation</h3>
-              <div class="underline">
-                <span class="under-one"></span>
-              </div>
-              <p>Pour tous vos problèmes de rongeurs, <b>MARODESCLEAN</b> dispose d'une équipe de dératiseurs prêts à répondre rapidement à votre demande d'élimination des nuisibles. Offrez vous un cadre propre pour vos activités, et débarrassez-vous une fois pour toute de ces nuisibles...</p>
-              <a href="./services/dératisation.html">En savoir plus</a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-container">
-                <h3>Jardinage</h3>
-                <div class="underline">
-                  <span class="under-one"></span>
-                </div>
-                <p>Spécialisés dans les jardins urbains et les jardins de petite taille, nous sommes vos jardiniers de confiance pour l'aménagement et la conception de vos extérieurs : jardins, terrasse,... Nous prenons également soin de la rénovation et l'entretien de vos espaces verts tout au long de l'année...</p>
-                <a href="./services/jardinage.html">En savoir plus</a>
+              <div class="card">
+                <div class="card-container">
+                  <h3>Désinsectisation</h3>
+                  <div class="underline">
+                    <span class="under-one"></span>
+                  </div>
+                  <p>
+                    <b>MARODESCLEAN</b> met tout en œuvre pour lutter efficacement contre les insectes nuisibles. Une attention toute particulière est attachée aux besoins et attebtes du client. Des offres sur mesure sont élaborées en collaboration avec le client pour proposer le meilleur service possible en fonction de la situation spécifique du client...
+                  </p>
+                  <a href="./services/desinsectisation.html">En savoir plus</a>
                 </div>
                 <div class="card-img">
+                  <div class="bgimg1"></div>
+                  <div class="bgcolor"></div>
+                  <img src="./images/desinsectisation savoir plus 1.jpg " />
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img">
+                  <div class="bgimg"></div>
+                  <div class="bgcolor"></div>
+                  <img src="./images/deratisation services.jpg" />
+                </div>
+                <div class="card-container">
+                  <h3>Dératisation</h3>
+                  <div class="underline">
+                    <span class="under-one"></span>
+                  </div>
+                  <p>Pour tous vos problèmes de rongeurs, <b>MARODESCLEAN</b> dispose d'une équipe de dératiseurs prêts à répondre rapidement à votre demande d'élimination des nuisibles. Offrez vous un cadre propre pour vos activités, et débarrassez-vous une fois pour toute de ces nuisibles...</p>
+                  <a href="./services/dératisation.html">En savoir plus</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-container">
+                  <h3>Jardinage</h3>
+                  <div class="underline">
+                    <span class="under-one"></span>
+                  </div>
+                  <p>Spécialisés dans les jardins urbains et les jardins de petite taille, nous sommes vos jardiniers de confiance pour l'aménagement et la conception de vos extérieurs : jardins, terrasse,... Nous prenons également soin de la rénovation et l'entretien de vos espaces verts tout au long de l'année...</p>
+                  <a href="./services/jardinage.html">En savoir plus</a>
+                </div>
+                <div class="card-img">
+                  <div class="bgimg1"></div>
+                  <div class="bgcolor"></div>
                   <img src="./images/jardinnage services.jpg" alt="" />
                 </div>
-            </div>
-            <div class="card">
-              <div class="card-img">
-
-                <img src="./images/nettoyage service.jpg" alt="" />  
               </div>
-              <div class="card-container">
-                <h3>Nettoyage</h3>
-              <div class="underline">
-                <span class="under-one"></span>
-              </div>
-              <p>Pour tous vos problèmes de rongeurs, <b>MARODESCLEAN</b> dispose d'une équipe de dératiseurs prêts à répondre rapidement à votre demande d'élimination des nuisibles. Offrez vous un cadre propre pour vos activités, et débarrassez-vous une fois pour toute de ces nuisibles...</p>
-              <a href="./services/nettoyage.html">En savoir plus</a>
-            </div>
-            </div>
-            <div class="card">
-              <div class="card-container">
-                <h3>Sécurité</h3>
-                <div class="underline">
-                  <span class="under-one"></span>
+              <div class="card">
+                <div class="card-img">
+                  <div class="bgimg"></div>
+                  <div class="bgcolor"></div>
+                  <img src="./images/nettoyage service.jpg" alt="" />
                 </div>
-                <p>L’agent de sécurité assure les services de sécurité et gardiennage la protection des biens et des personnes ainsi que le bon fonctionnement d’un site (entreprise, stade, usine, immeuble), ses missions sont ...</p>
-                <a href="./services/securite.html">En savoir plus</a>
+                <div class="card-container">
+                  <h3>Nettoyage</h3>
+                  <div class="underline">
+                    <span class="under-one"></span>
+                  </div>
+                  <p>Pour tous vos problèmes de rongeurs, <b>MARODESCLEAN</b> dispose d'une équipe de dératiseurs prêts à répondre rapidement à votre demande d'élimination des nuisibles. Offrez vous un cadre propre pour vos activités, et débarrassez-vous une fois pour toute de ces nuisibles...</p>
+                  <a href="./services/nettoyage.html">En savoir plus</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-container">
+                  <h3>Sécurité</h3>
+                  <div class="underline">
+                    <span class="under-one"></span>
+                  </div>
+                  <p>L’agent de sécurité assure les services de sécurité et gardiennage la protection des biens et des personnes ainsi que le bon fonctionnement d’un site (entreprise, stade, usine, immeuble), ses missions sont ...</p>
+                  <a href="./services/securite.html">En savoir plus</a>
                 </div>
                 <div class="card-img">
+                  <div class="bgimg1"></div>
+                  <div class="bgcolor"></div>
                   <img src="./images/securite service.jpg" alt="" />
                 </div>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
       </section>
       <!---------------------------------------------------------IMPLICATION TOTALE -------------------------------------------------------------->
-      <section class="application-totale">
-        <div class="procedures section-padding">
-          <div class="procedure-backgroundcolor"></div>
+      <section class="application-totale section-padding">
+        <div class="procedures section-container">
           <div class="content-box">
             <h2 class="title-section center-text">Implication totale</h2>
             <!-- Underline title -->
@@ -306,25 +321,25 @@
       <!--Avantage bar-->
       <div class="avantages">
         <div class="avantage">
-          <i class="fa fa-check"></i>
-          <span class="avan">Confiance</span>
+          <div class="icon"><i class="fa fa-check"></i></div>
+          <div class="avantage-type">Confiance</div>
         </div>
         <div class="avantage">
-          <i class="fa fa-truck"></i>
-          <span class="avan">Réponse rapide</span>
+          <div class="icon"><i class="fa fa-truck"></i></div>
+          <div class="avantage-type">Réponse rapide</div>
         </div>
         <div class="avantage">
-          <i class="fa fa-phone"></i>
-          <span class="avan">Assistance à la clientèle</span>
+          <div class="icon"><i class="fa fa-phone"></i></div>
+          <div class="avantage-type">Assistance à la clientèle</div>
         </div>
         <div class="avantage">
-          <i class="fa fa-file-text-o"></i>
-          <span class="avan">Devis sans engagement</span>
+          <div class="icon"><i class="fa fa-file-text-o"></i></div>
+          <div class="avantage-type">Devis sans engagement</div>
         </div>
       </div>
       <!---------------------------------------------------------CONTACT ---------------------------------------------------->
-      <section class="Contact-section">
-        <div class="section-padding" id="Contact">
+      <section class="Contact-section section-padding">
+        <div class="section-container" id="Contact">
           <div class="content-box">
             <h2 class="title-section center-text">Contact et devis</h2>
             <!-- Underline title -->
@@ -514,8 +529,12 @@
                   <span class="under-one"></span>
                   <span class="under-two"></span>
                 </div>
-                <div class="horaire-douveture"><p><i class="fa fa-calendar-check-o"></i>Du Lundi au Vendredi 9h00 - 21h00</p></div>
-                <div class="horaire-douveture"><p><i class="fa fa-calendar-check-o"></i>Samedi 9h00 - 13h00</p></div>
+                <div class="horaire-douveture">
+                  <p><i class="fa fa-calendar-check-o"></i>Du Lundi au Vendredi 9h00 - 21h00</p>
+                </div>
+                <div class="horaire-douveture">
+                  <p><i class="fa fa-calendar-check-o"></i>Samedi 9h00 - 13h00</p>
+                </div>
               </div>
               <div class="inscription-newsletter">
                 <h2>inscription newsletter</h2>
