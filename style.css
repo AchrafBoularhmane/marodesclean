@@ -1813,7 +1813,7 @@ header ul li a.active:before {
 .Copyright {
   background: var(--text-white-color);
   padding: 20px 60px;
-  color: var(--text-grey-color);
+  color: var(--second-color);
   font-size: 13px;
   text-align: center;
   text-transform: uppercase;
@@ -1825,7 +1825,7 @@ header ul li a.active:before {
 
 .Copyright a {
   text-transform: uppercase;
-  color: var(--text-grey-color);
+  color: var(--second-color);
   text-decoration: none;
   font-size: 13px;
   font-weight: 600;
