@@ -823,6 +823,9 @@ header ul li a.active:before {
     margin-bottom: -18px;
     margin-right: -18px;
   }
+  .section-padding {
+    padding: 100px 15px;
+  }
 }
 /* Medium devices (landscape tablets, 769px and up) */
 @media only screen and (min-width: 769px) and (max-width: 991px) {
@@ -1124,33 +1127,33 @@ header ul li a.active:before {
 .avantages {
   min-width: 100%;
   height: 100%;
-  background-color: rgba(25, 25, 25, 1);
+  background-color: var(--third-color);
   padding: 0 60px;
   display: flex;
-  color: #eeeeee;
+  color: var(--second-color);
   line-height: 27.3px;
   text-transform: uppercase;
   font-size: 14px;
   padding: 20px 60px;
+  font-weight: 700;
 }
 .avantages .avantage {
   width: 33%;
   display: flex;
 }
 .avantages .avantage .icon {
-  background-color: var(--third-color);
+  background-color: var(--text-white-color);
   border-radius: 50%;
   margin-right: 15px;
   padding: 10px 15px;
 }
 .avantages .avantage .icon i {
   cursor: pointer;
-  color: #eeeeee;
+  color: var(--Primary-color);
   font-size: 27.3px;
   margin: auto 0;
 }
 .avantages .avantage .icon i:hover {
-  background: var(--third-color);
   color: var(--second-color);
 }
 .avantages .avantage .avantage-type {
@@ -1565,12 +1568,10 @@ header ul li a.active:before {
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
 .footer {
   position: relative;
+  background-color: var(--second-color);
 }
 .all-footer-parts {
   display: flex;
-  margin-bottom: 0;
-  padding: 100px 60px;
-  background-color: rgba(25, 25, 25, 1);
 }
 .all-footer-parts .footer-part .footer-part1,
 .all-footer-parts .footer-part .footer-part2 {
@@ -1592,35 +1593,35 @@ header ul li a.active:before {
 .footer-part .footer-part2 {
   padding-top: 40px;
 }
-.Marodesclean {
+.brand-description {
   width: 30%;
 }
-.Marodesclean h2,
+.brand-description h2,
 .plan-site h2,
 .contactfoot h2,
 .horaire h2,
 .inscription-newsletter h2 {
-  color: #eeeeee;
+  color: #f3f3f3;
   font-size: 21px;
   line-height: 27.3px;
   text-transform: uppercase;
   font-weight: 600;
 }
-.Marodesclean .underline,
+.brand-description .underline,
 .plan-site .underline,
 .contactfoot .underline,
 .horaire .underline,
 .inscription-newsletter .underline {
   padding-top: 15px;
 }
-.Marodesclean .underline .under-one,
+.brand-description .underline .under-one,
 .plan-site .underline .under-one,
 .contactfoot .underline .under-one,
 .horaire .underline .under-one,
 .inscription-newsletter .underline .under-one {
   background-color: var(--text-white-color);
 }
-.Marodesclean .underline .under-two,
+.brand-description .underline .under-two,
 .plan-site .underline .under-two,
 .contactfoot .underline .under-two,
 .horaire .underline .under-two,
@@ -1628,9 +1629,9 @@ header ul li a.active:before {
   background-color: var(--third-color);
 }
 
-.Marodesclean p,
+.brand-description p,
 .inscription-newsletter p {
-  color: #a2a2a2;
+  color: #f3f3f3;
   font-size: 15px;
   line-height: 27px;
   font-weight: 400;
@@ -1666,29 +1667,29 @@ header ul li a.active:before {
   border-radius: 0;
 }
 
-.Marodesclean .footer-icons {
+.brand-description .footer-icons {
   padding: 15px 0;
 }
-.Marodesclean .footer-icons ul {
+.brand-description .footer-icons ul {
   display: flex;
   list-style: none;
 }
-.Marodesclean .footer-icons ul li {
+.brand-description .footer-icons ul li {
   background: var(--third-color);
   padding: 5px 10px;
   margin-right: 10px;
 }
-.Marodesclean .footer-icons ul li:last-child {
+.brand-description .footer-icons ul li:last-child {
   padding: 5px 12px;
 }
-.Marodesclean .footer-icons ul li a {
+.brand-description .footer-icons ul li a {
   text-decoration: none;
 }
-.Marodesclean .footer-icons ul li a i {
+.brand-description .footer-icons ul li a i {
   color: var(--Primary-color);
   font-size: 18px;
 }
-.Marodesclean .footer-icons ul li a i:hover {
+.brand-description .footer-icons ul li a i:hover {
   color: var(--fourth-color);
 }
 .horaire {
@@ -1707,7 +1708,7 @@ header ul li a.active:before {
 .plan-site ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #a2a2a2;
+  color: #f3f3f3;
   font-size: 15px;
   line-height: 21.8px;
   font-weight: 400;
@@ -1732,7 +1733,7 @@ header ul li a.active:before {
   font-size: 15px;
   font-weight: 400;
   line-height: 21.8px;
-  color: #a2a2a2;
+  color: #f3f3f3;
   text-align: left;
 }
 .contactfoot .container-footer div span i {
@@ -1752,7 +1753,7 @@ header ul li a.active:before {
   font-size: 15px;
   font-weight: 400;
   line-height: 21.8px;
-  color: #a2a2a2;
+  color: #f3f3f3;
   padding-bottom: 15px;
 }
 .horaire .horaire-douveture i {
@@ -1760,10 +1761,10 @@ header ul li a.active:before {
   margin-right: 10px;
   font-size: 16px;
 }
-@media (max-width: 767px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .all-footer-parts {
     display: block;
-    padding: 40px 15px;
   }
   .all-footer-parts .footer-part .footer-part1,
   .all-footer-parts .footer-part .footer-part2 {
@@ -1789,67 +1790,51 @@ header ul li a.active:before {
   .footer-part .footer-part2 {
     padding-top: 0px;
   }
-  .Marodesclean {
+  .brand-description {
     width: 100%;
   }
-  .Marodesclean p {
-    font-size: 13px;
-  }
-  .Marodesclean h2,
-  .plan-site h2,
-  .contactfoot h2,
-  .horaire h2,
-  .inscription-newsletter h2 {
-    font-size: 22px;
-  }
-  .Marodesclean,
+
+  .brand-description,
   .plan-site,
   .contactfoot,
   .horaire {
     width: 100%;
     border: none;
   }
-  .plan-site ul li a {
-    font-size: 13px;
-  }
-  .contactfoot .container-footer span {
-    font-size: 13px;
-  }
-  .horaire .horaire-douveture {
-    font-size: 13px;
-  }
-  .inscription-newsletter p {
-    font-size: 13px;
-  }
-  .inscription-newsletter .newsletter .button {
-    font-size: 11px;
-  }
 }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+}
+/* Medium devices (landscape tablets, 769px and up) */
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+}
+
 /*---------------------------------------------------------COPYRIGHT---------------------------------------------------*/
 .Copyright {
   background: var(--text-white-color);
   padding: 20px 60px;
-  color: rgba(25, 25, 25, 1);
+  color: var(--text-grey-color);
   font-size: 13px;
   text-align: center;
   text-transform: uppercase;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
 }
 .Copyright span {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .Copyright a {
   text-transform: uppercase;
-  color: rgba(25, 25, 25, 1);
+  color: var(--text-grey-color);
   text-decoration: none;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .Copyright a:hover {
   text-decoration: underline;
 }
-@media (max-width: 767px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .Copyright {
     padding: 10px 15px;
     font-size: 13px;
@@ -1857,4 +1842,10 @@ header ul li a.active:before {
   .Copyright a {
     font-size: 13px;
   }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+}
+/* Medium devices (landscape tablets, 769px and up) */
+@media only screen and (min-width: 769px) and (max-width: 991px) {
 }
