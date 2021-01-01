@@ -662,8 +662,9 @@ header ul li a.active:before {
   .header-container header .MenuPlusLogo .mobile-navbar ul li a {
     font-size: 11.5px;
   }
+
   .home-description-container .home-description {
-    width: 70%;
+    width: 80%;
   }
 }
 /* Medium devices (landscape tablets, 769px and up) */
@@ -674,7 +675,7 @@ header ul li a.active:before {
     min-height: 70vh;
   }
   .home-description-container .home-description {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -721,15 +722,7 @@ header ul li a.active:before {
   width: 50%;
   position: relative;
 }
-.Apropos-section .img-box .border {
-  z-index: 2;
-  position: absolute;
-  top: -20px;
-  left: -20px;
-  width: 80%;
-  height: 50%;
-  background-color: var(--third-color);
-}
+
 .Apropos-section .img-box .bg {
   z-index: 4;
   opacity: 0.2;
@@ -746,6 +739,7 @@ header ul li a.active:before {
   width: 100%;
   height: 80%;
   min-height: 450px;
+  border: 15px solid var(--third-color);
 }
 
 .Apropos-section .section-container .content-box .Apropos-icons {
@@ -865,25 +859,7 @@ header ul li a.active:before {
   width: 50%;
   height: 380px;
 }
-.card_box .box1 .card .card-img .bgimg {
-  position: absolute;
-  top: -30px;
-  left: -30px;
-  width: 100%;
-  height: 100%;
-  border: 10px solid var(--third-color);
-  z-index: 0;
-}
 
-.card_box .box1 .card .card-img .bgimg1 {
-  position: absolute;
-  top: -30px;
-  right: -30px;
-  width: 100%;
-  height: 100%;
-  border: 10px solid var(--third-color);
-  z-index: 0;
-}
 .card_box .box1 .card .card-img .bgcolor {
   opacity: 0.15;
   position: absolute;
@@ -962,25 +938,7 @@ header ul li a.active:before {
   .card_box .box1 .card .card-img {
     margin-top: 40px;
   }
-  .card_box .box1 .card .card-img .bgimg {
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    width: 100%;
-    height: 100%;
-    border: 10px solid var(--third-color);
-    z-index: 0;
-  }
 
-  .card_box .box1 .card .card-img .bgimg1 {
-    position: absolute;
-    top: -20px;
-    right: -20px;
-    width: 100%;
-    height: 100%;
-    border: 10px solid var(--third-color);
-    z-index: 0;
-  }
   .card_box .box1 .card .card-img img {
     height: 100%;
     margin-bottom: 20px;
@@ -1325,35 +1283,29 @@ header ul li a.active:before {
 .contactForm .inputbox textarea {
   font-family: "Open Sans", sans-serif;
   width: 100%;
-  padding: 5px 0;
-  font-size: 15px;
-  color: var(--text-grey-color);
+  padding: 7px 0;
+  font-size: 16px;
+  color: #111;
   margin: 10px 0;
   border: none;
   border-bottom: 1px solid var(--third-color);
   outline: none;
   resize: none;
-  font-weight: 400;
+  font-weight: 500;
 }
 .contactForm .inputbox span {
   position: absolute;
   left: 0;
   padding: 5px 0;
   font-size: 14.5px;
-  margin: 10px 0;
+  margin: 18px 0;
   pointer-events: none;
   transition: 0.5s;
   color: var(--second-color);
   font-weight: 400;
+  transform: translateY(-30px);
 }
-.contactForm .inputbox input:focus ~ span,
-.contactForm .inputbox input:valid ~ span,
-.contactForm .inputbox textarea:focus ~ span,
-.contactForm .inputbox textarea:valid ~ span {
-  color: var(--second-color);
-  font-size: 15px;
-  transform: translateY(-20px);
-}
+
 .contactForm .inputbox input[type="submit"] {
   min-width: 200px;
   background: var(--third-color);
@@ -1380,7 +1332,8 @@ header ul li a.active:before {
   background-color: rgba(25, 25, 25, 1);
   color: var(--third-color);
 }
-.modal-container {
+.modal-container,
+.modal-container-NL {
   z-index: 30;
   display: flex;
   align-items: center;
@@ -1393,12 +1346,14 @@ header ul li a.active:before {
   width: 100vw;
   visibility: hidden;
 }
-.modal-container.show {
+.modal-container.show,
+.modal-container-NL.show {
   visibility: visible;
   z-index: 3000000000000000000000000000000000000000000000000;
 }
 
-.modal {
+.modal,
+.modal-NL {
   opacity: 1;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   padding: 30px 50px;
@@ -1415,19 +1370,30 @@ header ul li a.active:before {
   padding-bottom: 20px;
   border-bottom: 1px solid var(--third-color);
 }
+.modal-NL h1 {
+  font-size: 27.3px;
+  color: var(--second-color);
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--third-color);
+  letter-spacing: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .modal h1 i {
   color: var(--third-color);
   font-size: 32px;
   margin-left: 4px;
 }
-.modal p {
+.modal p,
+.modal-NL p {
   text-align: left;
   font-size: 15px;
   opacity: 0.7;
   padding: 20px 0px;
   line-height: 22.5px;
 }
-.modal button {
+.modal button,
+.modal-NL button {
   background: var(--third-color);
   border: none;
   border-radius: 1px;
@@ -1440,27 +1406,32 @@ header ul li a.active:before {
   -webkit-border-radius: 0;
   outline: none;
 }
-.modal button:hover {
-  background: var(--fourth-color);
+.modal button:hover,
+.modal-NL button:hover {
+  background: #111;
   -webkit-appearance: none;
+  color: var(--third-color);
   -webkit-border-radius: 0;
   border-radius: 0;
 }
 .erreur {
   background: #ffe0e0;
   padding: 10px 10px;
-  color: #262626;
+  color: #300000;
   font-size: 13px;
   display: none;
+  margin-bottom: 10px;
 }
 .erreur i {
   font-size: 16px;
   margin-right: 5px;
-  color: #262626;
+  color: #300000;
 }
 
-.nom.show,
+.nomComplet-vide.show,
+.nomComplet-non-valide.show,
 .prenom.show,
+.message.show,
 .mobile.show,
 .email.show,
 .objet.show {
@@ -1512,7 +1483,8 @@ header ul li a.active:before {
     padding: 10px 15px;
     min-width: 120px;
   }
-  .modal-container {
+  .modal-container,
+  .modal-container-NL {
     z-index: 30;
     display: flex;
     align-items: center;
@@ -1525,11 +1497,13 @@ header ul li a.active:before {
     width: 100vw;
     visibility: hidden;
   }
-  .modal-container.show {
+  .modal-container.show,
+  .modal-container-NL.show {
     visibility: visible;
     z-index: 3000000000000000000000000000000000000000000000000;
   }
-  .modal {
+  .modal,
+  .modal-NL {
     opacity: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 10px 10px;
@@ -1539,19 +1513,23 @@ header ul li a.active:before {
     max-width: 100%;
     text-align: center;
   }
-  .modal h1 {
+  .modal h1,
+  .modal-NL h1 {
     font-size: 18px;
     padding-bottom: 10px;
   }
-  .modal h1 i {
+  .modal h1 i,
+  .modal-NL h1 i {
     font-size: 27.3px;
     margin-left: 2px;
   }
-  .modal p {
+  .modal p,
+  .modal-NL p {
     font-size: 12px;
     padding: 10px 0px;
   }
-  .modal button {
+  .modal button,
+  .modal-NL button {
     font-size: 13px;
     padding: 7px 30px;
   }
@@ -1665,6 +1643,20 @@ header ul li a.active:before {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   border-radius: 0;
+  outline: none;
+}
+.inscription-newsletter .email-newsletter {
+  color: rgb(136, 0, 0);
+  font-size: 12px;
+  display: none;
+}
+.inscription-newsletter .email-newsletter.show {
+  display: block;
+}
+.inscription-newsletter span i {
+  margin-right: 5px;
+  color: rgb(136, 0, 0);
+  font-size: 13px;
 }
 
 .brand-description .footer-icons {

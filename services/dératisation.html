@@ -158,9 +158,9 @@
       </div>
     </section>
     <!------------------------------------------------------Footer--------------------------------------------------------->
-    <section class="footer">
+    <section class="footer section-padding">
       <div class="all-footer-parts">
-        <div class="Marodesclean">
+        <div class="brand-description">
           <h2>Marodesclean</h2>
           <!-- underline title-->
           <div class="underline">
@@ -195,7 +195,7 @@
               </div>
               <ul>
                 <li>
-                  <a href="../index.html#coord" class="active" id="Accueil"><i class="fa fa-angle-right"></i>Accueil</a>
+                  <a href="../index.html#home" class="active" id="Accueil"><i class="fa fa-angle-right"></i>Accueil</a>
                 </li>
                 <li>
                   <a href="../index.html#Apropos"><i class="fa fa-angle-right"></i>Qui sommes-nous?</a>
@@ -237,8 +237,12 @@
                 <span class="under-one"></span>
                 <span class="under-two"></span>
               </div>
-              <div class="horaire-douveture"><i class="fa fa-calendar-check-o"></i>Du Lundi au Vendredi 9h00 - 21h00</div>
-              <div class="horaire-douveture"><i class="fa fa-calendar-check-o"></i>Samedi 9h00 - 13h00</div>
+              <div class="horaire-douveture">
+                <p><i class="fa fa-calendar-check-o"></i>Du Lundi au Vendredi 9h00 - 21h00</p>
+              </div>
+              <div class="horaire-douveture">
+                <p><i class="fa fa-calendar-check-o"></i>Samedi 9h00 - 13h00</p>
+              </div>
             </div>
             <div class="inscription-newsletter">
               <h2>inscription newsletter</h2>
@@ -251,20 +255,33 @@
                 renseignez votre email ci-dessous pour vous inscrire
               </p>
               <div class="newsletter">
-                <input type="text" name="newsletter" placeholder="Entrez votre adresse e-mail *" class="input" required />
-                <input type="button" name="send" value="Envoyer" class="button" />
+                <input name="user-email" id="user-email" placeholder="Entrez votre adresse e-mail *" class="input" required />
+                <input type="button" name="send" value="Envoyer" class="button" onclick=" newsletter()" />
               </div>
+              <span class="email-newsletter"><i class="fa fa-exclamation-triangle"></i>L'adresse e-mail doit être indiquée dans un format approprié</span>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="modal-container-NL" id="modal-container-NL">
+        <div class="modal-NL">
+          <h1>Inscription newsletter</h1>
+          <p>
+            nous avons bien reçu votre demande d'inscription à notre newsletter et nous vous en remercions, vous pouvez désormais recevoir notre actualité sur votre boîte mail<br />
+            A très bientôt<br />
+            L’équipe <b>MARODESCLEAN</b>
+          </p>
+          <button id="close-NL">OK</button>
         </div>
       </div>
     </section>
     <!-------------------------------------------------------COPYRIGHT---------------------------------------------------->
     <div class="Copyright">
-      <span>COPYRIGHT © 2020 MARODESCLEAN | Tous droits réservés - <a href="../mentions legales/mentions.html"> MENTIONS LÉGALES </a>| SITE INTERNET RÉALISÉ PAR <a href="www.achrafbl.com" target="_blank">Achraf Boularhmane</a></span>
+      <span>COPYRIGHT <span>©</span> 2020 MARODESCLEAN <span>|</span> Tous droits réservés - <a href="./mentions legales/mentions.html"> MENTIONS LÉGALES </a><span>|</span> SITE INTERNET RÉALISÉ PAR <a href="www.achrafbl.com" target="_blank">Achraf Boularhmane</a></span>
     </div>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="../script.js"></script>
+</html>
 </html>

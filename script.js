@@ -71,34 +71,35 @@ document.querySelector("#FormContact").addEventListener("submit", function (e) {
 function SubmitContactForm() {
   /* User input */
   let contact_form = {
-    Nom: $("#Nom").val(),
+    NomComplet: $("#Nom-Complet").val(),
     Prenom: $("#Prenom").val(),
     Mobile: $("#Mobile").val(),
     Email: $("#Email").val(),
     Objet: $("#Objet").val(),
+    Message: $("#Message").val(),
   };
   /*Double_check user input*/
-  var regphone = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/,
+  var regname = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/g,
+    regobjet = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/g,
+    regphone = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/,
     atpos = contact_form.Email.indexOf("@"),
     dotpos = contact_form.Email.lastIndexOf("."),
     close = document.getElementById("close"),
     modal_container = document.getElementById("modal-container");
-  $(".nom ,.prenom ,.mobile ,.email , .objet").removeClass("show");
-  if (contact_form.Nom == "") {
-    $(".nom").addClass("show");
-    return false;
-  } else if (contact_form.Prenom == "") {
-    $(".prenom").addClass("show");
-    return false;
+
+  $(".nomComplet-vide, .nomComplet-non-valide, .mobile , .email, .objet, .message").removeClass("show");
+  if (contact_form.NomComplet == "") {
+    $(".nomComplet-vide").addClass("show");
+  } else if (contact_form.NomComplet != "" && regname.test(contact_form.NomComplet) == false) {
+    $(".nomComplet-non-valide").addClass("show");
   } else if (regphone.test(contact_form.Mobile) == false) {
     $(".mobile").addClass("show");
-    return false;
   } else if (atpos < 1 || dotpos - atpos < 2) {
     $(".email").addClass("show");
-    return false;
   } else if (contact_form.Objet == "") {
     $(".objet").addClass("show");
-    return false;
+  } else if (contact_form.Message == "") {
+    $(".message").addClass("show");
   } else {
     modal_container.classList.add("show");
     body.classList.add("stop-scrolling");
@@ -107,6 +108,28 @@ function SubmitContactForm() {
       modal_container.classList.remove("show");
       body.classList.remove("stop-scrolling");
       document.querySelector("#FormContact").reset();
+    });
+  }
+}
+
+/* inscription newsletter */
+function newsletter() {
+  var newsletterinput = $("#user-email").val(),
+    atpos = newsletterinput.indexOf("@"),
+    dotpos = newsletterinput.lastIndexOf("."),
+    close_NL = document.getElementById("close-NL"),
+    modal_container_NL = document.getElementById("modal-container-NL");
+
+  if (atpos < 1 || dotpos - atpos < 2) {
+    $(".email-newsletter").addClass("show");
+  } else {
+    modal_container_NL.classList.add("show");
+    body.classList.add("stop-scrolling");
+    close_NL.addEventListener("click", () => {
+      window.location = "./newsletter.php";
+      modal_container_NL.classList.remove("show");
+      body.classList.remove("stop-scrolling");
+      document.querySelector("#user-email").reset();
     });
   }
 }

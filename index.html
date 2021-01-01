@@ -34,7 +34,6 @@
               <span class="logo-header"
                 ><a href="./index.html#home"><img src="./images/logo1.png" /></a
               ></span>
-
               <div class="toggle" id="Menu" onclick="toggle()">
                 <span class="one"></span>
                 <span class="two"></span>
@@ -149,9 +148,7 @@
           </div>
           <!--image-->
           <div class="img-box">
-            <div class="border"></div>
             <div class="bg"></div>
-
             <img src="./images/desinfection savoir plus.jpg" alt="" />
           </div>
         </div>
@@ -176,7 +173,6 @@
             <div class="box1">
               <div class="card">
                 <div class="card-img">
-                  <div class="bgimg"></div>
                   <div class="bgcolor"></div>
                   <img src="./images/Desinfection services.jpg" />
                 </div>
@@ -201,14 +197,12 @@
                   <a href="./services/desinsectisation.html">En savoir plus</a>
                 </div>
                 <div class="card-img">
-                  <div class="bgimg1"></div>
                   <div class="bgcolor"></div>
                   <img src="./images/desinsectisation savoir plus 1.jpg " />
                 </div>
               </div>
               <div class="card">
                 <div class="card-img">
-                  <div class="bgimg"></div>
                   <div class="bgcolor"></div>
                   <img src="./images/deratisation services.jpg" />
                 </div>
@@ -231,14 +225,12 @@
                   <a href="./services/jardinage.html">En savoir plus</a>
                 </div>
                 <div class="card-img">
-                  <div class="bgimg1"></div>
                   <div class="bgcolor"></div>
                   <img src="./images/jardinnage services.jpg" alt="" />
                 </div>
               </div>
               <div class="card">
                 <div class="card-img">
-                  <div class="bgimg"></div>
                   <div class="bgcolor"></div>
                   <img src="./images/nettoyage service.jpg" alt="" />
                 </div>
@@ -261,7 +253,6 @@
                   <a href="./services/securite.html">En savoir plus</a>
                 </div>
                 <div class="card-img">
-                  <div class="bgimg1"></div>
                   <div class="bgcolor"></div>
                   <img src="./images/securite service.jpg" alt="" />
                 </div>
@@ -399,34 +390,34 @@
               <form id="FormContact">
                 <h2>Demande de devis</h2>
                 <div class="inputbox">
-                  <input type="text" name="Nom" id="Nom" />
-                  <span>Nom *</span>
+                  <input name="Nom-Complet" id="Nom-Complet" />
+                  <span>Nom complet *</span>
                 </div>
-                <span class="nom erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner ce champ.</span>
+                <span class="nomComplet-vide erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner votre nom complet</span>
+                <span class="nomComplet-non-valide erreur"><i class="fa fa-exclamation-triangle"></i>votre nom complet doit être composé uniquement de lettres</span>
+
                 <div class="inputbox">
-                  <input type="text" name="Prenom" id="Prenom" />
-                  <span>Prénom *</span>
-                </div>
-                <span class="prenom erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner ce champ.</span>
-                <div class="inputbox">
-                  <input type="text" name="Mobile" id="Mobile" />
+                  <input name="Mobile" id="Mobile" />
                   <span>Téléphone *</span>
                 </div>
-                <span class="mobile erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez entrer un numéro de téléphone valide.</span>
+                <span class="mobile erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez entrer un numéro de téléphone valide</span>
                 <div class="inputbox">
                   <input name="Email" id="Email" />
                   <span>E-mail *</span>
                 </div>
-                <span class="email erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez entrer une adresse e-mail valide.</span>
+                <span class="email erreur"><i class="fa fa-exclamation-triangle"></i>L'adresse e-mail doit être indiquée dans un format approprié</span>
+
                 <div class="inputbox">
-                  <input type="text" name="Objet" id="Objet" />
+                  <input name="Objet" id="Objet" />
                   <span>Objet *</span>
                 </div>
-                <span class="objet erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner ce champ.</span>
+                <span class="objet erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner l'objet de votre demande</span>
                 <div class="inputbox">
                   <textarea name="Message" id="Message"></textarea>
                   <span>Ecrivez votre message ici ...</span>
                 </div>
+                <span class="message erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner le champ de message</span>
+
                 <div class="inputbox">
                   <input type="submit" value="Envoyer" name="" id="open" />
                 </div>
@@ -547,11 +538,23 @@
                   renseignez votre email ci-dessous pour vous inscrire
                 </p>
                 <div class="newsletter">
-                  <input type="text" name="newsletter" placeholder="Entrez votre adresse e-mail *" class="input" required />
-                  <input type="button" name="send" value="Envoyer" class="button" />
+                  <input name="user-email" id="user-email" placeholder="Entrez votre adresse e-mail *" class="input" required />
+                  <input type="button" name="send" value="Envoyer" class="button" onclick=" newsletter()" />
                 </div>
+                <span class="email-newsletter"><i class="fa fa-exclamation-triangle"></i>L'adresse e-mail doit être indiquée dans un format approprié</span>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="modal-container-NL" id="modal-container-NL">
+          <div class="modal-NL">
+            <h1>Inscription newsletter</h1>
+            <p>
+              nous avons bien reçu votre demande d'inscription à notre newsletter et nous vous en remercions, vous pouvez désormais recevoir notre actualité sur votre boîte mail<br />
+              A très bientôt<br />
+              L’équipe <b>MARODESCLEAN</b>
+            </p>
+            <button id="close-NL">OK</button>
           </div>
         </div>
       </section>

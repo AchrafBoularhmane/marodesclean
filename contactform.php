@@ -1,5 +1,5 @@
 <?php
-$Nom = $_POST['Nom'];
+$NomComplet = $_POST['Nom-Complet'];
 $Prenom = $_POST['Prenom'];
 $Mobile = $_POST['Mobile'];
 $Email = $_POST['Emain'];
@@ -10,7 +10,7 @@ $email_from = 'achrafboularhmane1@gmail.com';
 
 $email_subject = "Nouveau devis";
 
-$email_body = "Nom: $Nom.\n".
+$email_body = "Nom Complet: $NomComplet.\n".
               "Prenom: $Prenom.\n".
               "Mobile: $Mobile.\n".
               "Email: $Email.\n".
