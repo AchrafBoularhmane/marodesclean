@@ -15,7 +15,7 @@ function toggleoff() {
   cookies.classList.remove("close-cookies");
 }
 // Fixing nav bar on scroll //
-var height = $("#Apropos").height();
+var height = $("#Apropos,#desinf,#mentions").height();
 $(window).scroll(function () {
   if ($(this).scrollTop() > height) {
     $("#Accueil").removeClass("active");
