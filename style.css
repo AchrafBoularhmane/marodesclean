@@ -167,6 +167,29 @@
   height: 2px;
   width: 20px;
 }
+/*onscroll animation*/
+.reveal-loaded [class*="reveal-"] {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0s;
+}
+.reveal-loaded .reveal-visible {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: 1s cubic-bezier(0.5, 0, 0, 1);
+}
+.reveal-loaded .reveal-2 {
+  transition-delay: 0.1s;
+}
+.reveal-loaded .reveal-3 {
+  transition-delay: 0.2s;
+}
+.reveal-loaded .reveal-4 {
+  transition-delay: 0.3s;
+}
+.reveal-loaded .reveal-5 {
+  transition-delay: 0.4s;
+}
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
 .home-section {
   min-height: 100vh;

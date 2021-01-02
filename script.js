@@ -133,3 +133,25 @@ function newsletter() {
     });
   }
 }
+/*animation on scroll*/
+var ratio = 0.1;
+var options = {
+  root: null,
+  rootMargin: "0px",
+  threshold: ratio,
+};
+
+var handleIntersect = function (entries, observer) {
+  entries.forEach(function (entry) {
+    if (entry.intersectionRatio > ratio) {
+      entry.target.classList.add("reveal-visible");
+      observer.unobserve(entry.target);
+    }
+  });
+};
+
+document.documentElement.classList.add("reveal-loaded");
+const observer = new IntersectionObserver(handleIntersect, options);
+document.querySelectorAll('[class*="reveal-"]').forEach(function (r) {
+  observer.observe(r);
+});
