@@ -690,11 +690,11 @@ header ul li a.active:before {
     transform: translate(0%, -12px);
   }
   .header-container header .MenuPlusLogo .mobile-navbar ul li a {
-    font-size: 11.5px;
+    font-size: 13px;
   }
 
   .home-description-container .home-description {
-    width: 80%;
+    width: 100%;
   }
 }
 /* Medium devices (landscape tablets, 769px and up) */
