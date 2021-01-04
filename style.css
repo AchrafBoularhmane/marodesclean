@@ -195,7 +195,7 @@
 }
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
 .home-section {
-  height: 100vh;
+  min-height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   width: 100%;
   display: flex;
@@ -412,7 +412,7 @@ header ul li a.active:before {
 }
 .slide img {
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   opacity: 0.2;
   background-attachment: fixed;
 }
@@ -1289,6 +1289,7 @@ header ul li a.active:before {
 }
 .contactForm h2 {
   font-size: 28px;
+  width: 100%;
   text-align: center;
   color: var(--Primary-color);
   line-height: 27.3px;
