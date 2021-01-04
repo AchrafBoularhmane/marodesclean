@@ -509,7 +509,7 @@ header ul li a.active:before {
     position: absolute;
     right: 0;
     background: var(--text-white-color);
-    width: 50px;
+    width: 45px;
     height: 2.5px;
     transition: 0.6s;
   }
@@ -520,7 +520,7 @@ header ul li a.active:before {
   .MenuPlusLogo .toggle .three {
     top: 16px;
     background: var(--third-color);
-    width: 30px;
+    width: 20px;
   }
   header .toggle .four {
     top: 30px;
@@ -577,8 +577,8 @@ header ul li a.active:before {
     z-index: 6;
     text-decoration: none;
     color: var(--text-white-color);
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 16px;
     text-transform: uppercase;
   }
   .header-container header .MenuPlusLogo ul li a:hover,
@@ -603,15 +603,15 @@ header ul li a.active:before {
 
   .home-description-container .home-description h1 {
     padding: 10px 0;
-    font-size: 23px;
+    font-size: 20px;
     width: 100%;
   }
   .home-description-container .home-description p {
-    font-size: 14px;
+    font-size: 12px;
     padding-bottom: 10px;
   }
   .home-description-container .home-description .Decouverir-services-boutton {
-    font-size: 14px;
+    font-size: 12px;
     padding: 12px 20px;
   }
   .cookies {
@@ -622,11 +622,16 @@ header ul li a.active:before {
     display: block;
     padding: 5px 0;
   }
+  .cookies .cookies-container h2 {
+    font-size: 13px;
+  }
   .cookies .cookies-container p {
     margin-bottom: 10px;
+    font-size: 12px;
   }
   .cookies .cookies-container a {
     margin: 10px 10px 10px 0px;
+    font-size: 12px;
   }
 
   .Fixed {
@@ -666,7 +671,7 @@ header ul li a.active:before {
     transform: translate(0%, -12px);
   }
   .icons .icon li a i {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up)*/
