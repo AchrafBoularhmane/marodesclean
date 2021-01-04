@@ -893,18 +893,18 @@ header ul li a.active:before {
 .Services-section {
   background: var(--text-white-color);
 }
-#Services .content-box .title-section {
+.Services-section .content-box .title-section {
   color: var(--Primary-color);
 }
 
-#Services .content-box .underline {
+.Services-section .content-box .underline {
   justify-content: center;
   margin-top: 8px;
 }
-#Services .content-box .underline .under-one {
+.Services-section .content-box .underline .under-one {
   background-color: var(--Primary-color);
 }
-#Services .content-box .underline .under-two {
+.Services-section .content-box .underline .under-two {
   background-color: var(--third-color);
 }
 .card_box {
@@ -1049,7 +1049,6 @@ header ul li a.active:before {
   .description-section {
     padding: 0 20px;
     font-size: 15px;
-
     line-height: 27.3px;
     font-weight: 300;
   }
