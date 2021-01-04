@@ -220,7 +220,6 @@
   position: relative;
 }
 .home-description-container .home-description {
-  margin: auto 0;
   width: 60%;
   z-index: 12;
 }
@@ -402,9 +401,10 @@ header ul li a.active:before {
   background: linear-gradient(180deg, rgba(35, 70, 82, 0) 60%, var(--second-color) 100%);
 }
 .slides {
+  background-color: brown;
   display: flex;
   width: 500%;
-  min-height: 100vh;
+  height: 100%;
 }
 .slide {
   width: 20%;
