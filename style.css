@@ -828,14 +828,18 @@ header ul li a.active:before {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .section-padding {
+    padding: 100px 15px;
+  }
   #Apropos {
     height: 100%;
   }
   .Apropos-section .section-container .title-section {
     font-size: 25px;
   }
-  .section-padding {
-    padding: 100px 15px;
+  .Apropos-section .section-container .text-section {
+    width: 100%;
+    font-size: 12px;
   }
   .Apropos-section .section-container {
     display: block;
@@ -844,37 +848,41 @@ header ul li a.active:before {
     width: 100%;
     margin-bottom: 50px;
   }
-  .Apropos-section .section-container .text-section {
-    width: 100%;
-  }
   .Apropos-section .section-container .img-box {
     width: 100%;
   }
-  .Apropos-section .img-box .bg {
+  .Apropos-section .section-container .img-box img {
+    min-height: 350px;
+    border: 10px solid var(--third-color);
+  }
+
+  .Apropos-section .section-container .img-box .bg {
     height: 99%;
+  }
+  .Apropos-section .section-container .content-box .Apropos-icons .icon li i {
+    font-size: 18px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .Apropos-section {
-    padding: 100px 20px;
-  }
-  .Apropos-section .section-container .img-box .carreau-style {
-    padding: 18px;
-    margin-top: -18px;
-    margin-left: -18px;
-  }
-  .Apropos-section .section-container .img-box .carreau2-style {
-    padding: 18px;
-    margin-bottom: -18px;
-    margin-right: -18px;
-  }
   .section-padding {
     padding: 100px 15px;
   }
+  .Apropos-section .section-container .content-box .text-section {
+    margin-right: 10px;
+  }
+  .Apropos-section .section-container .title-section {
+    font-size: 28px;
+  }
 }
 /* Medium devices (landscape tablets, 769px and up) */
-@media only screen and (min-width: 769px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 1035px) {
+  .section-padding {
+    padding: 100px 15px;
+  }
+  .Apropos-section .section-container .title-section {
+    font-size: 28px;
+  }
 }
 
 /*------------------------------------------------------NOS SERVICES----------------------------------------------------*/
