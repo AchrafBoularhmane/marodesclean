@@ -981,12 +981,17 @@ header ul li a.active:before {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  #Services .content-box .title-section {
-    font-size: 35px;
-  }
   .description-section {
+    font-size: 12px;
+    line-height: 28px;
     padding: 0 15px;
+    font-weight: 300;
   }
+
+  .title-section {
+    font-size: 24px;
+  }
+
   .card_box .box1 .card {
     display: block;
   }
@@ -1001,7 +1006,6 @@ header ul li a.active:before {
   }
 
   .card_box .box1 .card .card-img img {
-    height: 100%;
     margin-bottom: 20px;
   }
   .card_box .box1 .card .card-img,
@@ -1011,15 +1015,34 @@ header ul li a.active:before {
   .card_box .box1 .card .card-container {
     padding: 20px 5px;
   }
+  .card_box .box1 .card .card-container h3 {
+    font-size: 20px;
+  }
+  .card_box .box1 .card .card-container p,
+  .card_box .box1 .card .card-container a {
+    font-size: 12px;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   .description-section {
-    padding: 0 100px;
+    padding: 0 20px;
+  }
+  .title-section {
+    font-size: 28px;
+  }
+  .card_box .box1 .card .card-container h3 {
+    font-size: 25px;
   }
 }
 /* Medium devices (landscape tablets, 769px and up) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1035px) {
+  .title-section {
+    font-size: 28px;
+  }
+  .card_box .box1 .card .card-container h3 {
+    font-size: 25px;
+  }
 }
 
 /*------------------------------------------------------IMPLICATION TOTALE----------------------------------------------------*/
