@@ -194,7 +194,7 @@
 }
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
 .home-section {
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-flow: column;
@@ -483,6 +483,7 @@ header ul li a.active:before {
 @media only screen and (max-width: 600px) {
   .home-section {
     width: 100%;
+    background-color: yellow;
     height: 100vh;
   }
   .green-back {
@@ -660,13 +661,13 @@ header ul li a.active:before {
     opacity: 1;
   }
   .cont-slid {
-    height: 100vh;
+    min-height: 100vh;
   }
   .slider {
-    height: 100vh;
+    min-height: 100vh;
   }
   .slides {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .slide img {
