@@ -883,6 +883,9 @@ header ul li a.active:before {
   .Apropos-section .section-container .title-section {
     font-size: 28px;
   }
+  .Apropos-section .section-container .content-box .text-section {
+    margin-right: 10px;
+  }
 }
 
 /*------------------------------------------------------NOS SERVICES----------------------------------------------------*/
