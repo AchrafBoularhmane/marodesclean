@@ -837,7 +837,7 @@ header ul li a.active:before {
   .Apropos-section .section-container .title-section {
     font-size: 25px;
   }
-  .Apropos-section .section-container .text-section {
+  .Apropos-section .section-container .content-box .text-section {
     width: 100%;
     font-size: 12px;
   }
