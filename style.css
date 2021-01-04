@@ -1027,6 +1027,9 @@ header ul li a.active:before {
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   .description-section {
     padding: 0 20px;
+    line-height: 27.3px;
+    font-weight: 300;
+    background-color: red;
   }
   .title-section {
     font-size: 28px;
@@ -1042,6 +1045,11 @@ header ul li a.active:before {
   }
   .card_box .box1 .card .card-container h3 {
     font-size: 25px;
+  }
+  .description-section {
+    padding: 0 20px;
+    line-height: 27.3px;
+    font-weight: 300;
   }
 }
 
