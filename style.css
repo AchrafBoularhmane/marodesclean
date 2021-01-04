@@ -401,7 +401,6 @@ header ul li a.active:before {
   background: linear-gradient(180deg, rgba(35, 70, 82, 0) 60%, var(--second-color) 100%);
 }
 .slides {
-  background-color: brown;
   display: flex;
   width: 500%;
   height: 100%;
