@@ -214,10 +214,12 @@
 .home-description-container {
   padding: 0px 60px;
   z-index: 18;
-  display: block;
-  margin: auto 0;
+  display: flex;
+  height: 100%;
+  position: relative;
 }
 .home-description-container .home-description {
+  margin: auto 0;
   width: 60%;
   z-index: 12;
 }
