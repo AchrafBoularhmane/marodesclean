@@ -225,7 +225,7 @@
   z-index: 12;
 }
 .home-description-container .home-description h1 {
-  color: green;
+  color: #fff;
   text-transform: uppercase;
   font-size: 38px;
   font-weight: 800;
@@ -392,7 +392,7 @@ header ul li a.active:before {
   justify-content: center;
   height: 100%;
   z-index: 13;
-  background-color: red;
+  background-color: #111;
 }
 .slider {
   width: 100%;
@@ -486,7 +486,6 @@ header ul li a.active:before {
 @media only screen and (max-width: 600px) {
   .home-section {
     width: 100%;
-    background-color: yellow;
   }
   .green-back {
     width: 50%;
