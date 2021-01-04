@@ -397,7 +397,8 @@ header ul li a.active:before {
 }
 .slider {
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
+
   overflow: hidden;
   z-index: 20;
   background: linear-gradient(180deg, rgba(35, 70, 82, 0) 60%, var(--second-color) 100%);
