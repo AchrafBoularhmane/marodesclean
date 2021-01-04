@@ -195,6 +195,7 @@
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
 .home-section {
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   width: 100%;
   display: flex;
   flex-flow: column;
@@ -484,7 +485,6 @@ header ul li a.active:before {
   .home-section {
     width: 100%;
     background-color: yellow;
-    height: 100vh;
   }
   .green-back {
     width: 50%;
@@ -661,17 +661,13 @@ header ul li a.active:before {
     opacity: 1;
   }
   .cont-slid {
-    min-height: 100vh;
   }
   .slider {
-    min-height: 100vh;
   }
   .slides {
-    min-height: 100vh;
   }
 
   .slide img {
-    height: 100vh;
   }
   .icons {
     position: absolute;
