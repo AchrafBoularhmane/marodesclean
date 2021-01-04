@@ -1,23 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
 
 :root {
   --fourth-color: #106850;
-  --second-color: #065446;
+  --second-color: #004c3f;
   --third-color: #a3d137;
-  --Primary-color: #166457;
+  --Primary-color: #008060;
   --text-white-color: #fff;
-  --text-grey-color: rgba(25, 25, 25, 0.85);
+  --text-grey-color: #4b5352;
 }
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: fit-content;
 }
 ::-webkit-scrollbar {
   width: 15px;
-  background-color: var(--text-white-color);
+  background-color: #fff;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -49,7 +50,7 @@
   font-size: 30px;
 }
 .backToTop i {
-  color: var(--text-white-color);
+  color: #fff;
 }
 .backToTop:hover {
   background-color: var(--third-color);
@@ -63,20 +64,20 @@
 /*Description section*/
 .description-section {
   padding: 0 200px;
+  text-align: center;
+  color: var(--text-grey-color);
   font-size: 15px;
   line-height: 27.3px;
-  text-align: center;
-  font-weight: 400;
-  color: var(--text-grey-color);
+  font-weight: 300;
 }
 /* title section*/
 .title-section {
-  font-family: "Noto Sans JP", sans-serif;
   text-transform: uppercase;
-  font-size: 40px;
-  line-height: 48px;
-  color: var(--third-color);
+  font-size: 45px;
+  line-height: 40px;
+  font-weight: 700;
   text-align: center;
+  width: 100%;
 }
 
 /*Padding for all website's parts*/
@@ -111,7 +112,7 @@
   padding: 5px 0px;
 }
 .cookies .cookies-container h2 {
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   line-height: 5px;
   font-size: 15px;
@@ -121,7 +122,7 @@
   padding: 15px 0px;
   line-height: 22px;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 300;
   color: #a2a2a2;
 }
 .cookies i {
@@ -152,19 +153,20 @@
 
 /* Underline title*/
 .underline {
+  width: 100%;
   display: flex;
   padding: 10px 0;
   margin-bottom: 10px;
 }
 .underline .under-one {
-  height: 2px;
+  height: 3px;
   width: 50px;
   display: block;
   margin-right: 10px;
 }
 .underline .under-two {
   display: block;
-  height: 2px;
+  height: 3px;
   width: 20px;
 }
 /*onscroll animation*/
@@ -193,6 +195,7 @@
 /*------------------------------------------------------Acceuil---------------------------------------------------------*/
 .home-section {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-flow: column;
   position: relative;
@@ -203,7 +206,7 @@
   left: 0;
   height: 100%;
   width: 28%;
-  background: var(--Primary-color);
+  background: var(--second-color);
   z-index: 15;
   opacity: 0.6;
 }
@@ -219,16 +222,16 @@
   z-index: 12;
 }
 .home-description-container .home-description h1 {
-  color: var(--text-white-color);
+  color: #fff;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 800;
 }
 .home-description-container .home-description p {
   color: var(--text-white-color);
-  font-size: 16px;
-  line-height: 25.2px;
-  font-weight: 400;
+  font-size: 14px;
+  line-height: 27.2px;
+  font-weight: 300;
 }
 .home-description-container .home-description .Decouverir-services-boutton {
   font-family: "Open Sans", sans-serif;
@@ -237,7 +240,7 @@
   display: inline-block;
   border: none;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
   text-decoration: none;
   font-weight: 600;
   padding: 17px 35px;
@@ -275,7 +278,7 @@
 }
 .icons .icon li a i {
   max-height: 27.3px;
-  font-size: 28px;
+  font-size: 22px;
   color: var(--third-color);
   cursor: pointer;
 }
@@ -288,6 +291,9 @@
 
 .header-container {
   z-index: 20;
+  min-width: 100%;
+}
+.header-container header {
   width: 100%;
 }
 .header-container header .MenuPlusLogo {
@@ -295,15 +301,15 @@
   display: flex;
   align-items: center;
   padding: 0 60px;
-  min-width: 100%;
+  width: 100%;
+}
+.header-container header .MenuPlusLogo .logo-header {
+  width: 30%;
 }
 .header-container header .MenuPlusLogo .logo-header img {
   z-index: 12;
   padding: 10px 0;
   height: 80px;
-}
-.header-container header .MenuPlusLogo .logo-header {
-  width: 30%;
 }
 .header-container header .MenuPlusLogo .mobile-navbar {
   width: 55%;
@@ -314,6 +320,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .header-container header .MenuPlusLogo .mobile-navbar ul li {
   list-style: none;
@@ -322,17 +329,17 @@
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 13.5px;
+  font-size: 14px;
   line-height: 30.3px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 6px;
-  color: var(--text-white-color);
+  color: #fff;
   text-decoration: none;
 }
 .header-container header .MenuPlusLogo .mobile-navbar ul li a:hover,
 header .mobile-navbar ul li a.active {
   color: var(--text-white-color);
-  font-weight: 700;
+  font-weight: 500;
 }
 .header-container header .MenuPlusLogo .mobile-navbar ul li a:before {
   content: "";
@@ -363,8 +370,8 @@ header ul li a.active:before {
 }
 
 .header-container .fix-navbar .MenuPlusLogo .mobile-navbar ul li a {
-  color: var(--text-white-color);
-  font-weight: 600;
+  color: #fff;
+  font-weight: 500;
   line-height: 27.3px;
 }
 .header-container .fix-navbar .MenuPlusLogo .mobile-navbar ul li a:before {
@@ -476,7 +483,7 @@ header ul li a.active:before {
 @media only screen and (max-width: 600px) {
   .home-section {
     width: 100%;
-    height: 100%;
+    height: 100vh;
   }
   .green-back {
     width: 50%;
@@ -652,8 +659,18 @@ header ul li a.active:before {
     visibility: visible;
     opacity: 1;
   }
+  .cont-slid {
+    height: 100vh;
+  }
+  .slider {
+    height: 100vh;
+  }
+  .slides {
+    height: 100vh;
+  }
+
   .slide img {
-    min-height: 100%;
+    height: 100vh;
   }
   .icons {
     position: absolute;
@@ -664,7 +681,7 @@ header ul li a.active:before {
     font-size: 22px;
   }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .home-section {
     min-height: 70vh;
@@ -715,8 +732,7 @@ header ul li a.active:before {
   height: 100%;
 }
 .Apropos-section .section-container .content-box .title-section {
-  color: var(--text-white-color);
-  font-weight: 800;
+  color: #fff;
   text-align: left;
 }
 .Apropos-section .section-container .underline {
@@ -733,14 +749,12 @@ header ul li a.active:before {
   width: 50%;
 }
 .Apropos-section .section-container .content-box .text-section {
-  font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   margin-right: 60px;
   color: var(--text-white-color);
-  font-size: 16px;
-  line-height: 29.3px;
+  font-size: 15px;
+  line-height: 30px;
 }
-
 .Apropos-section .img-box {
   width: 50%;
   position: relative;
@@ -748,26 +762,26 @@ header ul li a.active:before {
 
 .Apropos-section .img-box .bg {
   z-index: 4;
-  opacity: 0.2;
+  opacity: 0.15;
   position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 80%;
+  height: 100%;
   background-color: var(--third-color);
 }
 .Apropos-section .img-box img {
   position: relative;
   z-index: 3;
   width: 100%;
-  height: 80%;
+  height: 100%;
   min-height: 450px;
   border: 15px solid var(--third-color);
 }
 
 .Apropos-section .section-container .content-box .Apropos-icons {
-  right: 30px;
   display: flex;
+  margin-top: 30px;
 }
 .Apropos-section .section-container .content-box .Apropos-icons .icon {
   position: relative;
@@ -775,28 +789,17 @@ header ul li a.active:before {
 }
 .Apropos-section .section-container .content-box .Apropos-icons .icon li {
   list-style: none;
-  margin-right: 23px;
-  margin-top: 40px;
-  background: var(--third-color);
-  padding: 5px 10px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
-.Apropos-section .section-container .content-box .Apropos-icons .icon li:hover {
-  background-color: var(--third-color);
-}
-.Apropos-section .section-container .content-box.Apropos-icons .icon li:last-child {
-  padding: 5px 12px;
+.Apropos-section .section-container .content-box .Apropos-icons .icon li i:hover {
+  color: var(--text-white-color);
 }
 .Apropos-section .section-container .content-box .Apropos-icons .icon li i {
   display: inline-block;
   max-height: 27.3px;
-  font-size: 19px;
-  color: var(--fourth-color);
+  font-size: 22px;
+  color: var(--third-color);
 }
-.Apropos-section .section-container .content-box .Apropos-icons .icon li i:hover {
-  color: var(--Primary-color);
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #Apropos {
@@ -850,12 +853,11 @@ header ul li a.active:before {
 
 /*------------------------------------------------------NOS SERVICES----------------------------------------------------*/
 
-#Services {
-  background: #fff;
+.Services-section {
+  background: var(--text-white-color);
 }
 #Services .content-box .title-section {
-  color: var(--second-color);
-  font-weight: 800;
+  color: var(--Primary-color);
 }
 
 #Services .content-box .underline {
@@ -880,11 +882,11 @@ header ul li a.active:before {
   position: relative;
   background-color: var(--second-color);
   width: 50%;
-  height: 380px;
+  height: 350px;
 }
 
 .card_box .box1 .card .card-img .bgcolor {
-  opacity: 0.15;
+  opacity: 0.1;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -913,7 +915,7 @@ header ul li a.active:before {
   background-color: var(--third-color);
 }
 .card_box .box1 .card .card-container h3 {
-  color: var(--second-color);
+  color: var(--Primary-color);
   text-transform: uppercase;
   font-size: 30px;
   line-height: 30px;
@@ -923,22 +925,21 @@ header ul li a.active:before {
   color: var(--text-grey-color);
   font-size: 15px;
   line-height: 27.3px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 20px;
 }
 .card_box .box1 .card .card-container a {
   text-decoration: none;
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 13px;
   background-color: var(--third-color);
-  color: var(--text-white-color);
+  color: #fff;
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 30px;
 }
 .card_box .box1 .card .card-container a:hover {
-  background-color: rgba(25, 25, 25, 1);
-  color: var(--third-color);
+  background-color: var(--fourth-color);
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -993,8 +994,7 @@ header ul li a.active:before {
 }
 .procedures .content-box .title-section {
   position: relative;
-  color: var(--text-white-color);
-  font-weight: 800;
+  color: #fff;
 }
 .procedures .content-box .description-section {
   color: var(--text-white-color);
@@ -1004,7 +1004,7 @@ header ul li a.active:before {
   margin-top: 8px;
 }
 .procedures .content-box .underline .under-one {
-  background-color: var(--text-white-color);
+  background-color: #fff;
 }
 .procedures .content-box .underline .under-two {
   background-color: var(--third-color);
@@ -1037,10 +1037,17 @@ header ul li a.active:before {
   padding: 20px 120px;
 }
 .procedures .procedure-box .procedure h3 {
+  color: #fff;
   font-size: 16px;
   font-weight: 600;
   line-height: 22.7px;
   padding-bottom: 5px;
+  width: 100%;
+}
+.procedures .procedure-box .procedure p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 27.7px;
 }
 .procedures .procedure-box .procedure .border i {
   cursor: pointer;
@@ -1059,23 +1066,29 @@ header ul li a.active:before {
   position: relative;
   text-align: center;
   margin-top: 60px;
+  width: 100%;
 }
+
 .procedures .reservation #reservez {
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
-  background: var(--third-color);
   padding: 20px 40px;
   color: var(--text-white-color);
-  font-size: 16px;
+  font-size: 17px;
+  background-color: var(--second-color);
   text-transform: uppercase;
-  border: none;
+  border: 1px solid var(--text-white-color);
   line-height: 27.7px;
-  letter-spacing: 0.5px;
-  font-weight: 600;
+  letter-spacing: 1px;
+  font-weight: 500;
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   border-radius: 0;
+  outline: none;
+}
+.procedures .reservation #reservez:hover {
+  background-color: var(--third-color);
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -1106,32 +1119,32 @@ header ul li a.active:before {
 }
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
 .avantages {
-  min-width: 100%;
+  width: auto;
   height: 100%;
-  background-color: var(--third-color);
+  background-color: var(--fourth-color);
   padding: 0 60px;
   display: flex;
-  color: var(--second-color);
+  color: var(--text-white-color);
   line-height: 27.3px;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   padding: 20px 60px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .avantages .avantage {
   width: 33%;
   display: flex;
 }
 .avantages .avantage .icon {
-  background-color: var(--text-white-color);
+  background-color: var(--Primary-color);
   border-radius: 50%;
   margin-right: 15px;
-  padding: 10px 15px;
+  padding: 13px 15px;
 }
 .avantages .avantage .icon i {
   cursor: pointer;
-  color: var(--Primary-color);
-  font-size: 27.3px;
+  color: var(--third-color);
+  font-size: 20.3px;
   margin: auto 0;
 }
 .avantages .avantage .icon i:hover {
@@ -1167,7 +1180,7 @@ header ul li a.active:before {
   }
 }
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
-#Contact {
+.Contact-section {
   background: var(--text-white-color);
 }
 .Contact-section .content-box {
@@ -1175,8 +1188,7 @@ header ul li a.active:before {
   color: var(--third-color);
 }
 .Contact-section .content-box .title-section {
-  font-weight: 800;
-  color: var(--second-color);
+  color: var(--Primary-color);
 }
 
 .Contact-section .content-box .underline {
@@ -1225,13 +1237,13 @@ header ul li a.active:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 50%;
   border: 2px solid var(--second-color);
   cursor: pointer;
 }
 .Contact-section .contact-container .contactInfo .box .icon:hover {
-  background-color: rgba(25, 25, 25, 1);
+  background-color: var(--fourth-color);
 }
 
 .Contact-section .contact-container .contactInfo .box {
@@ -1242,8 +1254,8 @@ header ul li a.active:before {
 }
 .Contact-section .contact-container .contactInfo .box .text h3 {
   color: var(--text-white-color);
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 15px;
   line-height: 27.3px;
 }
 
@@ -1256,7 +1268,7 @@ header ul li a.active:before {
   color: var(--text-white-color);
 }
 .Contact-section .contact-container .contactInfo .box .text p {
-  font-weight: 400;
+  font-weight: 300;
 }
 .contact-info-social {
   margin-top: 100px;
@@ -1273,7 +1285,7 @@ header ul li a.active:before {
   text-decoration: none;
 }
 .contact-info-social ul li a i {
-  font-size: 25px;
+  font-size: 22px;
   color: var(--third-color);
 }
 .contact-info-social ul li a i:hover {
@@ -1288,10 +1300,13 @@ header ul li a.active:before {
   padding-left: 15%;
   z-index: 1;
 }
+.contactForm form {
+  width: 100%;
+}
 .contactForm h2 {
   font-size: 28px;
   text-align: center;
-  color: var(--second-color);
+  color: var(--Primary-color);
   line-height: 27.3px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1308,7 +1323,7 @@ header ul li a.active:before {
   width: 100%;
   padding: 7px 0;
   font-size: 16px;
-  color: #111;
+  color: var(--second-color);
   margin: 10px 0;
   border: none;
   border-bottom: 1px solid var(--third-color);
@@ -1352,8 +1367,7 @@ header ul li a.active:before {
   border-radius: 0;
 }
 .contactForm .inputbox input[type="submit"]:hover {
-  background-color: rgba(25, 25, 25, 1);
-  color: var(--third-color);
+  background-color: var(--fourth-color);
 }
 .modal-container,
 .modal-container-NL {
@@ -1460,7 +1474,7 @@ header ul li a.active:before {
 .objet.show {
   display: block;
 }
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down)*/
 @media only screen and (max-width: 600px) {
   .Contact-section .contact-container {
     display: block;
@@ -1557,7 +1571,7 @@ header ul li a.active:before {
     padding: 7px 30px;
   }
 }
-/* Medium devices (landscape tablets, 769px and up) */
+/* Medium devices (landscape tablets, 769px and up)*/
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
   .Contact-section .contact-container .contactInfo {
     padding: 30px 15px;
@@ -1582,18 +1596,21 @@ header ul li a.active:before {
   width: 70%;
   margin-left: 50px;
 }
+.footer-part .footer-part1 {
+  padding-bottom: 20px;
+  width: 100%;
+}
+.footer-part .footer-part2 {
+  padding-top: 40px;
+  width: 100%;
+}
 .footer-part .footer-part1 .plan-site,
 .footer-part .footer-part1 .contactfoot,
 .footer-part .footer-part2 .horaire,
 .footer-part .footer-part2 .inscription-newsletter {
   width: 50%;
 }
-.footer-part .footer-part1 {
-  padding-bottom: 20px;
-}
-.footer-part .footer-part2 {
-  padding-top: 40px;
-}
+
 .brand-description {
   width: 30%;
 }
@@ -1606,7 +1623,7 @@ header ul li a.active:before {
   font-size: 21px;
   line-height: 27.3px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
 }
 .brand-description .underline,
 .plan-site .underline,
@@ -1634,11 +1651,12 @@ header ul li a.active:before {
 .inscription-newsletter p {
   color: #f3f3f3;
   font-size: 15px;
-  line-height: 27px;
-  font-weight: 400;
+  line-height: 29px;
+  font-weight: 300;
 }
 .inscription-newsletter .newsletter {
   display: flex;
+  width: 100%;
   padding: 15px 0px;
 }
 .inscription-newsletter .newsletter .input {
@@ -1668,6 +1686,9 @@ header ul li a.active:before {
   border-radius: 0;
   outline: none;
 }
+.inscription-newsletter .newsletter .button:hover {
+  background-color: var(--fourth-color);
+}
 .inscription-newsletter .email-newsletter {
   color: rgb(136, 0, 0);
   font-size: 12px;
@@ -1693,6 +1714,7 @@ header ul li a.active:before {
   background: var(--third-color);
   padding: 5px 10px;
   margin-right: 10px;
+  border-radius: 50%;
 }
 .brand-description .footer-icons ul li:last-child {
   padding: 5px 12px;
@@ -1726,7 +1748,7 @@ header ul li a.active:before {
   color: #f3f3f3;
   font-size: 15px;
   line-height: 21.8px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .plan-site ul li a:hover {
   color: var(--third-color);
@@ -1746,7 +1768,7 @@ header ul li a.active:before {
 }
 .contactfoot .container-footer div span {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 21.8px;
   color: #f3f3f3;
   text-align: left;
@@ -1766,7 +1788,7 @@ header ul li a.active:before {
 }
 .horaire .horaire-douveture {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 21.8px;
   color: #f3f3f3;
   padding-bottom: 15px;
@@ -1817,7 +1839,7 @@ header ul li a.active:before {
     border: none;
   }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width: 600px) and (max-width: 768px) {
 }
 /* Medium devices (landscape tablets, 769px and up) */
@@ -1829,21 +1851,22 @@ header ul li a.active:before {
   background: var(--text-white-color);
   padding: 20px 60px;
   color: var(--second-color);
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
   text-transform: uppercase;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+  width: 100%;
 }
 .Copyright span {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .Copyright a {
   text-transform: uppercase;
   color: var(--second-color);
   text-decoration: none;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 400;
 }
 .Copyright a:hover {
   text-decoration: underline;
