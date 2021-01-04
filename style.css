@@ -1029,7 +1029,7 @@ header ul li a.active:before {
     padding: 0 20px;
     line-height: 27.3px;
     font-size: 55px;
-    font-weight: 300;
+    font-weight: 300 !important;
   }
   .title-section {
     font-size: 28px;
@@ -1050,7 +1050,7 @@ header ul li a.active:before {
     padding: 0 20px;
     font-size: 55px;
     line-height: 27.3px;
-    font-weight: 300;
+    font-weight: 300 !important;
   }
 }
 
