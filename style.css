@@ -1039,7 +1039,7 @@ header ul li a.active:before {
     background-color: burlywood;
     padding: 0 20px;
     line-height: 27.3px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
   }
   .title-section {
@@ -1057,9 +1057,9 @@ header ul li a.active:before {
   .Services-section .content-box .description-section {
     padding: 0 20px;
     line-height: 27.3px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
-    background-color: brown;
+    background-color: burlywood;
   }
   .card_box .box1 .card .card-container h3 {
     font-size: 25px;
