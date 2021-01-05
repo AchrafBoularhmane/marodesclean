@@ -1036,9 +1036,8 @@ header ul li a.active:before {
     font-weight: 300;
   }*/
   .Services-section .content-box .description-section {
-    background-color: burlywood;
     padding: 0 20px;
-    line-height: 27.3px;
+    line-height: 29.3px;
     font-size: 12px;
     font-weight: 300;
   }
@@ -1056,10 +1055,9 @@ header ul li a.active:before {
   }
   .Services-section .content-box .description-section {
     padding: 0 20px;
-    line-height: 27.3px;
+    line-height: 29.3px;
     font-size: 12px;
     font-weight: 300;
-    background-color: burlywood;
   }
   .card_box .box1 .card .card-container h3 {
     font-size: 25px;
