@@ -1024,6 +1024,11 @@ header ul li a.active:before {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+  .test {
+    font-size: 15px;
+    color: #300000;
+    font-weight: 300;
+  }
   .title-section {
     font-size: 28px;
   }
@@ -1036,6 +1041,11 @@ header ul li a.active:before {
 }
 /* Medium devices (landscape tablets, 769px and up) */
 @media only screen and (min-width: 769px) and (max-width: 1035px) {
+  .test {
+    font-weight: 300;
+    font-size: 15px;
+    color: #300000;
+  }
   .title-section {
     font-size: 28px;
   }
