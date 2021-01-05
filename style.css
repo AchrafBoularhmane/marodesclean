@@ -1035,7 +1035,7 @@ header ul li a.active:before {
     font-weight: 300;
   }*/
   .Services-section .content-box .description-section {
-    background-color: yellow;
+    background-color: brown;
     padding: 0 20px;
     line-height: 27.3px;
     font-size: 15px;
@@ -1058,7 +1058,7 @@ header ul li a.active:before {
     line-height: 27.3px;
     font-size: 15px;
     font-weight: 300;
-    background-color: yellow;
+    background-color: brown;
   }
   .card_box .box1 .card .card-container h3 {
     font-size: 25px;
