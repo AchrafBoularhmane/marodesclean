@@ -1172,6 +1172,9 @@ header ul li a.active:before {
   .application-totale .content-box .title-section {
     font-size: 25px;
   }
+  .description-section {
+    padding: 0 15px;
+  }
   .procedures .procedure-box .content-part1,
   .procedures .procedure-box .content-part2 {
     padding: 0;
@@ -1192,6 +1195,9 @@ header ul li a.active:before {
   .procedures .procedure-box .content-part2 .procedure {
     min-height: 250px;
     padding: 20px 20px;
+  }
+  .description-section {
+    padding: 0 20px;
   }
 }
 /*----------------------------------------------------------------------AVANTAGES--------------------------------------------*/
