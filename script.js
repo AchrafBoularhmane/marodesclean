@@ -151,6 +151,7 @@ var handleIntersect = function (entries, observer) {
 };
 
 document.documentElement.classList.add("reveal-loaded");
+
 const observer = new IntersectionObserver(handleIntersect, options);
 document.querySelectorAll('[class*="reveal-"]').forEach(function (r) {
   observer.observe(r);
@@ -161,3 +162,5 @@ document.querySelectorAll('[class*="reveal-"]').forEach(function (r) {
 let vh = window.innerHeight * 0.01;
 // Then we set the value in the --vh custom property to the root of the document
 document.documentElement.style.setProperty("--vh", `${vh}px`);
+
+/*loading animation*/
