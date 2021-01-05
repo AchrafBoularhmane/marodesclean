@@ -895,18 +895,18 @@ header ul li a.active:before {
 .Services-section {
   background: var(--text-white-color);
 }
-.Services-section .content-box .title-section {
+.Services-section .services .content-box .title-section {
   color: var(--Primary-color);
 }
 
-.Services-section .content-box .underline {
+.Services-section .services .content-box .underline {
   justify-content: center;
   margin-top: 8px;
 }
-.Services-section .content-box .underline .under-one {
+.Services-section .services .content-box .underline .under-one {
   background-color: var(--Primary-color);
 }
-.Services-section .content-box .underline .under-two {
+.Services-section .services .content-box .underline .under-two {
   background-color: var(--third-color);
 }
 .card_box {
@@ -983,7 +983,7 @@ header ul li a.active:before {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .description-section {
+  .Services-section .services .content-box p {
     font-size: 12px;
     line-height: 28px;
     padding: 0 15px;
@@ -1027,11 +1027,11 @@ header ul li a.active:before {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .description-section {
+  .Services-section .services .content-box p {
     padding: 0 20px;
     line-height: 27.3px;
-    font-size: 15px;
-    font-weight: 300 !important;
+    font-size: 12px;
+    font-weight: 300;
   }
   .title-section {
     font-size: 28px;
@@ -1048,11 +1048,11 @@ header ul li a.active:before {
   .card_box .box1 .card .card-container h3 {
     font-size: 25px;
   }
-  .description-section {
+  .Services-section .services .content-box p {
     padding: 0 20px;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 27.3px;
-    font-weight: 300 !important;
+    font-weight: 300;
   }
 }
 
@@ -1254,22 +1254,22 @@ header ul li a.active:before {
 .Contact-section {
   background: var(--text-white-color);
 }
-.Contact-section .content-box {
+.Contact-section .contact .content-box {
   width: 80%;
   color: var(--third-color);
 }
-.Contact-section .content-box .title-section {
+.Contact-section .contact .content-box .title-section {
   color: var(--Primary-color);
 }
 
-.Contact-section .content-box .underline {
+.Contact-section .contact .content-box .underline {
   justify-content: center;
   margin-top: 8px;
 }
-.Contact-section .content-box .underline .under-one {
+.Contact-section .contact .content-box .underline .under-one {
   background-color: var(--Primary-color);
 }
-.Contact-section .content-box .underline .under-two {
+.Contact-section .contact .content-box .underline .under-two {
   background-color: var(--third-color);
 }
 .Contact-section {
@@ -1277,18 +1277,18 @@ header ul li a.active:before {
   display: flex;
   flex-direction: column;
 }
-.Contact-section .content-box {
+.Contact-section .contact .content-box {
   position: relative;
   width: 100%;
 }
 
-.Contact-section .contact-container {
+.Contact-section .contact .contact-container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Contact-section .contact-container .contactInfo {
+.Contact-section .contact .contact-container .contactInfo {
   min-width: 35%;
   margin-right: -10%;
   display: flex;
@@ -1297,11 +1297,11 @@ header ul li a.active:before {
   padding: 50px;
   z-index: 2;
 }
-.Contact-section .contact-container .contactInfo .box {
+.Contact-section .contact .contact-container .contactInfo .box {
   position: relative;
   display: flex;
 }
-.Contact-section .contact-container .contactInfo .box .icon {
+.Contact-section .contact .contact-container .contactInfo .box .icon {
   min-width: 60px;
   height: 60px;
   background: var(--Primary-color);
@@ -1313,24 +1313,24 @@ header ul li a.active:before {
   border: 2px solid var(--second-color);
   cursor: pointer;
 }
-.Contact-section .contact-container .contactInfo .box .icon:hover {
+.Contact-section .contact .contact-container .contactInfo .box .icon:hover {
   background-color: var(--fourth-color);
 }
 
-.Contact-section .contact-container .contactInfo .box {
+.Contact-section .contact .contact-container .contactInfo .box {
   padding: 20px 0;
 }
-.Contact-section .contact-container .contactInfo .box .icon {
+.Contact-section .contact .contact-container .contactInfo .box .icon {
   color: var(--third-color);
 }
-.Contact-section .contact-container .contactInfo .box .text h3 {
+.Contact-section .contact .contact-container .contactInfo .box .text h3 {
   color: var(--text-white-color);
   font-weight: 500;
   font-size: 15px;
   line-height: 27.3px;
 }
 
-.Contact-section .contact-container .contactInfo .box .text {
+.Contact-section .contact .contact-container .contactInfo .box .text {
   display: flex;
   margin-left: 20px;
   font-size: 15px;
@@ -1338,7 +1338,7 @@ header ul li a.active:before {
   flex-direction: column;
   color: var(--text-white-color);
 }
-.Contact-section .contact-container .contactInfo .box .text p {
+.Contact-section .contact .contact-container .contactInfo .box .text p {
   font-weight: 300;
 }
 .contact-info-social {
@@ -1548,16 +1548,16 @@ header ul li a.active:before {
 }
 /* Extra small devices (phones, 600px and down)*/
 @media only screen and (max-width: 600px) {
-  .Contact-section .contact-container {
+  .Contact-section .contact .contact-container {
     display: block;
   }
   .contactForm h2 {
     font-size: 25px;
   }
-  .Contact-section .content-box .title-section {
+  .Contact-section .contact .content-box .title-section {
     font-size: 25px;
   }
-  .Contact-section .contact-container .contactInfo {
+  .Contact-section .contact .contact-container .contactInfo {
     padding: 30px 10px;
     margin-bottom: 40px;
     width: 100%;
@@ -1572,15 +1572,15 @@ header ul li a.active:before {
   .contact-info-social ul li a i {
     font-size: 20px;
   }
-  .Contact-section .contact-container .contactInfo,
-  .Contact-section .contact-container .contactForm {
+  .Contact-section .contact .contact-container .contactInfo,
+  .Contact-section .contact .contact-container .contactForm {
     width: 100%;
   }
-  .Contact-section .contact-container .contactForm {
+  .Contact-section .contact .contact-container .contactForm {
     width: 100%;
     padding: 20px 20px;
   }
-  .Contact-section .contact-container .contactForm .inputbox span {
+  .Contact-section .contact .contact-container .contactForm .inputbox span {
     font-size: 11px;
   }
   .contactForm h2 {
@@ -1645,7 +1645,7 @@ header ul li a.active:before {
 }
 /* Medium devices (landscape tablets, 769px and up)*/
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
-  .Contact-section .contact-container .contactInfo {
+  .Contact-section .contact .contact-container .contactInfo {
     padding: 30px 15px;
   }
   .contactForm h2 {
