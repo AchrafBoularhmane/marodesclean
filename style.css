@@ -1027,7 +1027,14 @@ header ul li a.active:before {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .description-section {
+  /*.description-section {
+    padding: 0 20px;
+    line-height: 27.3px;
+    font-size: 15px;
+    font-weight: 300;
+  }*/
+  .Services-section .content-box .description-section {
+    background-color: yellow;
     padding: 0 20px;
     line-height: 27.3px;
     font-size: 15px;
@@ -1045,15 +1052,22 @@ header ul li a.active:before {
   .title-section {
     font-size: 28px;
   }
+  .Services-section .content-box .description-section {
+    padding: 0 20px;
+    line-height: 27.3px;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: yellow;
+  }
   .card_box .box1 .card .card-container h3 {
     font-size: 25px;
   }
-  .description-section {
+  /*.description-section {
     padding: 0 20px;
     font-size: 15px;
     line-height: 27.3px;
     font-weight: 300;
-  }
+  }*/
 }
 
 /*------------------------------------------------------IMPLICATION TOTALE----------------------------------------------------*/
