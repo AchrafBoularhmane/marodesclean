@@ -15,8 +15,6 @@
   padding: 0;
   box-sizing: border-box;
   width: fit-content;
-  font-weight: 300;
-  font-size: 15px;
 }
 ::-webkit-scrollbar {
   width: 15px;
@@ -1040,6 +1038,7 @@ header ul li a.active:before {
     line-height: 29.3px;
     font-size: 12px;
     font-weight: 300;
+    background-color: turquoise;
   }
   .title-section {
     font-size: 28px;
@@ -1058,6 +1057,7 @@ header ul li a.active:before {
     line-height: 29.3px;
     font-size: 12px;
     font-weight: 300;
+    background-color: turquoise;
   }
   .card_box .box1 .card .card-container h3 {
     font-size: 25px;
