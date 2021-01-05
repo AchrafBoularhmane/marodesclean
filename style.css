@@ -893,10 +893,13 @@ header ul li a.active:before {
 /*------------------------------------------------------NOS SERVICES----------------------------------------------------*/
 
 .Services-section {
+  position: relative;
+  height: 100%;
   background: var(--text-white-color);
 }
 .Services-section .services .content-box .title-section {
   color: var(--Primary-color);
+  position: relative;
 }
 .Services-section .services .content-box .underline {
   justify-content: center;
@@ -987,7 +990,6 @@ header ul li a.active:before {
   }
   .description-section {
     padding: 0 20px;
-
     font-size: 12px;
   }
 
@@ -1024,11 +1026,6 @@ header ul li a.active:before {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .test {
-    font-size: 12px;
-    color: #300000;
-    font-weight: 300;
-  }
   .title-section {
     font-size: 28px;
   }
@@ -1041,11 +1038,6 @@ header ul li a.active:before {
 }
 /* Medium devices (landscape tablets, 769px and up) */
 @media only screen and (min-width: 769px) and (max-width: 1035px) {
-  .test {
-    font-weight: 300;
-    font-size: 12px;
-    color: #300000;
-  }
   .title-section {
     font-size: 28px;
   }
@@ -1080,16 +1072,6 @@ header ul li a.active:before {
 }
 .procedures .content-box .underline .under-two {
   background-color: var(--third-color);
-}
-
-.procedures .procedure-backgroundcolor {
-  z-index: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: var(--second-color);
-  width: 100%;
-  height: 100%;
 }
 
 .procedures .procedure-box {
