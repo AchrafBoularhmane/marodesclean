@@ -898,6 +898,12 @@ header ul li a.active:before {
 .Services-section .services .content-box .title-section {
   color: var(--Primary-color);
 }
+.Services-section .services .content-box .content-box p {
+  padding: 0 20px;
+  font-size: 10px;
+  line-height: 27.3px;
+  font-weight: 300;
+}
 
 .Services-section .services .content-box .underline {
   justify-content: center;
@@ -1261,6 +1267,12 @@ header ul li a.active:before {
 .Contact-section .contact .content-box .title-section {
   color: var(--Primary-color);
 }
+.Contact-section .contact .content-box p {
+  padding: 0 20px;
+  font-size: 15px;
+  line-height: 27.3px;
+  font-weight: 300;
+}
 
 .Contact-section .contact .content-box .underline {
   justify-content: center;
@@ -1557,6 +1569,12 @@ header ul li a.active:before {
   .Contact-section .contact .content-box .title-section {
     font-size: 25px;
   }
+  .Contact-section .contact .content-box p {
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 27.3px;
+    font-weight: 300;
+  }
   .Contact-section .contact .contact-container .contactInfo {
     padding: 30px 10px;
     margin-bottom: 40px;
@@ -1650,6 +1668,12 @@ header ul li a.active:before {
   }
   .contactForm h2 {
     font-size: 25px;
+  }
+  .Contact-section .contact .content-box p {
+    padding: 0 20px;
+    font-size: 10px;
+    line-height: 27.3px;
+    font-weight: 300;
   }
 }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
