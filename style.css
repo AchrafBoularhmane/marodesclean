@@ -1242,12 +1242,15 @@ header ul li a.active:before {
 /*------------------------------------------------------CONTACT ----------------------------------------------------*/
 .Contact-section {
   background: var(--text-white-color);
+  position: relative;
+  height: 100%;
 }
 .Contact-section .contact .content-box {
   width: 80%;
   color: var(--third-color);
 }
 .Contact-section .contact .content-box .title-section {
+  position: relative;
   color: var(--Primary-color);
 }
 
