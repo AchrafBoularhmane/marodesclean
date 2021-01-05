@@ -1033,12 +1033,11 @@ header ul li a.active:before {
     font-size: 15px;
     font-weight: 300;
   }*/
-  .Services-section .content-box .description-section {
+  .description-section {
     padding: 0 20px;
     line-height: 29.3px;
     font-size: 12px;
     font-weight: 300;
-    background-color: turquoise;
   }
   .title-section {
     font-size: 28px;
@@ -1052,12 +1051,11 @@ header ul li a.active:before {
   .title-section {
     font-size: 28px;
   }
-  .Services-section .content-box .description-section {
+  .description-section {
     padding: 0 20px;
     line-height: 29.3px;
     font-size: 12px;
     font-weight: 300;
-    background-color: turquoise;
   }
   .card_box .box1 .card .card-container h3 {
     font-size: 25px;
