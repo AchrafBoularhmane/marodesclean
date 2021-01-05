@@ -1030,7 +1030,7 @@ header ul li a.active:before {
   .Services-section .services .content-box p {
     padding: 0 20px;
     line-height: 27.3px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 300;
   }
   .title-section {
@@ -1050,7 +1050,7 @@ header ul li a.active:before {
   }
   .Services-section .services .content-box p {
     padding: 0 20px;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 27.3px;
     font-weight: 300;
   }
