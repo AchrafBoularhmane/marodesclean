@@ -898,6 +898,13 @@ header ul li a.active:before {
 .Services-section .content-box .title-section {
   color: var(--Primary-color);
 }
+.Services-section .content-box p {
+  color: var(--text-grey-color);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 29.3px;
+  text-align: center;
+}
 
 .Services-section .content-box .underline {
   justify-content: center;
@@ -983,11 +990,12 @@ header ul li a.active:before {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .description-section {
+  .Services-section .content-box p {
+    color: var(--text-grey-color);
     font-size: 12px;
-    line-height: 28px;
-    padding: 0 15px;
     font-weight: 300;
+    line-height: 29.3px;
+    text-align: center;
   }
 
   .title-section {
@@ -1027,6 +1035,13 @@ header ul li a.active:before {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+  .Services-section .content-box p {
+    color: var(--text-grey-color);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 29.3px;
+    text-align: center;
+  }
   /*.description-section {
     padding: 0 20px;
     line-height: 27.3px;
@@ -1039,6 +1054,7 @@ header ul li a.active:before {
     font-size: 15px;
     font-weight: 300;
   }
+
   .title-section {
     font-size: 28px;
   }
@@ -1048,6 +1064,13 @@ header ul li a.active:before {
 }
 /* Medium devices (landscape tablets, 769px and up) */
 @media only screen and (min-width: 769px) and (max-width: 1035px) {
+  .Services-section .content-box p {
+    color: var(--text-grey-color);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 29.3px;
+    text-align: center;
+  }
   .title-section {
     font-size: 28px;
   }
