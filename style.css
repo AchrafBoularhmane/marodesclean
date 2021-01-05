@@ -898,13 +898,6 @@ header ul li a.active:before {
 .Services-section .services .content-box .title-section {
   color: var(--Primary-color);
 }
-.Services-section .services .content-box .content-box p {
-  padding: 0 20px;
-  font-size: 10px;
-  line-height: 27.3px;
-  font-weight: 300;
-}
-
 .Services-section .services .content-box .underline {
   justify-content: center;
   margin-top: 8px;
@@ -989,15 +982,13 @@ header ul li a.active:before {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .Services-section .services .content-box p {
-    font-size: 12px;
-    line-height: 28px;
-    padding: 0 15px;
-    font-weight: 300;
-  }
-
   .title-section {
     font-size: 24px;
+  }
+  .description-section {
+    padding: 0 20px;
+
+    font-size: 12px;
   }
 
   .card_box .box1 .card {
@@ -1033,14 +1024,11 @@ header ul li a.active:before {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .Services-section .services .content-box p {
-    padding: 0 20px;
-    line-height: 27.3px;
-    font-size: 10px;
-    font-weight: 300;
-  }
   .title-section {
     font-size: 28px;
+  }
+  .description-section {
+    padding: 0 20px;
   }
   .card_box .box1 .card .card-container h3 {
     font-size: 25px;
@@ -1051,14 +1039,11 @@ header ul li a.active:before {
   .title-section {
     font-size: 28px;
   }
+  .description-section {
+    padding: 0 20px;
+  }
   .card_box .box1 .card .card-container h3 {
     font-size: 25px;
-  }
-  .Services-section .services .content-box p {
-    padding: 0 20px;
-    font-size: 10px;
-    line-height: 27.3px;
-    font-weight: 300;
   }
 }
 
@@ -1272,12 +1257,6 @@ header ul li a.active:before {
 }
 .Contact-section .contact .content-box .title-section {
   color: var(--Primary-color);
-}
-.Contact-section .contact .content-box p {
-  padding: 0 20px;
-  font-size: 15px;
-  line-height: 27.3px;
-  font-weight: 300;
 }
 
 .Contact-section .contact .content-box .underline {
@@ -1575,12 +1554,7 @@ header ul li a.active:before {
   .Contact-section .contact .content-box .title-section {
     font-size: 25px;
   }
-  .Contact-section .contact .content-box p {
-    padding: 0 20px;
-    font-size: 12px;
-    line-height: 27.3px;
-    font-weight: 300;
-  }
+
   .Contact-section .contact .contact-container .contactInfo {
     padding: 30px 10px;
     margin-bottom: 40px;
@@ -1674,12 +1648,6 @@ header ul li a.active:before {
   }
   .contactForm h2 {
     font-size: 25px;
-  }
-  .Contact-section .contact .content-box p {
-    padding: 0 20px;
-    font-size: 10px;
-    line-height: 27.3px;
-    font-weight: 300;
   }
 }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
