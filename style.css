@@ -54,6 +54,7 @@ body {
 }
 .backToTop i {
   color: #fff;
+  font-size: 25px;
 }
 .backToTop:hover {
   background-color: var(--third-color);
@@ -121,6 +122,11 @@ body {
   line-height: 5px;
   font-size: 15px;
 }
+.cookies .cookies-container h2 i {
+  font-size: 15px;
+  margin-left: 7px;
+  color: var(--third-color);
+}
 .cookies .cookies-container p {
   text-align: center;
   padding: 15px 0px;
@@ -129,7 +135,7 @@ body {
   font-weight: 300;
   color: #a2a2a2;
 }
-.cookies i {
+.cookies #close-cookies {
   cursor: pointer;
   position: absolute;
   right: 7px;
@@ -195,6 +201,11 @@ body {
 }
 .reveal-loaded .reveal-5 {
   transition-delay: 0.4s;
+}
+/*Safari phone numbers detection*/
+a[href^="tel"] {
+  text-decoration: inherit;
+  color: inherit;
 }
 /*Loading animation*/
 
@@ -1111,7 +1122,7 @@ header ul li a.active:before {
 }
 .procedures .procedure-box .procedure .border i {
   cursor: pointer;
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 50%;
   padding: 15px 20px;
   background: var(--Primary-color);
@@ -1222,7 +1233,7 @@ header ul li a.active:before {
   cursor: pointer;
   color: var(--third-color);
   margin: auto 0;
-  font-size: 30px;
+  font-size: 25px;
   background-color: var(--Primary-color);
   margin-right: 15px;
   border-radius: 50%;
@@ -1366,8 +1377,7 @@ header ul li a.active:before {
 }
 .Contact-section .contact .contact-container .contactInfo .box .icon i {
   background-color: var(--Primary-color);
-
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 50%;
   padding: 15px 20px;
 }
@@ -1867,25 +1877,19 @@ header ul li a.active:before {
   display: flex;
   list-style: none;
 }
-.brand-description .footer-icons ul li {
-  background: var(--third-color);
-  padding: 5px 10px;
-  margin-right: 10px;
-  border-radius: 50%;
-}
-.brand-description .footer-icons ul li:last-child {
-  padding: 5px 12px;
-}
+
 .brand-description .footer-icons ul li a {
   text-decoration: none;
 }
 .brand-description .footer-icons ul li a i {
-  color: var(--Primary-color);
-  font-size: 18px;
+  color: var(--third-color);
+  font-size: 23px;
+  margin-right: 10px;
 }
 .brand-description .footer-icons ul li a i:hover {
   color: var(--fourth-color);
 }
+
 .horaire {
   border: none;
 }
@@ -1932,7 +1936,7 @@ header ul li a.active:before {
   text-align: left;
 }
 .contactfoot .container-footer div span i {
-  font-size: 20px;
+  font-size: 17px;
   color: var(--third-color);
   cursor: pointer;
   margin-right: 10px;
@@ -1941,9 +1945,7 @@ header ul li a.active:before {
 .contactfoot .container-footer div span i:hover {
   color: var(--Primary-color);
 }
-.contactfoot .container-footer div span .fa-envelope {
-  font-size: 17px;
-}
+
 .horaire .horaire-douveture {
   font-size: 15px;
   font-weight: 300;
@@ -1953,7 +1955,7 @@ header ul li a.active:before {
 .horaire .horaire-douveture i {
   color: var(--third-color);
   margin-right: 10px;
-  font-size: 16px;
+  font-size: 17px;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
