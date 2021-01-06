@@ -1209,9 +1209,9 @@ header ul li a.active:before {
   display: flex;
   color: var(--text-white-color);
   padding: 20px 60px;
+  justify-content: space-between;
 }
 .avantages .avantage {
-  width: 33%;
   display: flex;
 }
 .avantages .avantage .icon {
@@ -1261,7 +1261,6 @@ header ul li a.active:before {
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .avantages {
     padding: 20px 15px;
-    font-size: 13px;
   }
   .avantages .avantage {
     margin-right: 10px;
@@ -1275,6 +1274,10 @@ header ul li a.active:before {
   .avantages .avantage .icon i {
     font-size: 18px;
     margin: 0;
+  }
+  .avantages .avantage .avantage-type {
+    width: 100%;
+    font-size: 12px;
   }
 }
 /* Medium devices (landscape tablets, 769px and up) */
