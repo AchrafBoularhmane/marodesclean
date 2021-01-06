@@ -1079,8 +1079,11 @@ header ul li a.active:before {
   display: flex;
   justify-content: space-between;
 }
+.procedures .procedure-box .content-part1 {
+  text-align: center;
+  width: 50%;
+}
 
-.procedures .procedure-box .content-part1,
 .procedures .procedure-box .content-part2 {
   text-align: center;
   width: 50%;
@@ -1165,9 +1168,30 @@ header ul li a.active:before {
   .procedures .procedure-box .content-part2 .procedure {
     padding: 20px;
   }
+  .procedures .procedure-box .procedure p {
+    font-size: 12px;
+  }
+  .procedures .procedure-box .procedure h3 {
+    font-size: 14px;
+  }
+  .procedures .reservation #reservez {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .procedures .procedure-box .content-part1 .procedure,
+  .procedures .procedure-box .content-part2 .procedure {
+    min-height: 250px;
+    padding: 20px 20px;
+  }
+  .description-section {
+    padding: 0 20px;
+  }
 }
 /* Medium devices (landscape tablets, 769px and up) */
-@media only screen and (min-width: 768px) and (max-width: 1025px) {
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
   .procedures .procedure-box .content-part1 .procedure,
   .procedures .procedure-box .content-part2 .procedure {
     min-height: 250px;
@@ -1182,14 +1206,9 @@ header ul li a.active:before {
   width: auto;
   height: 100%;
   background-color: var(--fourth-color);
-  padding: 0 60px;
   display: flex;
   color: var(--text-white-color);
-  line-height: 27.3px;
-  text-transform: uppercase;
-  font-size: 16px;
   padding: 20px 60px;
-  font-weight: 400;
 }
 .avantages .avantage {
   width: 33%;
@@ -1199,42 +1218,67 @@ header ul li a.active:before {
   background-color: var(--Primary-color);
   border-radius: 50%;
   margin-right: 15px;
-  padding: 13px 15px;
+  padding: 10px 14px;
 }
 .avantages .avantage .icon i {
   cursor: pointer;
   color: var(--third-color);
-  font-size: 20.3px;
+  font-size: 21px;
   margin: auto 0;
 }
 .avantages .avantage .icon i:hover {
   color: var(--second-color);
 }
 .avantages .avantage .avantage-type {
+  text-transform: uppercase;
+  font-weight: 400;
   margin: auto 0;
+  font-size: 15px;
+  line-height: 27.3px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .avantages {
     display: block;
-    padding: 20px 15px;
+    justify-content: center;
   }
   .avantages .avantage {
+    margin: 0 auto;
     display: flex;
-    width: 100%;
-    margin-bottom: 20px;
+    min-width: 260px;
+    padding: 15px 0;
   }
   .avantages .avantage:last-child {
     margin-bottom: 0px;
   }
   .avantages .avantage .avantage-type {
     width: 100%;
-    font-size: 15px;
+    font-size: 14px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .avantages {
+    padding: 20px 15px;
+    font-size: 13px;
+  }
+  .avantages .avantage {
+    margin-right: 10px;
+  }
+  .avantages .avantage:last-child() {
+    margin-right: 0px;
+  }
+  .avantages .avantage .icon {
+    padding: 15px 15px;
+  }
+  .avantages .avantage .icon i {
+    font-size: 18px;
+    margin: 0;
   }
 }
 /* Medium devices (landscape tablets, 769px and up) */
-@media only screen and (min-width: 768px) and (max-width: 1025px) {
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
   .avantages {
     padding: 20px 15px;
   }
@@ -1325,13 +1369,13 @@ header ul li a.active:before {
 .Contact-section .contact .contact-container .contactInfo .box .text {
   display: flex;
   margin-left: 20px;
-  font-size: 15px;
   line-height: 23.4px;
   flex-direction: column;
   color: var(--text-white-color);
 }
 .Contact-section .contact .contact-container .contactInfo .box .text p {
   font-weight: 300;
+  font-size: 15px;
 }
 .contact-info-social {
   margin-top: 100px;
@@ -1552,8 +1596,14 @@ header ul li a.active:before {
 
   .Contact-section .contact .contact-container .contactInfo {
     padding: 30px 10px;
-    margin-bottom: 40px;
+
     width: 100%;
+  }
+  .Contact-section .contact .contact-container .contactInfo .box .text h3 {
+    font-size: 13px;
+  }
+  .Contact-section .contact .contact-container .contactInfo .box .text p {
+    font-size: 12px;
   }
   .contact-info-social ul {
     display: flex;
@@ -1562,8 +1612,9 @@ header ul li a.active:before {
   .contact-info-social ul li {
     margin-right: 20px;
   }
+
   .contact-info-social ul li a i {
-    font-size: 20px;
+    font-size: 18px;
   }
   .Contact-section .contact .contact-container .contactInfo,
   .Contact-section .contact .contact-container .contactForm {
@@ -1574,10 +1625,10 @@ header ul li a.active:before {
     padding: 20px 20px;
   }
   .Contact-section .contact .contact-container .contactForm .inputbox span {
-    font-size: 11px;
+    font-size: 12px;
   }
   .contactForm h2 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 50px;
   }
   .contactForm .inputbox input[type="submit"] {
@@ -1611,18 +1662,19 @@ header ul li a.active:before {
     padding: 10px 10px;
     border-radius: 2px;
     background: var(--text-white-color);
-    width: 600px;
-    max-width: 100%;
+    min-width: 100%;
     text-align: center;
   }
   .modal h1,
   .modal-NL h1 {
-    font-size: 18px;
+    width: 100%;
+    font-size: 15px;
     padding-bottom: 10px;
+    text-align: center;
   }
   .modal h1 i,
   .modal-NL h1 i {
-    font-size: 27.3px;
+    font-size: 19px;
     margin-left: 2px;
   }
   .modal p,
@@ -1635,14 +1687,38 @@ header ul li a.active:before {
     font-size: 13px;
     padding: 7px 30px;
   }
+  .erreur {
+    font-size: 12px;
+  }
+  .erreur i {
+    font-size: 13px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .Contact-section .contact .contact-container .contactInfo {
+    padding: 30px 15px;
+  }
+  .contactForm {
+    width: 65%;
+    padding: 40px;
+    padding-left: 12%;
+    z-index: 1;
+  }
 }
 /* Medium devices (landscape tablets, 769px and up)*/
-@media only screen and (min-width: 768px) and (max-width: 1025px) {
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
   .Contact-section .contact .contact-container .contactInfo {
     padding: 30px 15px;
   }
   .contactForm h2 {
     font-size: 25px;
+  }
+  .contactForm {
+    width: 65%;
+    padding: 40px;
+    padding-left: 12%;
+    z-index: 1;
   }
 }
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
@@ -1685,7 +1761,7 @@ header ul li a.active:before {
 .horaire h2,
 .inscription-newsletter h2 {
   color: #f3f3f3;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 27.3px;
   text-transform: uppercase;
   font-weight: 500;
@@ -1695,7 +1771,7 @@ header ul li a.active:before {
 .contactfoot .underline,
 .horaire .underline,
 .inscription-newsletter .underline {
-  padding-top: 15px;
+  padding-top: 12px;
 }
 .brand-description .underline .under-one,
 .plan-site .underline .under-one,
@@ -1797,12 +1873,14 @@ header ul li a.active:before {
 .horaire {
   border: none;
 }
+.plan-site,
+.horaire {
+  margin-right: 10px;
+}
 .plan-site ul {
   list-style: none;
 }
-.plan-site ul li {
-  padding: 5px 0px;
-}
+
 .plan-site ul li:first-child {
   padding-top: 0px;
 }
@@ -1812,7 +1890,7 @@ header ul li a.active:before {
   text-transform: uppercase;
   color: #f3f3f3;
   font-size: 15px;
-  line-height: 21.8px;
+  line-height: 33px;
   font-weight: 300;
 }
 .plan-site ul li a:hover {
@@ -1828,13 +1906,12 @@ header ul li a.active:before {
 }
 
 .contactfoot .container-footer div {
-  padding-bottom: 15px;
   display: flex;
 }
 .contactfoot .container-footer div span {
   font-size: 15px;
   font-weight: 300;
-  line-height: 21.8px;
+  line-height: 33px;
   color: #f3f3f3;
   text-align: left;
 }
@@ -1854,9 +1931,8 @@ header ul li a.active:before {
 .horaire .horaire-douveture {
   font-size: 15px;
   font-weight: 300;
-  line-height: 21.8px;
+  line-height: 33px;
   color: #f3f3f3;
-  padding-bottom: 15px;
 }
 .horaire .horaire-douveture i {
   color: var(--third-color);
@@ -1877,10 +1953,28 @@ header ul li a.active:before {
   .footer-part .footer-part2 .horaire,
   .footer-part .footer-part2 .inscription-newsletter {
     width: 100%;
-    padding: 20px 0;
+    padding: 15px 0px;
+  }
+  .brand-description h2,
+  .plan-site h2,
+  .contactfoot h2,
+  .horaire h2,
+  .inscription-newsletter h2 {
+    font-size: 17px;
+  }
+  .brand-description p,
+  .inscription-newsletter p,
+  .contactfoot .container-footer div span,
+  .horaire .horaire-douveture,
+  .plan-site ul li a {
+    font-size: 12px;
   }
   .footer-part2 .inscription-newsletter {
     padding-bottom: 0;
+  }
+  .inscription-newsletter .newsletter .button {
+    padding: 10px 15px;
+    font-size: 12px;
   }
   .footer-part {
     width: 100%;
@@ -1906,9 +2000,17 @@ header ul li a.active:before {
 }
 /* Small devices (portrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+  .inscription-newsletter .newsletter .button {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
 }
 /* Medium devices (landscape tablets, 769px and up) */
 @media only screen and (min-width: 769px) and (max-width: 991px) {
+  .inscription-newsletter .newsletter .button {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
 }
 
 /*---------------------------------------------------------COPYRIGHT---------------------------------------------------*/
@@ -1940,15 +2042,21 @@ header ul li a.active:before {
 @media only screen and (max-width: 600px) {
   .Copyright {
     padding: 10px 15px;
-    font-size: 13px;
+    font-size: 11px;
   }
   .Copyright a {
-    font-size: 13px;
+    font-size: 11px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+  .Copyright {
+    padding: 10px 15px;
+  }
 }
 /* Medium devices (landscape tablets, 769px and up) */
-@media only screen and (min-width: 769px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+  .Copyright {
+    padding: 10px 15px;
+  }
 }
