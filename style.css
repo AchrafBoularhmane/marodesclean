@@ -16,9 +16,7 @@
   box-sizing: border-box;
   width: fit-content;
 }
-body {
-  position: relative;
-}
+
 ::-webkit-scrollbar {
   width: 15px;
   background-color: #fff;
@@ -32,6 +30,7 @@ body {
 /*stop scrolling*/
 .stop-scrolling {
   overflow-y: hidden;
+  position: relative;
 }
 /* back to top button*/
 .backToTop {
@@ -1275,7 +1274,7 @@ header ul li a.active:before {
     cursor: pointer;
     color: var(--third-color);
     margin: auto 0;
-    font-size: 30px;
+    font-size: 25px;
     background-color: var(--Primary-color);
     margin-right: 15px;
     border-radius: 50%;
