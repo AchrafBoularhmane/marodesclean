@@ -31,6 +31,8 @@
 .stop-scrolling {
   overflow-y: hidden;
   position: relative;
+  touch-action: none;
+  -ms-touch-action: none;
 }
 /* back to top button*/
 .backToTop {
