@@ -16,6 +16,9 @@
   box-sizing: border-box;
   width: fit-content;
 }
+body {
+  position: relative;
+}
 ::-webkit-scrollbar {
   width: 15px;
   background-color: #fff;
@@ -706,7 +709,7 @@ header ul li a.active:before {
   }
 
   .home-description-container .home-description {
-    width: 100%;
+    width: 80%;
   }
 }
 /* Medium devices (landscape tablets, 769px and up) */
@@ -715,7 +718,7 @@ header ul li a.active:before {
     padding: 10px 15px;
   }
   .home-description-container .home-description {
-    width: 100%;
+    width: 80%;
   }
   .home-description-container {
     padding: 0px 15px;
@@ -733,7 +736,7 @@ header ul li a.active:before {
     padding: 10px 15px;
   }
   .home-description-container .home-description {
-    width: 100%;
+    width: 85%;
   }
   .header-container header .MenuPlusLogo .logo-header img {
     width: 200px;
@@ -1352,29 +1355,26 @@ header ul li a.active:before {
 .Contact-section .contact .contact-container .contactInfo .box {
   position: relative;
   display: flex;
+  padding: 20px 0;
 }
 .Contact-section .contact .contact-container .contactInfo .box .icon {
-  min-width: 60px;
-  height: 60px;
-  background: var(--Primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
-  border-radius: 50%;
-  border: 2px solid var(--fourth-color);
   cursor: pointer;
+  color: var(--third-color);
+}
+.Contact-section .contact .contact-container .contactInfo .box .icon i {
+  background-color: var(--Primary-color);
+
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 15px 20px;
 }
 .Contact-section .contact .contact-container .contactInfo .box .icon:hover {
   background-color: var(--fourth-color);
 }
 
-.Contact-section .contact .contact-container .contactInfo .box {
-  padding: 20px 0;
-}
-.Contact-section .contact .contact-container .contactInfo .box .icon {
-  color: var(--third-color);
-}
 .Contact-section .contact .contact-container .contactInfo .box .text h3 {
   color: var(--text-white-color);
   font-weight: 500;
