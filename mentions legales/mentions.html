@@ -2,100 +2,108 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./mentions-style.css" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="”format-detection”" content="”telephone" ="no”" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="mentions-style.css" />
     <link rel="shortcut icon" type="image/png" href="../images/Favicon-48px.png" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <title>MARODESCLEAN | DÉSINFECTION, DÉRATISATION & DÉSINSECTISATION</title>
   </head>
   <body>
-     <!---------------------------------------------------------HOME SECTION------------------------------------------------------>
-   <section class="home-section" id="home">
-    <!-- Green Background-->
-    <div class="green-back"></div>
-    <!-- Click to be back to top -->
-    <a class="backToTop" id="backTop"><i class="fa fa-chevron-up"></i></a>
-    <!--Header [navbar+logo+cookies]-->
-    <div class="header-container" id="navbar">
-       <!--Cookies mentions légales-->
-       <div class="cookies reveal-3" id="cookie">
-        <i class="fa fa-times" aria-hidden="true" id="close-cookies" onclick="Close()"></i>
-        <div class="cookies-container">
-          <h2>Utilisation des COOKIES</h2>
-          <p>En poursuivant votre navigation sur ce site, vous acceptez nos conditions générales et l’utilisation de cookies pour vous garantir la meilleure expérience sur notre site</p>
-          <a href="" id="ok"> ok </a><a href="./mentions legales/mentions.html" id="ensavoirplus"> en savoir plus</a>
+    <!---------------------------------------------------------HOME SECTION------------------------------------------------------>
+    <section class="home-section" id="mentions-home">
+      <!-- Green Background-->
+      <div class="green-back"></div>
+      <!-- Click to be back to top -->
+      <a class="backToTop" id="backTop"><i class="fa fa-chevron-up"></i></a>
+      <!--Header [navbar+logo+cookies]-->
+      <div class="header-container" id="navbar">
+        <!--Cookies mentions légales-->
+        <div class="cookies reveal-4" id="cookie">
+          <i class="fa fa-times" aria-hidden="true" id="close-cookies" onclick="Close()"></i>
+          <div class="cookies-container">
+            <h2>Utilisation des COOKIES<i class="fas fa-cookie-bite"></i></h2>
+            <p>En poursuivant votre navigation sur ce site, vous acceptez nos conditions générales et l’utilisation de cookies pour vous garantir la meilleure expérience sur notre site</p>
+            <a href="" id="ok"> ok </a><a href="../mentions legales/mentions.html" id="ensavoirplus"> en savoir plus</a>
+          </div>
+        </div>
+        <!--Header-->
+        <header>
+          <!--Menu + Logo-->
+          <div class="MenuPlusLogo">
+            <span class="logo-header"
+              ><a href="../index.html#home"><img src="../images/logo1.png" /></a
+            ></span>
+            <div class="toggle" id="Menu" onclick="toggle()">
+              <span class="one"></span>
+              <span class="two"></span>
+              <span class="three"></span>
+              <span class="four"></span>
+            </div>
+            <div class="mobile-navbar" id="menu-overlay" onclick="toggleoff()">
+              <ul>
+                <li><a href="../index.html#home" id="Accueil">Accueil</a></li>
+                <li><a href="../index.html#Apropos">Qui sommes-nous?</a></li>
+                <li><a href="../index.html#Services">Nos Services</a></li>
+                <li><a href="../index.html#Contact">Contact et devis</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+      </div>
+      <!--Home Description-->
+      <div class="home-description-container">
+        <div class="home-description">
+          <h1 class="reveal-1">Mentions légales</h1>
+          <div class="underline">
+            <span class="under-one"></span>
+            <span class="under-two"></span>
+          </div>
         </div>
       </div>
-      <header>
-        <!--Menu + Logo-->
-        <div class="MenuPlusLogo">
-          <span class="logo-header"
-            ><a href="../index.html#home"><img src="../images/logo1.png" /></a
-          ></span>
-          <div class="toggle" id="Menu" onclick="toggle()">
-            <span class="one"></span>
-            <span class="two"></span>
-            <span class="three"></span>
-            <span class="four"></span>
+      <!--Image Slider + social media links-->
+      <div class="cont-slid">
+        <div class="slider">
+          <div class="slides">
+            <div class="slide first">
+              <img src="../images/légales.jpg" alt="" />
+            </div>
           </div>
-          <div class="mobile-navbar" id="menu-overlay" onclick="toggleoff()">
-            <ul>
-              <li><a href="../index.html#home" id="Accueil">Accueil</a></li>
-              <li><a href="../index.html#Apropos">Qui sommes-nous?</a></li>
-              <li><a href="../index.html#Services">Nos Services</a></li>
-              <li><a href="../index.html#Contact">Contact et devis</a></li>
+          <!--social media links-->
+          <div class="icons">
+            <ul class="icon">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
             </ul>
           </div>
         </div>
-      </header>
-    </div>
-    <!--Home Description + social media links-->
-    <div class="home-description-container">
-      <div class="home-description">
-        <h1>Mentions légales</h1>
-        <div class="underline">
-          <span class="under-one"></span>
-          <span class="under-two"></span>
-        </div>
       </div>
-    </div>
-    <!--Image Slider-->
-    <div class="home-image-service">
-<div class="home-image-back"></div>
-            <img src="../images/légales.jpg" alt="" />
-          </div>
-        <!--social media links-->
-        <div class="icons">
-          <ul class="icon">
-            <li>
-              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
     <!---------------------------------------------------------MENTIONS LEGALES ----------------------------------------------------->
     <section class="mentions section-padding" id="mentions">
       <div class="mentions_newpage">
         <h1>CONDITIONS GÉNÉRALES D’ACCÈS ET D’UTILISATION DU SITE</h1>
         <div class="trait"></div>
         <p>
-          La présente notice légale a pour objet de définir les modalités selon lesquelles <b>MARODESCLEAN</b> met à la disposition des utilisateurs son site web <a href="www.marodesclean.com">www.marodesclean.com</a> ainsi que les conditions suivant lesquelles lesdits utilisateurs accèdent et utilisent ce site.<br /><br />
-          L’utilisation du site <a href="www.marodesclean.com">www.marodesclean.com</a> implique l’acceptation pleine et entière des conditions générales d’utilisation décrites ci-aprés.<br /><br />
+          La présente notice légale a pour objet de définir les modalités selon lesquelles <b>MARODESCLEAN</b> met à la disposition des utilisateurs son site web <a href="www.marodesclean.com">www.marodesclean.com</a> ainsi que les conditions suivant lesquelles lesdits utilisateurs accèdent et utilisent ce site.<br />
+          L’utilisation du site <a href="www.marodesclean.com">www.marodesclean.com</a> implique l’acceptation pleine et entière des conditions générales d’utilisation décrites ci-aprés.<br />
           L’accès au site web de <b>MARODESCLEAN</b> est ouvert 24h sur 24 et 7 jours sur 7, sauf survenance de cas de force majeure, de pannes éventuelles ou de toute opération de maintenance nécessaire au bon fonctionnement dudit site. L’utilisateur doit disposer de la compétence et des moyens nécessaires pour accéder et utiliser ledit site dans les
-          meilleures conditions.<br /><br />
-          Tout accès et/ou utilisation du site web de <b>MARODESCLEAN</b> suppose l'acceptation et le respect de l'ensemble des termes des présentes conditions et leur acceptation.<br /><br />
-          Il est expressément précisé que toute connexion de l’utilisateur au site web <a href="www.marodesclean.com">www.marodesclean.com</a> est subordonnée au respect de se conformer à la présente notice légale.<br /><br />
+          meilleures conditions.<br />
+          Tout accès et/ou utilisation du site web de <b>MARODESCLEAN</b> suppose l'acceptation et le respect de l'ensemble des termes des présentes conditions et leur acceptation.<br />
+          Il est expressément précisé que toute connexion de l’utilisateur au site web <a href="www.marodesclean.com">www.marodesclean.com</a> est subordonnée au respect de se conformer à la présente notice légale.<br />
           <b>MARODESCLEAN</b> se réserve le droit de modifier les termes, conditions et mentions à tout moment. Il est ainsi conseillé à l'utilisateur de consulter régulièrement la dernière version des conditions d'utilisation disponible sur le site <a href="www.marodesclean.com">www.marodesclean.com</a>
         </p>
         <h1>PROTECTION DES DONNÉES RELATIVES À LA VIE PRIVÉE</h1>
@@ -103,20 +111,20 @@
         <h2>Cookies</h2>
         <p>
           Le cookie est un fichier texte qui s’installe sur le disque dur de l’utilisateur. Il permet notamment de recueillir et de stocker des données sur le comportement de navigation à partir du poste connecté. Un cookie ne permet pas d’identifier l’utilisateur. En revanche, il enregistre des informations relatives à sa navigation sur un site, notamment
-          les pages consultées, la date et l'heure de la consultation.<br /><br />
+          les pages consultées, la date et l'heure de la consultation.<br />
           Dans le cadre de l’amélioration de services du site web, des cookies pourront être placés sur l’ordinateur de l’utilisateur en vue de générer des statistiques sur l’utilisation du site web de <b>MARODESCLEAN</b> (les pages les plus visitées, la fréquence d’accès au site, etc.). Il est à noter qu’aucune donnée à caractère personnel identifiable
           n’est relevée à cette occasion.
         </p>
         <h2>Vos données personnelles</h2>
         <p>
           Aucune information personnelle n'est collectée à l’insu de l’utilisateur. Dans une logique de respect de la vie privée, <b>MARODESCLEAN</b>, propriétaire légale du site web <a href="www.marodesclean.com">www.marodesclean.com</a> s'engage à ce que la collecte et le traitement d'informations personnelles soient effectués conformément à la loi n°09-08
-          du 18 février 2009 relative à la protection des personnes physiques à l’égard du traitement des données à caractère personnel.<br /><br />
-          Aucune information personnelle n'est cédée à des tiers.<br /><br />
+          du 18 février 2009 relative à la protection des personnes physiques à l’égard du traitement des données à caractère personnel.<br />
+          Aucune information personnelle n'est cédée à des tiers.<br />
           Conformément aux dispositions de la loi 09-08, <b>MARODESCLEAN</b> garantit à l'utilisateur un droit d'accès et de rectification, et d'opposition sur les données nominatives le concernant. L'utilisateur a la possibilité d'exercer ce droit en envoyant un courrier électronique à l'adresse suivante : <a href="">@marodesclean.com</a>
         </p>
         <h2>Formulaire de contact</h2>
         <p>
-          Les informations personnelles communiquées à <b>MARODESCLEAN</b> via les différents formulaires disponibles en ligne sont utilisées uniquement pour répondre aux requêtes de l'utilisateur.<br /><br />
+          Les informations personnelles communiquées à <b>MARODESCLEAN</b> via les différents formulaires disponibles en ligne sont utilisées uniquement pour répondre aux requêtes de l'utilisateur.<br />
           Elles ne sont accessibles qu’aux services compétents de l’Autorité, ne sont communiquées à aucun tiers et sont conservées pendant la durée nécessaire à l’instruction des requêtes.
         </p>
         <h1>PROPRIÉTÉ INTELLECTUELLE</h1>
@@ -128,27 +136,27 @@
         <h1>LIENS HYPERTEXTES</h1>
         <div class="trait"></div>
         <p>
-          Les liens hypertextes mis en place dans le cadre du présent site web en direction d’autres ressources présentes sur le web et notamment, vers ses partenaires, sont clairement identifiés et font l’objet d’une autorisation préalable des sites pointés.<br /><br />
+          Les liens hypertextes mis en place dans le cadre du présent site web en direction d’autres ressources présentes sur le web et notamment, vers ses partenaires, sont clairement identifiés et font l’objet d’une autorisation préalable des sites pointés.<br />
           L’utilisateur reconnaît que les liens présents sur le site et aiguillant les utilisateurs vers d’autres sites Internet n’engagent pas la responsabilité de <b>MARODESCLEAN</b> quant aux contenu de ces sites.
         </p>
         <h1>RESPONSABILITÉ</h1>
         <div class="trait"></div>
         <p>
           L’utilisateur accède au site web <a href="www.marodesclean.com">www.marodesclean.com</a> par l’intermédiaire des réseaux de communications de l’Internet. L’utilisateur déclare en connaître les risques et les accepter. Il reconnaît notamment que les informations qui y transitent ou y sont stockées peuvent être interceptées ou altérées contre la
-          volonté de l’Autorité.<br /><br />
-          Il est cependant fortement recommandé à l’utilisateur de prendre toutes les précautions nécessaires afin de se prémunir contre les effets de la piraterie, notamment en adoptant une configuration informatique sécurisée et adaptée, par la mise en place d’un logiciel de détection de virus régulièrement mis à jour.<br /><br />
-          <b>MARODESCLEAN</b> ne pourra en aucun cas être tenue pour responsable en cas de contamination du matériel informatique de l’utilisateur au cours ou après la navigation de celui – ci sur le site Internet <a href="www.marodesclean.com">www.marodesclean.com</a> <br /><br />
-          De plus, <b>MARODESCLEAN</b> ne saurait être tenue pour responsable de la mauvaise utilisation des informations ou services par l’utilisateur. <br /><br />
+          volonté de l’Autorité.<br />
+          Il est cependant fortement recommandé à l’utilisateur de prendre toutes les précautions nécessaires afin de se prémunir contre les effets de la piraterie, notamment en adoptant une configuration informatique sécurisée et adaptée, par la mise en place d’un logiciel de détection de virus régulièrement mis à jour.<br />
+          <b>MARODESCLEAN</b> ne pourra en aucun cas être tenue pour responsable en cas de contamination du matériel informatique de l’utilisateur au cours ou après la navigation de celui – ci sur le site Internet <a href="www.marodesclean.com">www.marodesclean.com .</a> <br />
+          De plus, <b>MARODESCLEAN</b> ne saurait être tenue pour responsable de la mauvaise utilisation des informations ou services par l’utilisateur. <br />
           En outre, l’Autorité veille à garantir l’exactitude des informations présentes sur son site. Néanmoins, il est expressément précisé que les informations traitées peuvent contenir des inexactitudes techniques ou typographiques. Elle remercie les utilisateurs du présent site de lui faire part d’éventuelles omissions, erreurs ou corrections, en
           adressant un e-mail au webmaster du site : <a href="">contact@marodesclean.com</a> .<br />
-          Il est précisé que <b>MARODESCLEAN</b> ne peut en aucune façon être tenue pour responsable des erreurs éventuelles présentes sur son site, de la complétude des informations traitées, ni d’une absence de disponibilité des informations.<br /><br />
-          <b>MARODESCLEAN</b> ne pourra voir sa responsabilité engagée en cas d’indisponibilité temporaire du site notamment en cas de maintenance du site ou du serveur sur lequel il est hébergé, en cas d’incident technique et plus généralement en cas d’évènement extérieur à son contrôle.<br /><br />
+          Il est précisé que <b>MARODESCLEAN</b> ne peut en aucune façon être tenue pour responsable des erreurs éventuelles présentes sur son site, de la complétude des informations traitées, ni d’une absence de disponibilité des informations.<br />
+          <b>MARODESCLEAN</b> ne pourra voir sa responsabilité engagée en cas d’indisponibilité temporaire du site notamment en cas de maintenance du site ou du serveur sur lequel il est hébergé, en cas d’incident technique et plus généralement en cas d’évènement extérieur à son contrôle.<br />
         </p>
         <h1>LIMITES DE RESPONSABILITE</h1>
         <div class="trait"></div>
         <p>
           Les informations mises à disposition sur ce site le sont uniquement à titre purement informatif. En conséquence, l'utilisation des informations et contenus disponibles sur l'ensemble du site, ne sauraient en aucun cas engager la responsabilité de <b>MARODESCLEAN</b>, à quelque titre que ce soit. L'utilisateur est seul maître de la bonne
-          utilisation, avec discernement et esprit, des informations mises à sa disposition.<br /><br />
+          utilisation, avec discernement et esprit, des informations mises à sa disposition.<br />
           L'utilisateur s'engage, d'une manière générale, à respecter l'ensemble de la réglementation en vigueur au Maroc.
         </p>
         <h1>CARACTÈRE DES INFORMATIONS PRÉSENTES SUR CE SITE</h1>
@@ -163,139 +171,143 @@
         <h1>COORDONNÉES DE MARODESCLEAN :</h1>
         <div class="trait"></div>
         <p>
-          46,Bd zerktouni ETG 5 Numéro 17, Casablanca.<br /><br />
-          Tel : (+212) 7 72 89 57 86<br /><br />
-          Email : <a href="">contact@marodesclean.com</a><br /><br />
-          Site web : <a href="www.marodesclean.com">www.marodesclean.com</a><br /><br />
+          46,Bd zerktouni ETG 5 Numéro 17, Casablanca.<br />
+          Tel : (+212) 7 72 89 57 86<br />
+          Email : <a href="">contact@marodesclean.com</a><br />
+          Site web : <a href="www.marodesclean.com">www.marodesclean.com</a><br />
         </p>
       </div>
     </section>
-      <!------------------------------------------------------Footer--------------------------------------------------------->
-      <section class="footer section-padding">
-        <div class="all-footer-parts">
-          <div class="brand-description">
-            <h2>Marodesclean</h2>
-            <!-- underline title-->
-            <div class="underline">
-              <span class="under-one"></span>
-              <span class="under-two"></span>
-            </div>
-            <p>Une société spécialisée dans le secteur des 3D (Dératisation, Désinfection, Désinsectisation) ainsi que l'entretien des espaces verts. Nous travaillons avec des produits agréés respectueux de l'environnement.</p>
-            <div class="footer-icons">
+    <!------------------------------------------------------Footer--------------------------------------------------------->
+    <section class="footer section-padding">
+      <div class="all-footer-parts">
+        <!--brand description-->
+        <div class="brand-description">
+          <h2 class="reveal-1">Marodesclean</h2>
+          <!-- underline title-->
+          <div class="underline">
+            <span class="under-one"></span>
+            <span class="under-two"></span>
+          </div>
+          <p class="reveal-2">Une société spécialisée dans le secteur des 3D (Dératisation, Désinfection, Désinsectisation) ainsi que l'entretien des espaces verts. Nous travaillons avec des produits agréés respectueux de l'environnement</p>
+          <div class="footer-icons reveal-3">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-part">
+          <div class="footer-part1">
+            <!-- plan site -->
+            <div class="plan-site">
+              <h2 class="reveal-1">Plan du site</h2>
+              <div class="underline reveal-2">
+                <span class="under-one"></span>
+                <span class="under-two"></span>
+              </div>
               <ul>
-                <li>
-                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <li class="reveal-1">
+                  <a href="../index.html#coord" class="active" id="Accueil"><i class="fa fa-angle-right"></i>Accueil</a>
                 </li>
-                <li>
-                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <li class="reveal-2">
+                  <a href="../index.html#Apropos"><i class="fa fa-angle-right"></i>Qui sommes-nous?</a>
                 </li>
-                <li>
-                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <li class="reveal-3">
+                  <a href="../index.html#Services"><i class="fa fa-angle-right"></i>Nos Services</a>
                 </li>
-                <li>
-                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <li class="reveal-4">
+                  <a href="../index.html#Contact"><i class="fa fa-angle-right"></i>Contact et devis</a>
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="footer-part">
-            <div class="footer-part1">
-              <div class="plan-site">
-                <h2>Plan du site</h2>
-                <div class="underline">
-                  <span class="under-one"></span>
-                  <span class="under-two"></span>
-                </div>
-                <ul>
-                  <li>
-                    <a href="../index.html#home" class="active" id="Accueil"><i class="fa fa-angle-right"></i>Accueil</a>
-                  </li>
-                  <li>
-                    <a href="../index.html#Apropos"><i class="fa fa-angle-right"></i>Qui sommes-nous?</a>
-                  </li>
-                  <li>
-                    <a href="../index.html#Services"><i class="fa fa-angle-right"></i>Nos Services</a>
-                  </li>
-                  <li>
-                    <a href="../index.html#Contact"><i class="fa fa-angle-right"></i>Contact et devis</a>
-                  </li>
-                </ul>
+            <!--contact footer part-->
+            <div class="contactfoot">
+              <h2 class="reveal-1">contact</h2>
+              <div class="underline reveal-2">
+                <span class="under-one"></span>
+                <span class="under-two"></span>
               </div>
-              <div class="contactfoot">
-                <h2>contact</h2>
-                <div class="underline">
-                  <span class="under-one"></span>
-                  <span class="under-two"></span>
+              <div class="container-footer">
+                <div class="reveal-1">
+                  <span><i class="fa fa-home"></i></span>
+                  <span>46, Bd zerktouni ETG 5 Numéro 17, Casablanca.</span>
                 </div>
-                <div class="container-footer">
-                  <div>
-                    <span><i class="fa fa-home"></i></span>
-                    <span>46, Bd zerktouni ETG 5 Numéro 17, Casablanca.</span>
-                  </div>
-                  <div>
-                    <span><i class="fa fa-phone"></i></span>
-                    <span>(+212) 7 72 89 57 86</span>
-                  </div>
-                  <div>
-                    <span><i class="fa fa-envelope"></i></span>
-                    <span>contact@Marodesclean.com</span>
-                  </div>
+                <div class="reveal-2">
+                  <span><i class="fa fa-phone"></i></span>
+                  <span>(+212) 7 72 89 57 86</span>
+                </div>
+                <div class="reveal-3">
+                  <span><i class="fa fa-envelope"></i></span>
+                  <span>contact@Marodesclean.com</span>
                 </div>
               </div>
             </div>
-            <div class="footer-part2">
-              <div class="horaire">
-                <h2>Horaire d'ouverture</h2>
-                <div class="underline">
-                  <span class="under-one"></span>
-                  <span class="under-two"></span>
-                </div>
-                <div class="horaire-douveture">
-                  <p><i class="fa fa-calendar-check-o"></i>Du Lundi au Vendredi 9h00 - 21h00</p>
-                </div>
-                <div class="horaire-douveture">
-                  <p><i class="fa fa-calendar-check-o"></i>Samedi 9h00 - 13h00</p>
-                </div>
+          </div>
+          <div class="footer-part2">
+            <!-- horaire part-->
+            <div class="horaire">
+              <h2 class="reveal-1">Horaire d'ouverture</h2>
+              <div class="underline reveal-2">
+                <span class="under-one"></span>
+                <span class="under-two"></span>
               </div>
-              <div class="inscription-newsletter">
-                <h2>inscription newsletter</h2>
-                <div class="underline">
-                  <span class="under-one"></span>
-                  <span class="under-two"></span>
-                </div>
-                <p>
-                  Vous souhaitez recevoir notre actualité dans votre boîte email ?<br />
-                  renseignez votre email ci-dessous pour vous inscrire
-                </p>
-                <div class="newsletter">
-                  <input name="user-email" id="user-email" placeholder="Entrez votre adresse e-mail *" class="input" required />
-                  <input type="button" name="send" value="Envoyer" class="button" onclick=" newsletter()" />
-                </div>
-                <span class="email-newsletter"><i class="fa fa-exclamation-triangle"></i>L'adresse e-mail doit être indiquée dans un format approprié</span>
+              <div class="horaire-douveture reveal-3">
+                <p><i class="fas fa-calendar-check"></i>Du Lundi au Vendredi 9h00 - 21h00</p>
               </div>
+              <div class="horaire-douveture reveal-4">
+                <p><i class="fas fa-calendar-check"></i>Samedi 9h00 - 13h00</p>
+              </div>
+            </div>
+            <!-- news letter inscription-->
+            <div class="inscription-newsletter">
+              <h2 class="reveal-1">inscription newsletter</h2>
+              <div class="underline reveal-2">
+                <span class="under-one"></span>
+                <span class="under-two"></span>
+              </div>
+              <p class="reveal-3">
+                Vous souhaitez recevoir notre actualité dans votre boîte email ?<br />
+                renseignez votre email ci-dessous pour vous inscrire
+              </p>
+              <div class="newsletter reveal-4">
+                <input name="user-email" id="user-email" placeholder="Entrez votre adresse e-mail *" class="input" required />
+                <input type="button" name="send" value="Envoyer" class="button" onclick=" newsletter()" />
+              </div>
+              <span class="email-newsletter"><i class="fa fa-exclamation-triangle"></i>L'adresse e-mail doit être indiquée dans un format approprié</span>
             </div>
           </div>
         </div>
-        <div class="modal-container-NL" id="modal-container-NL">
-          <div class="modal-NL">
-            <h1>Inscription newsletter</h1>
-            <p>
-              nous avons bien reçu votre demande d'inscription à notre newsletter et nous vous en remercions, vous pouvez désormais recevoir notre actualité sur votre boîte mail<br />
-              A très bientôt<br />
-              L’équipe <b>MARODESCLEAN</b>
-            </p>
-            <button id="close-NL">OK</button>
-          </div>
-        </div>
-      </section>
-      <!-------------------------------------------------------COPYRIGHT---------------------------------------------------->
-      <div class="Copyright">
-        <span>COPYRIGHT <span>©</span> 2020 MARODESCLEAN <span>|</span> Tous droits réservés - <a href="../mentions legales/mentions.html"> MENTIONS LÉGALES </a><span>|</span> SITE INTERNET RÉALISÉ PAR <a href="www.achrafbl.com" target="_blank">Achraf Boularhmane</a></span>
       </div>
-    </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="../script.js"></script>
-  </html>
-  
-  
+      <!--newsletter confirmation modal -->
+      <div class="modal-container-NL" id="modal-container-NL">
+        <div class="modal-NL">
+          <h1>Inscription newsletter</h1>
+          <p>
+            nous avons bien reçu votre demande d'inscription à notre newsletter et nous vous en remercions, vous pouvez désormais recevoir notre actualité sur votre boîte mail<br />
+            A très bientôt<br />
+            L’équipe <b>MARODESCLEAN</b>
+          </p>
+          <button id="close-NL">OK</button>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------------------------COPYRIGHT---------------------------------------------------->
+    <div class="Copyright">
+      <span class="reveal-5">COPYRIGHT <span>©</span> 2021 MARODESCLEAN <span>|</span> Tous droits réservés - <a href="../mentions legales/mentions.html"> MENTIONS LÉGALES </a><span>|</span> SITE INTERNET RÉALISÉ PAR <a href="www.achrafbl.com" target="_blank">Achraf Boularhmane</a></span>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="../script.js"></script>
+</html>

@@ -7,7 +7,7 @@
   --third-color: #a3d137;
   --Primary-color: #008060;
   --text-white-color: #fff;
-  --text-grey-color: #4b5352;
+  --text-grey-color: #505050;
 }
 * {
   font-family: "Poppins", sans-serif;
@@ -64,7 +64,7 @@
   color: var(--text-grey-color);
   font-size: 15px;
   line-height: 27.3px;
-  font-weight: 300;
+  font-weight: 400;
 }
 /* title section*/
 .title-section {
@@ -972,7 +972,7 @@ header ul li a.active:before {
   color: var(--text-grey-color);
   font-size: 15px;
   line-height: 27.3px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 .card_box .box1 .card .card-container a {
@@ -1068,6 +1068,7 @@ header ul li a.active:before {
 }
 .procedures .content-box .description-section {
   color: var(--text-white-color);
+  font-weight: 300;
 }
 .procedures .content-box .underline {
   justify-content: center;
