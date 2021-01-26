@@ -770,11 +770,6 @@ header ul li a.active:before {
   .mentions_newpage h2 {
     font-size: 20px;
   }
-  .mentions_newpage p {
-    color: var(--text-grey-color);
-    line-height: 30px;
-    background-color: yellow;
-  }
 }
 /* Medium devices (landscape tablets, 769px and up) */
 @media only screen and (min-width: 769px) and (max-width: 1035px) {
@@ -790,6 +785,8 @@ header ul li a.active:before {
   .mentions_newpage p {
     color: var(--text-grey-color);
     line-height: 60px !important;
+    font-weight: 300;
+    font-size: 13px;
   }
 }
 
