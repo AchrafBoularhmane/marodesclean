@@ -789,7 +789,7 @@ header ul li a.active:before {
   }
   .mentions_newpage p {
     color: var(--text-grey-color);
-    line-height: 30px;
+    line-height: 100px;
     background-color: yellow;
   }
 }
