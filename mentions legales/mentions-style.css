@@ -578,6 +578,7 @@ header ul li a.active:before {
   text-transform: uppercase;
   line-height: 40.7px;
   color: var(--Primary-color);
+  width: 100%;
 }
 .mentions_newpage h2 {
   color: var(--third-color);
@@ -593,7 +594,8 @@ header ul li a.active:before {
   line-height: 35.3px;
   font-weight: 400;
   position: relative;
-  background-color: yellow;
+  background-color: red;
+  width: 100%;
 }
 .mentions_newpage p a {
   text-decoration: none;
