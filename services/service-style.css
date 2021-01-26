@@ -964,6 +964,7 @@ header ul li a.active:before {
   line-height: 33px;
   color: #f3f3f3;
   text-align: left;
+  word-break: break-word;
 }
 .contactfoot .container-footer div span i {
   font-size: 17px;

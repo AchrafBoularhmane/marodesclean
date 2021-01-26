@@ -598,6 +598,7 @@ header ul li a.active:before {
   text-decoration: none;
   font-size: 16px;
   color: var(--text-grey-color);
+  line-height: 30px !important;
 }
 .mentions_newpage p a:hover {
   text-decoration: underline;
@@ -788,6 +789,7 @@ header ul li a.active:before {
 .footer {
   position: relative;
   background-color: var(--second-color);
+  width: 100%;
 }
 .all-footer-parts {
   display: flex;
@@ -795,6 +797,7 @@ header ul li a.active:before {
 .all-footer-parts .footer-part .footer-part1,
 .all-footer-parts .footer-part .footer-part2 {
   display: flex;
+  justify-content: space-between;
 }
 .footer-part {
   width: 70%;
@@ -814,7 +817,6 @@ header ul li a.active:before {
 .footer-part .footer-part2 .inscription-newsletter {
   width: 50%;
 }
-
 .brand-description {
   width: 30%;
 }
@@ -828,6 +830,7 @@ header ul li a.active:before {
   line-height: 27.3px;
   text-transform: uppercase;
   font-weight: 500;
+  width: 100%;
 }
 .brand-description .underline,
 .plan-site .underline,
@@ -964,6 +967,7 @@ header ul li a.active:before {
 
 .contactfoot .container-footer div {
   display: flex;
+  width: 100%;
 }
 .contactfoot .container-footer div span {
   font-size: 15px;
@@ -971,6 +975,7 @@ header ul li a.active:before {
   line-height: 33px;
   color: #f3f3f3;
   text-align: left;
+  word-break: break-word;
 }
 .contactfoot .container-footer div span i {
   font-size: 17px;
@@ -1080,7 +1085,7 @@ header ul li a.active:before {
   width: 100%;
 }
 .Copyright span {
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .Copyright a {
@@ -1088,7 +1093,7 @@ header ul li a.active:before {
   color: var(--second-color);
   text-decoration: none;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 .Copyright a:hover {
   text-decoration: underline;
