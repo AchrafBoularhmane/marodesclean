@@ -590,7 +590,7 @@ header ul li a.active:before {
   color: var(--text-grey-color);
   padding: 10px 0;
   font-size: 15px;
-  line-height: 30px;
+  line-height: 30px !important;
   font-weight: 400;
   width: 100%;
 }
@@ -781,12 +781,6 @@ header ul li a.active:before {
   }
   .mentions_newpage h2 {
     width: 100%;
-  }
-  .mentions_newpage p {
-    color: var(--text-grey-color);
-    line-height: 60px !important;
-    font-weight: 300;
-    font-size: 13px;
   }
 }
 
