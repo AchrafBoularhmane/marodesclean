@@ -587,6 +587,7 @@ header ul li a.active:before {
   width: 100%;
 }
 .mentions_newpage p {
+  background-color: turquoise;
   color: var(--text-grey-color);
   padding: 10px 0;
   font-size: 15px;
