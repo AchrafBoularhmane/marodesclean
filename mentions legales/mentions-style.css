@@ -587,11 +587,10 @@ header ul li a.active:before {
   width: 100%;
 }
 .mentions_newpage p {
-  background-color: turquoise;
   color: var(--text-grey-color);
   padding: 10px 0;
   font-size: 15px;
-  line-height: 33.6px;
+  line-height: 30px;
   font-weight: 400;
   width: 100%;
 }
@@ -771,6 +770,11 @@ header ul li a.active:before {
   .mentions_newpage h2 {
     font-size: 20px;
   }
+  .mentions_newpage p {
+    color: var(--text-grey-color);
+    line-height: 30px;
+    background-color: yellow;
+  }
 }
 /* Medium devices (landscape tablets, 769px and up) */
 @media only screen and (min-width: 769px) and (max-width: 1035px) {
@@ -782,6 +786,11 @@ header ul li a.active:before {
   }
   .mentions_newpage h2 {
     width: 100%;
+  }
+  .mentions_newpage p {
+    color: var(--text-grey-color);
+    line-height: 30px;
+    background-color: yellow;
   }
 }
 
