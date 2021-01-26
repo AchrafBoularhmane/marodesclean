@@ -591,9 +591,8 @@ header ul li a.active:before {
   color: var(--text-grey-color);
   padding: 10px 0;
   font-size: 15px;
-  line-height: 27.6px;
+  line-height: 33.6px;
   font-weight: 400;
-  background-color: pink;
   width: 100%;
 }
 .mentions_newpage p a {
