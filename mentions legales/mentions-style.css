@@ -899,6 +899,8 @@ header ul li a.active:before {
 .inscription-newsletter .email-newsletter {
   color: rgb(136, 0, 0);
   font-size: 12px;
+  background-color: var(--third-color);
+  padding: 5px;
   display: none;
 }
 .inscription-newsletter .email-newsletter.show {
