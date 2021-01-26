@@ -591,10 +591,9 @@ header ul li a.active:before {
   color: var(--text-grey-color);
   padding: 10px 0;
   font-size: 15px;
-  line-height: 35.3px;
+  line-height: 27.6px;
   font-weight: 400;
-  position: relative;
-  background-color: red;
+  background-color: pink;
   width: 100%;
 }
 .mentions_newpage p a {
@@ -784,9 +783,6 @@ header ul li a.active:before {
   }
   .mentions_newpage h2 {
     width: 100%;
-  }
-  .mentions_newpage p {
-    line-height: 40px;
   }
 }
 
