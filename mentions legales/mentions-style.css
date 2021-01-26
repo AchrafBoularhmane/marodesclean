@@ -584,6 +584,7 @@ header ul li a.active:before {
   padding: 10px 0;
   font-size: 22px;
   text-transform: uppercase;
+  width: 100%;
 }
 .mentions_newpage p {
   color: var(--text-grey-color);
@@ -591,6 +592,8 @@ header ul li a.active:before {
   font-size: 15px;
   line-height: 35.3px;
   font-weight: 400;
+  position: relative;
+  background-color: yellow;
 }
 .mentions_newpage p a {
   text-decoration: none;
