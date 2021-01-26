@@ -777,6 +777,12 @@ header ul li a.active:before {
   .section-padding {
     padding: 100px 15px;
   }
+  .mentions_newpage h2 {
+    width: 100%;
+  }
+  .mentions_newpage p {
+    line-height: 40px;
+  }
 }
 
 /*----------------------------------------------------------------------FOOTER*-------------------------------------------*/
