@@ -606,6 +606,90 @@ header ul li a.active:before {
   background: var(--third-color);
   margin-bottom: 20px;
 }
+
+.modal-container-NL {
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  visibility: hidden;
+}
+
+.modal-container-NL.show {
+  visibility: visible;
+  z-index: 3000000000000000000000000000000000000000000000000;
+}
+
+.modal-NL {
+  opacity: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 30px 50px;
+  border-radius: 2px;
+  background: var(--text-white-color);
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.modal-NL h1 {
+  font-size: 27.3px;
+  color: var(--second-color);
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--third-color);
+  letter-spacing: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.modal-NL p {
+  text-align: left;
+  font-size: 15px;
+  opacity: 0.7;
+  padding: 20px 0px;
+  line-height: 22.5px;
+}
+
+.modal-NL button {
+  background: var(--third-color);
+  border: none;
+  border-radius: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  padding: 7px 35px;
+  color: var(--text-white-color);
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  outline: none;
+}
+
+.modal-NL button:hover {
+  background: #111;
+  -webkit-appearance: none;
+  color: var(--third-color);
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.erreur {
+  background: #ffe0e0;
+  padding: 10px 10px;
+  color: #300000;
+  font-size: 13px;
+  display: none;
+  margin-bottom: 10px;
+}
+.erreur i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #300000;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .section-padding {
@@ -617,6 +701,63 @@ header ul li a.active:before {
   .mentions_newpage p,
   .mentions_newpage p a {
     font-size: 12px;
+  }
+
+  .modal-container-NL {
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    visibility: hidden;
+  }
+
+  .modal-container-NL.show {
+    visibility: visible;
+    z-index: 3000000000000000000000000000000000000000000000000;
+  }
+
+  .modal-NL {
+    opacity: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px 10px;
+    border-radius: 2px;
+    background: var(--text-white-color);
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .modal-NL h1 {
+    width: 100%;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .modal-NL h1 i {
+    font-size: 19px;
+    margin-left: 2px;
+  }
+
+  .modal-NL p {
+    font-size: 12px;
+    padding: 10px 0px;
+  }
+
+  .modal-NL button {
+    font-size: 13px;
+    padding: 7px 30px;
+  }
+  .erreur {
+    font-size: 12px;
+  }
+  .erreur i {
+    font-size: 13px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -632,6 +773,9 @@ header ul li a.active:before {
 @media only screen and (min-width: 769px) and (max-width: 1035px) {
   .mentions_newpage h2 {
     font-size: 20px;
+  }
+  .section-padding {
+    padding: 100px 15px;
   }
 }
 
@@ -845,88 +989,6 @@ header ul li a.active:before {
   margin-right: 10px;
   font-size: 17px;
 }
-
-.modal-container-NL {
-  z-index: 30;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.3);
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  visibility: hidden;
-}
-
-.modal-container-NL.show {
-  visibility: visible;
-  z-index: 3000000000000000000000000000000000000000000000000;
-}
-
-.modal-NL {
-  opacity: 1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  padding: 30px 50px;
-  border-radius: 2px;
-  background: var(--text-white-color);
-  width: 600px;
-  max-width: 100%;
-  text-align: center;
-}
-
-.modal-NL h1 {
-  font-size: 27.3px;
-  color: var(--second-color);
-  padding-bottom: 20px;
-  border-bottom: 1px solid var(--third-color);
-  letter-spacing: 0;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.modal-NL p {
-  text-align: left;
-  font-size: 15px;
-  opacity: 0.7;
-  padding: 20px 0px;
-  line-height: 22.5px;
-}
-
-.modal-NL button {
-  background: var(--third-color);
-  border: none;
-  border-radius: 1px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  font-size: 15px;
-  padding: 7px 35px;
-  color: var(--text-white-color);
-  cursor: pointer;
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
-  outline: none;
-}
-
-.modal-NL button:hover {
-  background: #111;
-  -webkit-appearance: none;
-  color: var(--third-color);
-  -webkit-border-radius: 0;
-  border-radius: 0;
-}
-.erreur {
-  background: #ffe0e0;
-  padding: 10px 10px;
-  color: #300000;
-  font-size: 13px;
-  display: none;
-  margin-bottom: 10px;
-}
-.erreur i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: #300000;
-}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .all-footer-parts {
@@ -977,68 +1039,13 @@ header ul li a.active:before {
   .brand-description {
     width: 100%;
   }
+
   .brand-description,
   .plan-site,
   .contactfoot,
   .horaire {
     width: 100%;
     border: none;
-  }
-  .modal-container-NL {
-    z-index: 30;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    visibility: hidden;
-  }
-
-  .modal-container-NL.show {
-    visibility: visible;
-    z-index: 3000000000000000000000000000000000000000000000000;
-  }
-
-  .modal-NL {
-    opacity: 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    padding: 10px 10px;
-    border-radius: 2px;
-    background: var(--text-white-color);
-    min-width: 100%;
-    text-align: center;
-  }
-
-  .modal-NL h1 {
-    width: 100%;
-    font-size: 15px;
-    padding-bottom: 10px;
-    text-align: center;
-  }
-
-  .modal-NL h1 i {
-    font-size: 19px;
-    margin-left: 2px;
-  }
-
-  .modal-NL p {
-    font-size: 12px;
-    padding: 10px 0px;
-  }
-
-  .modal-NL button {
-    font-size: 13px;
-    padding: 7px 30px;
-  }
-  .erreur {
-    font-size: 12px;
-  }
-  .erreur i {
-    font-size: 13px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up)*/
