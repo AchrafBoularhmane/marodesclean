@@ -590,7 +590,7 @@ header ul li a.active:before {
   color: var(--text-grey-color);
   padding: 10px 0;
   font-size: 15px;
-  line-height: 30px !important;
+  line-height: 40px !important;
   font-weight: 400 !important;
   width: 100%;
 }
