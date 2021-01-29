@@ -570,6 +570,10 @@ header ul li a.active:before {
 
 .mentions {
   background: var(--text-white-color);
+  position: relative;
+}
+.mentions_newpage {
+  position: relative;
 }
 .mentions_newpage h1 {
   padding: 20px 0;
