@@ -572,9 +572,7 @@ header ul li a.active:before {
   background: var(--text-white-color);
   position: relative;
 }
-.mentions_newpage {
-  position: relative;
-}
+
 .mentions_newpage h1 {
   padding: 20px 0;
   font-size: 30px;
@@ -591,6 +589,7 @@ header ul li a.active:before {
   width: 100%;
 }
 .mentions_newpage p {
+  position: relative;
   color: var(--text-grey-color);
   padding: 5px 0;
   font-size: 15px;
@@ -776,7 +775,7 @@ header ul li a.active:before {
     font-size: 20px;
   }
   .mentions_newpage p {
-    line-height: 40px;
+    line-height: 40px !important;
     font-weight: 400;
   }
 }
@@ -786,7 +785,7 @@ header ul li a.active:before {
     font-size: 20px;
   }
   .mentions_newpage p {
-    line-height: 40px;
+    line-height: 55px !important;
     font-weight: 400;
   }
   .section-padding {
