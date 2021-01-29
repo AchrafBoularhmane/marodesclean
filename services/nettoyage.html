@@ -95,44 +95,44 @@
     <!-------------------------------------------------NETTOYAGE---------------------------------------------------------->
     <section class="service-details section-padding" id="desinf">
       <div class="service-container">
-        <h2>Marodesclean, dolor sit amet consectetur adipisicing elit.</h2>
-        <div class="underline">
+        <h2 class="reveal-1">Marodesclean, dolor sit amet consectetur adipisicing elit.</h2>
+        <div class="underline reveal-2">
           <span class="under-one"></span>
           <span class="under-two"></span>
         </div>
         <div class="content1">
-          <p>
+          <p class="reveal-3">
             Du nettoyage de bureaux à l’entretien d’immeuble, Résidences, Hôtels, en passant par le nettoyage industriel… etc. <b>MARODESCLEAN</b> dépêche sur site des agents d’entretien qualifiés pour chaque tâche qui leur incombe, et ce, afin de garantir une prestation de qualité dans les délais impartis.<br /><br />
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus consectetur nam doloribus id autem eos expedita asperiores necessitatibus praesentium? Voluptatibus?<br /><br />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates deleniti non neque et. Quae ducimus omnis eligendi porro, dolorum dignissimos.
           </p>
           <ul>
-            <h2>Lorem ipsum dolor sit amet. :</h2>
+            <h2 class="reveal-4">Lorem ipsum dolor sit amet. :</h2>
 
-            <li>
+            <li class="reveal-5">
               <a href=""><i class="fa fa-check"></i>Nettoyage quotidien de vos locaux.</a>
             </li>
-            <li>
+            <li class="reveal-1">
               <a href=""><i class="fa fa-check"></i>Réponse à l’ensemble de vos besoins de ménage: nettoyage des vitres, nettoyage des moquettes, permanence, nettoyage haute pression et remise en état.</a>
             </li>
-            <li>
+            <li class="reveal-2">
               <a href=""><i class="fa fa-check"></i>Agents 100%, formés pour être flexibles et proactifs face à vos besoins.</a>
             </li>
-            <li>
+            <li class="reveal-3">
               <a href=""><i class="fa fa-check"></i>Produits de nettoyage respectueux de l’environnement.</a>
             </li>
-            <li>
+            <li class="reveal-4">
               <a href=""><i class="fa fa-check"></i>Gestion écologique des consommables.</a>
             </li>
-            <li>
+            <li class="reveal-5">
               <a href=""><i class="fa fa-check"></i>Fourniture du matériel de nettoyage.</a>
             </li>
-            <li>
+            <li class="reveal-1">
               <a href=""><i class="fa fa-check"></i>Pilotage de la prestation au quotidien & le suivi du manager terrain en charge de votre site.</a>
             </li>
           </ul>
         </div>
-        <div class="content2">
+        <div class="content2 reveal-5">
           <div class="service-img">
             <img src="../images/jardinnage services.jpg" alt="" />
           </div>
@@ -185,7 +185,7 @@
               </div>
               <ul>
                 <li class="reveal-1">
-                  <a href="../index.html#coord" class="active" id="Accueil"><i class="fa fa-angle-right"></i>Accueil</a>
+                  <a href="../index.html#home" class="active" id="Accueil"><i class="fa fa-angle-right"></i>Accueil</a>
                 </li>
                 <li class="reveal-2">
                   <a href="../index.html#Apropos"><i class="fa fa-angle-right"></i>Qui sommes-nous?</a>
@@ -248,8 +248,10 @@
                 renseignez votre email ci-dessous pour vous inscrire
               </p>
               <div class="newsletter reveal-4">
-                <input name="user-email" id="user-email" placeholder="Entrez votre adresse e-mail *" class="input" required />
-                <input type="button" name="send" value="Envoyer" class="button" onclick=" newsletter()" />
+                <form id="newsletter-submit" method="post" action="../newsletter.php" enctype="multipart/form-data">
+                  <input name="user-email" id="user-email" placeholder="Entrez votre adresse e-mail *" class="input" />
+                  <input type="submit" name="send" value="Envoyer" class="button" />
+                </form>
               </div>
               <span class="email-newsletter"><i class="fa fa-exclamation-triangle"></i>L'adresse e-mail doit être indiquée dans un format approprié</span>
             </div>
@@ -276,5 +278,5 @@
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script src="../script.js"></script>
+  <script src="../mentions_services.js"></script>
 </html>

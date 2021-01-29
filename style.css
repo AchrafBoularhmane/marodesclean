@@ -1139,8 +1139,8 @@ header ul li a.active:before {
   cursor: pointer;
   padding: 20px 40px;
   color: var(--text-white-color);
-  font-size: 17px;
-  background-color: var(--second-color);
+  font-size: 18px;
+  background-color: var(--third-color);
   text-transform: uppercase;
   border: 1px solid var(--text-white-color);
   line-height: 27.7px;
@@ -1152,7 +1152,7 @@ header ul li a.active:before {
   outline: none;
 }
 .procedures .reservation #reservez:hover {
-  background-color: var(--third-color);
+  background-color: var(--Primary-color);
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -1233,7 +1233,8 @@ header ul li a.active:before {
   padding: 15px 20px;
 }
 .avantages .avantage .icon i:hover {
-  color: var(--second-color);
+  color: var(--Primary-color);
+  background-color: var(--third-color);
 }
 .avantages .avantage .avantage-type {
   text-transform: uppercase;
@@ -1374,6 +1375,10 @@ header ul li a.active:before {
   border-radius: 50%;
   padding: 15px 20px;
 }
+.Contact-section .contact .contact-container .contactInfo .box .icon i:hover {
+  background-color: var(--third-color);
+  color: var(--Primary-color);
+}
 .Contact-section .contact .contact-container .contactInfo .box .icon:hover {
   background-color: var(--fourth-color);
 }
@@ -1449,9 +1454,9 @@ header ul li a.active:before {
   font-family: "Open Sans", sans-serif;
   width: 100%;
   padding: 7px 0;
-  font-size: 16px;
-  color: var(--second-color);
-  margin: 10px 0;
+  font-size: 15px;
+  color: var(--text-grey-color);
+  margin: 15px 0;
   border: none;
   border-bottom: 1px solid var(--third-color);
   outline: none;
@@ -1496,6 +1501,7 @@ header ul li a.active:before {
 .contactForm .inputbox input[type="submit"]:hover {
   background-color: var(--fourth-color);
 }
+
 .modal-container,
 .modal-container-NL {
   z-index: 30;
@@ -1528,13 +1534,17 @@ header ul li a.active:before {
   text-align: center;
 }
 .modal h1 {
-  text-align: left;
+  text-transform: uppercase;
+  text-align: center;
   font-size: 27.3px;
   color: var(--second-color);
   padding-bottom: 20px;
   border-bottom: 1px solid var(--third-color);
+  width: 100%;
 }
 .modal-NL h1 {
+  text-align: center;
+  width: 100%;
   font-size: 27.3px;
   color: var(--second-color);
   padding-bottom: 20px;
@@ -1815,11 +1825,14 @@ header ul li a.active:before {
   font-weight: 300;
 }
 .inscription-newsletter .newsletter {
+  width: 100%;
+}
+.inscription-newsletter .newsletter #newsletter-submit {
   display: flex;
   width: 100%;
   padding: 15px 0px;
 }
-.inscription-newsletter .newsletter .input {
+.inscription-newsletter .newsletter #newsletter-submit .input {
   background: var(--text-white-color);
   border: none;
   width: 100%;
@@ -1831,7 +1844,7 @@ header ul li a.active:before {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-.inscription-newsletter .newsletter .button {
+.inscription-newsletter .newsletter #newsletter-submit .button {
   display: block;
   background: var(--third-color);
   border: none;
@@ -1846,12 +1859,16 @@ header ul li a.active:before {
   border-radius: 0;
   outline: none;
 }
-.inscription-newsletter .newsletter .button:hover {
+.inscription-newsletter .newsletter #newsletter-submit .button:hover {
   background-color: var(--fourth-color);
 }
 .inscription-newsletter .email-newsletter {
+  background-color: var(--third-color);
   color: rgb(136, 0, 0);
   font-size: 12px;
+  padding: 5px;
+  font-weight: 500;
+  width: 100%;
   display: none;
 }
 .inscription-newsletter .email-newsletter.show {
@@ -1984,7 +2001,7 @@ header ul li a.active:before {
   .footer-part2 .inscription-newsletter {
     padding-bottom: 0;
   }
-  .inscription-newsletter .newsletter .button {
+  .inscription-newsletter .newsletter #newsletter-submit .button {
     padding: 10px 15px;
     font-size: 12px;
   }
@@ -2012,14 +2029,14 @@ header ul li a.active:before {
 }
 /* Small devices (portrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .inscription-newsletter .newsletter .button {
+  .inscription-newsletter .newsletter #newsletter-submit .button {
     padding: 10px 15px;
     font-size: 12px;
   }
 }
 /* Medium devices (landscape tablets, 769px and up) */
 @media only screen and (min-width: 769px) and (max-width: 991px) {
-  .inscription-newsletter .newsletter .button {
+  .inscription-newsletter .newsletter #newsletter-submit .button {
     padding: 10px 15px;
     font-size: 12px;
   }

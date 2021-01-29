@@ -95,39 +95,39 @@
     <!-------------------------------------------------Sécurité---------------------------------------------------------->
     <section class="service-details section-padding" id="desinf">
       <div class="service-container">
-        <h2>Marodesclean, dolor sit amet consectetur adipisicing elit.</h2>
-        <div class="underline">
+        <h2 class="reveal-1">Marodesclean, dolor sit amet consectetur adipisicing elit.</h2>
+        <div class="underline reveal-2">
           <span class="under-one"></span>
           <span class="under-two"></span>
         </div>
         <div class="content1">
-          <p>
+          <p class="reveal-3">
             L’agent de sécurité assure les services de sécurité et gardiennage la protection des biens et des personnes ainsi que le bon fonctionnement d’un site (entreprise, stade, usine, immeuble…).<br /><br />
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus unde, voluptate in ab deleniti tempore. Fugiat esse perferendis eos nulla? <br /><br />
             Ses interventions s’effectuent dans le respect des dispositions législatives et réglementaires applicables à l’activité de sécurité privée.
           </p>
 
           <ul>
-            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <h2 class="reveal-4">Lorem ipsum dolor sit amet consectetur.</h2>
 
-            <li>
+            <li class="reveal-5">
               <a href=""><i class="fa fa-check"></i>Accueil et information.</a>
             </li>
-            <li>
+            <li class="reveal-1">
               <a href=""><i class="fa fa-check"></i>Surveillance générale du site.</a>
             </li>
-            <li>
+            <li class="reveal-2">
               <a href=""><i class="fa fa-check"></i>Sécurité technique de base.</a>
             </li>
-            <li>
+            <li class="reveal-3">
               <a href=""><i class="fa fa-check"></i>Secours et assistance aux personnes.</a>
             </li>
-            <li>
+            <li class="reveal-4">
               <a href=""><i class="fa fa-check"></i>Protection et alerte en cas d’accident ou événement exceptionnel.</a>
             </li>
           </ul>
         </div>
-        <div class="content2">
+        <div class="content2 reveal-5">
           <div class="service-img">
             <img src="../images/jardinnage services.jpg" alt="" />
           </div>
@@ -180,7 +180,7 @@
               </div>
               <ul>
                 <li class="reveal-1">
-                  <a href="../index.html#coord" class="active" id="Accueil"><i class="fa fa-angle-right"></i>Accueil</a>
+                  <a href="../index.html#home" class="active" id="Accueil"><i class="fa fa-angle-right"></i>Accueil</a>
                 </li>
                 <li class="reveal-2">
                   <a href="../index.html#Apropos"><i class="fa fa-angle-right"></i>Qui sommes-nous?</a>
@@ -243,8 +243,10 @@
                 renseignez votre email ci-dessous pour vous inscrire
               </p>
               <div class="newsletter reveal-4">
-                <input name="user-email" id="user-email" placeholder="Entrez votre adresse e-mail *" class="input" required />
-                <input type="button" name="send" value="Envoyer" class="button" onclick=" newsletter()" />
+                <form id="newsletter-submit" method="post" action="../newsletter.php" enctype="multipart/form-data">
+                  <input name="user-email" id="user-email" placeholder="Entrez votre adresse e-mail *" class="input" />
+                  <input type="submit" name="send" value="Envoyer" class="button" />
+                </form>
               </div>
               <span class="email-newsletter"><i class="fa fa-exclamation-triangle"></i>L'adresse e-mail doit être indiquée dans un format approprié</span>
             </div>
@@ -271,5 +273,5 @@
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script src="../script.js"></script>
+  <script src="../mentions_services.js"></script>
 </html>
