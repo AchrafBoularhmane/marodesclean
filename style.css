@@ -1126,34 +1126,6 @@ header ul li a.active:before {
   background: var(--third-color);
   color: var(--Primary-color);
 }
-.procedures .reservation {
-  position: relative;
-  text-align: center;
-  margin-top: 60px;
-  width: 100%;
-}
-
-.procedures .reservation #reservez {
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
-  padding: 20px 40px;
-  color: var(--text-white-color);
-  font-size: 18px;
-  background-color: var(--third-color);
-  text-transform: uppercase;
-  border: 1px solid var(--text-white-color);
-  line-height: 27.7px;
-  letter-spacing: 1px;
-  font-weight: 500;
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  outline: none;
-}
-.procedures .reservation #reservez:hover {
-  background-color: var(--Primary-color);
-}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .application-totale .content-box .title-section {
@@ -1180,10 +1152,6 @@ header ul li a.active:before {
   }
   .procedures .procedure-box .procedure h3 {
     font-size: 14px;
-  }
-  .procedures .reservation #reservez {
-    padding: 10px 20px;
-    font-size: 12px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
