@@ -5,7 +5,8 @@
     <meta name="HandheldFriendly" content="true" />
     <meta name="MobileOptimized" content="320" />
     <meta name="”format-detection”" content="”telephone" ="no”" />
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+    <meta name="description" content="Une société spécialisée dans le secteur des 3D (Dératisation, Désinfection, Désinsectisation) ainsi que l'entretien des espaces verts. Nous travaillons avec des produits agréés respectueux de l'environnement" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=5, width=device-width" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" type="image/png" href="images/Favicon-48px.png" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -35,7 +36,7 @@
           <!--Menu + Logo-->
           <div class="MenuPlusLogo">
             <span class="logo-header"
-              ><a href="./index.html#home"><img src="./images/logo1.png" /></a
+              ><a href="./index.html#home"><img src="./images/logo1.png" srcset="./images/logo1.png, ./images/logo1.png" height="80px" width="100%" alt="logo" /></a
             ></span>
             <div class="toggle" id="Menu" onclick="toggle()">
               <span class="one"></span>
@@ -45,7 +46,7 @@
             </div>
             <div class="mobile-navbar" id="menu-overlay" onclick="toggleoff()">
               <ul>
-                <li><a href="./index.html#home" id="Accueil">Accueil</a></li>
+                <li><a href="./index.html#home">Accueil</a></li>
                 <li><a href="./index.html#Apropos">Qui sommes-nous?</a></li>
                 <li><a href="./index.html#Services">Nos Services</a></li>
                 <li><a href="./index.html#Contact">Contact et devis</a></li>
@@ -100,16 +101,16 @@
           <div class="icons">
             <ul class="icon">
               <li>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="fb"><i class="fab fa-facebook-f"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="insta"><i class="fab fa-instagram"></i></a>
               </li>
             </ul>
           </div>
@@ -136,16 +137,16 @@
           <div class="Apropos-icons reveal-4">
             <ul class="icon">
               <li>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="fb"><i class="fab fa-facebook-f"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="insta"><i class="fab fa-instagram"></i></a>
               </li>
             </ul>
           </div>
@@ -372,18 +373,18 @@
               </div>
             </div>
             <div class="contact-info-social reveal-4">
-              <ul>
+              <ul class="icon">
                 <li>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="fb"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#" aria-label="insta"><i class="fab fa-instagram"></i></a>
                 </li>
               </ul>
             </div>
@@ -393,6 +394,7 @@
             <form id="FormContact" method="post" action="./contactform.php" enctype="multipart/form-data">
               <h2>Demande de devis</h2>
               <div class="inputbox">
+                <label for="Nom-Complet"></label>
                 <input name="Nom-Complet" id="Nom-Complet" />
                 <span>Nom complet *</span>
               </div>
@@ -400,29 +402,34 @@
               <span class="nomComplet-non-valide erreur"><i class="fa fa-exclamation-triangle"></i>votre nom complet doit être composé uniquement de lettres</span>
 
               <div class="inputbox">
+                <label for="Mobile"></label>
                 <input name="Mobile" id="Mobile" />
                 <span>Téléphone *</span>
               </div>
               <span class="mobile erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez entrer un numéro de téléphone valide</span>
               <div class="inputbox">
+                <label for="Email"></label>
                 <input name="Email" id="Email" />
                 <span>E-mail *</span>
               </div>
               <span class="email erreur"><i class="fa fa-exclamation-triangle"></i>L'adresse e-mail doit être indiquée dans un format approprié</span>
 
               <div class="inputbox">
+                <label for="Objet"></label>
                 <input name="Objet" id="Objet" />
                 <span>Objet *</span>
               </div>
               <span class="objet erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner l'objet de votre demande</span>
               <div class="inputbox">
+                <label for="Message"></label>
                 <textarea name="Message" id="Message"></textarea>
                 <span>Ecrivez votre message ici ...</span>
               </div>
               <span class="message erreur"><i class="fa fa-exclamation-triangle"></i>Veuillez renseigner le champ de message</span>
 
               <div class="inputbox">
-                <input type="submit" value="Envoyer" name="" id="open" />
+                <label for="open"></label>
+                <input type="submit" value="Envoyer" name="open" id="open" />
               </div>
             </form>
           </div>
@@ -456,16 +463,16 @@
           <div class="footer-icons reveal-3">
             <ul>
               <li>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" aria-label="fb"><i class="fab fa-facebook-f"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" aria-label="insta"><i class="fab fa-instagram"></i></a>
               </li>
             </ul>
           </div>
@@ -545,7 +552,9 @@
               </p>
               <div class="newsletter reveal-4">
                 <form id="newsletter-submit" method="post" action="./newsletter.php" enctype="multipart/form-data">
+                  <label for="user-email"></label>
                   <input name="user-email" id="user-email" placeholder="Entrez votre adresse e-mail *" class="input" />
+                  <label for="send"></label>
                   <input type="submit" name="send" value="Envoyer" class="button" />
                 </form>
               </div>
