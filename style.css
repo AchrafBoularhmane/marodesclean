@@ -796,7 +796,7 @@ header ul li a.active:before {
 
 .Apropos-section .img-box .bg {
   z-index: 4;
-  opacity: 0.15;
+  opacity: 0.1;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -809,8 +809,10 @@ header ul li a.active:before {
   z-index: 3;
   width: 100%;
   height: 100%;
-  min-height: 450px;
   border: 15px solid var(--third-color);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .Apropos-section .section-container .content-box .Apropos-icons {
