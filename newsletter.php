@@ -1,7 +1,7 @@
 <?php
 $NL_email = $_POST['user-email'];
 
-$email_from = 'achrafboularhmane1@gmail.com';
+$email_from = 'noreply@marodesclean.com';
 
 $email_subject = "Nouvelle incription à la newsletter";
 

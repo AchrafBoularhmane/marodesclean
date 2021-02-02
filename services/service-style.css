@@ -574,7 +574,7 @@ header ul li a.active:before {
   background-color: #fff;
 }
 .service-details .service-container h2 {
-  font-size: 33px;
+  font-size: 30px;
   line-height: 43.2px;
   color: var(--Primary-color);
   text-transform: uppercase;
@@ -628,8 +628,9 @@ header ul li a.active:before {
 
 .service-details .service-container .content1 ul h2,
 .service-details .service-container .content3 ul h2 {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 700;
+  line-height: 30px;
 }
 .service-details .service-container .content2 .service-img {
   background-color: var(--second-color);
