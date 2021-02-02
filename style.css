@@ -1471,7 +1471,6 @@ header ul li a.active:before {
 .contactForm .inputbox input[type="submit"]:hover {
   background-color: var(--fourth-color);
 }
-
 .modal-container,
 .modal-container-NL {
   z-index: 30;

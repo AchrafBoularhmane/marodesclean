@@ -7,13 +7,13 @@ $Message = $_POST['Message'];
 
 $email_from = 'noreply@marodesclean.com';
 
-$email_subject = "Nouveau devis";
+$email_subject = "Nouvelle demande de devis";
 
-$email_body = "Nom Complet: $NomComplet.\n".
-              "Mobile: $Mobile.\n".
-              "Email: $Email.\n".
-              "Objet: $Objet.\n".
-              "Message: $Message.\n";
+$email_body = "Nom Complet: $NomComplet\n".
+              "Mobile: $Mobile\n".
+              "Email: $Email\n".
+              "Objet: $Objet\n".
+              "Message: $Message\n";
 
 $to = "H.lachhab@marodesclean.com";
 
@@ -23,6 +23,6 @@ $headers .= "Reply To: $Email \r\n";
 
 mail($to,$email_subject,$email_body,$headers);
 
-header("Location: index.html#Contact");
+header("Location: index.html#home");
 
 ?>

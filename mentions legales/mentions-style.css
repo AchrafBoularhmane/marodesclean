@@ -652,6 +652,7 @@ header ul li a.active:before {
   letter-spacing: 0;
   font-weight: 700;
   text-transform: uppercase;
+  width: 100%;
 }
 
 .modal-NL p {
