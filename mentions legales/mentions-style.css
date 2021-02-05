@@ -704,8 +704,9 @@ header ul li a.active:before {
     padding: 100px 15px;
   }
   .mentions_newpage h1 {
-    font-size: 25px;
+    font-size: 22px;
   }
+
   .mentions_newpage p,
   .mentions_newpage p a {
     font-size: 12px;
