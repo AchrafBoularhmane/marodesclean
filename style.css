@@ -1466,7 +1466,7 @@ header ul li a.active:before {
   resize: none;
   font-weight: 500;
 }
-.contactForm .inputbox span {
+.contactForm .inputbox label {
   position: absolute;
   left: 0;
   padding: 5px 0;
@@ -1655,7 +1655,7 @@ header ul li a.active:before {
     width: 100%;
     padding: 20px 20px;
   }
-  .Contact-section .contact .contact-container .contactForm .inputbox span {
+  .Contact-section .contact .contact-container .contactForm .inputbox label {
     font-size: 12px;
   }
   .contactForm h2 {

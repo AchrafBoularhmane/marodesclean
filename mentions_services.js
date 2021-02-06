@@ -37,7 +37,14 @@ $(document).ready(function () {
     );
   });
 });
-
+// doublie check email adress //
+function checkEmail(input) {
+  var atpos = input.indexOf("@"),
+    dotpos = input.lastIndexOf(".");
+  if (atpos < 1 || dotpos - atpos < 2) {
+    return false;
+  } else return true;
+}
 /* inscription newsletter double check */
 document.querySelector("#newsletter-submit").addEventListener("submit", function (e) {
   e.preventDefault();
@@ -45,13 +52,9 @@ document.querySelector("#newsletter-submit").addEventListener("submit", function
 });
 
 function newsletter() {
-  var newsletterinput = $("#user-email").val(),
-    atpos = newsletterinput.indexOf("@"),
-    dotpos = newsletterinput.lastIndexOf(".");
-
-  if (atpos < 1 || dotpos - atpos < 2) {
+  var newsletterinput = $("#user-email").val();
+  if (checkEmail(newsletterinput) == false) {
     $(".email-newsletter").addClass("show");
-    return false;
   } else {
     $("#modal-container-NL").addClass("show");
     $("body,html").addClass("stop-scrolling");
