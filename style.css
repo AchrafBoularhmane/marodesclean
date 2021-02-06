@@ -69,7 +69,7 @@
 /* title section*/
 .title-section {
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 40px;
   font-weight: 700;
   text-align: center;
@@ -228,18 +228,20 @@ a[href^="tel"] {
   margin: auto 0;
 }
 .home-description-container .home-description {
-  width: 54%;
+  width: 60%;
   z-index: 12;
 }
+
 .home-description-container .home-description h1 {
   color: #fff;
-  font-size: 45px;
-  font-weight: 700;
-  letter-spacing: 1px;
+  font-size: 39px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1.5px;
 }
 .home-description-container .home-description p {
   color: var(--text-white-color);
-  font-size: 15px;
+  font-size: 14px;
   line-height: 27.2px;
   font-weight: 300;
 }
@@ -254,7 +256,7 @@ a[href^="tel"] {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 27.2px;
   font-weight: 350;
   letter-spacing: 0.5px;
@@ -631,12 +633,13 @@ header ul li a.active:before {
   }
 
   .home-description-container .home-description h1 {
-    padding: 5px 0;
-    font-size: 20px;
+    padding: 0px 0;
+    font-size: 16.5px;
+    line-height: 25px;
     width: 100%;
   }
   .home-description-container .home-description p {
-    font-size: 12px;
+    font-size: 11px;
   }
   .home-description-container .home-description .Decouverir-services-boutton {
     font-size: 12px;
@@ -644,13 +647,13 @@ header ul li a.active:before {
   }
 
   .home-description-container .home-description ul li a {
-    font-size: 12px;
-    line-height: 18.2px;
+    font-size: 11px;
+    line-height: 0.2px;
   }
   .home-description-container .home-description ul li a i {
     color: var(--third-color);
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .cookies {
     padding: 10px;

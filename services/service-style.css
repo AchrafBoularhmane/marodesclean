@@ -574,7 +574,7 @@ header ul li a.active:before {
   background-color: #fff;
 }
 .service-details .service-container h2 {
-  font-size: 30px;
+  font-size: 28px;
   line-height: 43.2px;
   color: var(--Primary-color);
   text-transform: uppercase;
