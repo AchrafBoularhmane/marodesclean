@@ -633,19 +633,22 @@ header ul li a.active:before {
   }
 
   .home-description-container .home-description h1 {
-    padding: 0px 0;
-    font-size: 16.5px;
-    line-height: 25px;
+    padding: 3px 0;
+    font-size: 28px;
+    line-height: 38px;
     width: 100%;
   }
   .home-description-container .home-description p {
     font-size: 11px;
+    line-height: 21px;
   }
   .home-description-container .home-description .Decouverir-services-boutton {
     font-size: 12px;
     padding: 12px 20px;
   }
-
+  .home-description-container .home-description ul li {
+    padding: 0px;
+  }
   .home-description-container .home-description ul li a {
     font-size: 11px;
     line-height: 0.2px;
