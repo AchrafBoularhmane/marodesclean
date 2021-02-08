@@ -746,10 +746,6 @@ header ul li a.active:before {
   .header-container header .MenuPlusLogo .mobile-navbar {
     width: 70%;
   }
-  .header-container header .MenuPlusLogo .logo-header img {
-    width: 200px;
-    height: 60px;
-  }
   .home-description-container {
     padding: 0px 15px;
   }
@@ -782,10 +778,6 @@ header ul li a.active:before {
   .home-description-container {
     padding: 0px 15px;
   }
-  .header-container header .MenuPlusLogo .logo-header img {
-    width: 200px;
-    height: 60px;
-  }
   .header-container header .MenuPlusLogo .mobile-navbar {
     width: 70%;
   }
@@ -796,10 +788,6 @@ header ul li a.active:before {
   }
   .home-description-container .home-description {
     width: 85%;
-  }
-  .header-container header .MenuPlusLogo .logo-header img {
-    width: 200px;
-    height: 60px;
   }
   .home-description-container {
     padding: 0px 15px;
