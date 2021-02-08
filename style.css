@@ -333,16 +333,24 @@ a[href^="tel"] {
   justify-content: space-between;
   display: flex;
   align-items: center;
-  padding: 0 60px;
+  padding: 20px 60px;
   width: 100%;
+  height: 100%;
 }
 .header-container header .MenuPlusLogo .logo-header {
-  width: 30%;
+  width: 20%;
+  height: 100%;
 }
-.header-container header .MenuPlusLogo .logo-header img {
+.header-container header .MenuPlusLogo .logo-header a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+.header-container header .MenuPlusLogo .logo-header a img {
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
   z-index: 12;
-  padding: 10px 0;
-  height: 80px;
 }
 .header-container header .MenuPlusLogo .mobile-navbar {
   width: 55%;
@@ -525,10 +533,22 @@ header ul li a.active:before {
     justify-content: space-between;
     padding: 10px 15px;
   }
-  .header-container header .MenuPlusLogo .logo-header img {
-    width: 200px;
-    height: 60px;
+  .header-container header .MenuPlusLogo .logo-header {
+    width: 50%;
+    height: 100%;
   }
+  .header-container header .MenuPlusLogo .logo-header a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+  }
+  .header-container header .MenuPlusLogo .logo-header a img {
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+  }
+
   .MenuPlusLogo .toggle {
     position: relative;
     width: 60px;
