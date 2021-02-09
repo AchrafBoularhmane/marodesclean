@@ -70,7 +70,7 @@
 .title-section {
   text-transform: uppercase;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 48px;
   font-weight: 700;
   text-align: center;
   width: 100%;
@@ -157,8 +157,7 @@
 .underline {
   width: 100%;
   display: flex;
-  padding: 10px 0;
-  margin-bottom: 10px;
+  padding: 13px 0;
 }
 .underline .under-one {
   height: 3px;
@@ -528,6 +527,7 @@ header ul li a.active:before {
   .green-back {
     width: 50%;
   }
+
   .header-container header .MenuPlusLogo {
     display: flex;
     justify-content: space-between;
@@ -647,6 +647,9 @@ header ul li a.active:before {
     padding: 0 15px;
     width: 100%;
     z-index: 15;
+  }
+  .title-section {
+    line-height: 35px;
   }
   .home-description-container .home-description {
     width: 100%;
@@ -814,7 +817,7 @@ header ul li a.active:before {
   text-align: left;
 }
 .Apropos-section .section-container .underline {
-  margin-top: 8px;
+  padding: 9px 0;
 }
 .Apropos-section .section-container .underline .under-one,
 .Apropos-section .section-container .underline .under-two {
@@ -827,6 +830,7 @@ header ul li a.active:before {
   width: 50%;
 }
 .Apropos-section .section-container .content-box .text-section {
+  margin-top: 10px;
   font-weight: 300;
   margin-right: 60px;
   color: var(--text-white-color);
@@ -955,7 +959,6 @@ header ul li a.active:before {
 }
 .Services-section .services .content-box .underline {
   justify-content: center;
-  margin-top: 8px;
 }
 .Services-section .services .content-box .underline .under-one {
   background-color: var(--Primary-color);
@@ -969,7 +972,6 @@ header ul li a.active:before {
 .card_box .box1 .card {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 60px;
 }
 .card_box .box1 .card .card-img {
   position: relative;
@@ -995,14 +997,53 @@ header ul li a.active:before {
   opacity: 1;
   height: 100%;
 }
+.line-style {
+  width: 5px;
+  min-height: 100%;
+  position: relative;
+  background-color: rgb(221, 221, 221);
+  z-index: 1;
+  margin: 0 40px;
+}
+.circle0-style {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--third-color);
+  position: absolute;
+  top: 0;
+  margin-left: -7px;
+  background-color: #fff;
+  z-index: 2;
+}
+.circle1-style {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--third-color);
+  position: absolute;
+  bottom: 0%;
+  margin-left: -7px;
+  background-color: #fff;
+  z-index: 2;
+}
+.circle2-style {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--third-color);
+  position: absolute;
+  top: 0%;
+  margin-left: -7px;
+  background-color: #fff;
+  z-index: 2;
+}
 
 .card_box .box1 .card .card-container {
-  padding: 20px 30px;
+  padding: 30px 0px;
   width: 50%;
 }
-.card_box .box1 .card .card-container .underline {
-  padding-top: 15px;
-}
+
 .card_box .box1 .card .card-container .underline .under-one {
   width: 80px;
   background-color: var(--third-color);
@@ -1011,10 +1052,11 @@ header ul li a.active:before {
   color: var(--Primary-color);
   text-transform: uppercase;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 40px;
   font-weight: 800;
 }
 .card_box .box1 .card .card-container p {
+  margin-top: 10px;
   color: var(--text-grey-color);
   font-size: 15px;
   line-height: 27.3px;
@@ -1048,12 +1090,16 @@ header ul li a.active:before {
   .card_box .box1 .card {
     display: block;
   }
+  .line-style,
+  .circle0-style,
+  .circle1-style,
+  .circle2-style {
+    display: none;
+  }
   .card_box .box1 .card .card-container .card-container {
     margin-bottom: 40px;
   }
-  .card_box .box1 .card .card-container .underline {
-    padding-top: 10px;
-  }
+
   .card_box .box1 .card .card-img {
     margin-top: 40px;
   }
@@ -1070,6 +1116,7 @@ header ul li a.active:before {
   }
   .card_box .box1 .card .card-container h3 {
     font-size: 20px;
+    line-height: 30px;
   }
   .card_box .box1 .card .card-container p,
   .card_box .box1 .card .card-container a {
@@ -1118,7 +1165,6 @@ header ul li a.active:before {
 }
 .procedures .content-box .underline {
   justify-content: center;
-  margin-top: 8px;
 }
 .procedures .content-box .underline .under-one {
   background-color: #fff;
@@ -1338,7 +1384,6 @@ header ul li a.active:before {
 
 .Contact-section .contact .content-box .underline {
   justify-content: center;
-  margin-top: 8px;
 }
 .Contact-section .contact .content-box .underline .under-one {
   background-color: var(--Primary-color);
@@ -1836,6 +1881,7 @@ header ul li a.active:before {
   font-size: 15px;
   line-height: 29px;
   font-weight: 300;
+  margin-top: 5px;
 }
 .inscription-newsletter .newsletter {
   width: 100%;
@@ -1922,6 +1968,7 @@ header ul li a.active:before {
 }
 .plan-site ul {
   list-style: none;
+  margin-top: 5px;
 }
 
 .plan-site ul li:first-child {
@@ -1957,6 +2004,7 @@ header ul li a.active:before {
   line-height: 33px;
   color: #f3f3f3;
   text-align: left;
+  margin-top: 5px;
   word-break: break-word;
 }
 .contactfoot .container-footer div span i {
@@ -1975,6 +2023,10 @@ header ul li a.active:before {
   font-weight: 300;
   line-height: 33px;
   color: #f3f3f3;
+  margin-top: 5px;
+}
+.horaire .horaire-douveture:last-child {
+  margin-top: 0px;
 }
 .horaire .horaire-douveture i {
   color: var(--third-color);
@@ -2067,7 +2119,7 @@ header ul li a.active:before {
   width: 100%;
 }
 .Copyright span {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .Copyright a {
@@ -2075,19 +2127,23 @@ header ul li a.active:before {
   color: var(--second-color);
   text-decoration: none;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .Copyright a:hover {
   text-decoration: underline;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .Copyright span {
+    font-weight: 400;
+  }
   .Copyright {
     padding: 10px 15px;
     font-size: 11px;
   }
   .Copyright a {
     font-size: 11px;
+    font-weight: 400;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */

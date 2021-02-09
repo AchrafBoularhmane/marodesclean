@@ -90,8 +90,7 @@
 .underline {
   width: 100%;
   display: flex;
-  padding: 10px 0;
-  margin-bottom: 10px;
+  padding: 13px 0;
 }
 .underline .under-one {
   height: 3px;
@@ -595,27 +594,25 @@ header ul li a.active:before {
 }
 
 .mentions_newpage h1 {
-  padding: 20px 0;
   font-size: 30px;
   text-transform: uppercase;
-  line-height: 26.7px;
   color: var(--Primary-color);
   width: 100%;
 }
 .mentions_newpage h2 {
   color: var(--third-color);
-  padding: 5px 0;
+  margin-top: 15px;
   font-size: 22px;
   text-transform: uppercase;
   width: 100%;
 }
 .mentions_newpage p {
   color: var(--text-grey-color);
-  padding: 5px 0;
   font-size: 15px;
   line-height: 33px;
   font-weight: 400;
   width: 100%;
+  padding: 10px 0;
 }
 .mentions_newpage p a {
   text-decoration: none;
@@ -628,9 +625,9 @@ header ul li a.active:before {
 }
 .trait {
   width: 100px;
-  height: 2px;
+  height: 4px;
   background: var(--third-color);
-  margin-bottom: 10px;
+  margin: 10px 0px;
 }
 
 .modal-container-NL {
@@ -886,6 +883,7 @@ header ul li a.active:before {
   font-size: 15px;
   line-height: 29px;
   font-weight: 300;
+  margin-top: 5px;
 }
 .inscription-newsletter .newsletter {
   width: 100%;
@@ -971,6 +969,7 @@ header ul li a.active:before {
 }
 .plan-site ul {
   list-style: none;
+  margin-top: 5px;
 }
 
 .plan-site ul li:first-child {
@@ -1000,6 +999,7 @@ header ul li a.active:before {
 .contactfoot .container-footer div {
   display: flex;
   width: 100%;
+  margin-top: 5px;
 }
 .contactfoot .container-footer div span {
   font-size: 15px;
@@ -1025,6 +1025,10 @@ header ul li a.active:before {
   font-weight: 300;
   line-height: 33px;
   color: #f3f3f3;
+  margin-top: 5px;
+}
+.horaire .horaire-douveture:last-child {
+  margin-top: 0px;
 }
 .horaire .horaire-douveture i {
   color: var(--third-color);
@@ -1117,7 +1121,7 @@ header ul li a.active:before {
   width: 100%;
 }
 .Copyright span {
-  font-weight: 400 !important;
+  font-weight: 500;
 }
 
 .Copyright a {
@@ -1125,7 +1129,7 @@ header ul li a.active:before {
   color: var(--second-color);
   text-decoration: none;
   font-size: 14px;
-  font-weight: 400 !important;
+  font-weight: 500;
 }
 .Copyright a:hover {
   text-decoration: underline;
@@ -1138,6 +1142,10 @@ header ul li a.active:before {
   }
   .Copyright a {
     font-size: 11px;
+    font-weight: 400;
+  }
+  .Copyright span {
+    font-weight: 400;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
