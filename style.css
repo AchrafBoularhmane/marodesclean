@@ -1038,6 +1038,86 @@ header ul li a.active:before {
   background-color: #fff;
   z-index: 2;
 }
+.card_box .box1 .card .card-img .style-pic {
+  width: 40px;
+  height: 3px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 0%;
+  right: -20px;
+  background-color: var(--third-color);
+  z-index: 2;
+}
+.card_box .box1 .card .card-img .style-pic1 {
+  width: 40px;
+  height: 3px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 10px;
+  right: -20px;
+  background-color: var(--third-color);
+  z-index: 2;
+}
+.card_box .box1 .card .card-img .style-pic2 {
+  width: 50px;
+  height: 3px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background-color: var(--third-color);
+  z-index: 2;
+}
+.card_box .box1 .card .card-img .style-pic3 {
+  width: 50px;
+  height: 3px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  background-color: var(--third-color);
+  z-index: 2;
+}
+.card_box .box1 .card .card-img .style-pic4 {
+  width: 50px;
+  height: 3px;
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: 0px;
+  left: -20px;
+  background-color: var(--third-color);
+  z-index: 2;
+}
+.card_box .box1 .card .card-img .style-pic5 {
+  width: 50px;
+  height: 3px;
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: 10px;
+  left: -20px;
+  background-color: var(--third-color);
+  z-index: 2;
+}
+.card_box .box1 .card .card-img .style-pic6 {
+  width: 50px;
+  height: 3px;
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: 0px;
+  right: -20px;
+  background-color: var(--third-color);
+  z-index: 2;
+}
+.card_box .box1 .card .card-img .style-pic7 {
+  width: 50px;
+  height: 3px;
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: 10px;
+  right: -20px;
+  background-color: var(--third-color);
+  z-index: 2;
+}
 
 .card_box .box1 .card .card-container {
   padding: 30px 0px;
