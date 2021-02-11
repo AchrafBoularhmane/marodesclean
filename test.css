@@ -1,0 +1,75 @@
+.brand-description .footer-icons {
+  margin-top: 100px;
+  position: relative;
+  z-index: 3;
+}
+.brand-description .footer-icons .ul ul {
+  display: flex;
+  cursor: pointer;
+  color: var(--Primary-color);
+}
+.brand-description .footer-icons ul li {
+  list-style: none;
+  position: relative;
+  margin: 0px 10px;
+}
+.brand-description .footer-icons .ul li a {
+  width: 40px;
+  height: 30px;
+  background: #fff;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  font-size: 22px;
+  transition: 0.2s;
+  color: var(--Primary-color);
+}
+.brand-description .footer-icons .ul li a:hover {
+  transform: translateY(-20px);
+}
+.brand-description .footer-icons .ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: -1;
+  transform: rotate(60deg);
+}
+.brand-description .footer-icons .ul li a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: -1;
+  transform: rotate(-60deg);
+}
+.brand-description .footer-icons .ul li:hover:nth-child(1) a,
+.brand-description .footer-icons .ul li:hover:nth-child(1) a:before,
+.brand-description .footer-icons .ul li:hover:nth-child(1) a::after {
+  background: #3b5999;
+  color: #fff;
+}
+.brand-description .footer-icons .ul li:hover:nth-child(2) a,
+.brand-description .footer-icons .ul li:hover:nth-child(2) a:before,
+.brand-description .footer-icons .ul li:hover:nth-child(2) a::after {
+  background: #0077b5;
+  color: #fff;
+}
+.brand-description .footer-icons .ul li:hover:nth-child(3) a,
+.brand-description .footer-icons .ul li:hover:nth-child(3) a:before,
+.brand-description .footer-icons .ul li:hover:nth-child(3) a::after {
+  background: #55acee;
+  color: #fff;
+}
+.brand-description .footer-icons .ul li:hover:nth-child(4) a,
+.brand-description .footer-icons .ul li:hover:nth-child(4) a:before,
+.brand-description .footer-icons .ul li:hover:nth-child(4) a::after {
+  background: #e4405f;
+  color: #fff;
+}
