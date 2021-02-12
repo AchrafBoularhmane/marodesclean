@@ -1758,6 +1758,7 @@ header ul li a.active:before {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  z-index: 3;
 }
 .Contact-section .contact-img {
   background-image: url("./images/desinfection_savoir_plus.jpg");
@@ -1841,8 +1842,8 @@ header ul li a.active:before {
   background: var(--text-white-color);
 }
 .Contact-section .contact .contact-container .contactInfo .box .icon i:hover {
-  background-color: var(--second-color);
-  color: var(--Primary-color);
+  background-color: var(--Primary-color);
+  color: var(--text-white-color);
   border-radius: 50%;
 }
 
